@@ -239,6 +239,26 @@
 <programme start="20250619024500 +0000" stop="20250619040000 +0000" channel="ATV.pe"><title lang="es">Magaly TV, la firme</title></programme>
 <programme start="20250619040000 +0000" stop="20250619045000 +0000" channel="ATV.pe"><title lang="es">ATV Noticias</title></programme>
 <programme start="20250619045000 +0000" stop="20250619050000 +0000" channel="ATV.pe"><title lang="es">En otra cancha</title></programme>
+<programme start="20250616050000 +0000" stop="20250616060000 +0000" channel="WillaxTV.pe"><title lang="es">La ley y el orden</title></programme>
+<programme start="20250616060000 +0000" stop="20250616110000 +0000" channel="WillaxTV.pe"><title lang="es">Nutrisa</title></programme>
+<programme start="20250616110000 +0000" stop="20250616140000 +0000" channel="WillaxTV.pe"><title lang="es">Al Día con Willax</title></programme>
+<programme start="20250616140000 +0000" stop="20250616143000 +0000" channel="WillaxTV.pe"><title lang="es">Bio Nutrition</title></programme>
+<programme start="20250616143000 +0000" stop="20250616150000 +0000" channel="WillaxTV.pe"><title lang="es">Mi Bella Genio</title></programme>
+<programme start="20250616150000 +0000" stop="20250616153000 +0000" channel="WillaxTV.pe"><title lang="es">Bio Nutrition</title></programme>
+<programme start="20250616153000 +0000" stop="20250616160000 +0000" channel="WillaxTV.pe"><title lang="es">Mi Bella Genio</title></programme>
+<programme start="20250616160000 +0000" stop="20250616171000 +0000" channel="WillaxTV.pe"><title lang="es">Hechos en Willax</title></programme>
+<programme start="20250616171000 +0000" stop="20250616180500 +0000" channel="WillaxTV.pe"><title lang="es">Caso Cerrado</title></programme>
+<programme start="20250616180500 +0000" stop="20250616190000 +0000" channel="WillaxTV.pe"><title lang="es">Fatmagul</title></programme>
+<programme start="20250616190000 +0000" stop="20250616212000 +0000" channel="WillaxTV.pe"><title lang="es">Amor y Fuego</title></programme>
+<programme start="20250616212000 +0000" stop="20250616221000 +0000" channel="WillaxTV.pe"><title lang="es">Un dia en el mall</title></programme>
+<programme start="20250616221000 +0000" stop="20250616230500 +0000" channel="WillaxTV.pe"><title lang="es">Entrometidos</title></programme>
+<programme start="20250616230500 +0000" stop="20250616235000 +0000" channel="WillaxTV.pe"><title lang="es">Caso Cerrado</title></programme>
+<programme start="20250616235000 +0000" stop="20250617005500 +0000" channel="WillaxTV.pe"><title lang="es">Willax noticias</title></programme>
+<programme start="20250617005500 +0000" stop="20250617015500 +0000" channel="WillaxTV.pe"><title lang="es">Contracorriente</title></programme>
+<programme start="20250617015500 +0000" stop="20250617030000 +0000" channel="WillaxTV.pe"><title lang="es">Milagros Leiva. Entrevista</title></programme>
+<programme start="20250617030000 +0000" stop="20250617040000 +0000" channel="WillaxTV.pe"><title lang="es">Crónicas de impacto</title></programme>
+<programme start="20250617040000 +0000" stop="20250617045500 +0000" channel="WillaxTV.pe"><title lang="es">Willax Deportes</title></programme>
+<programme start="20250617045500 +0000" stop="20250617050000 +0000" channel="WillaxTV.pe"><title lang="es">Camotillo, el Tinterillo</title></programme>
 <programme start="20250617050000 +0000" stop="20250617060000 +0000" channel="WillaxTV.pe"><title lang="es">La ley y el orden</title></programme>
 <programme start="20250617060000 +0000" stop="20250617110000 +0000" channel="WillaxTV.pe"><title lang="es">Nutrisa</title></programme>
 <programme start="20250617110000 +0000" stop="20250617140000 +0000" channel="WillaxTV.pe"><title lang="es">Al Día con Willax</title></programme>
@@ -4078,6 +4098,52 @@
 <programme start="20250618033000 +0000" stop="20250618040000 +0000" channel="elgourmet"><title lang="es">Ruta 40</title></programme>
 <programme start="20250618040000 +0000" stop="20250618043000 +0000" channel="elgourmet"><title lang="es">Favoritos de Paulina A.</title></programme>
 <programme start="20250618043000 +0000" stop="20250618050000 +0000" channel="elgourmet"><title lang="es">Los Petersen en La Patagonia</title></programme>
+<programme start="20250618050000 +0000" stop="20250618053000 +0000" channel="elgourmet"><title lang="es">Cocina de mar Pacifico</title></programme>
+<programme start="20250618053000 +0000" stop="20250618060000 +0000" channel="elgourmet"><title lang="es">La cocina de los clubes</title></programme>
+<programme start="20250618060000 +0000" stop="20250618063000 +0000" channel="elgourmet"><title lang="es">Los favoritos de Osuna en Qro</title></programme>
+<programme start="20250618063000 +0000" stop="20250618070000 +0000" channel="elgourmet"><title lang="es">Pueblos para comérselos</title></programme>
+<programme start="20250618070000 +0000" stop="20250618073000 +0000" channel="elgourmet"><title lang="es">Fiestas con sabor mexican</title></programme>
+<programme start="20250618073000 +0000" stop="20250618080000 +0000" channel="elgourmet"><title lang="es">Productos artesanos México</title></programme>
+<programme start="20250618080000 +0000" stop="20250618083000 +0000" channel="elgourmet"><title lang="es">Sabores callejeros</title></programme>
+<programme start="20250618083000 +0000" stop="20250618090000 +0000" channel="elgourmet"><title lang="es">La ruta azul con Francis M</title></programme>
+<programme start="20250618090000 +0000" stop="20250618093000 +0000" channel="elgourmet"><title lang="es">México en una tortilla</title></programme>
+<programme start="20250618093000 +0000" stop="20250618100000 +0000" channel="elgourmet"><title lang="es">Pueblos para comérselos</title></programme>
+<programme start="20250618100000 +0000" stop="20250618103000 +0000" channel="elgourmet"><title lang="es">Fermentados con Sonia</title></programme>
+<programme start="20250618103000 +0000" stop="20250618110000 +0000" channel="elgourmet"><title lang="es">Postres fáciles</title></programme>
+<programme start="20250618110000 +0000" stop="20250618113000 +0000" channel="elgourmet"><title lang="es">Productos artesanos México</title></programme>
+<programme start="20250618113000 +0000" stop="20250618120000 +0000" channel="elgourmet"><title lang="es">Masas básicas de Gross</title></programme>
+<programme start="20250618120000 +0000" stop="20250618123000 +0000" channel="elgourmet"><title lang="es">Como pan caliente</title></programme>
+<programme start="20250618123000 +0000" stop="20250618130000 +0000" channel="elgourmet"><title lang="es">Maestros del ceviche</title></programme>
+<programme start="20250618130000 +0000" stop="20250618133000 +0000" channel="elgourmet"><title lang="es">Devuélveme los tápers México</title></programme>
+<programme start="20250618133000 +0000" stop="20250618140000 +0000" channel="elgourmet"><title lang="es">Delicias de la antigua Europa</title></programme>
+<programme start="20250618140000 +0000" stop="20250618143000 +0000" channel="elgourmet"><title lang="es">Productos artesanos México</title></programme>
+<programme start="20250618143000 +0000" stop="20250618150000 +0000" channel="elgourmet"><title lang="es">Maestros del ceviche</title></programme>
+<programme start="20250618150000 +0000" stop="20250618153000 +0000" channel="elgourmet"><title lang="es">La cocina de la piedra</title></programme>
+<programme start="20250618153000 +0000" stop="20250618160000 +0000" channel="elgourmet"><title lang="es">Las Mejores Recetas de Zahie</title></programme>
+<programme start="20250618160000 +0000" stop="20250618163000 +0000" channel="elgourmet"><title lang="es">Menú para todos los días</title></programme>
+<programme start="20250618163000 +0000" stop="20250618170000 +0000" channel="elgourmet"><title lang="es">Pueblos para comérselos</title></programme>
+<programme start="20250618170000 +0000" stop="20250618173000 +0000" channel="elgourmet"><title lang="es">Fogones tradicionales México</title></programme>
+<programme start="20250618173000 +0000" stop="20250618180000 +0000" channel="elgourmet"><title lang="es">México en una tortilla</title></programme>
+<programme start="20250618180000 +0000" stop="20250618183000 +0000" channel="elgourmet"><title lang="es">Parrilla para todos los días</title></programme>
+<programme start="20250618183000 +0000" stop="20250618190000 +0000" channel="elgourmet"><title lang="es">Fermentados con Sonia</title></programme>
+<programme start="20250618190000 +0000" stop="20250618193000 +0000" channel="elgourmet"><title lang="es">Los favoritos de Osuna en Qro</title></programme>
+<programme start="20250618193000 +0000" stop="20250618200000 +0000" channel="elgourmet"><title lang="es">Con pocos ingredientes</title></programme>
+<programme start="20250618200000 +0000" stop="20250618203000 +0000" channel="elgourmet"><title lang="es">Amigos a la Mesa</title></programme>
+<programme start="20250618203000 +0000" stop="20250618210000 +0000" channel="elgourmet"><title lang="es">Devuélveme los tápers México</title></programme>
+<programme start="20250618210000 +0000" stop="20250618213000 +0000" channel="elgourmet"><title lang="es">Los Petersen en La Patagonia</title></programme>
+<programme start="20250618213000 +0000" stop="20250618220000 +0000" channel="elgourmet"><title lang="es">Fermentados con Sonia</title></programme>
+<programme start="20250618220000 +0000" stop="20250618230000 +0000" channel="elgourmet"><title lang="es">Me voy a comer el mundo</title></programme>
+<programme start="20250618230000 +0000" stop="20250618233000 +0000" channel="elgourmet"><title lang="es">Fogones tradicionales México</title></programme>
+<programme start="20250618233000 +0000" stop="20250619000000 +0000" channel="elgourmet"><title lang="es">Con pocos ingredientes</title></programme>
+<programme start="20250619000000 +0000" stop="20250619003000 +0000" channel="elgourmet"><title lang="es">Los favoritos de Osuna en Qro</title></programme>
+<programme start="20250619003000 +0000" stop="20250619010000 +0000" channel="elgourmet"><title lang="es">Maestros del sushi</title></programme>
+<programme start="20250619010000 +0000" stop="20250619013000 +0000" channel="elgourmet"><title lang="es">Guardianes de tradición Méx</title></programme>
+<programme start="20250619013000 +0000" stop="20250619020000 +0000" channel="elgourmet"><title lang="es">Productos de mi tierra Méx</title></programme>
+<programme start="20250619020000 +0000" stop="20250619030000 +0000" channel="elgourmet"><title lang="es">Me voy a comer el mundo</title></programme>
+<programme start="20250619030000 +0000" stop="20250619033000 +0000" channel="elgourmet"><title lang="es">Maestros del sushi</title></programme>
+<programme start="20250619033000 +0000" stop="20250619040000 +0000" channel="elgourmet"><title lang="es">Ruta 40</title></programme>
+<programme start="20250619040000 +0000" stop="20250619043000 +0000" channel="elgourmet"><title lang="es">Los favoritos de Osuna en Qro</title></programme>
+<programme start="20250619043000 +0000" stop="20250619050000 +0000" channel="elgourmet"><title lang="es">Los Petersen en La Patagonia</title></programme>
 <programme start="20250616050000 +0000" stop="20250616065000 +0000" channel="TelemundoInternacional.us"><title lang="es">Caso Cerrado</title></programme>
 <programme start="20250616065000 +0000" stop="20250616083000 +0000" channel="TelemundoInternacional.us"><title lang="es">Decisiones extremas</title></programme>
 <programme start="20250616083000 +0000" stop="20250616101000 +0000" channel="TelemundoInternacional.us"><title lang="es">12 corazones</title></programme>
