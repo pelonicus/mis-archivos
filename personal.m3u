@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",16 Jun 2025 16:29
+#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",17 Jun 2025 9:09
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="pe#america-television" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(181176)
 http://181.176.153.107:8090/play/a0ya/index.m3u8
