@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 Jun 2025 18:30
+#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 Jun 2025 18:33
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(181176)
 http://181.176.153.107:8090/play/a0ya/index.m3u8
@@ -181,7 +181,7 @@ http://clubtv.link/ju0614/phpcode/lista3.php?c=a038&token=TecnoplusJunio03&f=.m3
 177.93.49.131:8000/play/a07r/index.m3u8
 #EXTINF:-1 tvg-id="warner_tv_espana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(warner_tv_espana)
 177.93.49.131:8000/play/a07r/index.m3u8
-#EXTINF:-1 tvg-id=warner_tv_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(warner_tv_mexico)
+#EXTINF:-1 tvg-id="warner_tv_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(warner_tv_mexico)
 177.93.49.131:8000/play/a07r/index.m3u8
 #EXTINF:-1 tvg-id="warner_tv_sur" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(warner_tv_sur)
 177.93.49.131:8000/play/a07r/index.m3u8
