@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 Jun 2025 9:25
+#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 Jun 2025 9:29
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(181176)
 http://181.176.153.107:8090/play/a0ya/index.m3u8
@@ -147,33 +147,33 @@ http://152.200.150.150:8000/play/a0jv/index.m3u8
 http://190.5.200.91:45000/play/a011
 #EXTINF:-1 tvg-id="DisneyJuniorNorth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="animation",Disney Jr(45)
 http://45.186.106.207:8000/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="cl#disney-jr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="animation",DISNEY JR(S1)
+#EXTINF:-1 tvg-id="DisneyJuniorNorth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="animation",DISNEY JR(S1)
 http://clubtv.link/ju0614/phpcode/lista0.php?c=43&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="cl#disney-jr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="animation", DISNEY JUNIOR(S2)
+#EXTINF:-1 tvg-id="DisneyJuniorNorth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="animation", DISNEY JUNIOR(S2)
 http://clubtv.link/ju0614/phpcode/lista1.php?c=a02p&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(103111)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(103111)
 http://103.111.40.242:9999/play/a036/index.m3u8
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(190116)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(190116)
 http://190.116.38.19:9090/play/a05h/index.m3u8
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(152200)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(152200)
 http://152.200.150.150:8000/play/a0me/index.m3u8
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(152200)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(152200)
 http://152.200.150.150:8000/play/a0ec/index.m3u8
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(1905)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(1905)
 http://190.5.200.91:45000/play/a0r7
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(45)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids HD(45)
 http://45.186.106.207:8000/play/a06t/index.m3u8
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",DISCOVERY KIDS(S1)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",DISCOVERY KIDS(S1)
 http://clubtv.link/ju0614/phpcode/lista0.php?c=45&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids(S1)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids(S1)
 http://clubtv.link/ju0614/phpcode/lista3.php?c=a05o&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(1905)
+#EXTINF:-1 tvg-id="Nickelodeon.mx" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(1905)
 http://190.5.200.91:45000/play/a004
-#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(48)
+#EXTINF:-1 tvg-id="Nickelodeon.mx" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(48)
 http://45.186.106.207:8000/play/a025/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S1)
+#EXTINF:-1 tvg-id="Nickelodeon.mx" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S1)
 http://clubtv.link/ju0614/phpcode/lista.php?c=620ff0a01f9e8700076c6f9d&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S2)
+#EXTINF:-1 tvg-id="Nickelodeon.mx" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S2)
 http://clubtv.link/ju0614/phpcode/lista3.php?c=a038&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="sv#warner" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(CO177)
 177.93.49.131:8000/play/a07r/index.m3u8
