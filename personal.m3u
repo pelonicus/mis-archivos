@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 Jun 2025 8:50
+#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 Jun 2025 9:25
 http://www.print3dbot.com/info/bogus.m3u
-#EXTINF:-1 tvg-id="pe#america-television" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(181176)
+#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(181176)
 http://181.176.153.107:8090/play/a0ya/index.m3u8
-#EXTINF:-1 tvg-id="pe#america-television" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(152200)
+#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(152200)
 http://152.200.150.150:8000/play/a0do/index.m3u8
-#EXTINF:-1 tvg-id="pe#america-television" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(1905)
+#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(1905)
 http://190.5.200.91:45000/play/a0go
-#EXTINF:-1 tvg-id="pe#america-television" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(4K)
+#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1335.m3u8
-#EXTINF:-1 tvg-id="pe#america-television" tvg-name="PERU | America TV opc 2" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 2(4K)
+#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 2" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 2(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1334.m3u8
-#EXTINF:-1 tvg-id="pe#america-television" tvg-name="PERU | America TV opc 3" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 3(4K)
+#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 3" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 3(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1333.m3u8
 #EXTINF:-1 tvg-id="Latina.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo-latina-noticias.png" group-title="PERU",Latina TV  opc 1(181176)
 http://181.176.153.107:8090/play/a0yb/index.m3u8
@@ -103,41 +103,41 @@ https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8?c
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1127.m3u8
 #EXTINF:-1 tvg-id="TVX.sv" tvg-logo="https://i.imgur.com/JbxpB6M.png" group-title="EL SALVADOR",Canal TVX(BUD)
 http://budtvlight.com:25461/eventosxc/exnReMem4c/2174
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(103111)
+#EXTINF:-1 tvg-id="CartoonNetworkNorthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(103111)
 http://103.111.40.242:9999/play/a02h/index.m3u8
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(103111)
+#EXTINF:-1 tvg-id="CartoonNetworkNorthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(103111)
 http://103.111.40.242:9999/play/a02q/index.m3u8
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(103111)
+#EXTINF:-1 tvg-id="CartoonNetworkNorthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(103111)
 http://103.111.40.242:9999/play/a00u/index.m3u8
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(190116)
+#EXTINF:-1 tvg-id="CartoonNetworkPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(190116)
 http://190.116.38.19:9090/play/a08q/index.m3u8
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(152200)
+#EXTINF:-1 tvg-id="CartoonNetworkPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(152200)
 http://152.200.150.150:8000/play/a0ja/index.m3u8
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(1905)
+#EXTINF:-1 tvg-id="CartoonNetworkPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(1905)
 http://190.5.200.91:45000/play/a00e
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(45)
+#EXTINF:-1 tvg-id="CartoonNetworkPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(45)
 http://45.186.106.207:8000/play/a07l/index.m3u8
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",CARTOON NETWORK(S1)
+#EXTINF:-1 tvg-id="CartoonNetworkPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",CARTOON NETWORK(S1)
 http://clubtv.link/ju0614/phpcode/lista0.php?c=51&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="pe#cartoon-network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation", CARTOON NETWORT HD(S2)
+#EXTINF:-1 tvg-id="CartoonNetworkPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation", CARTOON NETWORT HD(S2)
 http://clubtv.link/ju0614/phpcode/lista1.php?c=a024&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="pe#boomerang-cartoon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png" group-title="animation",Cartoonito(103111)
+#EXTINF:-1 tvg-id="Cartoonito.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png" group-title="animation",Cartoonito(103111)
 http://103.111.40.242:9999/play/a02r/index.m3u8
-#EXTINF:-1 tvg-id="pe#boomerang-cartoon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png" group-title="animation",Cartoonito(103111)
+#EXTINF:-1 tvg-id="Cartoonito.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png" group-title="animation",Cartoonito(103111)
 http://103.111.40.242:9999/play/a00v/index.m3u8
-#EXTINF:-1 tvg-id="pe#boomerang-cartoon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png" group-title="animation",Cartoonito(45)
+#EXTINF:-1 tvg-id="Cartoonito.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/512px-Cartoonito_-_Logo_2021.svg.png" group-title="animation",Cartoonito(45)
 http://45.186.106.207:8000/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="cl#disney-channel" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(103111)
+#EXTINF:-1 tvg-id="DisneyChannelNorth.us" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(103111)
 http://103.111.40.242:9999/play/a013/index.m3u8
-#EXTINF:-1 tvg-id="cl#disney-channel" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(103111)
+#EXTINF:-1 tvg-id="DisneyChannelNorth.us" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(103111)
 http://103.111.40.242:9999/play/a00e/index.m3u8
-#EXTINF:-1 tvg-id="cl#disney-channel" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(190116)
+#EXTINF:-1 tvg-id="DisneyChannelNorth.us" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(190116)
 http://190.116.38.19:9090/play/a04r/index.m3u8
-#EXTINF:-1 tvg-id="cl#disney-channel" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(152200)
+#EXTINF:-1 tvg-id="DisneyChannelNorth.us" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(152200)
 http://152.200.150.150:8000/play/a0mf/index.m3u8
-#EXTINF:-1 tvg-id="cl#disney-channel" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(1905)
+#EXTINF:-1 tvg-id="DisneyChannelNorth.us" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(1905)
 http://190.5.200.91:45000/play/a0gr
-#EXTINF:-1 tvg-id="cl#disney-channel" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(45)
+#EXTINF:-1 tvg-id="DisneyChannelNorth.us" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="animation",Disney Channel(45)
 http://45.186.106.207:8000/play/a026/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJuniorNorth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="animation",Disney Jr(103111)
 http://103.111.40.242:9999/play/a014/index.m3u8
@@ -167,13 +167,13 @@ http://45.186.106.207:8000/play/a06t/index.m3u8
 http://clubtv.link/ju0614/phpcode/lista0.php?c=45&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="sv#discovery-kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/512px-Discovery_Kids_Logo_2021-Presente.webp.png" group-title="animation",Discovery Kids(S1)
 http://clubtv.link/ju0614/phpcode/lista3.php?c=a05o&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="cl#nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(1905)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(1905)
 http://190.5.200.91:45000/play/a004
-#EXTINF:-1 tvg-id="cl#nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(48)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(48)
 http://45.186.106.207:8000/play/a025/index.m3u8
-#EXTINF:-1 tvg-id="cl#nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S1)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S1)
 http://clubtv.link/ju0614/phpcode/lista.php?c=620ff0a01f9e8700076c6f9d&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="cl#nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S2)
+#EXTINF:-1 tvg-id="DiscoveryKids.cl" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(S2)
 http://clubtv.link/ju0614/phpcode/lista3.php?c=a038&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="sv#warner" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(CO177)
 177.93.49.131:8000/play/a07r/index.m3u8
