@@ -1,5 +1,5 @@
 EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",19 Jun 2025 15:29
+#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",19 Jun 2025 15:32
 http://181.10.123.154:14000/play/a075/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkNorthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(CartoonNetworkNorthAtlantic.us)
 http://181.10.123.154:14000/play/a075/index.m3u8
@@ -139,7 +139,7 @@ http://181.176.153.107:8090/play/a0yd/index.m3u8
 http://181.10.123.154:14000/play/a05g/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(NationalGeographic.mx)
 http://181.10.123.154:14000/play/a05g/index.m3u8
-#EXTINF:-1 tvg-id="national_geographic_centro	" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(national_geographic_centro)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(national_geographic_centro)
 http://181.10.123.154:14000/play/a05g/index.m3u8
 #EXTINF:-1 tvg-id="History.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel HD(History.cl)
 http://181.10.123.154:14000/play/a05h/index.m3u8
