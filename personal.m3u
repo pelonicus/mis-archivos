@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",20 Jun 2025 15:45
+#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",21 Jun 2025 16:23
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(DO181)
 http://181.10.123.154:14000/play/a055/index.m3u8
@@ -785,21 +785,17 @@ http://clubtv.link/20junio/phpcode/lista3.php?c=a03x&token=TecnoplusJunio03&f=.m
 http://181.10.123.154:14000/play/a07h/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(AR181)
 http://181.10.123.154:14000/play/a07h/index.m3u8
-#EXTINF:-1 tvg-id="discovery_home_and_health_colombi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(103111)
+#EXTINF:-1 tvg-id="discovery_home_and_health_colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(103111)
 http://103.111.40.242:9999/play/a03n/index.m3u8
-#EXTINF:-1 tvg-id="discovery_home_and_health_colombi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(190116)
+#EXTINF:-1 tvg-id="discovery_home_and_health_colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(190116)
 http://190.116.38.19:9090/play/a04v/index.m3u8
-#EXTINF:-1 tvg-id="discovery_home_and_health_colombi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(152200)
+#EXTINF:-1 tvg-id="discovery_home_and_health_colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(152200)
 http://152.200.150.150:8000/play/a0f7/index.m3u8
-#EXTINF:-1 tvg-id="discovery_home_and_health_colombi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(152200)
+#EXTINF:-1 tvg-id="discovery_home_and_health_colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(152200)
 http://152.200.150.150:8000/play/a0dn/index.m3u8
-#EXTINF:-1 tvg-id="cl#discovery-home-and-health" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/208.m3u8
-#EXTINF:-1 tvg-id="pe#discovery-home-and-health" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/209.m3u8
-#EXTINF:-1 tvg-id="discovery_home_and_health_colombi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",DISCOVERY H&H(S1)
+#EXTINF:-1 tvg-id="discovery_home_and_health_colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",DISCOVERY H&H(S1)
 http://clubtv.link/20junio/phpcode/lista0.php?c=46&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="discovery_home_and_health_colombi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",DISCOVERY H&H(S2)
+#EXTINF:-1 tvg-id="discovery_home_and_health_colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",DISCOVERY H&H(S2)
 http://clubtv.link/20junio/phpcode/lista1.php?c=a02j&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/512px-Discovery_science_new_logo_2017.png" group-title="documentary",Discovery Science(DO181)
 http://181.10.123.154:14000/play/a02k/index.m3u8
