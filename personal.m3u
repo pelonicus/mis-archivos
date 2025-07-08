@@ -5,8 +5,6 @@ http://www.print3dbot.com/info/bogus.m3u
 http://181.10.123.154:14000/play/a055/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(AR181)
 http://181.10.123.154:14000/play/a055/index.m3u8
-#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(181176)
-http://181.176.153.107:8090/play/a0ya/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(152200)
 http://152.200.150.150:8000/play/a0do/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(4K)
@@ -15,8 +13,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/1335.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1334.m3u8
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 3" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 3(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1333.m3u8
-#EXTINF:-1 tvg-id="Latina.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo-latina-noticias.png" group-title="PERU",Latina TV  opc 1(181176)
-http://181.176.153.107:8090/play/a0yb/index.m3u8
 #EXTINF:-1 tvg-id="Latina.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo-latina-noticias.png" group-title="PERU",Latina TV  opc 1(152200)
 http://152.200.150.150:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-id="Latina.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo-latina-noticias.png" group-title="PERU",Latina TV  opc 1(4K)
@@ -43,8 +39,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/1339.m3u8
 http://181.176.153.107:8090/play/a0n5/index.m3u8
 #EXTINF:-1 tvg-id="TVPeru.pe" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="General",TV Peru(CT)
 https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="TVPeru.pe" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="General",TV Peru(PF)
-http://200.60.124.19:29000/play/a0b9/index.m3u8
 #EXTINF:-1 tvg-id="WillaxTV.pe" tvg-name="PERU | WILLAX opc 1" tvg-logo="https://i.ibb.co/LkLWnqF/willax.png" group-title="PERU",WILLAX opc 1(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1392.m3u8
 #EXTINF:-1 tvg-id="WillaxTV.pe" tvg-name="PERU | WILLAX opc 2" tvg-logo="https://i.ibb.co/LkLWnqF/willax.png" group-title="PERU",WILLAX opc 2(4K)
@@ -53,23 +47,19 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/1391.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1378.m3u8
 #EXTINF:-1 tvg-id="ViaTelevision.pe" tvg-logo="https://i.imgur.com/FiptbGQ.png" group-title="PERU",Via Television(CT)
 https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="" tvg-name="PERU | PANAMERICANA opc 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gol_Per%C3%BA_2019.svg/640px-Gol_Per%C3%BA_2019.svg.png" group-title="PERU",Gol Peru(CO29JUN)
-http://181.78.85.53:9002/play/a05g/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SLV: TCS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn1JHs-L--GIzCbal9OtXq2Q1SfGsKFnZPzU9WnzETftmeTrlWtV87xcWjsBzISWtGIvw&usqp=CAU" group-title="EL SALVADOR",TCS+ - ESA(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/1118.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/iYFWG06.png" group-title="EL SALVADOR",TCS+ - ESA(CT)
 https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/512px-Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(ORI)
+#EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(ORI)
 https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
-#EXTINF:-1 tvg-id="Canal2.sv" tvg-name="SLV: CANAL 2" tvg-logo="http://lista.lamtv.site:80/images/e567809d10370cde85cfc25380287049.png" group-title="EL SALVADOR",Canal 2(4K)
+#EXTINF:-1 tvg-id="Canal2.sv" tvg-name="SLV: CANAL 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1116.m3u8
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="http:/swedtv.vip/logos/LAT_centroamerica/tcs_canal4.png" group-title="EL SALVADOR",Canal 4 1080(4K)
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 1080(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1112.m3u8
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="http:/swedtv.vip/logos/LAT_centroamerica/tcs_canal4.png" group-title="EL SALVADOR",Canal 4 480(MA)
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(MA)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1112.m3u8
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="http:/swedtv.vip/logos/LAT_centroamerica/tcs_canal4.png" group-title="EL SALVADOR",Canal 4 480(CT)
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(CT)
 http://45.5.116.178:8000/play/a03p/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="http:/swedtv.vip/logos/LAT_centroamerica/tcs_canal4.png" group-title="EL SALVADOR",Canal 4 480(CT)
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(CT)
 http://45.5.116.178:8000/play/a00g/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="Canal6.sv" tvg-name="SLV: CANAL 6" tvg-logo="http://lista.lamtv.site:80/images/22509e02cccd96e7d4b12fa3e6667188.png" group-title="EL SALVADOR",Canal 6(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1115.m3u8
@@ -93,8 +83,6 @@ https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8
 https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="TVX.sv" tvg-name="EL SALVADOR | TVX" tvg-logo="https://immaa.xyz/TVX.png" group-title="EL SALVADOR",Canal TVX(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1127.m3u8
-#EXTINF:-1 tvg-id="TVX.sv" tvg-logo="https://i.imgur.com/JbxpB6M.png" group-title="EL SALVADOR",Canal TVX(BUD)
-http://budtvlight.com:25461/eventosxc/exnReMem4c/2174
 #EXTINF:-1 tvg-id="CartoonNetworkSouthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(AR181)
 http://181.10.123.154:14000/play/a075/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network HD(103111)
@@ -161,14 +149,10 @@ http://181.10.123.154:14000/play/a05e/index.m3u8
 http://181.10.123.154:14000/play/a05e/index.m3u8
 #EXTINF:-1 tvg-id="WarnerChannelPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(103111)
 http://103.111.40.242:9999/play/a02o/index.m3u8
-#EXTINF:-1 tvg-id="WarnerChannelPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",WARNER HD(CO3JUL)
-http://181.205.220.43:8000/play/a018/index.m3u8
 #EXTINF:-1 tvg-id="WarnerChannelPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",WARNER HD(S1)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a04s&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="WarnerChannelPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",WARNER HD(S2)
 http://clubtv.link/juli6/phpcode/lista2.php?c=a04s&f=.m3u8&token=TecnoplusJunio03
-#EXTINF:-1 tvg-id="AXNSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Movies;Series",AXN HD(CO3JUL)
-http://181.205.220.43:8000/play/a02t/index.m3u8
 #EXTINF:-1 tvg-id="AXNSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Movies;Series",AXN HD(CO29JUN)
 http://186.148.178.10:9092/play/a07s/index.m3u8
 #EXTINF:-1 tvg-id="AXNSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Movies;Series",AXN HD(CO29JUN)
@@ -197,8 +181,6 @@ http://103.111.40.242:9999/play/a004/index.m3u8
 http://152.200.150.150:8000/play/a0lr/index.m3u8
 #EXTINF:-1 tvg-id="axn_venezuela" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Movies;Series",AXN HD(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/311.m3u8
-#EXTINF:-1 tvg-id="film_and_arts" tvg-logo="https://i.imgur.com/2kHUsl7.png" group-title="Movies",Film & arts HD(MX-RO89)
-http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165411
 #EXTINF:-1 tvg-id="film_and_arts" tvg-logo="https://i.imgur.com/2kHUsl7.png" group-title="Movies",Film & arts HD(DO181)
 http://181.10.123.154:14000/play/a030/index.m3u8
 #EXTINF:-1 tvg-id="film_and_arts" tvg-logo="https://i.imgur.com/2kHUsl7.png" group-title="Movies",Film & arts HD(AR181)
@@ -209,10 +191,6 @@ http://103.111.40.242:9999/play/a01h/index.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/226436.m3u8
 #EXTINF:-1 tvg-id="film_and_arts" tvg-logo="https://i.imgur.com/2kHUsl7.png" group-title="Movies",*Film & arts HD(S1)
 http://clubtv.link/120425ab/phpcode/lista4.php?c=a04q&token=Tecnoplus11&f=.m3u8
-#EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(CO3JUL)
-http://181.205.220.43:8000/play/a009/index.m3u8
-#EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(CO29JUN)
-http://186.148.178.10:9092/play/a02r/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(CO29JUN)
 http://181.78.85.53:9002/play/a04j/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(152200)
@@ -229,16 +207,10 @@ http://clubtv.link/juli6/phpcode/lista1.php?c=a03r&token=TecnoplusJunio03&f=.m3u
 http://181.10.123.154:14000/play/a079/index.m3u8
 #EXTINF:-1 tvg-id="star_channel_argentina" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(AR181)
 http://181.10.123.154:14000/play/a079/index.m3u8
-#EXTINF:-1 tvg-id="star_channel_argentina" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(181176)
-http://181.176.153.107:8090/play/a0yy/index.m3u8
-#EXTINF:-1 tvg-id="star_channel_argentina" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(103111)
-http://103.111.40.242:9999/play/a01z/index.m3u8
 #EXTINF:-1 tvg-id="star_channel_centro" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",STAR CHANNEL SD(152200)
 http://152.200.150.150:8000/play/a0eh/index.m3u8
 #EXTINF:-1 tvg-id="star_channel_centro" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="movies",STAR CHANNEL(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=37&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="space_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",Space HD(CO3JUL)
-http://181.205.220.43:8000/play/a02u/index.m3u8
 #EXTINF:-1 tvg-id="space_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",Space HD(CO29JUN)
 http://186.148.178.10:9092/play/a02o/index.m3u8
 #EXTINF:-1 tvg-id="space_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",Space HD(CO29JUN)
@@ -267,8 +239,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/377.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/378.m3u8
 #EXTINF:-1 tvg-id="SpacePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",SPACE(S2)
 http://clubtv.link/juli6/phpcode/lista0.php?c=10&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="HBOLatinoEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png" group-title="Movies;Series",HBO(CO3JUL)
-http://181.205.220.43:8000/play/a02q/index.m3u8
 #EXTINF:-1 tvg-id="HBOLatinoEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png" group-title="Movies;Series",HBO(CO29JUN)
 http://181.78.85.53:9002/play/a023/index.m3u8
 #EXTINF:-1 tvg-id="HBOLatinoEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png" group-title="Movies;Series",HBO(US-RO89)
@@ -291,8 +261,6 @@ http://clubtv.link/juli6/phpcode/lista0.php?c=21&token=TecnoplusJunio03&f=.m3u8
 http://clubtv.link/juli6/phpcode/lista0.php?c=24&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="HBOLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png" group-title="Movies;Series",*HBO HD(S3)
 http://clubtv.link/marzo17/phpcode/lista6.php?c=46634&token=TecnotvGeneradorPlaylist&f=.m3u8
-#EXTINF:-1 tvg-id="HBO2LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies;Series",HBO 2 SD(CO3JUL)
-http://181.205.220.43:8000/play/a00t/index.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies;Series",HBO 2 SD(CO29JUN)
 http://181.78.85.53:9002/play/a04v/index.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies;Series",HBO 2 SD(US-RO89)
@@ -315,8 +283,6 @@ http://clubtv.link/juli6/phpcode/lista0.php?c=23&token=TecnoplusJunio03&f=.m3u8
 http://clubtv.link/juli6/phpcode/lista4.php?c=a00m&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies;Series",*HBO2 HD(S3)
 http://clubtv.link/120425ab/phpcode/lista5.php?c=a00i&token=Tecnoplus11
-#EXTINF:-1 tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/512px-Logohboplus2019.svg.png" group-title="Movies;Series",HBO Plus HD(CO3JUL)
-http://181.205.220.43:8000/play/a00u/index.m3u8
 #EXTINF:-1 tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/512px-Logohboplus2019.svg.png" group-title="Movies;Series",HBO Plus HD(DO181)
 http://181.10.123.154:14000/play/a06p/index.m3u8
 #EXTINF:-1 tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/512px-Logohboplus2019.svg.png" group-title="Movies;Series",HBO Plus HD(AR181)
@@ -333,8 +299,6 @@ http://clubtv.link/juli6/phpcode/lista4.php?c=a00n&token=TecnoplusJunio03&f=.m3u
 http://clubtv.link/120425ab/phpcode/lista7.php?c=a00n&token=Tecnoplus11&f=.m3u8
 #EXTINF:-1 tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/512px-Logohboplus2019.svg.png" group-title="Movies;Series",*HBO Plus HD(S3)
 http://clubtv.link/120425ab/phpcode/lista5.php?c=a00j&token=Tecnoplus11
-#EXTINF:-1 tvg-id="HBOFamilyLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/512px-HBO_Family.svg.png" group-title="Movies;Series",HBO Family HD(CO3JUL)
-http://181.205.220.43:8000/play/a00w/index.m3u8
 #EXTINF:-1 tvg-id="HBOFamilyLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/512px-HBO_Family.svg.png" group-title="Movies;Series",HBO Family HD(CO29JUN)
 http://181.78.85.53:9002/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="HBOFamilyLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/512px-HBO_Family.svg.png" group-title="Movies;Series",HBO Family HD(DO181)
@@ -355,8 +319,6 @@ http://clubtv.link/juli6/phpcode/lista0.php?c=22&token=TecnoplusJunio03&f=.m3u8
 http://clubtv.link/juli6/phpcode/lista4.php?c=a00p&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="HBOFamilyLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/512px-HBO_Family.svg.png" group-title="Movies;Series",*HBO Family HD(S3)
 http://clubtv.link/120425ab/phpcode/lista5.php?c=a00k&token=Tecnoplus11
-#EXTINF:-1 tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/512px-HBO_Xtreme.svg.png" group-title="Movies;Series",HBO XTREME HD(CO3JUL)
-http://181.205.220.43:8000/play/a00v/index.m3u8
 #EXTINF:-1 tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/512px-HBO_Xtreme.svg.png" group-title="Movies;Series",HBO XTREME HD(CO29JUN)
 http://181.78.85.53:9002/play/a00d/index.m3u8
 #EXTINF:-1 tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/512px-HBO_Xtreme.svg.png" group-title="Movies;Series",HBO XTREME HD(DO181)
@@ -375,8 +337,6 @@ http://clubtv.link/juli6/phpcode/lista0.php?c=16&token=TecnoplusJunio03&f=.m3u8
 http://clubtv.link/juli6/phpcode/lista4.php?c=a00o&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="HBOPopLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/512px-HBO_Pop.svg.png" group-title="Movies;Series",HBO POP HD(CO29JUN)
 http://181.78.85.53:9002/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="HBOPopLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/512px-HBO_Pop.svg.png" group-title="Movies;Series",HBO POP HD(181176)
-http://181.176.153.107:8090/play/a0qc/index.m3u8
 #EXTINF:-1 tvg-id="HBOPopLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/512px-HBO_Pop.svg.png" group-title="Movies;Series",HBO POP HD(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/334.m3u8
 #EXTINF:-1 tvg-id="HBOPopLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/512px-HBO_Pop.svg.png" group-title="Movies;Series",*HBO POP HD(S1)
@@ -387,8 +347,6 @@ http://clubtv.link/e290124/phpcode/lista7.php?c=a00m&token=TecnoGenerador10154&f
 http://181.10.123.154:14000/play/a02a/index.m3u8
 #EXTINF:-1 tvg-id="HBOMundiLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/512px-HBO_Mundi.svg.png" group-title="Movies;Series",HBO MUNDI HD(AR181)
 http://181.10.123.154:14000/play/a02a/index.m3u8
-#EXTINF:-1 tvg-id="HBOMundiLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/512px-HBO_Mundi.svg.png" group-title="Movies;Series",HBO MUNDI HD(181176)
-http://181.176.153.107:8090/play/a1cr/index.m3u8
 #EXTINF:-1 tvg-id="HBOMundiLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/512px-HBO_Mundi.svg.png" group-title="Movies;Series",HBO MUNDI HD(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/331.m3u8
 #EXTINF:-1 tvg-id="HBOSignatureLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/512px-HBO_Signature.svg.png" group-title="Movies;Series",HBO SIGNATURE HD(US-RO89)
@@ -405,8 +363,6 @@ http://clubtv.link/juli6/phpcode/lista0.php?c=20&token=TecnoplusJunio03&f=.m3u8
 http://clubtv.link/marzo17/phpcode/lista4.php?c=46637&token=TecnotvGeneradorPlaylist&f=.m3u8
 #EXTINF:-1 tvg-id="HBOSignatureLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/512px-HBO_Signature.svg.png" group-title="Movies;Series",*HBO SIGNATURE HD(S1)
 http://clubtv.link/marzo17/phpcode/lista4.php?c=46638&token=TecnotvGeneradorPlaylist&f=.m3u8
-#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax HD(CO3JUL)
-http://181.205.220.43:8000/play/a02r/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax HD(CO29JUN)
 http://186.148.178.10:9092/play/a04p/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax HD(CO29JUN)
@@ -427,8 +383,6 @@ http://152.200.150.150:8000/play/a0fi/index.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/320.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax HD(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/319.m3u8
-#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",CINEMAX HD(45186)
-http://181.205.220.43:8000/play/a02r/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",CINEMAX HD(S1)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a02b&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",CINEMAX HD((S2)
@@ -437,12 +391,6 @@ http://clubtv.link/MAR0603/phpcode/lista4.php?c=a02p&token=PlaylistTecnotv&f=.m3
 http://181.10.123.154:14000/play/a04s/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax HD(AR181)
 http://181.10.123.154:14000/play/a04s/index.m3u8
-#EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal HD(CO3JUL)
-http://181.205.220.43:8000/play/a004/index.m3u8
-#EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal HD(CO29JUN)
-http://186.148.178.10:9092/play/a03w/index.m3u8
-#EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal HD(CO29JUN)
-http://186.148.178.10:9092/play/a06i/index.m3u8
 #EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal HD(CO29JUN)
 http://181.78.85.53:9002/play/a01w/index.m3u8
 #EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal HD(MX-RO89)
@@ -471,8 +419,6 @@ http://103.111.40.242:9999/play/a02s/index.m3u8
 http://clubtv.link/juli6/phpcode/lista0.php?c=84&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="CineLatino.mx" tvg-logo="https://i.imgur.com/2V0R0xT.png" group-title="Movies", CINE LATINO(S2)
 http://clubtv.link/juli6/phpcode/plutotv.php?c=5f984c1dc54853000797a5e8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=b44b4d22-778d-11eb-9fe3-3bf7f4412392&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=7915058d-f10f-499c-be51-3669a8f4bd35&userId=&serverSideAds=true
-#EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(CO3JUL)
-http://181.205.220.43:8000/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(CO29JUN)
 http://186.148.178.10:9092/play/a083/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(CO29JUN)
@@ -483,8 +429,6 @@ http://181.10.123.154:14000/play/a05j/index.m3u8
 http://181.10.123.154:14000/play/a05j/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(181176)
 http://181.176.153.107:8090/play/a1co/index.m3u8
-#EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(103111)
-http://103.111.40.242:9999/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(152200)
 http://152.200.150.150:8000/play/a0mp/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversal.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(4K)
@@ -513,12 +457,6 @@ http://103.111.40.242:9999/play/a03o/index.m3u8
 http://clubtv.link/juli6/phpcode/lista4.php?c=a00v&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="UniversalComedy.us" tvg-logo="https://i.imgur.com/avBL8pQ.png" group-title="Movies", Universal Comedy(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=34&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(CO3JUL)
-http://181.205.220.43:8000/play/a00z/index.m3u8
-#EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(CO3JUL)
-http://181.205.220.43:8000/play/a05q/index.m3u8
-#EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(CO3JUL)
-http://181.205.220.43:8000/play/a05d/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(CO29JUN)
 http://186.148.178.10:9092/play/a07v/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(CO29JUN)
@@ -543,10 +481,6 @@ https://mx1.gt-app.com70&token=TecnoplusJunio03&f=.m3u8
 http://clubtv.link/juli6/phpcode/lista3.php?c=a05s&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="Movies",Studio Universal(S3)
 http://clubtv.link/juli6/phpcode/lista4.php?c=a00r&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(CO3JUL)
-http://181.205.220.43:8000/play/a00c/index.m3u8
-#EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(CO3JUL)
-http://181.205.220.43:8000/play/a056/index.m3u8
 #EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(CO29JUN)
 http://186.148.178.10:9092/play/a07f/index.m3u8
 #EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(CO29JUN)
@@ -579,8 +513,6 @@ http://152.200.150.150:8000/play/a0a3/index.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/339.m3u8
 #EXTINF:-1 tvg-id="tnt_centroamerica_y_caribe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT HD(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/340.m3u8
-#EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series HD(CO3JUL)
-http://181.205.220.43:8000/play/a05n/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series HD(CO29JUN)
 http://186.148.178.10:9092/play/a04v/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series HD(CO29JUN)
@@ -591,8 +523,6 @@ http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165444
 http://181.10.123.154:14000/play/a07e/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series HD(AR181)
 http://181.10.123.154:14000/play/a07e/index.m3u8
-#EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series HD(181176)
-http://181.176.153.107:8090/play/a0z1/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series HD(103111)
 http://103.111.40.242:9999/play/a02l/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series HD(103111)
@@ -609,8 +539,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/342.m3u8
 http://clubtv.link/juli6/phpcode/lista1.php?c=a04c&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series", TNT SERIES(S2)
 http://clubtv.link/juli6/phpcode/lista0.php?c=5&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT Novelas HD(CO3JUL)
-http://181.205.220.43:8000/play/a01r/index.m3u8
 #EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT Novelas HD(DO181)
 http://181.10.123.154:14000/play/a07g/index.m3u8
 #EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT Novelas HD(AR181)
@@ -623,10 +551,6 @@ http://103.111.40.242:9999/play/a02j/index.m3u8
 http://152.200.150.150:8000/play/a0kp/index.m3u8
 #EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT NOVELAS HD(S1)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a045&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX HD(CO3JUL)
-http://181.205.220.43:8000/play/a02v/index.m3u8
-#EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX HD(CO29JUN)
-http://186.148.178.10:9092/play/a04r/index.m3u8
 #EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX HD(CO29JUN)
 http://181.78.85.53:9002/play/a030/index.m3u8
 #EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX HD(MX-RO89)
@@ -653,8 +577,6 @@ http://clubtv.link/juli6/phpcode/lista2.php?c=a02q&f=.m3u8&token=TecnoplusJunio0
 http://clubtv.link/juli6/phpcode/lista0.php?c=27&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX(S2)
 https://vcp3.myplaytv.com/catatumbotv/catatumbotv/playlist.m3u8?TecnoPlaylist
-#EXTINF:-1 tvg-id="TCMPanregional.us" tvg-logo="https://i.imgur.com/QpDkrmT.png" group-title="Movies;Serie",TCM(CO3JUL)
-http://181.205.220.43:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="TCMPanregional.us" tvg-logo="https://i.imgur.com/QpDkrmT.png" group-title="Movies;Serie",TCM(CO29JUN)
 http://186.148.178.10:9092/play/a05o/index.m3u8
 #EXTINF:-1 tvg-id="TCMPanregional.us" tvg-logo="https://i.imgur.com/QpDkrmT.png" group-title="Movies;Serie",TCM(CO29JUN)
@@ -719,8 +641,6 @@ http://181.10.123.154:14000/play/a01z/index.m3u8
 http://181.176.153.107:8090/play/a10j/index.m3u8
 #EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC HD(103111)
 http://103.111.40.242:9999/play/a00o/index.m3u8
-#EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC HD(103111)
-http://103.111.40.242:9999/play/a01p/index.m3u8
 #EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC HD(152200)
 http://152.200.150.150:8000/play/a0fl/index.m3u8
 #EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC HD(4K)
@@ -731,8 +651,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/299.m3u8
 http://clubtv.link/juli6/phpcode/lista0.php?c=57&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie", AMC(S2)
 https://paneltv.online:1936/8114/8114/playlist.m3u8?tecnotv
-#EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount HD(CO3JUL)
-http://181.205.220.43:8000/play/a052/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount HD(CO29JUN)
 http://186.148.178.10:9092/play/a040/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount HD(CO29JUN)
@@ -745,8 +663,6 @@ http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/180017
 http://181.10.123.154:14000/play/a02y/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount HD(AR181)
 http://181.10.123.154:14000/play/a02y/index.m3u8
-#EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount HD(181176)
-http://181.176.153.107:8090/play/a0yk/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount HD(103111)
 http://103.111.40.242:9999/play/a01x/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount HD(152200)
@@ -759,12 +675,8 @@ http://152.200.150.150:8000/play/a0fn/index.m3u8
 http://clubtv.link/juli6/phpcode/lista0.php?c=12&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series", PARAMOUNT HD(S2)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a03a&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony HD(CO3JUL)
-http://181.205.220.43:8000/play/a02s/index.m3u8
 #EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony HD(CO29JUN)
 http://186.148.178.10:9092/play/a07r/index.m3u8
-#EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony HD(CO29JUN)
-http://181.78.85.53:9002/play/a04i/index.m3u8
 #EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony HD(MX-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165431
 #EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony HD(181176)
@@ -807,16 +719,12 @@ http://186.148.178.10:9092/play/a03f/index.m3u8
 http://181.78.85.53:9002/play/a05m/index.m3u8
 #EXTINF:-1 tvg-id="golden_edge" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Movies",Golden Edge(MX-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165419
-#EXTINF:-1 tvg-id="golden_edge" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Movies",Golden Edge(181176)
-http://181.176.153.107:8090/play/a1jr/index.m3u8
 #EXTINF:-1 tvg-id="golden_edge" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Movies",Golden Edge(103111)
 http://103.111.40.242:9999/play/a01i/index.m3u8
 #EXTINF:-1 tvg-id="golden_edge" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Movies",Golden Edge(152200)
 http://152.200.150.150:8000/play/a0gf/index.m3u8
 #EXTINF:-1 tvg-id="GoldenPremier.mx" tvg-logo="https://i.imgur.com/JMa7jws.png" group-title="Movies",Golden Premier HD(MX-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165377
-#EXTINF:-1 tvg-id="GoldenPremier.mx" tvg-logo="https://i.imgur.com/JMa7jws.png" group-title="Movies",Golden Premier HD(181176)
-http://181.176.153.107:8090/play/a1js/index.m3u8
 #EXTINF:-1 tvg-id="GoldenPremier.mx" tvg-logo="https://i.imgur.com/JMa7jws.png" group-title="Movies",Golden Premier HD(103111)
 http://103.111.40.242:9999/play/a03q/index.m3u8
 #EXTINF:-1 tvg-id="GoldenPremier.mx" tvg-logo="https://i.imgur.com/JMa7jws.png" group-title="Movies",Golden Premier HD(4K)
@@ -833,8 +741,6 @@ http://clubtv.link/120425ab/phpcode/lista4.php?c=a07p&token=Tecnoplus11&f=.m3u8
 http://clubtv.link/120425ab/phpcode/lista5.php?c=a05q&token=Tecnoplus11
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(US-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/182696
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(CUT)
-http://cord-cutter.net:8080/7bJBhh/138115/46717
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(1TV)
 http://1tv41.icu:8080/ahx4CN/815233/46717
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV CA(CUT)
@@ -847,8 +753,6 @@ http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165420
 http://181.10.123.154:14000/play/a02j/index.m3u8
 #EXTINF:-1 tvg-id="HGTVPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV Latino(103111)
 http://103.111.40.242:9999/play/a01m/index.m3u8
-#EXTINF:-1 tvg-id="HGTVPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV Latino(152200)
-http://152.200.150.150:8000/play/a0ht/index.m3u8
 #EXTINF:-1 tvg-id="HGTVPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV Latino(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/270.m3u8
 #EXTINF:-1 tvg-id="HGTVPanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV Latino(4K)
@@ -861,12 +765,8 @@ http://clubtv.link/120425ab/phpcode/lista4.php?c=a00d&token=Tecnoplus11&f=.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/267.m3u8
 #EXTINF:-1 tvg-id="FoodNetworkLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png" group-title="CULTURA Y ENTRETENCION",FOOD NETWORK OPC 2(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/268.m3u8
-#EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(CO3JUL)
-http://181.205.220.43:8000/play/a01h/index.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(CO29JUN)
 http://186.148.178.10:9092/play/a067/index.m3u8
-#EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(CO29JUN)
-http://181.78.85.53:9002/play/a05n/index.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(MX-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165442
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(103111)
@@ -875,14 +775,10 @@ http://103.111.40.242:9999/play/a027/index.m3u8
 http://152.200.150.150:8000/play/a0kg/index.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/252.m3u8
-#EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/254.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(S1)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a03t&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(S2)
 http://clubtv.link/juli6/phpcode/lista2.php?c=a03t&f=.m3u8&token=TecnoplusJunio03
-#EXTINF:-1 tvg-id="AEPanregional.us" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary",A&E HD(CO3JUL)
-http://181.205.220.43:8000/play/a01g/index.m3u8
 #EXTINF:-1 tvg-id="AEPanregional.us" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary",A&E HD(CO29JUN)
 http://186.148.178.10:9092/play/a07q/index.m3u8
 #EXTINF:-1 tvg-id="AEPanregional.us" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary",A&E HD(CO29JUN)
@@ -905,8 +801,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/306.m3u8
 http://clubtv.link/juli6/phpcode/lista1.php?c=a01v&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="AE.mx" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary", A&EHD(S2)
 http://clubtv.link/juli6/phpcode/lista2.php?c=a01v&f=.m3u8&token=TecnoplusJunio03
-#EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="TV",Animal Planet 1080(CO3JUL)
-http://181.205.220.43:8000/play/a017/index.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="TV",Animal Planet 1080(CO29JUN)
 http://186.148.178.10:9092/play/a06b/index.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="TV",Animal Planet 1080(CO29JUN)
@@ -925,14 +819,10 @@ http://103.111.40.242:9999/play/a03g/index.m3u8
 http://152.200.150.150:8000/play/a0mc/index.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="Documentary",Animal Planet HD(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/229.m3u8
-#EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="Documentary",Animal Planet HD(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/233.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="Documentary",ANIMAL PLANET(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=56&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="Documentary", Animal Planet(S2)
 http://clubtv.link/juli6/phpcode/lista3.php?c=a03x&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(CO29JUN)
-http://186.148.178.10:9092/play/a03s/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(CO29JUN)
 http://181.78.85.53:9002/play/a024/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H HD(MX-RO89)
@@ -951,8 +841,6 @@ http://152.200.150.150:8000/play/a0dn/index.m3u8
 http://clubtv.link/juli6/phpcode/lista0.php?c=46&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="discovery_home_and_health_colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",DISCOVERY H&H(S2)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a02j&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/512px-Discovery_science_new_logo_2017.png" group-title="documentary",Discovery Science(CO29JUN)
-http://181.78.85.53:9002/play/a05x/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/512px-Discovery_science_new_logo_2017.png" group-title="documentary",Discovery Science(DO181)
 http://181.10.123.154:14000/play/a02k/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/512px-Discovery_science_new_logo_2017.png" group-title="documentary",Discovery Science(AR181)
@@ -967,8 +855,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/212.m3u8
 http://clubtv.link/120425ab/phpcode/lista4.php?c=a00e&token=Tecnoplus11&f=.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/512px-Discovery_science_new_logo_2017.png" group-title="documentary",*Discovery Science(S1)
 http://clubtv.link/120425ab/phpcode/lista5.php?c=a007&token=Tecnoplus11
-#EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us" tvg-logo="https://i.imgur.com/T07gvEb.png" group-title="documentary",Discovery Theater HD(CO29JUN)
-http://186.148.178.10:9092/play/a04t/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us" tvg-logo="https://i.imgur.com/T07gvEb.png" group-title="documentary",Discovery Theater HD(CO29JUN)
 http://181.78.85.53:9002/play/a02t/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us" tvg-logo="https://i.imgur.com/T07gvEb.png" group-title="documentary",Discovery Theater HD(DO181)
@@ -993,8 +879,6 @@ http://181.78.85.53:9002/play/a02b/index.m3u8
 http://181.10.123.154:14000/play/a031/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(AR181)
 http://181.10.123.154:14000/play/a031/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(181176)
-http://181.176.153.107:8090/play/a0yf/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(103111)
 http://103.111.40.242:9999/play/a03t/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(152200)
@@ -1023,8 +907,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/182.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/181.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",DISCOVERY ID(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=18&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary", Discovery ID(S2)
-http://clubtv.link/juli6/phpcode/lista3.php?c=a05g&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",Discovery ESP(XX)
 http://xxip25.top:8080/xaF18Y/317236/57625
 #EXTINF:-1 tvg-id="DiscoveryChannel.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",Discovery ESP(4K)
@@ -1033,10 +915,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/224635.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/224636.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Tu Discovery(US-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/232108
-#EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(CO3JUL)
-http://181.205.220.43:8000/play/a016/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(CO29JUN)
-http://186.148.178.10:9092/play/a03x/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(CO29JUN)
 http://181.78.85.53:9002/play/a032/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(ES-RO89)
@@ -1073,8 +951,6 @@ http://clubtv.link/juli6/phpcode/lista3.php?c=a03w&token=TecnoplusJunio03&f=.m3u
 http://cord-cutter.net:8080/7bJBhh/138115/57645
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(1TV)
 http://1tv41.icu:8080/ahx4CN/815233/57645
-#EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(XX)
-http://xxip25.top:8080/xaF18Y/317236/57645
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/198.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(CO3JUL)
@@ -1099,8 +975,6 @@ http://181.10.123.154:14000/play/a05g/index.m3u8
 http://181.176.153.107:8090/play/a1cj/index.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(152200)
 http://152.200.150.150:8000/play/a0j1/index.m3u8
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(181205)
-http://181.205.220.43:8000/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",NAT GEO HD(S1)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a02z&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id=national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",NAT GEO HD(S2)
@@ -1171,10 +1045,6 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/192.m3u8
 http://clubtv.link/120425ab/phpcode/lista6.php?c=a00v&token=Tecnoplus11&f=.m3u8
 #EXTINF:-1 tvg-id="History2.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/512px-History2_logo_%282022%29.svg.png" group-title="Documentary",*History2(S2)
 http://clubtv.link/120425ab/phpcode/lista3.php?c=a00v&token=Tecnoplus11&f=.m3u8
-#EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(CO3JUL)
-http://181.205.220.43:8000/play/a033/index.m3u8
-#EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(CO29JUN)
-http://186.148.178.10:9092/play/a06s/index.m3u8
 #EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(CO29JUN)
 http://181.78.85.53:9002/play/a03a/index.m3u8
 #EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(DO181)
@@ -1213,8 +1083,6 @@ http://clubtv.link/juli6/phpcode/lista1.php?c=a04w&token=TecnoplusJunio03&f=.m3u
 http://clubtv.link/juli6/phpcode/lista2.php?c=a04w&f=.m3u8&token=TecnoplusJunio03
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",*El Gourmet(S3)
 http://clubtv.link/my0505/phpcode/lista1.php?c=a08n&token=Tecnoplus11&f=.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(CUT)
-http://cord-cutter.net:8080/7bJBhh/138115/46720
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(CUT) 
 http://cord-cutter.net:8080/7bJBhh/138115/9811
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(1TV)
@@ -1226,8 +1094,6 @@ http://cord-cutter.net:8080/7bJBhh/138115/20866
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Science US(1TV)
 http://1tv41.icu:8080/ahx4CN/815233/20866
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery(XX)
-http://xxip25.top:8080/xaF18Y/317236/46720
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery(XX)
 http://xxip25.top:8080/xaF18Y/317236/9811
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/140685.m3u8
@@ -1236,15 +1102,11 @@ http://cord-cutter.net:8080/7bJBhh/138115/46724
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History US(CUT) 
 http://cord-cutter.net:8080/7bJBhh/138115/15017
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History US(1TV)
-http://1tv41.icu:8080/ahx4CN/815233/46724
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History US(1TV)
 http://1tv41.icu:8080/ahx4CN/815233/15017
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History US(XX)
 http://xxip25.top:8080/xaF18Y/317236/15017
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History US(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/140673.m3u8
-#EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="TV",Telemundo Internacional(CO3JUL)
-http://181.205.220.43:8000/play/a01m/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="TV",Telemundo Internacional(CO29JUN)
 http://186.148.178.10:9092/play/a07x/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="TV",Telemundo Internacional(CO29JUN)
@@ -1253,30 +1115,18 @@ http://181.78.85.53:9002/play/a02o/index.m3u8
 http://181.10.123.154:14000/play/a0cr/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="TV",Telemundo Internacional(103111)
 http://103.111.40.242:9999/play/a02i/index.m3u8
-#EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="TV",Telemundo Internacional(103111)
-http://103.111.40.242:9999/play/a046/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="TV",Telemundo Internacional(152200)
 http://152.200.150.150:8000/play/a0kl/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="entertainment", TELEMUNDO(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=7&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="entertainment", TELEMUNDO (S2)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a04i&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(CO3JUL)
-http://181.205.220.43:8000/play/a01j/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(CO29JUN)
 http://186.148.178.10:9092/play/a02n/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(CO29JUN)
 http://181.78.85.53:9002/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(MX-RO89)
-http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165395
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(AR181)
-http://181.10.123.154:14000/play/a06z/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(103111)
-http://103.111.40.242:9999/play/a01d/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(152200)
 http://152.200.150.150:8000/play/a0mn/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas HD(201)
-http://201.174.162.89:9981/stream/channelid/1919712826?profile=pass
 #EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",CANAL DE LAS ESTRELLAS(S1)
 http://clubtv.link/juli6/phpcode/lista1.php?c=a023&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",CANAL DE LAS ESTRELLAS(S2)
@@ -1285,10 +1135,6 @@ http://clubtv.link/juli6/phpcode/lista2.php?c=a023&f=.m3u8&token=TecnoplusJunio0
 http://181.205.220.43:8000/play/a019/index.m3u8
 #EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E! HD(CO29JUN)
 http://186.148.178.10:9092/play/a081/index.m3u8
-#EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E! HD(MX-RO89)
-http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165405
-#EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E! HD(AR181)
-http://181.10.123.154:14000/play/a050/index.m3u8
 #EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E! HD(103111)
 http://103.111.40.242:9999/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",*E!(S1)
@@ -1297,36 +1143,24 @@ http://clubtv.link/120425ab/phpcode/lista6.php?c=a03i&token=Tecnoplus11&f=.m3u8
 http://clubtv.link/120425ab/phpcode/lista6.php?c=a03i&token=Tecnoplus11&f=.m3u8
 #EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",*E! Entertairment HD(S3)
 http://clubtv.link/120425ab/phpcode/lista5.php?c=a02e&token=Tecnoplus11
-#EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",Lifetime(CO3JUL)
-http://181.205.220.43:8000/play/a00i/index.m3u8
-#EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",Lifetime(CO29JUN)
-http://181.78.85.53:9002/play/a05o/index.m3u8
 #EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",Lifetime(MX-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165422
 #EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",Lifetime(AR181)
 http://181.10.123.154:14000/play/a06n/index.m3u8
 #EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",Lifetime(152200)
 http://152.200.150.150:8000/play/a0ji/index.m3u8
-#EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",Lifetime(S1)
+#EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",Lifetime(S2)
 http://clubtv.link/juli6/phpcode/lista4.php?c=a00h&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="LifetimePanregional.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="entertainment",*Lifetime(S2)
-http://clubtv.link/120425ab/phpcode/lista6.php?c=a01i&token=Tecnoplus11&f=.m3u8
 #EXTINF:-1 tvg-id="univision_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png" group-title="entertainment", UNIVISION(CO29JUN)
 http://186.148.178.10:9092/play/a01b/index.m3u8
-#EXTINF:-1 tvg-id="univision_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png" group-title="entertainment", UNIVISION(103111)
-http://103.111.40.242:9999/play/a006/index.m3u8
 #EXTINF:-1 tvg-id="univision_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png" group-title="entertainment", UNIVISION(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=3&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="univision_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png" group-title="entertainment",*173. Univision HD(S2)
 http://clubtv.link/MA0203/phpcode/lista6.php?c=a2jq&token=PlaylistTecnotv&f=.m3u8
-#EXTINF:-1 tvg-id="mas_chic_latinoamerica" tvg-logo="https://i.imgur.com/pOyBwD1.png" group-title="entertainment",*Mas Chic(MX-RO89)
-http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165423
 #EXTINF:-1 tvg-id="mas_chic_latinoamerica" tvg-logo="https://i.imgur.com/pOyBwD1.png" group-title="entertainment",*Mas Chic(S1)
 http://clubtv.link/120425ab/phpcode/lista4.php?c=a00a&token=Tecnoplus11&f=.m3u8
 #EXTINF:-1 tvg-id="mas_chic_latinoamerica" tvg-logo="https://i.imgur.com/pOyBwD1.png" group-title="entertainment",*MAS CHIC(S2)
 http://clubtv.link/marzo17/phpcode/lista4.php?c=46644&token=TecnotvGeneradorPlaylist&f=.m3u8
-#EXTINF:-1 tvg-id="HolaTV.us" tvg-logo="https://i.imgur.com/zfVbp7d.png" group-title="entertainment",*HOLA! TV HD(CO29JUN)
-http://181.78.85.53:9002/play/a05q/index.m3u8
 #EXTINF:-1 tvg-id="HolaTV.us" tvg-logo="https://i.imgur.com/zfVbp7d.png" group-title="entertainment",*HOLA! TV HD(MX-RO89)
 http://my.atrupo4k.com:7070/a4307a4b163c/WcY4LjRic4CRJXG/165421
 #EXTINF:-1 tvg-id="HolaTV.us" tvg-logo="https://i.imgur.com/zfVbp7d.png" group-title="entertainment",*HOLA! TV HD(S1)
@@ -1346,13 +1180,9 @@ http://clubtv.link/juli6/phpcode/lista1.php?c=a02g&token=TecnoplusJunio03&f=.m3u
 #EXTINF:-1 tvg-id="TigoSports.sv" tvg-name="EL SALVADOR | TIGO SPORTS" tvg-logo="http://swedtv.vip/logos/LAT_centroamerica/tigo_sport.png" group-title="EL SALVADOR",TIGO SPORTS(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1125.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(CO29JUN)
-http://186.148.178.10:9092/play/a029/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(CO29JUN)
 http://181.78.85.53:9002/play/a00h/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(AR181)
 http://181.10.123.154:14000/play/a05a/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(103111)
-http://103.111.40.242:9999/play/a017/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(152200)
 http://152.200.150.150:8000/play/a0lg/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(152200)
@@ -1362,13 +1192,9 @@ http://clubtv.link/juli6/phpcode/lista0.php?c=41&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl-2" tvg-logo="https://i.imgur.com/00tsvjE.png" group-title="sports", ESPN(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=40&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(CO29JUN)
-http://186.148.178.10:9092/play/a07i/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(CO29JUN)
 http://181.78.85.53:9002/play/a09p/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(AR181)
 http://181.10.123.154:14000/play/a059/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(103111)
-http://103.111.40.242:9999/play/a018/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(152200)
 http://152.200.150.150:8000/play/a0g6/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(152200)
@@ -1376,21 +1202,15 @@ http://152.200.150.150:8000/play/a0jy/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=79&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(CO29JUN)
-http://186.148.178.10:9092/play/a07g/index.m3u8
-#EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(CO29JUN)
 http://181.78.85.53:9002/play/a00p/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(AR181)
 http://181.10.123.154:14000/play/a05b/index.m3u8
-#EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(103111)
-http://103.111.40.242:9999/play/a019/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(152200)
 http://152.200.150.150:8000/play/a0m4/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(152200)
 http://152.200.150.150:8000/play/a0a4/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(S1)
 http://clubtv.link/juli6/phpcode/lista0.php?c=39&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1 tvg-id="espn_4_argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/512px-ESPN_4_logo.svg.png" group-title="sports",ESPN 4(CO29JUN)
-http://186.148.178.10:9092/play/a04u/index.m3u8
 #EXTINF:-1 tvg-id="espn_4_argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/512px-ESPN_4_logo.svg.png" group-title="sports",ESPN 4(CO29JUN)
 http://181.78.85.53:9002/play/a02x/index.m3u8
 #EXTINF:-1 tvg-id="espn_4_argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/512px-ESPN_4_logo.svg.png" group-title="sports",ESPN 4(AR181)
@@ -1416,17 +1236,9 @@ http://152.200.150.150:8000/play/a0a5/index.m3u8
 #EXTINF:-1 tvg-id="espn_6_centroamerica_y_republica_dominicana" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_6_logo.svg" group-title="sports",ESPN 6(152200)
 http://152.200.150.150:8000/play/a0fm/index.m3u8
 #EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(CO29JUN)
-http://186.148.178.10:9092/play/a076/index.m3u8
-#EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(CO29JUN)
 http://181.78.85.53:9002/play/a049/index.m3u8
 #EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(152200)
 http://152.200.150.150:8000/play/a0kj/index.m3u8
-#EXTINF:-1 tvg-id="beINSportsenEspanol.us" tvg-logo="https://i.imgur.com/oT5CAvd.png" group-title="Sports",Bein Sport Xtra
-https://i.mjh.nz/SamsungTVPlus/USBD1700016X9.m3u8
-#EXTINF:-1 tvg-id="MultivisionSports.gt" tvg-logo="https://i.imgur.com/wLjSSo2.jpg" group-title="Sports",Multivision Sports(AR181)
-http://181.10.123.154:14000/play/a0ct/index.m3u8
-#EXTINF:-1 tvg-id="MultivisionSports.gt" tvg-logo="https://i.imgur.com/wLjSSo2.jpg" group-title="Sports",Multivision Sports(152200)
-http://152.200.150.150:8000/play/a0cy/index.m3u8
 #EXTINF:-1 tvg-id="MultivisionSports.gt" tvg-logo="https://i.imgur.com/wLjSSo2.jpg" group-title="Sports",Multivision Sports
 https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
 #EXTINF:-1 tvg-id="LaLigaTVporMovistarPlusPlus.es" tvg-logo="https://i.imgur.com/I8ldXf5.png" group-title="Sports",La Liga(103111)
@@ -1449,8 +1261,6 @@ http://stream.flynetwifi.com:1935/live/mobile-061/playlist.m3u8
 http://103.111.40.242:9999/play/a044/index.m3u8
 #EXTINF:-1 tvg-id="CNNInternationalLatinAmerica.us" tvg-logo="https://i.imgur.com/05S3yYZ.png" group-title="News",CNN Internacional(152200)
 http://152.200.150.150:8000/play/a0jl/index.m3u8
-#EXTINF:-1 tvg-id="CNNInternationalLatinAmerica.us" tvg-logo="https://i.imgur.com/05S3yYZ.png" group-title="News",CNN Internacional
-http://168.232.168.242:4000/play/a00v/index.m3u8
 #EXTINF:-1 tvg-id="mtv_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="music",MTV(CO29JUN)
 http://186.148.178.10:9092/play/a06k/index.m3u8
 #EXTINF:-1 tvg-id="mtv_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="music",MTV(CO29JUN)
@@ -1463,15 +1273,9 @@ http://181.10.123.154:14000/play/a053/index.m3u8
 http://103.111.40.242:9999/play/a01r/index.m3u8
 #EXTINF:-1 tvg-id="MTV00s.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png" group-title="music",MTV 00s(103111)
 http://103.111.40.242:9999/play/a02z/index.m3u8
-#EXTINF:-1 tvg-id="MTV00s.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png" group-title="music",MTV 00s(2)
-http://168.232.168.242:4000/play/a03y/index.m3u8
 #EXTINF:-1 tvg-id="Bandamax.mx" tvg-logo="https://i.imgur.com/4DfnOTA.png" group-title="music",Bandamax MX(CO29JUN)
 http://186.148.178.10:9092/play/a014/index.m3u8
 #EXTINF:-1 tvg-id="Bandamax.mx" tvg-logo="https://i.imgur.com/4DfnOTA.png" group-title="music",Bandamax MX
 https://linear-400.frequency.stream/mt/studio/400/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="Bandamax.mx" tvg-logo="https://i.imgur.com/4DfnOTA.png" group-title="music",Bandamax(2)
-http://168.232.168.242:4000/play/a04i/index.m3u8
 #EXTINF:-1 tvg-id="exa_tv" tvg-logo="https://i.imgur.com/JWOqr1a.png" group-title="music",EXA TV(103111)
 http://103.111.40.242:9999/play/a01g/index.m3u8
-#EXTINF:-1 tvg-id="exa_tv" tvg-logo="https://i.imgur.com/JWOqr1a.png" group-title="music",EXA TV(3)
-http://168.232.168.242:4000/play/a01i/index.m3u8
