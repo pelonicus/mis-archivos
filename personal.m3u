@@ -139,13 +139,13 @@ http://clubtv.link/19julio/phpcode/lista3.php?c=a038&token=TecnoplusJunio03&f=.m
 http://152.230.229.66:8000/play/a01c/index.m3u8
 #EXTINF:-1 tvg-id="usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d7/USA_Network_logo_%282016%29.svg" group-title="Movies;Series",USA(CLAS725)
 http://152.230.229.66:8000/play/a01c/index.m3u8
-#EXTINF:-1,LATINO - SYFY
+#EXTINF:-1,SYFY(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/30671
-#EXTINF:-1,MX - SYFY FHD
+#EXTINF:-1,SYFY FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/140333
-#EXTINF:-1,MX - SYFY HD
+#EXTINF:-1,SYFY HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1028369
-#EXTINF:-1,MX - TBS FHD
+#EXTINF:-1,TBS FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/140334
 #EXTINF:-1 tvg-id="warner_tv_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/140363
@@ -1101,9 +1101,9 @@ http://clubtv.link/19julio/phpcode/lista3.php?c=a03w&token=TecnoplusJunio03&f=.m
 http://cord-cutter.net:8080/7bJBhh/138115/57645
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/198.m3u8
-#EXTINF:-1,LATINO - NATGEO WILD
+#EXTINF:-1,NATGEO WILD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/30610
-#EXTINF:-1,MX - NAT GEO WILD HD
+#EXTINF:-1,NAT GEO WILD HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/140310
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/140311
@@ -1133,6 +1133,8 @@ http://152.200.150.150:8000/play/a0j1/index.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/237.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/241.m3u8
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-NJ0725)
+http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21315
 #EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/224637.m3u8
 #EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(4K)
@@ -1251,122 +1253,121 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/260.m3u8
 http://clubtv.link/19julio/phpcode/lista1.php?c=a04w&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",*El Gourmet(S3)
 http://clubtv.link/my0505/phpcode/lista1.php?c=a08n&token=Tecnoplus11&f=.m3u8
-#EXTINF:-1,ES - CNN HD
+#EXTINF:-1,CNN HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/325429
-#EXTINF:-1,ES - 24 HORAS FHD
+#EXTINF:-1,24 HORAS FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/975871
-#EXTINF:-1,ES - 24 HORAS HD
+#EXTINF:-1,24 HORAS HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21360
-#EXTINF:-1,ES - REAL MADRID TV FHD
+#EXTINF:-1,REAL MADRID TV FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/977974
-#EXTINF:-1,ES - REAL MADRID TV HD
+#EXTINF:-1,REAL MADRID TV HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1029281
-#EXTINF:-1,ES - REAL MADRID TV SD
+#EXTINF:-1,REAL MADRID TV SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061343
-#EXTINF:-1,ES - TVE INTERNACIONAL HD
+#EXTINF:-1,TVE INTERNACIONAL HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/326270
-#EXTINF:-1,ES - TVE INTERNACIONAL SD
+#EXTINF:-1,TVE INTERNACIONAL SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21359
-#EXTINF:-1,ES - NAT GEO HEVC
+#EXTINF:-1,NAT GEO HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026842
-#EXTINF:-1,ES - NAT GEO HD
+#EXTINF:-1,NAT GEO HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21284
-#EXTINF:-1,ES - NAT WILD HEVC
+#EXTINF:-1,NAT WILD HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026843
-#EXTINF:-1,ES - NAT WILD HD
+#EXTINF:-1,NAT WILD HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21282
-#EXTINF:-1,ES - NAT GEO WILD SD
+#EXTINF:-1,NAT GEO WILD SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21283
-#EXTINF:-1,ES - HISTORIA HD
-d#EXTINF:-1,ES - DISCOVERY HD
+d#EXTINF:-1,DISCOVERY HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1029263
-#EXTINF:-1,ES - DISCOVERY CHANNEL SD
+#EXTINF:-1,DISCOVERY CHANNEL SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061254
-#EXTINF:-1,ES - ODISEA HD
+#EXTINF:-1,ODISEA HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/662009
-#EXTINF:-1,ES - ODISEA SD
+#EXTINF:-1,ODISEA SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061253
-#EXTINF:-1,ES - BUENVIAJE HD
+#EXTINF:-1,BUENVIAJE HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061362
-#EXTINF:-1,ES - BUENVIAJE SD
+#EXTINF:-1,BUENVIAJE SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061363
-#EXTINF:-1,ES - AMC BREAK FHD
+#EXTINF:-1,AMC BREAK FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026513
-#EXTINF:-1,ES - AMC BREAK HD
+#EXTINF:-1,AMC BREAK HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061233
-#EXTINF:-1,ES - AMC SELEKT TV HD
+#EXTINF:-1,AMC SELEKT TV HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061221
-#EXTINF:-1,ES - DMAX FHD
+#EXTINF:-1,DMAX FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/325838
-#EXTINF:-1,ES - DMAX HEVC
+#EXTINF:-1,DMAX HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061361
-#EXTINF:-1,ES -  M. DOCUMENTALES HD
+#EXTINF:-1, M. DOCUMENTALES HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1027427
-#EXTINF:-1,ES - AMC BREAK FHD
+#EXTINF:-1,AMC BREAK FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1084110
-#EXTINF:-1,ES - AMC BREAK HD
+#EXTINF:-1,AMC BREAK HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1084111
-#EXTINF:-1,ES - AMC CRIME HD
+#EXTINF:-1,AMC CRIME HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1029289
-#EXTINF:-1,ES - AMC CRIME SD
+#EXTINF:-1,AMC CRIME SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1145326
-#EXTINF:-1,ES - AMC HD
+#EXTINF:-1,AMC HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21340
-#EXTINF:-1,ES - MTV 00S FHD
+#EXTINF:-1,MTV 00S FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/345646
-#EXTINF:-1,ES - MTV ESPANA HD
+#EXTINF:-1,MTV ESPANA HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/662019
-#EXTINF:-1,ES - MTV HD
+#EXTINF:-1,MTV HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/345645
-#EXTINF:-1,ES - AXN FHD
+#EXTINF:-1,AXN FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21337
-#EXTINF:-1,ES - AXN HEVC
+#EXTINF:-1,AXN HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026521
-#EXTINF:-1,ES - AXN HD
+#EXTINF:-1,AXN HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21338
-#EXTINF:-1,ES - AXN MOVIES HEVC
+#EXTINF:-1,AXN MOVIES HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026523
-#EXTINF:-1,ES - AXN MOVIES HD
+#EXTINF:-1,AXN MOVIES HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026522
-#EXTINF:-1,ES - AXN MOVIES SD
+#EXTINF:-1,AXN MOVIES SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061235
-#EXTINF:-1,ES - WARNER FHD
+#EXTINF:-1,WARNER FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1029275
-#EXTINF:-1,ES - WARNER HD
+#EXTINF:-1,WARNER HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1029274
-#EXTINF:-1,ES - WARNER SD
+#EXTINF:-1,WARNER SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061228
-#EXTINF:-1,ES - WARNERBROS HEVC
+#EXTINF:-1,WARNERBROS HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026526
-#EXTINF:-1,ES - WARNERBROS HD
+#EXTINF:-1,WARNERBROS HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1018481
-#EXTINF:-1,ES - SYFY HEVC
+#EXTINF:-1,SYFY HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026527
-#EXTINF:-1,ES - SYFY HD
+#EXTINF:-1,SYFY HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21279
-#EXTINF:-1,ES - SYFY SD
+#EXTINF:-1,SYFY SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061232
-#EXTINF:-1,ES - TCM HEVC
+#EXTINF:-1,TCM HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1026532
-#EXTINF:-1,ES - TCM HD
+#EXTINF:-1,TCM HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21278
-#EXTINF:-1,ES - PARAMOUNT HD
+#EXTINF:-1,PARAMOUNT HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1018483
-#EXTINF:-1,ES - PARAMOUNT SD
+#EXTINF:-1,PARAMOUNT SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1145327
-#EXTINF:-1,ES - STAR CHANNEL HD
+#EXTINF:-1,STAR CHANNEL HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21344
-#EXTINF:-1,ES - STAR CHANNEL (FOX) SD
+#EXTINF:-1,STAR CHANNEL (FOX) SD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1061227
-#EXTINF:-1,ES - GOL HD
+#EXTINF:-1,GOL HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/76690
-#EXTINF:-1,ES - VH1 HD
+#EXTINF:-1,VH1 HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21276
-#EXTINF:-1,ES - VH1 Classics
+#EXTINF:-1,VH1 Classics(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/363706
-#EXTINF:-1,ES - MTV Music Made in Spain
+#EXTINF:-1,MTV Music Made in Spain(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/363707
-#EXTINF:-1,ES - MTV Party Music
+#EXTINF:-1,MTV Party Music(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/363708
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(CUT) 
 http://cord-cutter.net:8080/7bJBhh/138115/9811
@@ -1476,15 +1477,13 @@ http://clubtv.link/120425ab/phpcode/lista4.php?c=a06w&token=Tecnoplus11&f=.m3u8
 http://clubtv.link/19julio/phpcode/lista0.php?c=82&token=TecnoplusJunio03&f=.m3u8
 #EXTINF:-1 tvg-id="sv#ClaroSports.mx" tvg-logo="https://i.imgur.com/n0kd17r.png" group-title="Sports", CLARO SPORT(S1)
 http://clubtv.link/19julio/phpcode/lista1.php?c=a02g&token=TecnoplusJunio03&f=.m3u8
-#EXTINF:-1,LATINO - WIN SPORT HD
+#EXTINF:-1,WIN SPORT HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/30647
-#EXTINF:-1,LATINO - WIN SPORT PLUS HD
+#EXTINF:-1,WIN SPORT PLUS HD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/139331
-#EXTINF:-1,LATINO - TUDN | HD : usa vs mexico
-http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/200868
-#EXTINF:-1,MX - TUDN FHD
+#EXTINF:-1,TUDN FHD(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/140336
-#EXTINF:-1,MX - TUDN HEVC
+#EXTINF:-1,TUDN HEVC(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/1028371
 #EXTINF:-1 tvg-id="TigoSports.sv" tvg-name="EL SALVADOR | TIGO SPORTS" tvg-logo="http://swedtv.vip/logos/LAT_centroamerica/tigo_sport.png" group-title="EL SALVADOR",TIGO SPORTS(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1125.m3u8
