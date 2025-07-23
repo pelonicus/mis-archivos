@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",22 Jul. 2025 09:38
+#EXTINF:-1 tvg-id="update_time" tvg-name="" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",23 Jul. 2025 07:48
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="PERU | America TV opc 1" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(CLAS725)
 http://160.19.201.65:8000/play/a00k
@@ -61,6 +61,8 @@ https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c
 https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
 #EXTINF:-1 tvg-id="Canal2.sv" tvg-name="SLV: CANAL 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1116.m3u8
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(US-FL0725)
+http://canal-pro.xyz:8080/996794768tv/a32hd22/63181
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 1080(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1112.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-name="SLV: CANAL 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(MA)
@@ -1097,6 +1099,8 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/198.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/199.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary", Discovery Channel(S2)
 http://clubtv.link/19julio/phpcode/lista3.php?c=a03w&token=TecnoplusJunio03&f=.m3u8
+#EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(US-FL0725)
+http://canal-pro.xyz:8080/996794768tv/a32hd22/23418
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(CUT)
 http://cord-cutter.net:8080/7bJBhh/138115/57645
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(4K)
@@ -1133,6 +1137,10 @@ http://152.200.150.150:8000/play/a0j1/index.m3u8
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/237.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/241.m3u8
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-FL0725)
+http://canal-pro.xyz:8080/996794768tv/a32hd22/236341
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-FL0725)
+http://canal-pro.xyz:8080/996794768tv/a32hd22/236362
 #EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/21315
 #EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(4K)
