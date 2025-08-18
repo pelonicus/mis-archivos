@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",17 Ago. 2025 12:18
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 Ago. 2025 09:26
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(PET9AGO)
 http://181.65.191.195:7090/play/a00p/index.m3u8
@@ -1155,6 +1155,282 @@ http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/363706
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/363707
 #EXTINF:-1,MTV Party Music(US-NJ0725)
 http://rfye55.xyz:80/98:06:3c:98:da:fa/881A863F2BD7/363708
+#EXTINF:-1,BEIN LALIGA 1HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12300
+#EXTINF:-1,BEIN SPORTS LA LIGA HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12301
+#EXTINF:-1,MOVISTAR DEPORTE 2 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12302
+#EXTINF:-1,MOVISTAR DEPORTE 3 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12303
+#EXTINF:-1,DAZN LA LIGA 2 TV HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12304
+#EXTINF:-1,BEIN SPORTS FHD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12305
+#EXTINF:-1,MOVISTAR LA LIGA HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12306
+#EXTINF:-1,MOVISTAR DEPORTES HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12307
+#EXTINF:-1,MOVISTAR ACCION HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12308
+#EXTINF:-1,MOVISTAR DRAMA HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12309
+#EXTINF:-1,COMEDY CENTRAL(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12311
+#EXTINF:-1, MOVISTAR CINE ESPAÑOL(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12313
+#EXTINF:-1,AXN MOVIES(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12320
+#EXTINF:-1,NICKELODEON(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12322
+#EXTINF:-1,CALLE 13 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12323
+#EXTINF:-1,Fox(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12324
+#EXTINF:-1,Neox HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12326
+#EXTINF:-1,Energy HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12327
+#EXTINF:-1,CLAN TVE(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12329
+#EXTINF:-1,Telecinco HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12330
+#EXTINF:-1,Cuatro HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12331
+#EXTINF:-1,Antena 3 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12332
+#EXTINF:-1,La 2 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12333
+#EXTINF:-1,La 1 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12334
+#EXTINF:-1,LA 1 HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12335
+#EXTINF:-1,WARNER HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12336
+#EXTINF:-1,#VAMOS HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12338
+#EXTINF:-1,MOVISTAR SERIES HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12339
+#EXTINF:-1,24 HORAS(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12340
+#EXTINF:-1,DISNEY CHANNEL HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12341
+#EXTINF:-1,ACCION HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12342
+#EXTINF:-1,IBERALIA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12343
+#EXTINF:-1,HISTORIA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12344
+#EXTINF:-1,MOVISTAR DEPORTES FHD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12345
+#EXTINF:-1,MOVISTAR SUSPENSE(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12347
+#EXTINF:-1,DAZN 1 SD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12348
+#EXTINF:-1,Odisea HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12349
+#EXTINF:-1,Movistar LaLiga HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12350
+#EXTINF:-1,COSMO(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12351
+#EXTINF:-1,MOVISTAR DRAMA HD(US-FL13AGO) HEVC
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12352
+#EXTINF:-1,MOVISTAR DEPORTESHD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12353
+#EXTINF:-1,LA LIGA TV BAR 1 [LIVE-EVENT](US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12354
+#EXTINF:-1,HOLLYWOODHD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12355
+#EXTINF:-1,FOX HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12357
+#EXTINF:-1,EUROSPORT 1 HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12358
+#EXTINF:-1,COMEDY CENTRAL HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12359
+#EXTINF:-1,#VAMOS HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12360
+#EXTINF:-1,AMC BREAK(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12365
+#EXTINF:-1,BABY TV(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12366
+#EXTINF:-1,MOVISTAR ORIGINALES(US-FL13AGO) HD
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12367
+#EXTINF:-1,24 Horas HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12368
+#EXTINF:-1,A3 Series HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12369
+#EXTINF:-1,MOVISTAR LALIGA HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12370
+#EXTINF:-1,BLOOMBERG(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12371
+#EXTINF:-1,MOVISTAR GOLF HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12372
+#EXTINF:-1,CANAL ODISEA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12373
+#EXTINF:-1,CANAL SUR(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12374
+#EXTINF:-1,AMC CRIME(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12375
+#EXTINF:-1,DISCOVERY HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12376
+#EXTINF:-1,DMAX(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12377
+#EXTINF:-1,GALICIA TV(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12379
+#EXTINF:-1,Movistar LaLiga(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12380
+#EXTINF:-1,MOVISTAR DEPORTES 2 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12382
+#EXTINF:-1,MOVISTAR COMEDIA HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12383
+#EXTINF:-1,MOVISTAR SERIE HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12384
+#EXTINF:-1,TOROLE TV HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12392
+#EXTINF:-1,TRECE TV(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12393
+#EXTINF:-1,TVE 24H(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12394
+#EXTINF:-1,Teledeporte HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12395
+#EXTINF:-1,MADRID TV HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12396
+#EXTINF:-1,DAZN F1 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12397
+#EXTINF:-1,MOVISTAR GOLF FHD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12398
+#EXTINF:-1,Movistar Deportes HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12399
+#EXTINF:-1,IBERALIA TV(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12400
+#EXTINF:-1,GOL PLAY(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12401
+#EXTINF:-1,Movistar Liga de Cam(US-FL13AGO)peones HD
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12404
+#EXTINF:-1,MEZZO LIVE HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12405
+#EXTINF:-1,Mega HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12406
+#EXTINF:-1,FOX HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12408
+#EXTINF:-1,FDF HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12409
+#EXTINF:-1,DKISS(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12410
+#EXTINF:-1,Divinity HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12411
+#EXTINF:-1,DISNEY CHANEL HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12412
+#EXTINF:-1,DIVINITY SD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12413
+#EXTINF:-1,Disney Jr(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12414
+#EXTINF:-1,CANAL DECASA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12415
+#EXTINF:-1,Cosmo HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12416
+#EXTINF:-1,Comedy Central HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12417
+#EXTINF:-1,CANAL COCINA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12418
+#EXTINF:-1,CLAN TVE(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12419
+#EXTINF:-1,Caza y Pesca HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12420
+#EXTINF:-1,CALLE 13 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12421
+#EXTINF:-1,AMC BREAK(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12422
+#EXTINF:-1,Be Mad HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12423
+#EXTINF:-1,AXN MOVIES HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12425
+#EXTINF:-1,AXN HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12426
+#EXTINF:-1,ARAGON TV(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12427
+#EXTINF:-1,AMC HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12428
+#EXTINF:-1,Nova HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12429
+#EXTINF:-1,Boing HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12430
+#EXTINF:-1,HOLLYWOOD HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12431
+#EXTINF:-1,XTRM(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12432
+#EXTINF:-1,BUEN VIAJE HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12433
+#EXTINF:-1,WARNER SD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12434
+#EXTINF:-1,TELEMADRID HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12435
+#EXTINF:-1,TCM HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12436
+#EXTINF:-1,SYFY HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12437
+#EXTINF:-1,SUNDANCE HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12438
+#EXTINF:-1,PARAMOUNT NETWORK(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12439
+#EXTINF:-1,ENFAMILIA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12440
+#EXTINF:-1,ODISEA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12441
+#EXTINF:-1,NICKELODEON HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12442
+#EXTINF:-1,NICK JUNIOR(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12443
+#EXTINF:-1,NAT GEO WILD HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12444
+#EXTINF:-1,NAT GEOGRAPHIC HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12445
+#EXTINF:-1,MTV ESPAÑA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12446
+#EXTINF:-1,MOVISTAR CINE HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12447
+#EXTINF:-1,MOVISTAR CINE ESPAÑOL HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12448
+#EXTINF:-1,DISNEY CHANNEL HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12449
+#EXTINF:-1,MOVISTAR ACCION HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12450
+#EXTINF:-1,La Sexta HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12451
+#EXTINF:-1,Cuatro HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12452
+#EXTINF:-1,Antena 3 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12453
+#EXTINF:-1,TVE LA 2 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12454
+#EXTINF:-1,TVE LA 1 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12455
+#EXTINF:-1,MOVISTAR COMEDIA HD HEV(US-FL13AGO)C
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12457
+#EXTINF:-1,MOVISTAR LIGA CAMPEONES 2 [LIVE-EVE(US-FL13AGO)NT]
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12458
+#EXTINF:-1,MOVISTAR LIGA CAMPEONES HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12459
+#EXTINF:-1,MEZZO LIVE HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12460
+#EXTINF:-1,NATIONAL GEO WILD HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12461
+#EXTINF:-1,SYFY HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12462
+#EXTINF:-1,TCM HD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12463
+#EXTINF:-1,Movistar LaLiga(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12465
+#EXTINF:-1,Movistar Liga de Campeones(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12468
+#EXTINF:-1,Movistar Deportes(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12470
+#EXTINF:-1,ETB 1 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12471
+#EXTINF:-1,ETB 2 HD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12476
+#EXTINF:-1,ETB Basque(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12485
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(CUT) 
 http://cord-cutter.net:8080/7bJBhh/138115/9811
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(1TV)
