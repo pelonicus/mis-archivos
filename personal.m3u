@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",01 Set. 2025 09:04
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",02 Set. 2025 11:00
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(PET9AGO)
 http://181.65.191.195:7090/play/a00p/index.m3u8
