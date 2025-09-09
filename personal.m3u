@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",08 Set. 2025 16:38
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",09 Set. 2025 09:46
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(PET9AGO)
 http://181.65.191.195:7090/play/a00p/index.m3u8
@@ -1155,355 +1155,111 @@ https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/610721
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/651037
 #EXTINF:-1 tvg-id="" tvg-name="M+: Mundotoro SD" tvg-logo="https://server3.welovepales.org:443/images/t3DjhmM20zDCbr8LtOC_A3MpqHy2mufk9DH7_OihloKXZnYHSQHc3XEG2E6ibuDI2XjDOwCGCkC-vWU4FV4PLQ.png" group-title="MUNDO TORO",M+: Mundotoro SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/704569
-#EXTINF:-1 tvg-id="" tvg-name="ES: MTV HD" tvg-logo="" group-title="MUSICA",ES: MTV HD
+#EXTINF:-1 tvg-id="" tvg-name="MTV HD" tvg-logo="" group-title="MUSICA",MTV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/706688
-#EXTINF:-1 tvg-id="" tvg-name="ES: MEZZO" tvg-logo="" group-title="MUSICA",ES: MEZZO
+#EXTINF:-1 tvg-id="" tvg-name="MEZZO" tvg-logo="" group-title="MUSICA",MEZZO
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/706692
-#EXTINF:-1 tvg-id="" tvg-name="ES: MEZZO LIVE HD" tvg-logo="" group-title="MUSICA",ES: MEZZO LIVE HD
+#EXTINF:-1 tvg-id="" tvg-name="MEZZO LIVE HD" tvg-logo="" group-title="MUSICA",MEZZO LIVE HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/706693
 #EXTINF:-1 tvg-id="" tvg-name="M+  SOL  MUSIC" tvg-logo="" group-title="MUSICA",M+  SOL  MUSIC
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/713146
 #EXTINF:-1 tvg-id="" tvg-name="M+ MTV VMAs 2025" tvg-logo="https://server3.welovepales.org:443/images/RFLtD-X-uKEg84ZvHWNOmSfGcdSfrZ34zy5vsL7GQ5QNIOCjDHatPQCevuhImEkDfjcrqTfT8XZQIfpvTXcWVw.png" group-title="MUSICA",M+ MTV VMAs 2025
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/718369
-#EXTINF:-1 tvg-id="" tvg-name="ES: MTV HD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDsDuHYi8hRRAfRlfYmUGznZ6T5k21zjRw1CIkL8g_JUph77UJ_zCFjr8xCy0uEh5wQ.png" group-title="MUSICA",ES: MTV HD
+#EXTINF:-1 tvg-id="" tvg-name="MTV HD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDsDuHYi8hRRAfRlfYmUGznZ6T5k21zjRw1CIkL8g_JUph77UJ_zCFjr8xCy0uEh5wQ.png" group-title="MUSICA",MTV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/718370
-#EXTINF:-1 tvg-id="" tvg-name="ES: MTV HD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDsDuHYi8hRRAfRlfYmUGznZ6T5k21zjRw1CIkL8g_JUph77UJ_zCFjr8xCy0uEh5wQ.png" group-title="MUSICA",ES: MTV HD
+#EXTINF:-1 tvg-id="" tvg-name="MTV HD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDsDuHYi8hRRAfRlfYmUGznZ6T5k21zjRw1CIkL8g_JUph77UJ_zCFjr8xCy0uEh5wQ.png" group-title="MUSICA",MTV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/718371
 #EXTINF:-1 tvg-id="" tvg-name="Music Choice | 90's" tvg-logo="https://archive.org/download/MusicChoice/music%20choice.jpg" group-title="MUSICA",Music Choice | 90's
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/718372
-#EXTINF:-1 tvg-id="Telemadrid" tvg-name="ESPAÑA | TELEMADRID (HD)" tvg-logo="https://server3.welovepales.org:443/images/GAQRNEGHjfwkZQyDZZn7dMS7LW0AEXSW_LLM-PxM85nrXe41k8e09OpD1K7jZPqF5GZ3PQ-c4Lbf2jtcBW9LqEX3LnLF9foVFqUuI7nm034.jpg" group-title="MUNDO TORO",ESPAÑA | TELEMADRID (HD)
+#EXTINF:-1 tvg-id="Telemadrid" tvg-name="TELEMADRID (HD)" tvg-logo="https://server3.welovepales.org:443/images/GAQRNEGHjfwkZQyDZZn7dMS7LW0AEXSW_LLM-PxM85nrXe41k8e09OpD1K7jZPqF5GZ3PQ-c4Lbf2jtcBW9LqEX3LnLF9foVFqUuI7nm034.jpg" group-title="MUNDO TORO",TELEMADRID (HD)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720224
-#EXTINF:-1 tvg-id="Telemadrid" tvg-name="ESPAÑA | TELEMADRID (FHD)" tvg-logo="https://server3.welovepales.org:443/images/GAQRNEGHjfwkZQyDZZn7dMS7LW0AEXSW_LLM-PxM85nrXe41k8e09OpD1K7jZPqF5GZ3PQ-c4Lbf2jtcBW9LqEX3LnLF9foVFqUuI7nm034.jpg" group-title="MUNDO TORO",ESPAÑA | TELEMADRID (FHD)
+#EXTINF:-1 tvg-id="Telemadrid" tvg-name="TELEMADRID (FHD)" tvg-logo="https://server3.welovepales.org:443/images/GAQRNEGHjfwkZQyDZZn7dMS7LW0AEXSW_LLM-PxM85nrXe41k8e09OpD1K7jZPqF5GZ3PQ-c4Lbf2jtcBW9LqEX3LnLF9foVFqUuI7nm034.jpg" group-title="MUNDO TORO",TELEMADRID (FHD)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720225
-#EXTINF:-1 tvg-id="CMM" tvg-name="ESPAÑA | CMT" tvg-logo="https://server3.welovepales.org:443/images/99m80DtdK0VBpZ_e43guME_IP-cOF8V8gGH51IgeEEYHtQ4eR_H6e0QrabHVQRSR4jqAkcrHsZ3vk-JkmInC0tCc5dHh9eiaLJlVyODH2gkMm-t-znz789pQOiSDfvLb.jpg" group-title="MUNDO TORO",ESPAÑA | CMT
+#EXTINF:-1 tvg-id="CMM" tvg-name="CMT" tvg-logo="https://server3.welovepales.org:443/images/99m80DtdK0VBpZ_e43guME_IP-cOF8V8gGH51IgeEEYHtQ4eR_H6e0QrabHVQRSR4jqAkcrHsZ3vk-JkmInC0tCc5dHh9eiaLJlVyODH2gkMm-t-znz789pQOiSDfvLb.jpg" group-title="MUNDO TORO",CMT
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720285
-#EXTINF:-1 tvg-id="" tvg-name="ES || TAQUILLA 1" tvg-logo="http://redmonkeytv.com:8080/images/12470fe406d44017d96eab37dd65fc14.png" group-title="TAQUILLA 24/7",ES || TAQUILLA 1
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720685
-#EXTINF:-1 tvg-id="" tvg-name="ES || TAQUILLA 2" tvg-logo="" group-title="TAQUILLA 24/7",ES || TAQUILLA 2
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720686
-#EXTINF:-1 tvg-id="" tvg-name="ES || TAQUILLA 3" tvg-logo="" group-title="TAQUILLA 24/7",ES || TAQUILLA 3
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720687
-#EXTINF:-1 tvg-id="" tvg-name="ES || TAQUILLA 5" tvg-logo="http://teamzz.net:8080/images/lzPinbFIQB_Bd6LG4LrxCsndKpuR3zaI4uu08onHqGICj0B3U8JVaQ8UG1uNiJplTbWkuo9gioC-4UoCbGR6wVlKguU3IT5uby1E6TLfjGkl2RBd1QcCtBUpnbQk3Qios6ahnoXrNH9XUfGo4lJ3GSwb8-Iw4bge3XL7xrtuUaB_nda79pYZC28lQIKaKpMpJKzn8hjW8X0Y0JQnsmAUyw.jpeg" group-title="TAQUILLA 24/7",ES || TAQUILLA 5
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720688
-#EXTINF:-1 tvg-id="" tvg-name="[ES]_ALQUILER 1 HD" tvg-logo="" group-title="TAQUILLA 24/7",[ES]_ALQUILER 1 HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720689
-#EXTINF:-1 tvg-id="" tvg-name="[ES]_ALQUILER 2 HD" tvg-logo="" group-title="TAQUILLA 24/7",[ES]_ALQUILER 2 HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720690
-#EXTINF:-1 tvg-id="" tvg-name="AQUI NO HAY QUIEN VIVA 24/7" tvg-logo="" group-title="TAQUILLA 24/7",AQUI NO HAY QUIEN VIVA 24/7
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720691
-#EXTINF:-1 tvg-id="" tvg-name="FISICA O QUIMICA FULL HD" tvg-logo="https://server3.welovepales.org:443/images/s0neKjnreh7wBM6AHzGbBHmTJpxTrDa1Y2hcqBzHhvKu5b6jccdzodU8BAiO47OsEmNJxaZ8RG_y48ssTKi4A2NYC7QKHKg9fsNVvcu-DDR2MXKXVms6x8lSz8sEuxfX.jpg" group-title="TAQUILLA 24/7",FISICA O QUIMICA FULL HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720692
-#EXTINF:-1 tvg-id="" tvg-name="EL CLUB DE LA COMEDIA" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDsDuHYi8hRRAfRlfYmUGznZl44X1DTX7y5Ldb3ZMu8Nqalx1VXwijEelIsdC-wwytI.JPG" group-title="TAQUILLA 24/7",EL CLUB DE LA COMEDIA
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720693
-#EXTINF:-1 tvg-id="" tvg-name="ES: Netflix Niños HD" tvg-logo="" group-title="TAQUILLA 24/7",ES: Netflix Niños HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720694
-#EXTINF:-1 tvg-id="" tvg-name="ES: A3Player Comedia 24H HD" tvg-logo="" group-title="TAQUILLA 24/7",ES: A3Player Comedia 24H HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720695
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 1" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_cine_y_series/Taquilla_1.png" group-title="TAQUILLA 24/7",ES: Taquilla 1
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720696
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 2" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_cine_y_series/Taquilla_2.png" group-title="TAQUILLA 24/7",ES: Taquilla 2
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720697
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 3" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_cine_y_series/Taquilla_3.png" group-title="TAQUILLA 24/7",ES: Taquilla 3
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720698
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 4" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_cine_y_series/Taquilla_4.png" group-title="TAQUILLA 24/7",ES: Taquilla 4
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720699
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 5" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_Entretenimiento/TaquillaTv5.png" group-title="TAQUILLA 24/7",ES: Taquilla 5
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720700
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 6" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_Entretenimiento/TaquillaTv6.png" group-title="TAQUILLA 24/7",ES: Taquilla 6
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720701
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 7" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_Entretenimiento/TaquillaTv7.png" group-title="TAQUILLA 24/7",ES: Taquilla 7
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720702
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 8" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_Entretenimiento/TaquillaTv8.png" group-title="TAQUILLA 24/7",ES: Taquilla 8
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720703
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 9" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_Entretenimiento/TaquillaTv9.png" group-title="TAQUILLA 24/7",ES: Taquilla 9
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720704
-#EXTINF:-1 tvg-id="" tvg-name="ES: Taquilla 10" tvg-logo="http://swedtv.vip/logos/spain/EU_Espana_cine_y_series/Taquilla_dies.png" group-title="TAQUILLA 24/7",ES: Taquilla 10
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720705
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Thriller SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Thriller SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720706
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Thriller HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Thriller HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720707
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Comedia SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Comedia SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720708
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Comedia HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Comedia HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720709
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Accion SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Accion SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720710
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Accion HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Accion HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720711
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Trash SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Trash SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720712
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Trash HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Trash HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720713
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Cine SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Cine SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720714
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Cine HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Cine HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720715
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Series SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Series SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720716
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Series HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Series HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720717
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Crimen SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Crimen SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720718
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Crimen HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Crimen HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720719
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Clasicos SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Clasicos SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720720
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Clasicos HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Clasicos HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720721
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Romance SD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Romance SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720722
-#EXTINF:-1 tvg-id="" tvg-name="ES: Runtime Romance HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",ES: Runtime Romance HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720723
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN CINE ESPAÑOL" tvg-logo="https://play-lh.googleusercontent.com/83p_CXCRvPSQRcZQvFrPJYvDralOoYJiK-hP4zuK8ChjD0-F1e5Sc3kyVe-DjOMiHGs=s180-rw" group-title="TAQUILLA 24/7",RAKUTEN CINE ESPAÑOL
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720724
-#EXTINF:-1 tvg-id="" tvg-name="MY TIME MOVIE NETWORK" tvg-logo="https://server3.welovepales.org:443/images/8vKyVntcAWyIuSl7Me3vvYsYSwe1Rq3wD2QXFJyqgCGQB0zug-8kryqc0BH2gcybnZuvd6-KFlowZV3rzF4NjrUW6_px6dfRIuCFmVgvLESrRnRzyhS5BvN17jJjK5II8qva0HqLNMvBLHuOII_mzfxvJH73Gzx1OS6RTuA3kqw.png" group-title="TAQUILLA 24/7",MY TIME MOVIE NETWORK
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720725
-#EXTINF:-1 tvg-id="" tvg-name="TASTEMADE" tvg-logo="https://server3.welovepales.org:443/images/naU1bJ5-YQjJ9n1HfuYEtew52g6JnCQ9S2WU1q83TNRduf1p0c-j21g_X9CPpPwvoJZIkLmPX2LXQj_ufMXedrewOvP51XHZMbzmxfjuP1hEYSJqJACg2JwL45Yojvhw2EyCW8q1RXp6R9ShfEAQCw.jpg" group-title="TAQUILLA 24/7",TASTEMADE
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720726
-#EXTINF:-1 tvg-id="" tvg-name="HOLA PLAY" tvg-logo="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAA3lBMVEUpKTHuAADzAAApKTD1AAD////tAAAcKjLsAQO0ERWNGR8hKjIoKTIqKTIVKTERKzOSFx2/DA+jExhaIyklKTG8DxFsHiWKHCKFHSQ6JS0AKzMZKjE0JSweHiitERZ8e4AAAADeAAAICBfaCAp0HiReXWNIJCyeFhzV1dZLIypmICclKi8wJy8SKzHSCQxCJC3t7e1wcHS7u71VJCvKCQldHyfdCAd8HSOuEhMlKzCVGiFwHyOnFhYYKTWYGRshKDQVFSFOTVM6O0GOjpGfn6PFxMbi4eOxsLNWVVzY2NlMH9tMAAAMm0lEQVR4nO2bi1/bOBLHbUm1HCRbeSgBbJprCJeUPLslJNASwnZv2+v//w/dyK/Y4AR6twdmme+nj9hWjPRjNBqNJMtCEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEAT5eyB1zEvXo8JIKiXoxBWfDC6AwYlQoYAH9KVrVjkopR4V66B12+73XJsQ2+ktG8ORP+VSey9du2ohqSdDMbpyGQOdbNuJ/zJmt8+8NXbIApLy6dGMERCIEJZgZHMI69Un/kvXr0Joqf3VktlGKXfRXI3OB4PB5dmw4RK4AX/qnHuUypeuZxWQdH2+MFKxXnekA58LLbQWIlSqNVwysC/WHynwaS9d0SowDg5d5thseUR9IY0JgTDg8COLE50FM9Y1VGMUy6JadJntsN4q4FKCRhKCBWp5yf9SBKMZmB2becI8e9voCTh2wm68cEdEJUVYJ8Qhy7mQb924wttat9v9qsDGZJnhGGNTF33wXL0Br2LEZeyfwnwj/kWmTQAPm/UDaWX1ll5cBFqVfl3G3/HyA1hBCCMLTcoK5a/BV1myPFin5j0bASMAcSeaWpXTS1ra5+dzxWVU1UgF6o2lzJozzsYm8MeeZdyxtX1qxd/QdNt6KJFrJs0JK82VfiRM12GbOWwmdPV6It3QGwifewcmGqR+AtfgP5LP66xHgEuZ+kpNQ65lck+GcEMpf7rm23d6NFRbfCVibeV4LITYbLTYXyUZNECtmj+unGVZUxiAHBjNb8CViJtuxNXN8fWmU4svap24cVqJTr1ba7drzaOBSrTh9UY7orHKJKBemN6NH42Eaba+6PUjlrVHwnStZ8Rmq/D/1eT/Gn9oYkQTJo4E9SGujnCPNT9k8WdWj4QR3tBJ7hBGZisVTeP8WrGUQVI1S0tGj27DMXgp0Up+EmmoRyol5i5Mf04qN1Hky7gFYPfK8t34wo7FSlQ8MDKEly6LJr3xc8IaE+PT/RqJv062Yll00rNzkJoylgViOc7TxLLWZ+DkHzPAZ0cPYn2gGbO13C2WuHAJPEyeO/CBzATdIZZu2QVmvnHyvyIWBbdls4tHnNtzo+duIgCZrelusXifOFvDgk+Ow7pTy5uWiSVWrCBWb2I61K+IZelj1zHlqjVL9I0KUWu7/k6xND8rNj+Wd3AtyyyL+k1SKOgcm8jrlyxLqhswrbmollg8tgIHmq53W5ZqFJtvvuGSIaflYt0rbcaOX7Qsa3wCBbvTaoklVc1kRgg5CmHiv0MsKdxtyzMhoNGlYlmiV9SVHZpnJWJRyoVlMg/3awXRbwBv7m3GzyTD04DZ2GpmO43LEOq8U6yTzF0tV4euk1zNhKVKxJITsvVukTrQw0vEop70hh0lrNIMgxhBZNqpWKx1rYIIU+nHxWIdFdRZctWnpaNhFlBlYi1UaTfU4ZCxxvmO9BVYM7mpVvQgRksIqmfwtx7uDB30VqzLDc/GuiWEnyVi8aP7o0Ev8ErEknQNIwGxu+G6pGIybBMy4yVPXg7RSTVpZqOhC2JdhwXLytzPpdhq0YdBq0Qsv8uSJZvsW74ss6xk2GTuIYfp4/0kg4Cf40wqFcWDa0j6SjMfOswn3kGZWORSF8Qq64ZqFj920hDOYQOxRyyYDswup9rTxd4oWjBBvKi8WI5TMIuiWJtHxeJu/HVyNUtfcbZHLJgOwDy+fXIvyyDHx278xepQbln50awoVitvWfqhWNTS58nKKTlsJ2EG+8JLQ4dwSNIfR5zh2CxhZBXzxqJH4nlpZSgXK889sXI+a6lLQgcpzlj8GtYZsnR2oMrEkqlYcfHl16DQ6VTfJreVGg7/crEsfktiy2STVZKogNihLM4qiGWW8GfHW7WoF8xsMqxUoPW/iNUvE4uqdhKTusEFifIUjt0bl4rl5y0LirLcRAhGWiNWtSyrk4SY+8SivyCWJfrJ40UgUt/nzHVZN+Q5sVwz5zrLuyhVPcv6i8Wi+jjN+TT9oG8nTutSlIjl5cVyCGuf56TxJF8SVn/dYun9YnnZZIetRJbtYke8zLLy3ZD1R/51PnjQJ655x/NLspssgs+L5TpmXWErlj7eJdbDOCt7TAZcHSWxvPE9uhW5e+d+N3Qcs17iHk2LulATgsCE4Zn12EuZWBCTHqtph5WIZd/rhg/EkqqbWIu7Wq0O0kCr5lOwrGgZg7EHPouQm0l4P09jEo5sUqktD6WWZbsDLc7KxXqkG1pqkXUsECcNb2FGrAfdZkwaaSaWBaY2V5rS4mzHW98we7l5Zjn2U25ZO8UiFybrkKZoNmnWARpc5xICcEmDzO/lZ9M9rS3th2vfh39Sp23iLPDry47SZpNAUawxh5i07VcqU7pTLH6Wn0hnKZqDIEj7md0X2XTHhQdmJZvKk5JsPbz9xOxw0KEfhtvle8rrjLgHQpQpogcsGheqxJPE8nSqj0Mai/QzWUy9tBtCVzIdbEg3I5afWGZdsgWeOpwPG43hPEz8kLbGJwtwVvphWtkyq78Q0R5Xawn/Sd3QUstt5p3YSVoZZnxpDh6GhMh393QSDThJD0yFI4ec8pFrtmc5X1NzoVJOQ71j+7vqPW1l4zl5kljSb5Z0LtbZZA4+oadVO0sk5MViTa4HqXCPL55KKzyAXjgS9HX4LFHohhclYvX8sXwglt9Ph8d403YqUEOpq2SFkrUfXzekemmy0RXbivsksShdLwqiRG2u+162FJaKJU7itR/Hnp1BnHV0lk4U+0HQiw3NhRn2o9VStxBkrXjFtmg9zWdZ4jyfEYz06PPcxpBULN5KHX4z4JyL4Cq5dniQJFBBZiX3HtPxLHHMbDKr1LzQ8ESxLL+wf8GUa+U3hqRiQbEk8xeP+vxL+rV5MEu6od3b3w3htSEYMqnWVMfwVLE8dWRnukAM6l5GfeS+WKpJErHOozzeNl02Ul/iVKDDHsm7UJgygXfvqkqFDQYQK9ly1gytbDObA2KtitvUqH+xiI8m2YSR2pxHS1fZZraYnlok13a0zEz1SfoWiB1mzKyEkOXe9S2zYxlGQrLcVGskNIjLRSPmYHMt2snnxnysO+nndIVF++dfGsteb9k+PPGTwJLfNvK05U3tytBtbqKNuXIaX1/VVkJ7DTNELvZqJT2pDo11nnOvcpZFN9Nko+yaeuNoN62aKpNZEukOWp5tN96EKvCnwZrrzEFzNc1ttuXabL2Fec90HW25heYm23jVhnp6enF02JruG+IgZgjq5gjPiEuvWrtCLLOGbsmY6GRIdGH2P1IvuW9lJ0MkjY7ZRJvfM8w+7wxqpTOXRBBKk93ilqbmAOuGT7WMd4jvqIzwr8zhnhWEJW/9YKsn1ms/9HX5GTkPXPt5H7QiK6XfuFJgOceL/mzWr01UqdvSnA9N7G+Ppq/uoFPSDe/deVBK5Lpl8rykWIym5qwJsYfHvrBk0YELf3LgRofCzMGdisXu+wFn48HI5N2d5m7KBwOUhOF07aV2Ao+993DzvbfDKVljdeBAbMqcWidUXMjk/Ivgat1q9pgJS25C8cpOskr6/h/vIj5vOwSFy3++L5abDtmtn0r4uyl/ap3++e7dp29lDYaC4XHbHJAmxG0fXIAP42HI9flRbWlHJ1xnLfUgaVp1tmK9+5RK4ZWIFSWc5+m85O4PKPHbafRvsVz6ijEMiUGrYZJiYESMuEvwYT0SZ+sJWZwFwnp9w2Ak1vd/fYZ2/5G0OxZLby0GAoOgQdztUQh5+hHENfb147Q0ooz9tlAXNy67l/QhzG6PoiNBr6sPGiKx/vzwAXrU57v4lozEyvkTzwpH5pQUG6WmJa3YGr9/2NtiCOz9VnPmRgtAJqq33f4NODFRmmCuPqlYH/eIRc2+BrNHoZ8lqJLO+/v7R8TyrOswmFx8PaoPh7eHZ62TqW8mm9WbDj6JSKxPPz7mumEsVj5C8s2+U7NX6DCMggUI90+jjnu3v9VmEPQk1VoY9w5/RLzi88pGwYytg//+Ppvu3HPwmmb5rUkaF8lvUOjDs1f3ZYnF+vTp+4/s1/1ALHWVOmnWzPJ5xr2fWm+LxGednt5lKeBIrH/f3cVyUbOdOM00u2yedk9jWXcvUuWXIxLrY8FEPM/Y2vfvn+ITz5a/iHbARLtg7Gyzx7e3allFsSLLMkTOnIqvhbO9SfhA32Y3/O3nzx93+VuS/vxo+Bk7c31eyJGme2e/QaG7+2/72/Me/FXxjjyNiT0+1bkUqfKzkAIKPGMtEQRBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEAR5DfwHe9sPf1sCkBYAAAAASUVORK5CYII=" group-title="TAQUILLA 24/7",HOLA PLAY
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720727
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - CINE ESPAÑOL SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIEVAhgoKvZKrzXq2qA3bk54QXzo55G2kBrflxa4asVxNObcPFxyuXx1O_RCRyX2oLxRo&usqp=CAU" group-title="TAQUILLA 24/7",RAKUTEN TV - CINE ESPAÑOL SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720728
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - CINE ESPAÑOL HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIEVAhgoKvZKrzXq2qA3bk54QXzo55G2kBrflxa4asVxNObcPFxyuXx1O_RCRyX2oLxRo&usqp=CAU" group-title="TAQUILLA 24/7",RAKUTEN TV - CINE ESPAÑOL HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720729
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - THRILLER SD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIh6XptYY47Eu0or6VsFyRqbPxirUcGxB8HhrpJPspbrc4hoT586oL6VvOKluAqFPnTNQBGGdmwgvt8NwzJ1125MIFQumXmz-XhpXYIvw142YQbVS7xSb2BlkqUebM5Mk2JlPeDH0GDBIiUBhK03Wu-jA.png" group-title="TAQUILLA 24/7",RAKUTEN TV - THRILLER SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720730
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - THRILLER HD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIh6XptYY47Eu0or6VsFyRqbPxirUcGxB8HhrpJPspbrc4hoT586oL6VvOKluAqFPnTNQBGGdmwgvt8NwzJ1125MIFQumXmz-XhpXYIvw142YQbVS7xSb2BlkqUebM5Mk2JlPeDH0GDBIiUBhK03Wu-jA.png" group-title="TAQUILLA 24/7",RAKUTEN TV - THRILLER HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720731
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - ROMANTICAS SD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIh6XptYY47Eu0or6VsFyRqbLLCxsq4oSF2R7L7cJirTq586Wb3fa6knFbzAQe1Mrfe-E3zgTB6WEJ3yHKsiXvj7d5nnWb2RriQ8gcLRtafxfaGGa36PaCjZqN_9mOjABh5SSAKCAeePLI-rdVRpRsfkw.png" group-title="TAQUILLA 24/7",RAKUTEN TV - ROMANTICAS SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720732
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - ROMANTICAS HD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDvJYTsY1bNu9_JhPl--18Z0s2Bk3MEIqh6YP5hWPbUoYJZ1bEnh7iAdl56T0dw0CLy4z11S6r-lpr8rr_SATIVcm0Dq1GoCPNontQLl4NGKRQ.png" group-title="TAQUILLA 24/7",RAKUTEN TV - ROMANTICAS HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720733
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - TOP PELICULAS SD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDvJYTsY1bNu9_JhPl--18Z0s2Bk3MEIqh6YP5hWPbUoYJZ1bEnh7iAdl56T0dw0CLy4z11S6r-lpr8rr_SATIVcm0Dq1GoCPNontQLl4NGKRQ.png" group-title="TAQUILLA 24/7",RAKUTEN TV - TOP PELICULAS SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720734
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - TOP PELICULAS HD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDvJYTsY1bNu9_JhPl--18Z0s2Bk3MEIqh6YP5hWPbUoYJZ1bEnh7iAdl56T0dw0CLy4z11S6r-lpr8rr_SATIVcm0Dq1GoCPNontQLl4NGKRQ.png" group-title="TAQUILLA 24/7",RAKUTEN TV - TOP PELICULAS HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720735
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - CONOCIMIENTO SD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDvJYTsY1bNu9_JhPl--18Z0s2Bk3MEIqh6YP5hWPbUoYEOsCuY1fJsrOJ2QtzwftLEkNNiT1wEzoOg9y01cbHyFnF1YqnLQ5yl52_McyF-crA.png" group-title="TAQUILLA 24/7",RAKUTEN TV - CONOCIMIENTO SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720736
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - CONOCIMIENTO HD" tvg-logo="https://server3.welovepales.org:443/images/xVFeCpLB6XyM43Z63ST1MEc94P5pJ57CwpqM_xilXDvJYTsY1bNu9_JhPl--18Z0s2Bk3MEIqh6YP5hWPbUoYEOsCuY1fJsrOJ2QtzwftLEkNNiT1wEzoOg9y01cbHyFnF1YqnLQ5yl52_McyF-crA.png" group-title="TAQUILLA 24/7",RAKUTEN TV - CONOCIMIENTO HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720737
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - EN FAMILIA SD" tvg-logo="https://yo1.runikre.uno:8443/images/1vkLtDvTBW-2oaxWXZYaCxnbf1ovIuX-fjcgZrahwm7iAgNrwvNT_Iw4cpvpXVy9eblKViVlpOPUOy8Cyz0La6tqWzeYTbI7j_nP6BtKhHD9lQ8VUWGrvA2orlJJtUUgYaXJmJcTkbRK_qXEu8CMOcFl2ughog_3iNZEIUYSPi-VEUArj27sQohMrUfsRmS2wSwp9scB_RuA8Gs-2UyQww.png" group-title="TAQUILLA 24/7",RAKUTEN TV - EN FAMILIA SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720738
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - EN FAMILIA HD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIh6XptYY47Eu0or6VsFyRqbBfWS-R9LKTVnlP055T-z_VLBCinjnY4pTcMc6dXzF5JSZym8vB1cYfFDX_hsuyEQ4SokYXrvkrv9lKVyfDnEPNTOM2RkOhCW5q35lHFsWRVmy4Iq__O0pwiqa6L6tFlag.png" group-title="TAQUILLA 24/7",RAKUTEN TV - EN FAMILIA HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720739
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - DRAMA SD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIhM0NvJjvpIXNK-ugqIKjXiF8EjF7QmfnGu5oGUQqIl45xwGTTT1giA2hnDUfr9VLpudo3fqZdthiCn-FJR3I3hyQiiBrquXaVxKveduvdJ446fWupIm1g6YHJ1Ir_Oz8YFrmdZG3z5XkRkusYY4ldaw.png" group-title="TAQUILLA 24/7",RAKUTEN TV - DRAMA SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720740
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - DRAMA HD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIhM0NvJjvpIXNK-ugqIKjXiF8EjF7QmfnGu5oGUQqIl45xwGTTT1giA2hnDUfr9VLpudo3fqZdthiCn-FJR3I3hyQiiBrquXaVxKveduvdJ446fWupIm1g6YHJ1Ir_Oz8YFrmdZG3z5XkRkusYY4ldaw.png" group-title="TAQUILLA 24/7",RAKUTEN TV - DRAMA HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720741
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - COMEDIA SD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIhIleCrRL0FFYyE1K-SHwtJJmKYkLNedeIYiap3ElZNFMxntgXDuSMZL5wreAi3MNjab66wJEb4XfPwaR54iX4__xuUtFRPkFaToArgLPes4hgEZzBAKJcgH7ANvQi7wv3fj45xEb1WDI2MigvA-PhKQ.png" group-title="TAQUILLA 24/7",RAKUTEN TV - COMEDIA SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720742
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - COMEDIA HD" tvg-logo="https://server3.welovepales.org:443/images/8tgsxVhNleHf1TBSG0YiT-bXu_1id3mupy-1te7Hfi6ealrTdhyvrB0X5DlV8YIhIleCrRL0FFYyE1K-SHwtJJmKYkLNedeIYiap3ElZNFMxntgXDuSMZL5wreAi3MNjab66wJEb4XfPwaR54iX4__xuUtFRPkFaToArgLPes4hgEZzBAKJcgH7ANvQi7wv3fj45xEb1WDI2MigvA-PhKQ.png" group-title="TAQUILLA 24/7",RAKUTEN TV - COMEDIA HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720743
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - ACCION SD" tvg-logo="https://server3.welovepales.org:443/images/kz0_AmlJ2pOX0T9Vk77xmDqRqyXKzWaUJKyS6_Wey76D66xic_2z0ctehxvaNa94se8rA_sEyoRgGbKZx2XpOabQvYJhonmDm3SEsNywFjJY_u-sO7oOY_bD0ancxSUKjuvom3LsivmB0NQUb9SRmg.png" group-title="TAQUILLA 24/7",RAKUTEN TV - ACCION SD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720744
-#EXTINF:-1 tvg-id="" tvg-name="RAKUTEN TV - ACCION HD" tvg-logo="https://server3.welovepales.org:443/images/kz0_AmlJ2pOX0T9Vk77xmDqRqyXKzWaUJKyS6_Wey76D66xic_2z0ctehxvaNa94se8rA_sEyoRgGbKZx2XpOabQvYJhonmDm3SEsNywFjJY_u-sO7oOY_bD0ancxSUKjuvom3LsivmB0NQUb9SRmg.png" group-title="TAQUILLA 24/7",RAKUTEN TV - ACCION HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720745
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME THRILLER HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME THRILLER HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720746
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME THRILLER SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME THRILLER SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720747
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME COMEDIA HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME COMEDIA HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720748
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME COMEDIA SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME COMEDIA SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720749
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME ACCION HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME ACCION HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720750
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME ACCION SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME ACCION SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720751
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME TRASH HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME TRASH HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720752
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME TRASH SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME TRASH SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720753
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CINE HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CINE HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720754
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CINE SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CINE SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720755
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME SERIES HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME SERIES HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720756
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME SERIES SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME SERIES SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720757
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CRIMEN HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CRIMEN HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720758
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CRIMEN SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CRIMEN SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720759
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CLASICOS HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CLASICOS HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720760
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CLASICOS SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CLASICOS SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720761
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME ROMANCE HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME ROMANCE HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720762
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME ROMANCE SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME ROMANCE SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720763
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CRIMEN HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CRIMEN HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720764
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CRIMEN SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CRIMEN SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720765
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CRIMEN HD" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CRIMEN HD
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720766
-#EXTINF:-1 tvg-id="" tvg-name="RUNTIME CRIMEN SD PLUS" tvg-logo="https://server3.welovepales.org:443/images/exc5Lq763DY_-vJiq5dEvLuaz31UZ_9Aac540gNiPhufHQmpADwBa0ZFRutA7hvY2w3ofG_9IYtdroaM19bGJQ.jpg" group-title="TAQUILLA 24/7",RUNTIME CRIMEN SD PLUS
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720767
 #EXTINF:-1 tvg-id="" tvg-name="M+ WARNER TV HD" tvg-logo="" group-title="M+  SERIES",M+ WARNER TV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720768
 #EXTINF:-1 tvg-id="" tvg-name="~• AUTONOMICAS (ES) •~" tvg-logo="" group-title="AUTONOMICOS",~• AUTONOMICAS (ES) •~
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720769
 #EXTINF:-1 tvg-id="" tvg-name="7RM FHD (ES)" tvg-logo="" group-title="MUNDO TORO",7RM FHD (ES)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720770
-#EXTINF:-1 tvg-id="" tvg-name="7TV Andalucia FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Andalucia FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720771
-#EXTINF:-1 tvg-id="" tvg-name="7TV Almeria FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Almeria FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720772
-#EXTINF:-1 tvg-id="" tvg-name="7TV Arcos FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Arcos FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720773
-#EXTINF:-1 tvg-id="" tvg-name="7TV Algeciras FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Algeciras FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720774
-#EXTINF:-1 tvg-id="" tvg-name="7TV Cadiz FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Cadiz FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720775
-#EXTINF:-1 tvg-id="" tvg-name="7TV Jerez FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Jerez FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720776
-#EXTINF:-1 tvg-id="" tvg-name="7TV Rota FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Rota FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720777
-#EXTINF:-1 tvg-id="" tvg-name="7TV Cordoba FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Cordoba FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720778
-#EXTINF:-1 tvg-id="" tvg-name="7TV Granada FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Granada FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720779
-#EXTINF:-1 tvg-id="" tvg-name="7TV Jaen FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Jaen FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720780
-#EXTINF:-1 tvg-id="" tvg-name="7TV Linares FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Linares FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720781
-#EXTINF:-1 tvg-id="" tvg-name="7TV Malaga FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Malaga FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720782
-#EXTINF:-1 tvg-id="" tvg-name="7TV Aljarafe FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Aljarafe FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720783
-#EXTINF:-1 tvg-id="" tvg-name="7TV Sevilla FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Sevilla FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720784
-#EXTINF:-1 tvg-id="" tvg-name="7TV Sevilla (ES)" tvg-logo="" group-title="AUTONOMICOS",7TV Sevilla (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720785
-#EXTINF:-1 tvg-id="" tvg-name="PTV SEVILLA HD (ES)" tvg-logo="" group-title="AUTONOMICOS",PTV SEVILLA HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720786
-#EXTINF:-1 tvg-id="" tvg-name="Tv3 SD (ES)" tvg-logo="" group-title="AUTONOMICOS",Tv3 SD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720787
-#EXTINF:-1 tvg-id="" tvg-name="Esport 3 FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",Esport 3 FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720788
-#EXTINF:-1 tvg-id="" tvg-name="Tele7 (ES)" tvg-logo="https://server3.welovepales.org:443/images/q_VIqoeMowxFHL8ENWeRW0dCIBoDk38uhctyxdEYWSQbUUrPKva2WZrrOQKKhO6IcFISfOdZjaUYhjU1U8zlD0tAjUAuoO9V576lmUMPzCo.png" group-title="AUTONOMICOS",Tele7 (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720789
-#EXTINF:-1 tvg-id="" tvg-name="IB3 Global (ES)" tvg-logo="" group-title="AUTONOMICOS",IB3 Global (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720790
-#EXTINF:-1 tvg-id="" tvg-name="Super 3/33 (ES)" tvg-logo="" group-title="AUTONOMICOS",Super 3/33 (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720791
-#EXTINF:-1 tvg-id="" tvg-name="3/24 SD (ES)" tvg-logo="" group-title="AUTONOMICOS",3/24 SD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720792
-#EXTINF:-1 tvg-id="CANAL SUR A." tvg-name="Canal Sur HD (ES)" tvg-logo="https://server3.welovepales.org:443/images/q_VIqoeMowxFHL8ENWeRW0dCIBoDk38uhctyxdEYWSQiqCxMnX9e_TI6HFH6qGegAZA35CqdWYmtLwdhPVaYisNlOB6iqVEKJpERjrkPwzw.png" group-title="MUNDO TORO",Canal Sur HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720793
-#EXTINF:-1 tvg-id="Aragón TV" tvg-name="Aragon Tv SD (ES)" tvg-logo="" group-title="MUNDO TORO",Aragon Tv SD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720794
-#EXTINF:-1 tvg-id="" tvg-name="TV3 FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",TV3 FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720795
-#EXTINF:-1 tvg-id="" tvg-name="A Punt HD (ES)" tvg-logo="" group-title="AUTONOMICOS",A Punt HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720796
-#EXTINF:-1 tvg-id="Telemadrid" tvg-name="TeleMadrid FHD (ES)" tvg-logo="" group-title="MUNDO TORO",TeleMadrid FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720797
-#EXTINF:-1 tvg-id="" tvg-name="La Otra SD (ES)" tvg-logo="" group-title="AUTONOMICOS",La Otra SD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720798
-#EXTINF:-1 tvg-id="" tvg-name="Galicia TV HD (ES)" tvg-logo="" group-title="AUTONOMICOS",Galicia TV HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720799
-#EXTINF:-1 tvg-id="" tvg-name="Galicia TV 2 HD (ES)" tvg-logo="" group-title="AUTONOMICOS",Galicia TV 2 HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720800
-#EXTINF:-1 tvg-id="CMM" tvg-name="CMM TV HD (ES)" tvg-logo="https://server3.welovepales.org:443/images/q_VIqoeMowxFHL8ENWeRW0dCIBoDk38uhctyxdEYWSRTFqGq3KzPd6k8ogCCZq5mbsxOLOwMHuHHxeymZd7hUF_dOse-As4bCsMnJAzVh6w.png" group-title="AUTONOMICOS",CMM TV HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720801
-#EXTINF:-1 tvg-id="" tvg-name="TV Canaria (ES)" tvg-logo="" group-title="AUTONOMICOS",TV Canaria (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720802
-#EXTINF:-1 tvg-id="" tvg-name="Sal TV Cadiz (ES)" tvg-logo="" group-title="AUTONOMICOS",Sal TV Cadiz (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720803
-#EXTINF:-1 tvg-id="" tvg-name="Canal Parlamento SD (ES)" tvg-logo="" group-title="AUTONOMICOS",Canal Parlamento SD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720804
-#EXTINF:-1 tvg-id="ETB" tvg-name="ETB 1 HD (ES)" tvg-logo="" group-title="AUTONOMICOS",ETB 1 HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720805
-#EXTINF:-1 tvg-id="" tvg-name="ETB 2 HD (ES)" tvg-logo="" group-title="AUTONOMICOS",ETB 2 HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720806
-#EXTINF:-1 tvg-id="" tvg-name="ETB 3 HD (ES)" tvg-logo="" group-title="AUTONOMICOS",ETB 3 HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720807
-#EXTINF:-1 tvg-id="" tvg-name="ETB 4 HD (ES)" tvg-logo="" group-title="AUTONOMICOS",ETB 4 HD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/720808
-#EXTINF:-1 tvg-id="" tvg-name="M +Trece FHD (ES)" tvg-logo="" group-title="AUTONOMICOS",M +Trece FHD (ES)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/721611
-#EXTINF:-1 tvg-id="" tvg-name="ES| La 1 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMhPp-PIbimaR65nwsDCl6tmI5uFqIggc1Bcv6-tbXrNZFkWdILdfstEin438BCwnQg.png" group-title="M+ TDT",ES| La 1 FHD
+#EXTINF:-1 tvg-id="" tvg-name="La 1 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMhPp-PIbimaR65nwsDCl6tmI5uFqIggc1Bcv6-tbXrNZFkWdILdfstEin438BCwnQg.png" group-title="M+ TDT",La 1 FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724236
-#EXTINF:-1 tvg-id="" tvg-name="ES| La 1 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxWTStjEIzzToxU67kLOQlcnKnIvSWIXv4wfTw5PjIgDSEQpVAAwNQDFeAhSIstDNvfh78DD7xi1zG5lpJdDps24.png" group-title="M+ TDT",ES| La 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="La 1 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxWTStjEIzzToxU67kLOQlcnKnIvSWIXv4wfTw5PjIgDSEQpVAAwNQDFeAhSIstDNvfh78DD7xi1zG5lpJdDps24.png" group-title="M+ TDT",La 1 HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724237
-#EXTINF:-1 tvg-id="" tvg-name="ES| La 1 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cb3YPSBRxlwAL2i51w-AbZ4gz5Ttuk2qpmd5RXmO0jZgPvrmMAkIw4NnSrOGSNd2zlI2wB7ZU28xpTHWK_rGNBayVDGGUMTBxBYLq-6GOmII.png" group-title="M+ TDT",ES| La 1 SD
+#EXTINF:-1 tvg-id="" tvg-name="La 1 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cb3YPSBRxlwAL2i51w-AbZ4gz5Ttuk2qpmd5RXmO0jZgPvrmMAkIw4NnSrOGSNd2zlI2wB7ZU28xpTHWK_rGNBayVDGGUMTBxBYLq-6GOmII.png" group-title="M+ TDT",La 1 SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724238
-#EXTINF:-1 tvg-id="" tvg-name="ES| La 2 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxVMe__7o3zio1irrrkw_nuGcJE9inKLKv6cJTbdr43Ea1YyWXdjdr226x5uVKzx_x-iZsaAoA70rsr5s86tRSgQ.png" group-title="M+ TDT",ES| La 2 FHD
+#EXTINF:-1 tvg-id="" tvg-name="La 2 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxVMe__7o3zio1irrrkw_nuGcJE9inKLKv6cJTbdr43Ea1YyWXdjdr226x5uVKzx_x-iZsaAoA70rsr5s86tRSgQ.png" group-title="M+ TDT",La 2 FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724239
-#EXTINF:-1 tvg-id="" tvg-name="ES| La 2 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxVMe__7o3zio1irrrkw_nuGcJE9inKLKv6cJTbdr43Ea1YyWXdjdr226x5uVKzx_x-iZsaAoA70rsr5s86tRSgQ.png" group-title="M+ TDT",ES| La 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="La 2 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxVMe__7o3zio1irrrkw_nuGcJE9inKLKv6cJTbdr43Ea1YyWXdjdr226x5uVKzx_x-iZsaAoA70rsr5s86tRSgQ.png" group-title="M+ TDT",La 2 HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724240
-#EXTINF:-1 tvg-id="" tvg-name="ES| La 2 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cb3YPSBRxlwAL2i51w-AbZzG988j1CJYJ-zgNRG4lMdf9qppZdFrCCOwgZ1DC4zMYSeA5A6dWOJxwyP7SeRlo6f0VpntSOyQjR3ZSe1KHYQ8.png" group-title="M+ TDT",ES| La 2 SD
+#EXTINF:-1 tvg-id="" tvg-name="La 2 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cb3YPSBRxlwAL2i51w-AbZzG988j1CJYJ-zgNRG4lMdf9qppZdFrCCOwgZ1DC4zMYSeA5A6dWOJxwyP7SeRlo6f0VpntSOyQjR3ZSe1KHYQ8.png" group-title="M+ TDT",La 2 SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724241
-#EXTINF:-1 tvg-id="" tvg-name="ES| Antena 3 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxYrQx-ZbLuvnEevWX8U5OT-UdHKr6lC5QTAt9hINiXJLpRTBk-lc_jlE7jDEs7j0U9mtk-lDKaqma79GIcDn8HQ.png" group-title="M+ TDT",ES| Antena 3 FHD
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxYrQx-ZbLuvnEevWX8U5OT-UdHKr6lC5QTAt9hINiXJLpRTBk-lc_jlE7jDEs7j0U9mtk-lDKaqma79GIcDn8HQ.png" group-title="M+ TDT",Antena 3 FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724242
-#EXTINF:-1 tvg-id="" tvg-name="ES| Antena 3 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxYrQx-ZbLuvnEevWX8U5OT-UdHKr6lC5QTAt9hINiXJLpRTBk-lc_jlE7jDEs7j0U9mtk-lDKaqma79GIcDn8HQ.png" group-title="M+ TDT",ES| Antena 3 HD
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxYrQx-ZbLuvnEevWX8U5OT-UdHKr6lC5QTAt9hINiXJLpRTBk-lc_jlE7jDEs7j0U9mtk-lDKaqma79GIcDn8HQ.png" group-title="M+ TDT",Antena 3 HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724243
-#EXTINF:-1 tvg-id="" tvg-name="ES| Antena 3 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0OEld9Y3HBgsdHatHwxe3Z0Lw6f_QwsaluuAC4vcfFsIVR7CAhb6UE1eVxiDRThzpF_YYPy7_E5EKN_xw-Vw-fk.png" group-title="M+ TDT",ES| Antena 3 SD
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0OEld9Y3HBgsdHatHwxe3Z0Lw6f_QwsaluuAC4vcfFsIVR7CAhb6UE1eVxiDRThzpF_YYPy7_E5EKN_xw-Vw-fk.png" group-title="M+ TDT",Antena 3 SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724244
-#EXTINF:-1 tvg-id="" tvg-name="ES| Cuatro FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxSYAiEm0ehIUePoAu-Ib1Eioo_6BwNzeY8ZjDiooAOpKk_FQ8W9s5_0rwoxmQZAF0PDK054q_ONRFzbb6WkiNCA.png" group-title="M+ TDT",ES| Cuatro FHD
+#EXTINF:-1 tvg-id="" tvg-name="Cuatro FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxSYAiEm0ehIUePoAu-Ib1Eioo_6BwNzeY8ZjDiooAOpKk_FQ8W9s5_0rwoxmQZAF0PDK054q_ONRFzbb6WkiNCA.png" group-title="M+ TDT",Cuatro FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724245
-#EXTINF:-1 tvg-id="" tvg-name="ES| Cuatro HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxSYAiEm0ehIUePoAu-Ib1Eioo_6BwNzeY8ZjDiooAOpKk_FQ8W9s5_0rwoxmQZAF0PDK054q_ONRFzbb6WkiNCA.png" group-title="M+ TDT",ES| Cuatro HD
+#EXTINF:-1 tvg-id="" tvg-name="Cuatro HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxSYAiEm0ehIUePoAu-Ib1Eioo_6BwNzeY8ZjDiooAOpKk_FQ8W9s5_0rwoxmQZAF0PDK054q_ONRFzbb6WkiNCA.png" group-title="M+ TDT",Cuatro HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724246
-#EXTINF:-1 tvg-id="" tvg-name="ES| Cuatro SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czMyDRVzwOLrsxK1Z87pIA2DjR9uaasifZf31cUKZNL-yFSh826lMNW9jQVTDXv8qYp73qsBv1MNZn4v_abnjpYIQAmu_0M3LO_py6HYkCBo.png" group-title="M+ TDT",ES| Cuatro SD
+#EXTINF:-1 tvg-id="" tvg-name="Cuatro SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czMyDRVzwOLrsxK1Z87pIA2DjR9uaasifZf31cUKZNL-yFSh826lMNW9jQVTDXv8qYp73qsBv1MNZn4v_abnjpYIQAmu_0M3LO_py6HYkCBo.png" group-title="M+ TDT",Cuatro SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724247
-#EXTINF:-1 tvg-id="" tvg-name="ES| Telecinco FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxRx9TAbPN6iEv2kM5NDzchEB5NKakrB0w3YnJLyLNdTBpm5zY_lyQM4FMJQjABYjMPGfb0Wcodto7u4NUL7CwnQ.png" group-title="M+ TDT",ES| Telecinco FHD
+#EXTINF:-1 tvg-id="" tvg-name="Telecinco FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxRx9TAbPN6iEv2kM5NDzchEB5NKakrB0w3YnJLyLNdTBpm5zY_lyQM4FMJQjABYjMPGfb0Wcodto7u4NUL7CwnQ.png" group-title="M+ TDT",Telecinco FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724248
-#EXTINF:-1 tvg-id="" tvg-name="ES| Telecinco HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxRx9TAbPN6iEv2kM5NDzchEB5NKakrB0w3YnJLyLNdTBpm5zY_lyQM4FMJQjABYjMPGfb0Wcodto7u4NUL7CwnQ.png" group-title="M+ TDT",ES| Telecinco HD
+#EXTINF:-1 tvg-id="" tvg-name="Telecinco HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxRx9TAbPN6iEv2kM5NDzchEB5NKakrB0w3YnJLyLNdTBpm5zY_lyQM4FMJQjABYjMPGfb0Wcodto7u4NUL7CwnQ.png" group-title="M+ TDT",Telecinco HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724249
-#EXTINF:-1 tvg-id="" tvg-name="ES| Telecinco SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cMMcQ42FjXL_HfEkDXy4dhy8GfE1OS5Y6G9j3KQsE315vr0lJ7f4GO0EbVpak7SE4vuC1mcZckU-i8fToYM2Dkt3pASoFq4zsvhsWUpE9nAQ.png" group-title="M+ TDT",ES| Telecinco SD
+#EXTINF:-1 tvg-id="" tvg-name="Telecinco SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cMMcQ42FjXL_HfEkDXy4dhy8GfE1OS5Y6G9j3KQsE315vr0lJ7f4GO0EbVpak7SE4vuC1mcZckU-i8fToYM2Dkt3pASoFq4zsvhsWUpE9nAQ.png" group-title="M+ TDT",Telecinco SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724250
-#EXTINF:-1 tvg-id="" tvg-name="ES| laSexta FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czMyDRVzwOLrsxK1Z87pIA92fbDifVLWfUvWRpYZYJyb7OlQNMKP8ulKhiNjCzV7CoTp-U528nr2UzzbBifa2NW33BbCA3mjr5KaX2NXJ-jg.png" group-title="M+ TDT",ES| laSexta FHD
+#EXTINF:-1 tvg-id="" tvg-name="laSexta FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czMyDRVzwOLrsxK1Z87pIA92fbDifVLWfUvWRpYZYJyb7OlQNMKP8ulKhiNjCzV7CoTp-U528nr2UzzbBifa2NW33BbCA3mjr5KaX2NXJ-jg.png" group-title="M+ TDT",laSexta FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724251
-#EXTINF:-1 tvg-id="" tvg-name="ES| laSexta HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiH4kUMijZdm1zbGEdz7u5gg5CMcXMTE3rTl_bdSTeGnshIg883cdoHBzIBuXUk6bCwVO13wj3mB8XAIl8JtgZfE.png" group-title="M+ TDT",ES| laSexta HD
+#EXTINF:-1 tvg-id="" tvg-name="laSexta HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiH4kUMijZdm1zbGEdz7u5gg5CMcXMTE3rTl_bdSTeGnshIg883cdoHBzIBuXUk6bCwVO13wj3mB8XAIl8JtgZfE.png" group-title="M+ TDT",laSexta HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724252
-#EXTINF:-1 tvg-id="" tvg-name="ES| laSexta SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czMyDRVzwOLrsxK1Z87pIA92fbDifVLWfUvWRpYZYJyb7OlQNMKP8ulKhiNjCzV7CoTp-U528nr2UzzbBifa2NW33BbCA3mjr5KaX2NXJ-jg.png" group-title="M+ TDT",ES| laSexta SD
+#EXTINF:-1 tvg-id="" tvg-name="laSexta SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czMyDRVzwOLrsxK1Z87pIA92fbDifVLWfUvWRpYZYJyb7OlQNMKP8ulKhiNjCzV7CoTp-U528nr2UzzbBifa2NW33BbCA3mjr5KaX2NXJ-jg.png" group-title="M+ TDT",laSexta SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724253
-#EXTINF:-1 tvg-id="" tvg-name="ES| VinTV FHD" tvg-logo="http://iptv.legacy4k.tv:8000/images/figaLNFopJwIRcF2bFGfyXc_MyDOwrUcY9N2kbPWOJGWAx13Y5kZCuWaE85QfAz7-A7_PR2jLf1l8KngRgc4Dxxmr_dLOOSirXtsysTriABfWFqgj1HSnx5F-NP4nf4DOrDXkPOJ6bvIJTOSfgnxFx1DsaOWStEo0BCnvuLSDjJ8xrs0v1n2R3jTO64ZcXdm.png" group-title="M+ TDT",ES| VinTV FHD
+#EXTINF:-1 tvg-id="" tvg-name="VinTV FHD" tvg-logo="http://iptv.legacy4k.tv:8000/images/figaLNFopJwIRcF2bFGfyXc_MyDOwrUcY9N2kbPWOJGWAx13Y5kZCuWaE85QfAz7-A7_PR2jLf1l8KngRgc4Dxxmr_dLOOSirXtsysTriABfWFqgj1HSnx5F-NP4nf4DOrDXkPOJ6bvIJTOSfgnxFx1DsaOWStEo0BCnvuLSDjJ8xrs0v1n2R3jTO64ZcXdm.png" group-title="M+ TDT",VinTV FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724254
-#EXTINF:-1 tvg-id="" tvg-name="ES| VinTV HD" tvg-logo="http://iptv.legacy4k.tv:8000/images/figaLNFopJwIRcF2bFGfyXc_MyDOwrUcY9N2kbPWOJGWAx13Y5kZCuWaE85QfAz7-A7_PR2jLf1l8KngRgc4Dxxmr_dLOOSirXtsysTriABfWFqgj1HSnx5F-NP4nf4DOrDXkPOJ6bvIJTOSfgnxFx1DsaOWStEo0BCnvuLSDjJ8xrs0v1n2R3jTO64ZcXdm.png" group-title="M+ TDT",ES| VinTV HD
+#EXTINF:-1 tvg-id="" tvg-name="VinTV HD" tvg-logo="http://iptv.legacy4k.tv:8000/images/figaLNFopJwIRcF2bFGfyXc_MyDOwrUcY9N2kbPWOJGWAx13Y5kZCuWaE85QfAz7-A7_PR2jLf1l8KngRgc4Dxxmr_dLOOSirXtsysTriABfWFqgj1HSnx5F-NP4nf4DOrDXkPOJ6bvIJTOSfgnxFx1DsaOWStEo0BCnvuLSDjJ8xrs0v1n2R3jTO64ZcXdm.png" group-title="M+ TDT",VinTV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724255
-#EXTINF:-1 tvg-id="" tvg-name="ES| VinTV SD" tvg-logo="http://iptv.legacy4k.tv:8000/images/figaLNFopJwIRcF2bFGfyXc_MyDOwrUcY9N2kbPWOJGWAx13Y5kZCuWaE85QfAz7-A7_PR2jLf1l8KngRgc4Dxxmr_dLOOSirXtsysTriABfWFqgj1HSnx5F-NP4nf4DOrDXkPOJ6bvIJTOSfgnxFx1DsaOWStEo0BCnvuLSDjJ8xrs0v1n2R3jTO64ZcXdm.png" group-title="M+ TDT",ES| VinTV SD
+#EXTINF:-1 tvg-id="" tvg-name="VinTV SD" tvg-logo="http://iptv.legacy4k.tv:8000/images/figaLNFopJwIRcF2bFGfyXc_MyDOwrUcY9N2kbPWOJGWAx13Y5kZCuWaE85QfAz7-A7_PR2jLf1l8KngRgc4Dxxmr_dLOOSirXtsysTriABfWFqgj1HSnx5F-NP4nf4DOrDXkPOJ6bvIJTOSfgnxFx1DsaOWStEo0BCnvuLSDjJ8xrs0v1n2R3jTO64ZcXdm.png" group-title="M+ TDT",VinTV SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724256
-#EXTINF:-1 tvg-id="" tvg-name="ES| FDF FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32osW5YAfoGOxc7TqFxvdocklFHoJ2qChPNl-dTl6l8US76EZ6d_pbGYgjUl4S7H02urbaz1COrER-7oJL_lyYho.png" group-title="M+ TDT",ES| FDF FHD
+#EXTINF:-1 tvg-id="" tvg-name="FDF FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32osW5YAfoGOxc7TqFxvdocklFHoJ2qChPNl-dTl6l8US76EZ6d_pbGYgjUl4S7H02urbaz1COrER-7oJL_lyYho.png" group-title="M+ TDT",FDF FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724257
-#EXTINF:-1 tvg-id="" tvg-name="ES| FDF HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32osW5YAfoGOxc7TqFxvdocklFHoJ2qChPNl-dTl6l8US76EZ6d_pbGYgjUl4S7H02urbaz1COrER-7oJL_lyYho.png" group-title="M+ TDT",ES| FDF HD
+#EXTINF:-1 tvg-id="" tvg-name="FDF HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32osW5YAfoGOxc7TqFxvdocklFHoJ2qChPNl-dTl6l8US76EZ6d_pbGYgjUl4S7H02urbaz1COrER-7oJL_lyYho.png" group-title="M+ TDT",FDF HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724258
-#EXTINF:-1 tvg-id="" tvg-name="ES| FDF SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32osW5YAfoGOxc7TqFxvdocklFHoJ2qChPNl-dTl6l8US76EZ6d_pbGYgjUl4S7H02urbaz1COrER-7oJL_lyYho.png" group-title="M+ TDT",ES| FDF SD
+#EXTINF:-1 tvg-id="" tvg-name="FDF SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32osW5YAfoGOxc7TqFxvdocklFHoJ2qChPNl-dTl6l8US76EZ6d_pbGYgjUl4S7H02urbaz1COrER-7oJL_lyYho.png" group-title="M+ TDT",FDF SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724259
-#EXTINF:-1 tvg-id="" tvg-name="ES| Neox FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32uqnXYm9QEnABikOZbxdG3Y7Quvtc920lmc0imX9sAXo-F4dMFh71Ske5T3GGADrD7VULh_jMehEnwce7MXizgo.png" group-title="M+ TDT",ES| Neox FHD
+#EXTINF:-1 tvg-id="" tvg-name="Neox FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32uqnXYm9QEnABikOZbxdG3Y7Quvtc920lmc0imX9sAXo-F4dMFh71Ske5T3GGADrD7VULh_jMehEnwce7MXizgo.png" group-title="M+ TDT",Neox FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724260
-#EXTINF:-1 tvg-id="" tvg-name="ES| Neox HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMvfvZJ2xxHch8osvsRKw6tmpZBy7cJrTmSGVWiV7UbqJWAY1Iok5ejCttCzRwMQm-c1o4FTEJ2WYWNt5nOXf4vo.png" group-title="M+ TDT",ES| Neox HD
+#EXTINF:-1 tvg-id="" tvg-name="Neox HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMvfvZJ2xxHch8osvsRKw6tmpZBy7cJrTmSGVWiV7UbqJWAY1Iok5ejCttCzRwMQm-c1o4FTEJ2WYWNt5nOXf4vo.png" group-title="M+ TDT",Neox HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724261
-#EXTINF:-1 tvg-id="" tvg-name="ES| Neox SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32uqnXYm9QEnABikOZbxdG3Y7Quvtc920lmc0imX9sAXo-F4dMFh71Ske5T3GGADrD7VULh_jMehEnwce7MXizgo.png" group-title="M+ TDT",ES| Neox SD
+#EXTINF:-1 tvg-id="" tvg-name="Neox SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4caDr1AtL8MPG8qG3dc6_32uqnXYm9QEnABikOZbxdG3Y7Quvtc920lmc0imX9sAXo-F4dMFh71Ske5T3GGADrD7VULh_jMehEnwce7MXizgo.png" group-title="M+ TDT",Neox SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724262
-#EXTINF:-1 tvg-id="" tvg-name="ES| Energy FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNaBwWkVMSOkf1NvJaKuixjMcCMCDhBai7YnKj0b56X4tq5TYOHyH7_f3JwWXpIa-QxAnF5gsZc7TpVcRGwDcr9k.png" group-title="M+ TDT",ES| Energy FHD
+#EXTINF:-1 tvg-id="" tvg-name="Energy FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNaBwWkVMSOkf1NvJaKuixjMcCMCDhBai7YnKj0b56X4tq5TYOHyH7_f3JwWXpIa-QxAnF5gsZc7TpVcRGwDcr9k.png" group-title="M+ TDT",Energy FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724263
-#EXTINF:-1 tvg-id="" tvg-name="ES| Energy HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNaBwWkVMSOkf1NvJaKuixjMcCMCDhBai7YnKj0b56X4tq5TYOHyH7_f3JwWXpIa-QxAnF5gsZc7TpVcRGwDcr9k.png" group-title="M+ TDT",ES| Energy HD
+#EXTINF:-1 tvg-id="" tvg-name="Energy HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNaBwWkVMSOkf1NvJaKuixjMcCMCDhBai7YnKj0b56X4tq5TYOHyH7_f3JwWXpIa-QxAnF5gsZc7TpVcRGwDcr9k.png" group-title="M+ TDT",Energy HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724264
-#EXTINF:-1 tvg-id="" tvg-name="ES| Energy SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNaBwWkVMSOkf1NvJaKuixjMcCMCDhBai7YnKj0b56X4tq5TYOHyH7_f3JwWXpIa-QxAnF5gsZc7TpVcRGwDcr9k.png" group-title="M+ TDT",ES| Energy SD
+#EXTINF:-1 tvg-id="" tvg-name="Energy SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNaBwWkVMSOkf1NvJaKuixjMcCMCDhBai7YnKj0b56X4tq5TYOHyH7_f3JwWXpIa-QxAnF5gsZc7TpVcRGwDcr9k.png" group-title="M+ TDT",Energy SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724265
-#EXTINF:-1 tvg-id="" tvg-name="ES| Atreseries FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Arsz_gK0XfeVxsxqq52jt_oTU0aIBoWwX7KYNOeI8pHThSwqtDyFcadDUQk0WwPNg.png" group-title="M+ TDT",ES| Atreseries FHD
+#EXTINF:-1 tvg-id="" tvg-name="Atreseries FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Arsz_gK0XfeVxsxqq52jt_oTU0aIBoWwX7KYNOeI8pHThSwqtDyFcadDUQk0WwPNg.png" group-title="M+ TDT",Atreseries FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724266
-#EXTINF:-1 tvg-id="" tvg-name="ES| Atreseries HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Arsz_gK0XfeVxsxqq52jt_oTU0aIBoWwX7KYNOeI8pHThSwqtDyFcadDUQk0WwPNg.png" group-title="M+ TDT",ES| Atreseries HD
+#EXTINF:-1 tvg-id="" tvg-name="Atreseries HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Arsz_gK0XfeVxsxqq52jt_oTU0aIBoWwX7KYNOeI8pHThSwqtDyFcadDUQk0WwPNg.png" group-title="M+ TDT",Atreseries HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724267
-#EXTINF:-1 tvg-id="" tvg-name="ES| Atreseries SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Arsz_gK0XfeVxsxqq52jt_oTU0aIBoWwX7KYNOeI8pHThSwqtDyFcadDUQk0WwPNg.png" group-title="M+ TDT",ES| Atreseries SD
+#EXTINF:-1 tvg-id="" tvg-name="Atreseries SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Arsz_gK0XfeVxsxqq52jt_oTU0aIBoWwX7KYNOeI8pHThSwqtDyFcadDUQk0WwPNg.png" group-title="M+ TDT",Atreseries SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724268
-#EXTINF:-1 tvg-id="" tvg-name="ES| Divinity FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNeeQGndsAabs--Lce2T_5Qxq-W0a2OKEZP9gc27k4qJcwi-ktxqd6loebiQ1YdM00rxmfCSv74aeTHf6fCM-ZxI.png" group-title="M+ TDT",ES| Divinity FHD
+#EXTINF:-1 tvg-id="" tvg-name="Divinity FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNeeQGndsAabs--Lce2T_5Qxq-W0a2OKEZP9gc27k4qJcwi-ktxqd6loebiQ1YdM00rxmfCSv74aeTHf6fCM-ZxI.png" group-title="M+ TDT",Divinity FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724269
-#EXTINF:-1 tvg-id="" tvg-name="ES| Divinity HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNeeQGndsAabs--Lce2T_5Qxq-W0a2OKEZP9gc27k4qJcwi-ktxqd6loebiQ1YdM00rxmfCSv74aeTHf6fCM-ZxI.png" group-title="M+ TDT",ES| Divinity HD
+#EXTINF:-1 tvg-id="" tvg-name="Divinity HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNeeQGndsAabs--Lce2T_5Qxq-W0a2OKEZP9gc27k4qJcwi-ktxqd6loebiQ1YdM00rxmfCSv74aeTHf6fCM-ZxI.png" group-title="M+ TDT",Divinity HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724270
-#EXTINF:-1 tvg-id="" tvg-name="ES| Divinity SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNeeQGndsAabs--Lce2T_5Qxq-W0a2OKEZP9gc27k4qJcwi-ktxqd6loebiQ1YdM00rxmfCSv74aeTHf6fCM-ZxI.png" group-title="M+ TDT",ES| Divinity SD
+#EXTINF:-1 tvg-id="" tvg-name="Divinity SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNeeQGndsAabs--Lce2T_5Qxq-W0a2OKEZP9gc27k4qJcwi-ktxqd6loebiQ1YdM00rxmfCSv74aeTHf6fCM-ZxI.png" group-title="M+ TDT",Divinity SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724271
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nova FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMikj15UaF_YQJIaOyW-4vFvUuSZi6J0V6IbaJ_T2R6SsvyYcRb_8uVZjlMGeQYIiHGPqvQvy64qVvzboSgtJSXo.png" group-title="M+ TDT",ES| Nova FHD
+#EXTINF:-1 tvg-id="" tvg-name="Nova FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMikj15UaF_YQJIaOyW-4vFvUuSZi6J0V6IbaJ_T2R6SsvyYcRb_8uVZjlMGeQYIiHGPqvQvy64qVvzboSgtJSXo.png" group-title="M+ TDT",Nova FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724272
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nova HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMikj15UaF_YQJIaOyW-4vFvUuSZi6J0V6IbaJ_T2R6SsvyYcRb_8uVZjlMGeQYIiHGPqvQvy64qVvzboSgtJSXo.png" group-title="M+ TDT",ES| Nova HD
+#EXTINF:-1 tvg-id="" tvg-name="Nova HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMikj15UaF_YQJIaOyW-4vFvUuSZi6J0V6IbaJ_T2R6SsvyYcRb_8uVZjlMGeQYIiHGPqvQvy64qVvzboSgtJSXo.png" group-title="M+ TDT",Nova HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724273
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nova SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMikj15UaF_YQJIaOyW-4vFvUuSZi6J0V6IbaJ_T2R6SsvyYcRb_8uVZjlMGeQYIiHGPqvQvy64qVvzboSgtJSXo.png" group-title="M+ TDT",ES| Nova SD
+#EXTINF:-1 tvg-id="" tvg-name="Nova SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMikj15UaF_YQJIaOyW-4vFvUuSZi6J0V6IbaJ_T2R6SsvyYcRb_8uVZjlMGeQYIiHGPqvQvy64qVvzboSgtJSXo.png" group-title="M+ TDT",Nova SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724274
 #EXTINF:-1 tvg-id="" tvg-name="ES_Viajes y Sabores" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtXjBT2PVm7vMqWfJnojHyvW7KUdvVktuoUU5-Wylc4Hq_XiCjSoMgRH1gefDhJ6A8Kj4rZXt1BVFLkp0paG8dHl9wOl9SLYm4g0v3Tr2f96WVHpCv0rhp5zkhbFBJr-BFPp4vDvoyChbBpA7PaGIj17rAY09csOSql3SrUb1I3tdO4OYUTUUAoNhnPViH4vF0.png" group-title="M+ TDT",ES_Viajes y Sabores
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724275
@@ -1527,83 +1283,83 @@ https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724283
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724284
 #EXTINF:-1 tvg-id="" tvg-name="ES_Águila Roja" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtXjBT2PVm7vMqWfJnojHyvW7KUdvVktuoUU5-Wylc4Hi8W_Sx4VM4_WxhdyFiaF2CtzqZbLzQeYyAifcWJI5MDuCTVei-p1EwdvtBqLIp4iWvKAs4123yAdL_grHHUfm_ApiuOYxPgSzMxLMZ5RcjBUovK8SlY4dDvUYlSMaKB3u2c4wkccUXVVdH3lqYrDms.png" group-title="M+ TDT",ES_Águila Roja
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724285
-#EXTINF:-1 tvg-id="" tvg-name="ES | Movistar Plus+ FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | Movistar Plus+ FHD
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Plus+ FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/movistar-plus-es.png?raw=true" group-title="M+  CINE",Movistar Plus+ FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724286
-#EXTINF:-1 tvg-id="" tvg-name="ES | Movistar Plus+ HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | Movistar Plus+ HD
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Plus+ HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/movistar-plus-es.png?raw=true" group-title="M+  CINE",Movistar Plus+ HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724287
-#EXTINF:-1 tvg-id="" tvg-name="ES | Movistar Plus+ SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | Movistar Plus+ SD
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Plus+ SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/movistar-plus-es.png?raw=true" group-title="M+  CINE",Movistar Plus+ SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724288
-#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar Plus+ 2 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5Wyv--Trx6xIFjKQV38hhMoQsDoEy7y_j_NTjn3DiyIg3c.png" group-title="M+  CINE",ES| Movistar Plus+ 2 FHD
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Plus+ 2 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5Wyv--Trx6xIFjKQV38hhMoQsDoEy7y_j_NTjn3DiyIg3c.png" group-title="M+  CINE",Movistar Plus+ 2 FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724289
-#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar Plus+ 2 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5Wyv--Trx6xIFjKQV38hhMoQsDoEy7y_j_NTjn3DiyIg3c.png" group-title="M+  CINE",ES| Movistar Plus+ 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Plus+ 2 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5Wyv--Trx6xIFjKQV38hhMoQsDoEy7y_j_NTjn3DiyIg3c.png" group-title="M+  CINE",Movistar Plus+ 2 HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724290
-#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar Plus+ 2 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5Wyv--Trx6xIFjKQV38hhMoQsDoEy7y_j_NTjn3DiyIg3c.png" group-title="M+  CINE",ES| Movistar Plus+ 2 SD
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Plus+ 2 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5Wyv--Trx6xIFjKQV38hhMoQsDoEy7y_j_NTjn3DiyIg3c.png" group-title="M+  CINE",Movistar Plus+ 2 SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724291
-#EXTINF:-1 tvg-id="" tvg-name="ES| M+ Ellas V FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ellas-vamos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES| M+ Ellas V FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Ellas V FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ellas-vamos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Ellas V FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724292
-#EXTINF:-1 tvg-id="" tvg-name="ES| M+ Ellas V HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ellas-vamos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES| M+ Ellas V HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Ellas V HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ellas-vamos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Ellas V HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724293
-#EXTINF:-1 tvg-id="" tvg-name="ES| M+ Ellas V SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ellas-vamos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES| M+ Ellas V SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Ellas V SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ellas-vamos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Ellas V SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724294
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Estrenos FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyR4OdDeGzYuQWiVPWuzITmC2xlYFmjIuNLx0uoCMaoh0.png" group-title="M+  CINE",ES | M+ Estrenos FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Estrenos FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyR4OdDeGzYuQWiVPWuzITmC2xlYFmjIuNLx0uoCMaoh0.png" group-title="M+  CINE",M+ Estrenos FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724295
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Estrenos HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyR4OdDeGzYuQWiVPWuzITmC2xlYFmjIuNLx0uoCMaoh0.png" group-title="M+  CINE",ES | M+ Estrenos HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Estrenos HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyR4OdDeGzYuQWiVPWuzITmC2xlYFmjIuNLx0uoCMaoh0.png" group-title="M+  CINE",M+ Estrenos HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724296
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Estrenos SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyR4OdDeGzYuQWiVPWuzITmC2xlYFmjIuNLx0uoCMaoh0.png" group-title="M+  CINE",ES | M+ Estrenos SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Estrenos SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyR4OdDeGzYuQWiVPWuzITmC2xlYFmjIuNLx0uoCMaoh0.png" group-title="M+  CINE",M+ Estrenos SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724297
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Hits FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyFoUqiwLuLSsmf3VoKauh-rvAvZleby7YE4K_ECtK92A.png" group-title="M+  CINE",ES | M+ Hits FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Hits FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyFoUqiwLuLSsmf3VoKauh-rvAvZleby7YE4K_ECtK92A.png" group-title="M+  CINE",M+ Hits FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724298
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Hits HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyFoUqiwLuLSsmf3VoKauh-rvAvZleby7YE4K_ECtK92A.png" group-title="M+  CINE",ES | M+ Hits HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Hits HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyFoUqiwLuLSsmf3VoKauh-rvAvZleby7YE4K_ECtK92A.png" group-title="M+  CINE",M+ Hits HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724299
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Hits SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyFoUqiwLuLSsmf3VoKauh-rvAvZleby7YE4K_ECtK92A.png" group-title="M+  CINE",ES | M+ Hits SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Hits SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyFoUqiwLuLSsmf3VoKauh-rvAvZleby7YE4K_ECtK92A.png" group-title="M+  CINE",M+ Hits SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724300
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Originales FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/originales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Originales FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Originales FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/originales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Originales FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724301
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Originales HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/originales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Originales HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Originales HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/originales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Originales HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724302
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Originales SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/originales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Originales SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Originales SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/originales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Originales SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724303
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Documentales FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/documentales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Documentales FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Documentales FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/documentales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Documentales FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724304
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Documentales HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/documentales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Documentales HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Documentales HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/documentales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Documentales HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724305
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Documentales SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/documentales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Documentales SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Documentales SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/documentales-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Documentales SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724306
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Clásicos FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clasicos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Clásicos FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Clásicos FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clasicos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Clásicos FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724307
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Clásicos HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clasicos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Clásicos HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Clásicos HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clasicos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Clásicos HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724308
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Clásicos SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clasicos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Clásicos SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Clásicos SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clasicos-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Clásicos SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724309
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Acción FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/accion-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Acción FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Acción FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/accion-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Acción FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724310
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Acción HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/accion-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Acción HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Acción HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/accion-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Acción HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724311
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Acción SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/accion-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Acción SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Acción SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/accion-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Acción SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724312
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Comedia FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/comedia-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Comedia FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Comedia FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/comedia-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Comedia FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724313
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Comedia HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/comedia-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Comedia HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Comedia HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/comedia-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Comedia HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724314
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Comedia SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/comedia-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Comedia SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Comedia SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/comedia-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Comedia SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724315
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Drama FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/drama-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Drama FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Drama FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/drama-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Drama FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724316
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Drama HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/drama-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Drama HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Drama HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/drama-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Drama HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724317
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Drama SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/drama-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Drama SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Drama SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/drama-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Drama SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724318
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Indie FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/indie-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Indie FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Indie FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/indie-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Indie FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724319
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Indie HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/indie-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Indie HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Indie HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/indie-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Indie HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724320
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Indie SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/indie-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Indie SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Indie SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/indie-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Indie SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724321
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Cine Español FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/cine-espanol-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Cine Español FHD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Cine Español FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/cine-espanol-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Cine Español FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724322
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Cine Español HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/cine-espanol-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Cine Español HD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Cine Español HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/cine-espanol-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Cine Español HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724323
-#EXTINF:-1 tvg-id="" tvg-name="ES | M+ Cine Español SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/cine-espanol-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",ES | M+ Cine Español SD
+#EXTINF:-1 tvg-id="" tvg-name="M+ Cine Español SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/cine-espanol-por-movistar-plus-es.png?raw=true" group-title="M+  CINE",M+ Cine Español SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724324
 #EXTINF:-1 tvg-id="" tvg-name="ES MV| SkyShowtime 1 FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/sweden/sky-showtime-1-se.png?raw=true" group-title="M+  CINE",ES MV| SkyShowtime 1 FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724325
@@ -1611,137 +1367,137 @@ https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724325
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724326
 #EXTINF:-1 tvg-id="" tvg-name="ES MV| SkyShowtime 1 SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/sweden/sky-showtime-1-se.png?raw=true" group-title="M+  CINE",ES MV| SkyShowtime 1 SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724327
-#EXTINF:-1 tvg-id="" tvg-name="ES | Max Avances FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyjFwtN1FQjw46ujcMVK9Lp0qaEMd1muxk6ovxcZ3t0hk.png" group-title="M+  CINE",ES | Max Avances FHD
+#EXTINF:-1 tvg-id="" tvg-name="Max Avances FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyjFwtN1FQjw46ujcMVK9Lp0qaEMd1muxk6ovxcZ3t0hk.png" group-title="M+  CINE",Max Avances FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724328
-#EXTINF:-1 tvg-id="" tvg-name="ES | Max Avances HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyjFwtN1FQjw46ujcMVK9Lp0qaEMd1muxk6ovxcZ3t0hk.png" group-title="M+  CINE",ES | Max Avances HD
+#EXTINF:-1 tvg-id="" tvg-name="Max Avances HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyjFwtN1FQjw46ujcMVK9Lp0qaEMd1muxk6ovxcZ3t0hk.png" group-title="M+  CINE",Max Avances HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724329
-#EXTINF:-1 tvg-id="" tvg-name="ES | Max Avances SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyjFwtN1FQjw46ujcMVK9Lp0qaEMd1muxk6ovxcZ3t0hk.png" group-title="M+  CINE",ES | Max Avances SD
+#EXTINF:-1 tvg-id="" tvg-name="Max Avances SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WyjFwtN1FQjw46ujcMVK9Lp0qaEMd1muxk6ovxcZ3t0hk.png" group-title="M+  CINE",Max Avances SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724330
-#EXTINF:-1 tvg-id="" tvg-name="ES| STAR Channel FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-middle-east/star-channels-mea.png?raw=true" group-title="M+  CINE",ES| STAR Channel FHD
+#EXTINF:-1 tvg-id="" tvg-name="STAR Channel FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-middle-east/star-channels-mea.png?raw=true" group-title="M+  CINE",STAR Channel FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724331
-#EXTINF:-1 tvg-id="" tvg-name="ES| STAR Channel HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-middle-east/star-channels-mea.png?raw=true" group-title="M+  CINE",ES| STAR Channel HD
+#EXTINF:-1 tvg-id="" tvg-name="STAR Channel HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-middle-east/star-channels-mea.png?raw=true" group-title="M+  CINE",STAR Channel HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724332
-#EXTINF:-1 tvg-id="" tvg-name="ES| STAR Channel SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-middle-east/star-channels-mea.png?raw=true" group-title="M+  CINE",ES| STAR Channel SD
+#EXTINF:-1 tvg-id="" tvg-name="STAR Channel SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/world-middle-east/star-channels-mea.png?raw=true" group-title="M+  CINE",STAR Channel SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724333
-#EXTINF:-1 tvg-id="" tvg-name="ES| AMC FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0F9iV_TpTgajDMDW82RdhWVO81ot3QqpOJHypghWTXtXg6_TGGDD8_xKR0CUnfP-cdSP7h53SRgDM1nlWgLGWMA.png" group-title="M+  CINE",ES| AMC FHD
+#EXTINF:-1 tvg-id="" tvg-name="AMC FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0F9iV_TpTgajDMDW82RdhWVO81ot3QqpOJHypghWTXtXg6_TGGDD8_xKR0CUnfP-cdSP7h53SRgDM1nlWgLGWMA.png" group-title="M+  CINE",AMC FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724334
-#EXTINF:-1 tvg-id="" tvg-name="ES| AMC HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0F9iV_TpTgajDMDW82RdhWVO81ot3QqpOJHypghWTXtXg6_TGGDD8_xKR0CUnfP-cdSP7h53SRgDM1nlWgLGWMA.png" group-title="M+  CINE",ES| AMC HD
+#EXTINF:-1 tvg-id="" tvg-name="AMC HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0F9iV_TpTgajDMDW82RdhWVO81ot3QqpOJHypghWTXtXg6_TGGDD8_xKR0CUnfP-cdSP7h53SRgDM1nlWgLGWMA.png" group-title="M+  CINE",AMC HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724335
-#EXTINF:-1 tvg-id="" tvg-name="ES| AMC SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0F9iV_TpTgajDMDW82RdhWVO81ot3QqpOJHypghWTXtXg6_TGGDD8_xKR0CUnfP-cdSP7h53SRgDM1nlWgLGWMA.png" group-title="M+  CINE",ES| AMC SD
+#EXTINF:-1 tvg-id="" tvg-name="AMC SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0F9iV_TpTgajDMDW82RdhWVO81ot3QqpOJHypghWTXtXg6_TGGDD8_xKR0CUnfP-cdSP7h53SRgDM1nlWgLGWMA.png" group-title="M+  CINE",AMC SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724336
-#EXTINF:-1 tvg-id="" tvg-name="ES| Warner TV FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/warner-tv-es.png?raw=true" group-title="M+  CINE",ES| Warner TV FHD
+#EXTINF:-1 tvg-id="" tvg-name="Warner TV FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/warner-tv-es.png?raw=true" group-title="M+  CINE",Warner TV FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724337
-#EXTINF:-1 tvg-id="" tvg-name="ES| Warner TV HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/warner-tv-es.png?raw=true" group-title="M+  CINE",ES| Warner TV HD
+#EXTINF:-1 tvg-id="" tvg-name="Warner TV HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/warner-tv-es.png?raw=true" group-title="M+  CINE",Warner TV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724338
-#EXTINF:-1 tvg-id="" tvg-name="ES| Warner TV SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/warner-tv-es.png?raw=true" group-title="M+  CINE",ES| Warner TV SD
+#EXTINF:-1 tvg-id="" tvg-name="Warner TV SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/warner-tv-es.png?raw=true" group-title="M+  CINE",Warner TV SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724339
-#EXTINF:-1 tvg-id="" tvg-name="ES| AXN FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cRdGRLe6Vh40NWO8Ub0CZ88TV86gtFM5oJiaL9E_wAtCaQWXmqxGyb6ToaheFFnSauIenVzycaOC6qEiUEUV2Ec8cAnvL0oB4w1vkBgPWLf8.png" group-title="M+  CINE",ES| AXN FHD
+#EXTINF:-1 tvg-id="" tvg-name="AXN FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cRdGRLe6Vh40NWO8Ub0CZ88TV86gtFM5oJiaL9E_wAtCaQWXmqxGyb6ToaheFFnSauIenVzycaOC6qEiUEUV2Ec8cAnvL0oB4w1vkBgPWLf8.png" group-title="M+  CINE",AXN FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724340
-#EXTINF:-1 tvg-id="" tvg-name="ES| AXN HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cL1VHFRjV8h-2b7z-PlSQrrsG0rGh6uSt9mNr185QuBbf8pdBBjMc-BmgN10CxszPd4dZZdOhBnDCCUWkKg8Bm60Vp4l_U5sLaIYS2r8AI1w.png" group-title="M+  CINE",ES| AXN HD
+#EXTINF:-1 tvg-id="" tvg-name="AXN HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cL1VHFRjV8h-2b7z-PlSQrrsG0rGh6uSt9mNr185QuBbf8pdBBjMc-BmgN10CxszPd4dZZdOhBnDCCUWkKg8Bm60Vp4l_U5sLaIYS2r8AI1w.png" group-title="M+  CINE",AXN HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724341
-#EXTINF:-1 tvg-id="" tvg-name="ES| AXN SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cRdGRLe6Vh40NWO8Ub0CZ88TV86gtFM5oJiaL9E_wAtCaQWXmqxGyb6ToaheFFnSauIenVzycaOC6qEiUEUV2Ec8cAnvL0oB4w1vkBgPWLf8.png" group-title="M+  CINE",ES| AXN SD
+#EXTINF:-1 tvg-id="" tvg-name="AXN SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cRdGRLe6Vh40NWO8Ub0CZ88TV86gtFM5oJiaL9E_wAtCaQWXmqxGyb6ToaheFFnSauIenVzycaOC6qEiUEUV2Ec8cAnvL0oB4w1vkBgPWLf8.png" group-title="M+  CINE",AXN SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724342
-#EXTINF:-1 tvg-id="" tvg-name="ES| ComedyCentr FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMgwOS6dZPSlXUKEVBXjGj3uJpZ3BgloyfRuSbKfAkHuZFAiff-Ugn5DLPpyB-PGmSBd0wWc0nbScLs-c-fTVpsg.png" group-title="M+  CINE",ES| ComedyCentr FHD
+#EXTINF:-1 tvg-id="" tvg-name="ComedyCentr FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMgwOS6dZPSlXUKEVBXjGj3uJpZ3BgloyfRuSbKfAkHuZFAiff-Ugn5DLPpyB-PGmSBd0wWc0nbScLs-c-fTVpsg.png" group-title="M+  CINE",ComedyCentr FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724343
-#EXTINF:-1 tvg-id="" tvg-name="ES| ComedyCentr HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMgwOS6dZPSlXUKEVBXjGj3uJpZ3BgloyfRuSbKfAkHuZFAiff-Ugn5DLPpyB-PGmSBd0wWc0nbScLs-c-fTVpsg.png" group-title="M+  CINE",ES| ComedyCentr HD
+#EXTINF:-1 tvg-id="" tvg-name="ComedyCentr HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMgwOS6dZPSlXUKEVBXjGj3uJpZ3BgloyfRuSbKfAkHuZFAiff-Ugn5DLPpyB-PGmSBd0wWc0nbScLs-c-fTVpsg.png" group-title="M+  CINE",ComedyCentr HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724344
-#EXTINF:-1 tvg-id="" tvg-name="ES| ComedyCentr SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMgwOS6dZPSlXUKEVBXjGj3uJpZ3BgloyfRuSbKfAkHuZFAiff-Ugn5DLPpyB-PGmSBd0wWc0nbScLs-c-fTVpsg.png" group-title="M+  CINE",ES| ComedyCentr SD
+#EXTINF:-1 tvg-id="" tvg-name="ComedyCentr SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMgwOS6dZPSlXUKEVBXjGj3uJpZ3BgloyfRuSbKfAkHuZFAiff-Ugn5DLPpyB-PGmSBd0wWc0nbScLs-c-fTVpsg.png" group-title="M+  CINE",ComedyCentr SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724345
-#EXTINF:-1 tvg-id="" tvg-name="ES| Calle 13 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0BJsBvizTYFVnJcjMgkwuzDWe8KERmagM0_OBWDlh9_NXx5EHdpklwUWesO6JS17w1-cvFIkj6JSwrJfvgt4-h4.png" group-title="M+  CINE",ES| Calle 13 FHD
+#EXTINF:-1 tvg-id="" tvg-name="Calle 13 FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0BJsBvizTYFVnJcjMgkwuzDWe8KERmagM0_OBWDlh9_NXx5EHdpklwUWesO6JS17w1-cvFIkj6JSwrJfvgt4-h4.png" group-title="M+  CINE",Calle 13 FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724346
-#EXTINF:-1 tvg-id="" tvg-name="ES| Calle 13 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxWJbfYRdr5NQCgBvr2l5zOfDqKUwq7k6NBk9cYAUhkudjijy7CI_54dHpFF2rKkRnnSP48Q2jv5RGan4FnOwN7k.png" group-title="M+  CINE",ES| Calle 13 HD
+#EXTINF:-1 tvg-id="" tvg-name="Calle 13 HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxWJbfYRdr5NQCgBvr2l5zOfDqKUwq7k6NBk9cYAUhkudjijy7CI_54dHpFF2rKkRnnSP48Q2jv5RGan4FnOwN7k.png" group-title="M+  CINE",Calle 13 HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724347
-#EXTINF:-1 tvg-id="" tvg-name="ES| Calle 13 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0BJsBvizTYFVnJcjMgkwuzDWe8KERmagM0_OBWDlh9_NXx5EHdpklwUWesO6JS17w1-cvFIkj6JSwrJfvgt4-h4.png" group-title="M+  CINE",ES| Calle 13 SD
+#EXTINF:-1 tvg-id="" tvg-name="Calle 13 SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0BJsBvizTYFVnJcjMgkwuzDWe8KERmagM0_OBWDlh9_NXx5EHdpklwUWesO6JS17w1-cvFIkj6JSwrJfvgt4-h4.png" group-title="M+  CINE",Calle 13 SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724348
-#EXTINF:-1 tvg-id="" tvg-name="ES| XTRM FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZOq27WJHAmM1oVEL2vc5Q-yCkyiW6l72_3s0ojkKOccWFZqHIlThFHJmYVEGpMBlU70P-6zDUrWoVmEAprpUJA.png" group-title="M+  CINE",ES| XTRM FHD
+#EXTINF:-1 tvg-id="" tvg-name="XTRM FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZOq27WJHAmM1oVEL2vc5Q-yCkyiW6l72_3s0ojkKOccWFZqHIlThFHJmYVEGpMBlU70P-6zDUrWoVmEAprpUJA.png" group-title="M+  CINE",XTRM FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724349
-#EXTINF:-1 tvg-id="" tvg-name="ES| XTRM HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZOq27WJHAmM1oVEL2vc5Q-yCkyiW6l72_3s0ojkKOccWFZqHIlThFHJmYVEGpMBlU70P-6zDUrWoVmEAprpUJA.png" group-title="M+  CINE",ES| XTRM HD
+#EXTINF:-1 tvg-id="" tvg-name="XTRM HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZOq27WJHAmM1oVEL2vc5Q-yCkyiW6l72_3s0ojkKOccWFZqHIlThFHJmYVEGpMBlU70P-6zDUrWoVmEAprpUJA.png" group-title="M+  CINE",XTRM HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724350
-#EXTINF:-1 tvg-id="" tvg-name="ES| XTRM SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZOq27WJHAmM1oVEL2vc5Q-yCkyiW6l72_3s0ojkKOccWFZqHIlThFHJmYVEGpMBlU70P-6zDUrWoVmEAprpUJA.png" group-title="M+  CINE",ES| XTRM SD
+#EXTINF:-1 tvg-id="" tvg-name="XTRM SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZOq27WJHAmM1oVEL2vc5Q-yCkyiW6l72_3s0ojkKOccWFZqHIlThFHJmYVEGpMBlU70P-6zDUrWoVmEAprpUJA.png" group-title="M+  CINE",XTRM SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724351
-#EXTINF:-1 tvg-id="" tvg-name="ES| SYFY FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czmjGJEMS0NYIws0WJC7lB3BsAqEBcmXI2x93YFZoQl91GC0yHmaXZUMp5BGBNlfjyvSULG2Vyl9OEOHiSzerGytZbcHUOLqQru8YWIFoDBc.png" group-title="M+  CINE",ES| SYFY FHD
+#EXTINF:-1 tvg-id="" tvg-name="SYFY FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czmjGJEMS0NYIws0WJC7lB3BsAqEBcmXI2x93YFZoQl91GC0yHmaXZUMp5BGBNlfjyvSULG2Vyl9OEOHiSzerGytZbcHUOLqQru8YWIFoDBc.png" group-title="M+  CINE",SYFY FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724352
-#EXTINF:-1 tvg-id="" tvg-name="ES| SYFY HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czmjGJEMS0NYIws0WJC7lB3BsAqEBcmXI2x93YFZoQl91GC0yHmaXZUMp5BGBNlfjyvSULG2Vyl9OEOHiSzerGytZbcHUOLqQru8YWIFoDBc.png" group-title="M+  CINE",ES| SYFY HD
+#EXTINF:-1 tvg-id="" tvg-name="SYFY HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czmjGJEMS0NYIws0WJC7lB3BsAqEBcmXI2x93YFZoQl91GC0yHmaXZUMp5BGBNlfjyvSULG2Vyl9OEOHiSzerGytZbcHUOLqQru8YWIFoDBc.png" group-title="M+  CINE",SYFY HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724353
-#EXTINF:-1 tvg-id="" tvg-name="ES| SYFY SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czmjGJEMS0NYIws0WJC7lB3BsAqEBcmXI2x93YFZoQl91GC0yHmaXZUMp5BGBNlfjyvSULG2Vyl9OEOHiSzerGytZbcHUOLqQru8YWIFoDBc.png" group-title="M+  CINE",ES| SYFY SD
+#EXTINF:-1 tvg-id="" tvg-name="SYFY SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4czmjGJEMS0NYIws0WJC7lB3BsAqEBcmXI2x93YFZoQl91GC0yHmaXZUMp5BGBNlfjyvSULG2Vyl9OEOHiSzerGytZbcHUOLqQru8YWIFoDBc.png" group-title="M+  CINE",SYFY SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724354
-#EXTINF:-1 tvg-id="" tvg-name="ES| Cosmo FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNTpZlgqslj5vXGUMYwSgSW3p0SYprEBpvQtxHldHBNtnXNi80ebnLnFdeMh_UqrHOehYbEInIHDetzoaNm_Vv9c.png" group-title="M+  CINE",ES| Cosmo FHD
+#EXTINF:-1 tvg-id="" tvg-name="Cosmo FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNTpZlgqslj5vXGUMYwSgSW3p0SYprEBpvQtxHldHBNtnXNi80ebnLnFdeMh_UqrHOehYbEInIHDetzoaNm_Vv9c.png" group-title="M+  CINE",Cosmo FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724355
-#EXTINF:-1 tvg-id="" tvg-name="ES| Cosmo HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNTpZlgqslj5vXGUMYwSgSW3p0SYprEBpvQtxHldHBNtnXNi80ebnLnFdeMh_UqrHOehYbEInIHDetzoaNm_Vv9c.png" group-title="M+  CINE",ES| Cosmo HD
+#EXTINF:-1 tvg-id="" tvg-name="Cosmo HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNTpZlgqslj5vXGUMYwSgSW3p0SYprEBpvQtxHldHBNtnXNi80ebnLnFdeMh_UqrHOehYbEInIHDetzoaNm_Vv9c.png" group-title="M+  CINE",Cosmo HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724356
-#EXTINF:-1 tvg-id="" tvg-name="ES| Cosmo SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cf6uzyPLO9h5vCnA-eCra9NKEzS5t_Y1hPutXZfTmY5ihMacxLsw1o0oqX5LDt5subXuDo0na7A54uJCWVHCvc4FXoatSalVA7eo3hJSdzCQ.png" group-title="M+  CINE",ES| Cosmo SD
+#EXTINF:-1 tvg-id="" tvg-name="Cosmo SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cf6uzyPLO9h5vCnA-eCra9NKEzS5t_Y1hPutXZfTmY5ihMacxLsw1o0oqX5LDt5subXuDo0na7A54uJCWVHCvc4FXoatSalVA7eo3hJSdzCQ.png" group-title="M+  CINE",Cosmo SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724357
-#EXTINF:-1 tvg-id="" tvg-name="ES| SELEKT FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqmLo3OgT14HUUfbKAtaZdHds3f5An2aqoSwk6sfG0C2tV0ZDoS-SZl122cZQh54U0.png" group-title="M+  CINE",ES| SELEKT FHD
+#EXTINF:-1 tvg-id="" tvg-name="SELEKT FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqmLo3OgT14HUUfbKAtaZdHds3f5An2aqoSwk6sfG0C2tV0ZDoS-SZl122cZQh54U0.png" group-title="M+  CINE",SELEKT FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724358
-#EXTINF:-1 tvg-id="" tvg-name="ES| SELEKT HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqmLo3OgT14HUUfbKAtaZdHds3f5An2aqoSwk6sfG0C2tV0ZDoS-SZl122cZQh54U0.png" group-title="M+  CINE",ES| SELEKT HD
+#EXTINF:-1 tvg-id="" tvg-name="SELEKT HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqmLo3OgT14HUUfbKAtaZdHds3f5An2aqoSwk6sfG0C2tV0ZDoS-SZl122cZQh54U0.png" group-title="M+  CINE",SELEKT HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724359
-#EXTINF:-1 tvg-id="" tvg-name="ES| SELEKT SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqmLo3OgT14HUUfbKAtaZdHds3f5An2aqoSwk6sfG0C2tV0ZDoS-SZl122cZQh54U0.png" group-title="M+  CINE",ES| SELEKT SD
+#EXTINF:-1 tvg-id="" tvg-name="SELEKT SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqmLo3OgT14HUUfbKAtaZdHds3f5An2aqoSwk6sfG0C2tV0ZDoS-SZl122cZQh54U0.png" group-title="M+  CINE",SELEKT SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724360
-#EXTINF:-1 tvg-id="" tvg-name="ES| C Hollywood FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiCUcTsxpTovF4g1g7PUB9k4dn1Lw66WzxzCbHDUqqiO7cziTBq8jB1NV3hOPs0DEiznEYKY4uZqBwW8qev9sjOc.png" group-title="M+  CINE",ES| C Hollywood FHD
+#EXTINF:-1 tvg-id="" tvg-name="C Hollywood FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiCUcTsxpTovF4g1g7PUB9k4dn1Lw66WzxzCbHDUqqiO7cziTBq8jB1NV3hOPs0DEiznEYKY4uZqBwW8qev9sjOc.png" group-title="M+  CINE",C Hollywood FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724361
-#EXTINF:-1 tvg-id="" tvg-name="ES| C Hollywood HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiCUcTsxpTovF4g1g7PUB9k4dn1Lw66WzxzCbHDUqqiO7cziTBq8jB1NV3hOPs0DEiznEYKY4uZqBwW8qev9sjOc.png" group-title="M+  CINE",ES| C Hollywood HD
+#EXTINF:-1 tvg-id="" tvg-name="C Hollywood HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiCUcTsxpTovF4g1g7PUB9k4dn1Lw66WzxzCbHDUqqiO7cziTBq8jB1NV3hOPs0DEiznEYKY4uZqBwW8qev9sjOc.png" group-title="M+  CINE",C Hollywood HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724362
-#EXTINF:-1 tvg-id="" tvg-name="ES| C Hollywood SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_asUlQFlfn0GxeMeWtzmHHQmKPqKezUJGkWz0AGq30OoBPJvjai5U6WJozfIoITrN0LpFLyHoOT8iW-WKZHUxFpI.png" group-title="M+  CINE",ES| C Hollywood SD
+#EXTINF:-1 tvg-id="" tvg-name="C Hollywood SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_asUlQFlfn0GxeMeWtzmHHQmKPqKezUJGkWz0AGq30OoBPJvjai5U6WJozfIoITrN0LpFLyHoOT8iW-WKZHUxFpI.png" group-title="M+  CINE",C Hollywood SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724363
-#EXTINF:-1 tvg-id="" tvg-name="ES| AXNMovies FHD" tvg-logo="https://server3.welovepales.org:443/images/9vzXElksKb88RGbJdvSUH5JqMClyT3LRM8mHnzJzWIqYZQnSZGYUGQ6voBGQNbHpZ4594byLtTp4tPeSUciDkDPYfL1sdojQ9TMGMpBf_QsFq7IdKgpQu95Ur34GLM71AbLlWnqGBmZP0ypiGGd5ldJzFuz9eo92fno_hO-CrIs.png" group-title="M+  CINE",ES| AXNMovies FHD
+#EXTINF:-1 tvg-id="" tvg-name="AXNMovies FHD" tvg-logo="https://server3.welovepales.org:443/images/9vzXElksKb88RGbJdvSUH5JqMClyT3LRM8mHnzJzWIqYZQnSZGYUGQ6voBGQNbHpZ4594byLtTp4tPeSUciDkDPYfL1sdojQ9TMGMpBf_QsFq7IdKgpQu95Ur34GLM71AbLlWnqGBmZP0ypiGGd5ldJzFuz9eo92fno_hO-CrIs.png" group-title="M+  CINE",AXNMovies FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724364
-#EXTINF:-1 tvg-id="" tvg-name="ES| AXNMovies HD" tvg-logo="https://server3.welovepales.org:443/images/9vzXElksKb88RGbJdvSUH5JqMClyT3LRM8mHnzJzWIqYZQnSZGYUGQ6voBGQNbHpZ4594byLtTp4tPeSUciDkDPYfL1sdojQ9TMGMpBf_QsFq7IdKgpQu95Ur34GLM71AbLlWnqGBmZP0ypiGGd5ldJzFuz9eo92fno_hO-CrIs.png" group-title="M+  CINE",ES| AXNMovies HD
+#EXTINF:-1 tvg-id="" tvg-name="AXNMovies HD" tvg-logo="https://server3.welovepales.org:443/images/9vzXElksKb88RGbJdvSUH5JqMClyT3LRM8mHnzJzWIqYZQnSZGYUGQ6voBGQNbHpZ4594byLtTp4tPeSUciDkDPYfL1sdojQ9TMGMpBf_QsFq7IdKgpQu95Ur34GLM71AbLlWnqGBmZP0ypiGGd5ldJzFuz9eo92fno_hO-CrIs.png" group-title="M+  CINE",AXNMovies HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724365
-#EXTINF:-1 tvg-id="" tvg-name="ES| AXNMovies SD" tvg-logo="https://server3.welovepales.org:443/images/9vzXElksKb88RGbJdvSUH5JqMClyT3LRM8mHnzJzWIqYZQnSZGYUGQ6voBGQNbHpZ4594byLtTp4tPeSUciDkDPYfL1sdojQ9TMGMpBf_QsFq7IdKgpQu95Ur34GLM71AbLlWnqGBmZP0ypiGGd5ldJzFuz9eo92fno_hO-CrIs.png" group-title="M+  CINE",ES| AXNMovies SD
+#EXTINF:-1 tvg-id="" tvg-name="AXNMovies SD" tvg-logo="https://server3.welovepales.org:443/images/9vzXElksKb88RGbJdvSUH5JqMClyT3LRM8mHnzJzWIqYZQnSZGYUGQ6voBGQNbHpZ4594byLtTp4tPeSUciDkDPYfL1sdojQ9TMGMpBf_QsFq7IdKgpQu95Ur34GLM71AbLlWnqGBmZP0ypiGGd5ldJzFuz9eo92fno_hO-CrIs.png" group-title="M+  CINE",AXNMovies SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724366
-#EXTINF:-1 tvg-id="" tvg-name="ES| Somos FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMokFGu5hR3MClaRdygDSfscA1oUhozrlv0tnm-M2UxCVOYtDU82ZM9CQofdTdPX0-19cs9vVBBV2-jQfaIzov4k.png" group-title="M+  CINE",ES| Somos FHD
+#EXTINF:-1 tvg-id="" tvg-name="Somos FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMokFGu5hR3MClaRdygDSfscA1oUhozrlv0tnm-M2UxCVOYtDU82ZM9CQofdTdPX0-19cs9vVBBV2-jQfaIzov4k.png" group-title="M+  CINE",Somos FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724367
-#EXTINF:-1 tvg-id="" tvg-name="ES| Somos HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMokFGu5hR3MClaRdygDSfscA1oUhozrlv0tnm-M2UxCVOYtDU82ZM9CQofdTdPX0-19cs9vVBBV2-jQfaIzov4k.png" group-title="M+  CINE",ES| Somos HD
+#EXTINF:-1 tvg-id="" tvg-name="Somos HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMokFGu5hR3MClaRdygDSfscA1oUhozrlv0tnm-M2UxCVOYtDU82ZM9CQofdTdPX0-19cs9vVBBV2-jQfaIzov4k.png" group-title="M+  CINE",Somos HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724368
-#EXTINF:-1 tvg-id="" tvg-name="ES| Somos SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Jc2KxpU6IFRsKO0IjRVmTvMdO-4JnD3t09HMPBz5XATKDPBrZLpqgv-JI8E4rwbr6U9GSSCNnLaPK3H9LlzJbA.png" group-title="M+  CINE",ES| Somos SD
+#EXTINF:-1 tvg-id="" tvg-name="Somos SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0Jc2KxpU6IFRsKO0IjRVmTvMdO-4JnD3t09HMPBz5XATKDPBrZLpqgv-JI8E4rwbr6U9GSSCNnLaPK3H9LlzJbA.png" group-title="M+  CINE",Somos SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724369
-#EXTINF:-1 tvg-id="" tvg-name="ES| TCM FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cDh25fw8Qqy30lYrayI4tTip-ubakCfs1JEqeCc4gi_mUl7lBmLrhG0RO7D-Rxb7CHV129kJrOKtJC8sfJbhYBlT6KUFgaG-V5dyS8kkQEzE.png" group-title="M+  CINE",ES| TCM FHD
+#EXTINF:-1 tvg-id="" tvg-name="TCM FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cDh25fw8Qqy30lYrayI4tTip-ubakCfs1JEqeCc4gi_mUl7lBmLrhG0RO7D-Rxb7CHV129kJrOKtJC8sfJbhYBlT6KUFgaG-V5dyS8kkQEzE.png" group-title="M+  CINE",TCM FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724370
-#EXTINF:-1 tvg-id="" tvg-name="ES| TCM HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cDh25fw8Qqy30lYrayI4tTip-ubakCfs1JEqeCc4gi_mUl7lBmLrhG0RO7D-Rxb7CHV129kJrOKtJC8sfJbhYBlT6KUFgaG-V5dyS8kkQEzE.png" group-title="M+  CINE",ES| TCM HD
+#EXTINF:-1 tvg-id="" tvg-name="TCM HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cDh25fw8Qqy30lYrayI4tTip-ubakCfs1JEqeCc4gi_mUl7lBmLrhG0RO7D-Rxb7CHV129kJrOKtJC8sfJbhYBlT6KUFgaG-V5dyS8kkQEzE.png" group-title="M+  CINE",TCM HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724371
-#EXTINF:-1 tvg-id="" tvg-name="ES| TCM SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cDh25fw8Qqy30lYrayI4tTip-ubakCfs1JEqeCc4gi_mUl7lBmLrhG0RO7D-Rxb7CHV129kJrOKtJC8sfJbhYBlT6KUFgaG-V5dyS8kkQEzE.png" group-title="M+  CINE",ES| TCM SD
+#EXTINF:-1 tvg-id="" tvg-name="TCM SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cDh25fw8Qqy30lYrayI4tTip-ubakCfs1JEqeCc4gi_mUl7lBmLrhG0RO7D-Rxb7CHV129kJrOKtJC8sfJbhYBlT6KUFgaG-V5dyS8kkQEzE.png" group-title="M+  CINE",TCM SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724372
-#EXTINF:-1 tvg-id="" tvg-name="ES| Sundance TV FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxR6EoN2rqBVcV6eWfJ4lxgJy_3Syw74leV-SwnerF_CYWPLcJ1u50zwYQCK3yHyAyk34h5OI_LLRe1iQWykCSb8.png" group-title="M+  CINE",ES| Sundance TV FHD
+#EXTINF:-1 tvg-id="" tvg-name="Sundance TV FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxR6EoN2rqBVcV6eWfJ4lxgJy_3Syw74leV-SwnerF_CYWPLcJ1u50zwYQCK3yHyAyk34h5OI_LLRe1iQWykCSb8.png" group-title="M+  CINE",Sundance TV FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724373
-#EXTINF:-1 tvg-id="" tvg-name="ES| Sundance TV HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxR6EoN2rqBVcV6eWfJ4lxgJy_3Syw74leV-SwnerF_CYWPLcJ1u50zwYQCK3yHyAyk34h5OI_LLRe1iQWykCSb8.png" group-title="M+  CINE",ES| Sundance TV HD
+#EXTINF:-1 tvg-id="" tvg-name="Sundance TV HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxR6EoN2rqBVcV6eWfJ4lxgJy_3Syw74leV-SwnerF_CYWPLcJ1u50zwYQCK3yHyAyk34h5OI_LLRe1iQWykCSb8.png" group-title="M+  CINE",Sundance TV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724374
-#EXTINF:-1 tvg-id="" tvg-name="ES| Sundance TV SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_agyuMivVQ6ocg2fnlR4BPd_6XgSGnPD6h3NYbN1mNnPtNis701AgbSQ38p1SW_WMY3v22EJ6nfpbO1sqhXenhKY.png" group-title="M+  CINE",ES| Sundance TV SD
+#EXTINF:-1 tvg-id="" tvg-name="Sundance TV SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_agyuMivVQ6ocg2fnlR4BPd_6XgSGnPD6h3NYbN1mNnPtNis701AgbSQ38p1SW_WMY3v22EJ6nfpbO1sqhXenhKY.png" group-title="M+  CINE",Sundance TV SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724375
-#EXTINF:-1 tvg-id="" tvg-name="ES| Dark FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqDIK241Qe9Hwq1ZX1Z9D26weyYoS7zDCOQuJc9iGnWB00bDRWhLMCt1_xqdg6FRsj.png" group-title="M+  CINE",ES| Dark FHD
+#EXTINF:-1 tvg-id="" tvg-name="Dark FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqDIK241Qe9Hwq1ZX1Z9D26weyYoS7zDCOQuJc9iGnWB00bDRWhLMCt1_xqdg6FRsj.png" group-title="M+  CINE",Dark FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724376
-#EXTINF:-1 tvg-id="" tvg-name="ES| Dark HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqDIK241Qe9Hwq1ZX1Z9D26weyYoS7zDCOQuJc9iGnWB00bDRWhLMCt1_xqdg6FRsj.png" group-title="M+  CINE",ES| Dark HD
+#EXTINF:-1 tvg-id="" tvg-name="Dark HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqDIK241Qe9Hwq1ZX1Z9D26weyYoS7zDCOQuJc9iGnWB00bDRWhLMCt1_xqdg6FRsj.png" group-title="M+  CINE",Dark HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724377
-#EXTINF:-1 tvg-id="" tvg-name="ES| Dark SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqDIK241Qe9Hwq1ZX1Z9D26weyYoS7zDCOQuJc9iGnWB00bDRWhLMCt1_xqdg6FRsj.png" group-title="M+  CINE",ES| Dark SD
+#EXTINF:-1 tvg-id="" tvg-name="Dark SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqDIK241Qe9Hwq1ZX1Z9D26weyYoS7zDCOQuJc9iGnWB00bDRWhLMCt1_xqdg6FRsj.png" group-title="M+  CINE",Dark SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724378
-#EXTINF:-1 tvg-id="" tvg-name="ES| Paramount N FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZDfD2SdQfVF5YiwBUHCgg0gR7y6qAG7NYzpbI4NvSiENRtvG9wFeaYejKiVufj0iNrcmHmK0syZ-zPNwNx6xJU.png" group-title="M+  CINE",ES| Paramount N FHD
+#EXTINF:-1 tvg-id="" tvg-name="Paramount N FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZDfD2SdQfVF5YiwBUHCgg0gR7y6qAG7NYzpbI4NvSiENRtvG9wFeaYejKiVufj0iNrcmHmK0syZ-zPNwNx6xJU.png" group-title="M+  CINE",Paramount N FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724379
-#EXTINF:-1 tvg-id="" tvg-name="ES| Paramount N HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZDfD2SdQfVF5YiwBUHCgg0gR7y6qAG7NYzpbI4NvSiENRtvG9wFeaYejKiVufj0iNrcmHmK0syZ-zPNwNx6xJU.png" group-title="M+  CINE",ES| Paramount N HD
+#EXTINF:-1 tvg-id="" tvg-name="Paramount N HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxZDfD2SdQfVF5YiwBUHCgg0gR7y6qAG7NYzpbI4NvSiENRtvG9wFeaYejKiVufj0iNrcmHmK0syZ-zPNwNx6xJU.png" group-title="M+  CINE",Paramount N HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724380
-#EXTINF:-1 tvg-id="" tvg-name="ES| Paramount N SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxTYSzSv0bvFjU9hxsqkrcoEZMgzBBiYb6ahiA4U6nQ4y7wtKht8B0dbY5Ttzuw83gQ.png" group-title="M+  CINE",ES| Paramount N SD
+#EXTINF:-1 tvg-id="" tvg-name="Paramount N SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxTYSzSv0bvFjU9hxsqkrcoEZMgzBBiYb6ahiA4U6nQ4y7wtKht8B0dbY5Ttzuw83gQ.png" group-title="M+  CINE",Paramount N SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724381
-#EXTINF:-1 tvg-id="" tvg-name="ES| Be Mad TV FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMi2KE71kzYKtk7Pi4fL73vtb2rF73mNCyvGzSWUKBuxUAkJlS8hIEWJu0SFzOdEDjOtWt_sS_IpCnXXvLBqxAyc.png" group-title="M+  CINE",ES| Be Mad TV FHD
+#EXTINF:-1 tvg-id="" tvg-name="Be Mad TV FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMi2KE71kzYKtk7Pi4fL73vtb2rF73mNCyvGzSWUKBuxUAkJlS8hIEWJu0SFzOdEDjOtWt_sS_IpCnXXvLBqxAyc.png" group-title="M+  CINE",Be Mad TV FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724382
-#EXTINF:-1 tvg-id="" tvg-name="ES| Be Mad TV HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMi2KE71kzYKtk7Pi4fL73vtb2rF73mNCyvGzSWUKBuxUAkJlS8hIEWJu0SFzOdEDjOtWt_sS_IpCnXXvLBqxAyc.png" group-title="M+  CINE",ES| Be Mad TV HD
+#EXTINF:-1 tvg-id="" tvg-name="Be Mad TV HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMi2KE71kzYKtk7Pi4fL73vtb2rF73mNCyvGzSWUKBuxUAkJlS8hIEWJu0SFzOdEDjOtWt_sS_IpCnXXvLBqxAyc.png" group-title="M+  CINE",Be Mad TV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724383
-#EXTINF:-1 tvg-id="" tvg-name="ES| Be Mad TV SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cjwIzT2bSKf5N5ICLo1XgYDrrxTbXW-y7drHHAn5wxfdESudGWy6iMjcEbxOGccnBn04zW9d5iq3TOvDwV9WammdGJNilBJK5oTbme2Vo5qY.png" group-title="M+  CINE",ES| Be Mad TV SD
+#EXTINF:-1 tvg-id="" tvg-name="Be Mad TV SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cjwIzT2bSKf5N5ICLo1XgYDrrxTbXW-y7drHHAn5wxfdESudGWy6iMjcEbxOGccnBn04zW9d5iq3TOvDwV9WammdGJNilBJK5oTbme2Vo5qY.png" group-title="M+  CINE",Be Mad TV SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724384
-#EXTINF:-1 tvg-id="" tvg-name="ES| Squirrel TV FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqjkhud9UNDWTpx5OYBlIMIiUAeLxi6B9BPqAt1quMMQdM4QtcISQYThREF1gqHsPw.png" group-title="M+  CINE",ES| Squirrel TV FHD
+#EXTINF:-1 tvg-id="" tvg-name="Squirrel TV FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqjkhud9UNDWTpx5OYBlIMIiUAeLxi6B9BPqAt1quMMQdM4QtcISQYThREF1gqHsPw.png" group-title="M+  CINE",Squirrel TV FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724385
-#EXTINF:-1 tvg-id="" tvg-name="ES| Squirrel TV HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqjkhud9UNDWTpx5OYBlIMIiUAeLxi6B9BPqAt1quMMQdM4QtcISQYThREF1gqHsPw.png" group-title="M+  CINE",ES| Squirrel TV HD
+#EXTINF:-1 tvg-id="" tvg-name="Squirrel TV HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqjkhud9UNDWTpx5OYBlIMIiUAeLxi6B9BPqAt1quMMQdM4QtcISQYThREF1gqHsPw.png" group-title="M+  CINE",Squirrel TV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724386
-#EXTINF:-1 tvg-id="" tvg-name="ES| Squirrel TV SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqjkhud9UNDWTpx5OYBlIMIiUAeLxi6B9BPqAt1quMMQdM4QtcISQYThREF1gqHsPw.png" group-title="M+  CINE",ES| Squirrel TV SD
+#EXTINF:-1 tvg-id="" tvg-name="Squirrel TV SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqjkhud9UNDWTpx5OYBlIMIiUAeLxi6B9BPqAt1quMMQdM4QtcISQYThREF1gqHsPw.png" group-title="M+  CINE",Squirrel TV SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724387
-#EXTINF:-1 tvg-id="" tvg-name="ES| BOM Cine FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lq8-MEDCNJN_73oaSA285eco8JMda3TqmXz2_VLri8fhf4QtAzYyYPAaDY7_ruiERB.png" group-title="M+  CINE",ES| BOM Cine FHD
+#EXTINF:-1 tvg-id="" tvg-name="BOM Cine FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lq8-MEDCNJN_73oaSA285eco8JMda3TqmXz2_VLri8fhf4QtAzYyYPAaDY7_ruiERB.png" group-title="M+  CINE",BOM Cine FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724388
-#EXTINF:-1 tvg-id="" tvg-name="ES| BOM Cine HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lq8-MEDCNJN_73oaSA285eco8JMda3TqmXz2_VLri8fhf4QtAzYyYPAaDY7_ruiERB.png" group-title="M+  CINE",ES| BOM Cine HD
+#EXTINF:-1 tvg-id="" tvg-name="BOM Cine HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lq8-MEDCNJN_73oaSA285eco8JMda3TqmXz2_VLri8fhf4QtAzYyYPAaDY7_ruiERB.png" group-title="M+  CINE",BOM Cine HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724389
-#EXTINF:-1 tvg-id="" tvg-name="ES| BOM Cine SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lq8-MEDCNJN_73oaSA285eco8JMda3TqmXz2_VLri8fhf4QtAzYyYPAaDY7_ruiERB.png" group-title="M+  CINE",ES| BOM Cine SD
+#EXTINF:-1 tvg-id="" tvg-name="BOM Cine SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lq8-MEDCNJN_73oaSA285eco8JMda3TqmXz2_VLri8fhf4QtAzYyYPAaDY7_ruiERB.png" group-title="M+  CINE",BOM Cine SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724390
-#EXTINF:-1 tvg-id="" tvg-name="ES| AMC CRIME FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqWMO0mk40V7GbxdM5VN8gIWWgYhTPqj54OJblQlq9l9v-ewgtlsQmqoOBHQlS-V5J.png" group-title="M+  CINE",ES| AMC CRIME FHD
+#EXTINF:-1 tvg-id="" tvg-name="AMC CRIME FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqWMO0mk40V7GbxdM5VN8gIWWgYhTPqj54OJblQlq9l9v-ewgtlsQmqoOBHQlS-V5J.png" group-title="M+  CINE",AMC CRIME FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724391
-#EXTINF:-1 tvg-id="" tvg-name="ES| AMC CRIME HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqWMO0mk40V7GbxdM5VN8gIWWgYhTPqj54OJblQlq9l9v-ewgtlsQmqoOBHQlS-V5J.png" group-title="M+  CINE",ES| AMC CRIME HD
+#EXTINF:-1 tvg-id="" tvg-name="AMC CRIME HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqWMO0mk40V7GbxdM5VN8gIWWgYhTPqj54OJblQlq9l9v-ewgtlsQmqoOBHQlS-V5J.png" group-title="M+  CINE",AMC CRIME HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724392
-#EXTINF:-1 tvg-id="" tvg-name="ES| AMC CRIME SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqWMO0mk40V7GbxdM5VN8gIWWgYhTPqj54OJblQlq9l9v-ewgtlsQmqoOBHQlS-V5J.png" group-title="M+  CINE",ES| AMC CRIME SD
+#EXTINF:-1 tvg-id="" tvg-name="AMC CRIME SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhsICvpdhvWhTz7KQ5eTs5lqWMO0mk40V7GbxdM5VN8gIWWgYhTPqj54OJblQlq9l9v-ewgtlsQmqoOBHQlS-V5J.png" group-title="M+  CINE",AMC CRIME SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724393
 #EXTINF:-1 tvg-id="" tvg-name="ES MV| Caza y Pesca FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMu9YzB8YXw4J8CTs43XlIKAta-17lTSUy9MT7K2L19WQuR755URyMdBHSfnEKJu9UnsapvZINdOu-8GP_3_lAoA.png" group-title="M+  DOCUMENTALES",ES MV| Caza y Pesca FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724493
@@ -1749,137 +1505,137 @@ https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724493
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724494
 #EXTINF:-1 tvg-id="" tvg-name="ES MV| Caza y Pesca SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cb3YPSBRxlwAL2i51w-AbZ6Pg1jlfs990Ov8hfB3VXdMpP3ZNR9VRGVt7MyHW85QJv2uOhBWTlmcF3VAXAzdg54wEYs3CpgWxJZFL4QwirDA.png" group-title="M+  DOCUMENTALES",ES MV| Caza y Pesca SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724495
-#EXTINF:-1 tvg-id="" tvg-name="ES| Cazavision" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxUnXiQLdw2ATwZvlOhGeIwk6eCLENrFQlsgceq8-heUsPQtt7uVr1PCXasVGgOUy35kgwSDfNM8iv4LSgLMPOgA.png" group-title="M+  DOCUMENTALES",ES| Cazavision
+#EXTINF:-1 tvg-id="" tvg-name="Cazavision" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxUnXiQLdw2ATwZvlOhGeIwk6eCLENrFQlsgceq8-heUsPQtt7uVr1PCXasVGgOUy35kgwSDfNM8iv4LSgLMPOgA.png" group-title="M+  DOCUMENTALES",Cazavision
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724496
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtrY6B7LE0-WADcVw8TQuu_7gkybpJwwVHWPWTli7zic1Hdxjd3XFJGGaXZHtD1MGzeKWz2PBuxZxNw2FhmA6UtKIO4IxBwhIOaLDy9mGMbHh5zRZ_GurfzT3huiN7gEls.png" group-title="M+  DOCUMENTALES",ES| Iberalia FHD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtrY6B7LE0-WADcVw8TQuu_7gkybpJwwVHWPWTli7zic1Hdxjd3XFJGGaXZHtD1MGzeKWz2PBuxZxNw2FhmA6UtKIO4IxBwhIOaLDy9mGMbHh5zRZ_GurfzT3huiN7gEls.png" group-title="M+  DOCUMENTALES",Iberalia FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724497
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtrY6B7LE0-WADcVw8TQuu_7gkybpJwwVHWPWTli7zic1Hdxjd3XFJGGaXZHtD1MGzeKWz2PBuxZxNw2FhmA6UtKIO4IxBwhIOaLDy9mGMbHh5zRZ_GurfzT3huiN7gEls.png" group-title="M+  DOCUMENTALES",ES| Iberalia HD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtrY6B7LE0-WADcVw8TQuu_7gkybpJwwVHWPWTli7zic1Hdxjd3XFJGGaXZHtD1MGzeKWz2PBuxZxNw2FhmA6UtKIO4IxBwhIOaLDy9mGMbHh5zRZ_GurfzT3huiN7gEls.png" group-title="M+  DOCUMENTALES",Iberalia HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724498
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtrY6B7LE0-WADcVw8TQuu_7gkybpJwwVHWPWTli7zic1Hdxjd3XFJGGaXZHtD1MGzeKWz2PBuxZxNw2FhmA6UtKIO4IxBwhIOaLDy9mGMbHh5zRZ_GurfzT3huiN7gEls.png" group-title="M+  DOCUMENTALES",ES| Iberalia SD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhtrY6B7LE0-WADcVw8TQuu_7gkybpJwwVHWPWTli7zic1Hdxjd3XFJGGaXZHtD1MGzeKWz2PBuxZxNw2FhmA6UtKIO4IxBwhIOaLDy9mGMbHh5zRZ_GurfzT3huiN7gEls.png" group-title="M+  DOCUMENTALES",Iberalia SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724499
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia Caza FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuqQB_npscNM7MqfHq4bIA-sS3fiMcTfoUWnR5Aqam7FDyaUsXdcQ5vg9lN6Lz8aep6CNNfjdodrNHPf8Hl3IiVhhjNEuUh3cQzqvzZ1C7us72A9pB5JpG5sbZgVn82hIg.png" group-title="M+  DOCUMENTALES",ES| Iberalia Caza FHD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia Caza FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuqQB_npscNM7MqfHq4bIA-sS3fiMcTfoUWnR5Aqam7FDyaUsXdcQ5vg9lN6Lz8aep6CNNfjdodrNHPf8Hl3IiVhhjNEuUh3cQzqvzZ1C7us72A9pB5JpG5sbZgVn82hIg.png" group-title="M+  DOCUMENTALES",Iberalia Caza FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724500
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia Caza HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuqQB_npscNM7MqfHq4bIA-sS3fiMcTfoUWnR5Aqam7FDyaUsXdcQ5vg9lN6Lz8aep6CNNfjdodrNHPf8Hl3IiVhhjNEuUh3cQzqvzZ1C7us72A9pB5JpG5sbZgVn82hIg.png" group-title="M+  DOCUMENTALES",ES| Iberalia Caza HD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia Caza HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuqQB_npscNM7MqfHq4bIA-sS3fiMcTfoUWnR5Aqam7FDyaUsXdcQ5vg9lN6Lz8aep6CNNfjdodrNHPf8Hl3IiVhhjNEuUh3cQzqvzZ1C7us72A9pB5JpG5sbZgVn82hIg.png" group-title="M+  DOCUMENTALES",Iberalia Caza HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724501
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia Caza SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuqQB_npscNM7MqfHq4bIA-sS3fiMcTfoUWnR5Aqam7FDyaUsXdcQ5vg9lN6Lz8aep6CNNfjdodrNHPf8Hl3IiVhhjNEuUh3cQzqvzZ1C7us72A9pB5JpG5sbZgVn82hIg.png" group-title="M+  DOCUMENTALES",ES| Iberalia Caza SD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia Caza SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuqQB_npscNM7MqfHq4bIA-sS3fiMcTfoUWnR5Aqam7FDyaUsXdcQ5vg9lN6Lz8aep6CNNfjdodrNHPf8Hl3IiVhhjNEuUh3cQzqvzZ1C7us72A9pB5JpG5sbZgVn82hIg.png" group-title="M+  DOCUMENTALES",Iberalia Caza SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724502
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia Pesca FHD" tvg-logo="https://mplay.b-cdn.net/images/logos512/iberaliaPesca.png?1688996838258" group-title="M+  DOCUMENTALES",ES| Iberalia Pesca FHD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia Pesca FHD" tvg-logo="https://mplay.b-cdn.net/images/logos512/iberaliaPesca.png?1688996838258" group-title="M+  DOCUMENTALES",Iberalia Pesca FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724503
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia Pesca HD" tvg-logo="https://mplay.b-cdn.net/images/logos512/iberaliaPesca.png?1688996838258" group-title="M+  DOCUMENTALES",ES| Iberalia Pesca HD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia Pesca HD" tvg-logo="https://mplay.b-cdn.net/images/logos512/iberaliaPesca.png?1688996838258" group-title="M+  DOCUMENTALES",Iberalia Pesca HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724504
-#EXTINF:-1 tvg-id="" tvg-name="ES| Iberalia Pesca SD" tvg-logo="https://mplay.b-cdn.net/images/logos512/iberaliaPesca.png?1688996838258" group-title="M+  DOCUMENTALES",ES| Iberalia Pesca SD
+#EXTINF:-1 tvg-id="" tvg-name="Iberalia Pesca SD" tvg-logo="https://mplay.b-cdn.net/images/logos512/iberaliaPesca.png?1688996838258" group-title="M+  DOCUMENTALES",Iberalia Pesca SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724505
-#EXTINF:-1 tvg-id="" tvg-name="ES| Decasa FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNY9espraOe5OmOEi1i09rA5KQRJh2BWF5joak1wmfB7E2vVSbIVnaMhK4W2Ekdwrlg.png" group-title="M+  DOCUMENTALES",ES| Decasa FHD
+#EXTINF:-1 tvg-id="" tvg-name="Decasa FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNY9espraOe5OmOEi1i09rA5KQRJh2BWF5joak1wmfB7E2vVSbIVnaMhK4W2Ekdwrlg.png" group-title="M+  DOCUMENTALES",Decasa FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724506
-#EXTINF:-1 tvg-id="" tvg-name="ES| Decasa HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMv_6pDQ44pfnNZ1C0tDvLEZpAUFLPnZeHlpk0LXteO_x2CPfrOa4GgH666sWkPFp6A.png" group-title="M+  DOCUMENTALES",ES| Decasa HD
+#EXTINF:-1 tvg-id="" tvg-name="Decasa HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cM3kuHQQl8hThKASVXpNNMv_6pDQ44pfnNZ1C0tDvLEZpAUFLPnZeHlpk0LXteO_x2CPfrOa4GgH666sWkPFp6A.png" group-title="M+  DOCUMENTALES",Decasa HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724507
-#EXTINF:-1 tvg-id="" tvg-name="ES| Decasa SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNY9espraOe5OmOEi1i09rA5KQRJh2BWF5joak1wmfB7E2vVSbIVnaMhK4W2Ekdwrlg.png" group-title="M+  DOCUMENTALES",ES| Decasa SD
+#EXTINF:-1 tvg-id="" tvg-name="Decasa SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cT4-FpsKit9uXJmi1mPxaNY9espraOe5OmOEi1i09rA5KQRJh2BWF5joak1wmfB7E2vVSbIVnaMhK4W2Ekdwrlg.png" group-title="M+  DOCUMENTALES",Decasa SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724508
-#EXTINF:-1 tvg-id="" tvg-name="ES| CanalCocina FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiJU_q5OzicMjaXtuydlLFx067iCmsJqqx10a3P7D2rD7wHNha87IdxM6OTo_wx-D4aZyQSq0oMrx6uczesLj3Ng.png" group-title="M+  DOCUMENTALES",ES| CanalCocina FHD
+#EXTINF:-1 tvg-id="" tvg-name="CanalCocina FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiJU_q5OzicMjaXtuydlLFx067iCmsJqqx10a3P7D2rD7wHNha87IdxM6OTo_wx-D4aZyQSq0oMrx6uczesLj3Ng.png" group-title="M+  DOCUMENTALES",CanalCocina FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724509
-#EXTINF:-1 tvg-id="" tvg-name="ES| CanalCocina HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiJU_q5OzicMjaXtuydlLFx067iCmsJqqx10a3P7D2rD7wHNha87IdxM6OTo_wx-D4aZyQSq0oMrx6uczesLj3Ng.png" group-title="M+  DOCUMENTALES",ES| CanalCocina HD
+#EXTINF:-1 tvg-id="" tvg-name="CanalCocina HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiJU_q5OzicMjaXtuydlLFx067iCmsJqqx10a3P7D2rD7wHNha87IdxM6OTo_wx-D4aZyQSq0oMrx6uczesLj3Ng.png" group-title="M+  DOCUMENTALES",CanalCocina HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724510
-#EXTINF:-1 tvg-id="" tvg-name="ES| CanalCocina SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0NvWqImwl0oij3CP9yB3CCaC0TuB4CuZ5FHkez2WnkOcECtzBkqgWIMZoWhzxsVM6zBUVs74T2QZfBXBSHRomzc.png" group-title="M+  DOCUMENTALES",ES| CanalCocina SD
+#EXTINF:-1 tvg-id="" tvg-name="CanalCocina SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0NvWqImwl0oij3CP9yB3CCaC0TuB4CuZ5FHkez2WnkOcECtzBkqgWIMZoWhzxsVM6zBUVs74T2QZfBXBSHRomzc.png" group-title="M+  DOCUMENTALES",CanalCocina SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724511
-#EXTINF:-1 tvg-id="" tvg-name="ES| NatGeo Wild FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/national-geographic-wild-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| NatGeo Wild FHD
+#EXTINF:-1 tvg-id="" tvg-name="NatGeo Wild FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/national-geographic-wild-es.png?raw=true" group-title="M+  DOCUMENTALES",NatGeo Wild FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724512
-#EXTINF:-1 tvg-id="" tvg-name="ES| NatGeo Wild HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/national-geographic-wild-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| NatGeo Wild HD
+#EXTINF:-1 tvg-id="" tvg-name="NatGeo Wild HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/national-geographic-wild-es.png?raw=true" group-title="M+  DOCUMENTALES",NatGeo Wild HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724513
-#EXTINF:-1 tvg-id="" tvg-name="ES| NatGeo Wild SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/national-geographic-wild-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| NatGeo Wild SD
+#EXTINF:-1 tvg-id="" tvg-name="NatGeo Wild SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/national-geographic-wild-es.png?raw=true" group-title="M+  DOCUMENTALES",NatGeo Wild SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724514
-#EXTINF:-1 tvg-id="" tvg-name="ES| NatGeo FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WydFTJxJW9HxyAM34aM6Z-g3M3z2xpidDnDAvG8DHD3zM.png" group-title="M+  DOCUMENTALES",ES| NatGeo FHD
+#EXTINF:-1 tvg-id="" tvg-name="NatGeo FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WydFTJxJW9HxyAM34aM6Z-g3M3z2xpidDnDAvG8DHD3zM.png" group-title="M+  DOCUMENTALES",NatGeo FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724515
-#EXTINF:-1 tvg-id="" tvg-name="ES| NatGeo HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WydFTJxJW9HxyAM34aM6Z-g3M3z2xpidDnDAvG8DHD3zM.png" group-title="M+  DOCUMENTALES",ES| NatGeo HD
+#EXTINF:-1 tvg-id="" tvg-name="NatGeo HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WydFTJxJW9HxyAM34aM6Z-g3M3z2xpidDnDAvG8DHD3zM.png" group-title="M+  DOCUMENTALES",NatGeo HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724516
-#EXTINF:-1 tvg-id="" tvg-name="ES| NatGeo SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WydFTJxJW9HxyAM34aM6Z-g3M3z2xpidDnDAvG8DHD3zM.png" group-title="M+  DOCUMENTALES",ES| NatGeo SD
+#EXTINF:-1 tvg-id="" tvg-name="NatGeo SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhuNVwh_DDSOk6obGw1V5aDus_lWUMPfU44zOKPIZ4V7iEee1m24OAYm5KRDVFGmdvnJQ5PJB1q3m89NbjmMJ5WydFTJxJW9HxyAM34aM6Z-g3M3z2xpidDnDAvG8DHD3zM.png" group-title="M+  DOCUMENTALES",NatGeo SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724517
-#EXTINF:-1 tvg-id="" tvg-name="ES| Discovery FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cGhK29IAqb7Bu6YgFee1G24Tz3islKXMovgdgz5xd6YSLLS2qu0FPJ9UzvIb7tZ6zn4UkLb7B0qW7R4D0Z9CYmA.png" group-title="M+  DOCUMENTALES",ES| Discovery FHD
+#EXTINF:-1 tvg-id="" tvg-name="Discovery FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cGhK29IAqb7Bu6YgFee1G24Tz3islKXMovgdgz5xd6YSLLS2qu0FPJ9UzvIb7tZ6zn4UkLb7B0qW7R4D0Z9CYmA.png" group-title="M+  DOCUMENTALES",Discovery FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724518
-#EXTINF:-1 tvg-id="" tvg-name="ES| Discovery HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cGhK29IAqb7Bu6YgFee1G24Tz3islKXMovgdgz5xd6YSLLS2qu0FPJ9UzvIb7tZ6zn4UkLb7B0qW7R4D0Z9CYmA.png" group-title="M+  DOCUMENTALES",ES| Discovery HD
+#EXTINF:-1 tvg-id="" tvg-name="Discovery HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cGhK29IAqb7Bu6YgFee1G24Tz3islKXMovgdgz5xd6YSLLS2qu0FPJ9UzvIb7tZ6zn4UkLb7B0qW7R4D0Z9CYmA.png" group-title="M+  DOCUMENTALES",Discovery HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724519
-#EXTINF:-1 tvg-id="" tvg-name="ES| Discovery SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cGhK29IAqb7Bu6YgFee1G24Tz3islKXMovgdgz5xd6YSLLS2qu0FPJ9UzvIb7tZ6zn4UkLb7B0qW7R4D0Z9CYmA.png" group-title="M+  DOCUMENTALES",ES| Discovery SD
+#EXTINF:-1 tvg-id="" tvg-name="Discovery SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cGhK29IAqb7Bu6YgFee1G24Tz3islKXMovgdgz5xd6YSLLS2qu0FPJ9UzvIb7tZ6zn4UkLb7B0qW7R4D0Z9CYmA.png" group-title="M+  DOCUMENTALES",Discovery SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724520
-#EXTINF:-1 tvg-id="" tvg-name="ES| Odisea FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_agmBVbi472Qq81IZxrP9Byk_5KkVG3CDyAlt7-KJWWjQKe3uvqzcq4PTdBt6EpQsdY2p4hp57b2RhUKdaSpeiTU.png" group-title="M+  DOCUMENTALES",ES| Odisea FHD
+#EXTINF:-1 tvg-id="" tvg-name="Odisea FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_agmBVbi472Qq81IZxrP9Byk_5KkVG3CDyAlt7-KJWWjQKe3uvqzcq4PTdBt6EpQsdY2p4hp57b2RhUKdaSpeiTU.png" group-title="M+  DOCUMENTALES",Odisea FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724521
-#EXTINF:-1 tvg-id="" tvg-name="ES| Odisea HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxTdQQ7fvssaz62Kf0jkaHUTb-1pUNF2SH5Y8UllTIqRoUZEZTOdRbrer59eh6Qwo7Q.png" group-title="M+  DOCUMENTALES",ES| Odisea HD
+#EXTINF:-1 tvg-id="" tvg-name="Odisea HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4crp6nqtaUB5JbuVG-xP6AxTdQQ7fvssaz62Kf0jkaHUTb-1pUNF2SH5Y8UllTIqRoUZEZTOdRbrer59eh6Qwo7Q.png" group-title="M+  DOCUMENTALES",Odisea HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724522
-#EXTINF:-1 tvg-id="" tvg-name="ES| Odisea SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_agmBVbi472Qq81IZxrP9Byk_5KkVG3CDyAlt7-KJWWjQKe3uvqzcq4PTdBt6EpQsdY2p4hp57b2RhUKdaSpeiTU.png" group-title="M+  DOCUMENTALES",ES| Odisea SD
+#EXTINF:-1 tvg-id="" tvg-name="Odisea SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cvRc5xo2IayMNAYzzRMu_agmBVbi472Qq81IZxrP9Byk_5KkVG3CDyAlt7-KJWWjQKe3uvqzcq4PTdBt6EpQsdY2p4hp57b2RhUKdaSpeiTU.png" group-title="M+  DOCUMENTALES",Odisea SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724523
-#EXTINF:-1 tvg-id="" tvg-name="ES| C Historia FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiGJsPtZcIFZR4yt3W7xzRCJ1hCsFEYNGyxSySjrSIVIYGjQPxxEQZ28jVFKC2cDRs8r6jP5HsDwfM8CPSd1hqCc.png" group-title="M+  DOCUMENTALES",ES| C Historia FHD
+#EXTINF:-1 tvg-id="" tvg-name="C Historia FHD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiGJsPtZcIFZR4yt3W7xzRCJ1hCsFEYNGyxSySjrSIVIYGjQPxxEQZ28jVFKC2cDRs8r6jP5HsDwfM8CPSd1hqCc.png" group-title="M+  DOCUMENTALES",C Historia FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724524
-#EXTINF:-1 tvg-id="" tvg-name="ES| C Historia HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiGJsPtZcIFZR4yt3W7xzRCJ1hCsFEYNGyxSySjrSIVIYGjQPxxEQZ28jVFKC2cDRs8r6jP5HsDwfM8CPSd1hqCc.png" group-title="M+  DOCUMENTALES",ES| C Historia HD
+#EXTINF:-1 tvg-id="" tvg-name="C Historia HD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cJ2jnIIQx7xw6ZL1HqeaDiGJsPtZcIFZR4yt3W7xzRCJ1hCsFEYNGyxSySjrSIVIYGjQPxxEQZ28jVFKC2cDRs8r6jP5HsDwfM8CPSd1hqCc.png" group-title="M+  DOCUMENTALES",C Historia HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724525
-#EXTINF:-1 tvg-id="" tvg-name="ES| C Historia SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0HZwbxe3C11wE9XQT7Xwd2azK8FMULvRwCX3Tb8UPbig42IoO1QJD4iKVe1hxZl3kC3dZXwwh6kDpBdbsoW23q4.png" group-title="M+  DOCUMENTALES",ES| C Historia SD
+#EXTINF:-1 tvg-id="" tvg-name="C Historia SD" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4c88iFDYm75QPEMvfNW4ri0HZwbxe3C11wE9XQT7Xwd2azK8FMULvRwCX3Tb8UPbig42IoO1QJD4iKVe1hxZl3kC3dZXwwh6kDpBdbsoW23q4.png" group-title="M+  DOCUMENTALES",C Historia SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724526
 #EXTINF:-1 tvg-id="" tvg-name="ES MV| El Garage TV" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4ce0XIQ1xg_SnbwZB5jMKPj-tFqDOTG7UuyHBZWDYHP7U3KcOsDeFGAfwcEhtQZ89n0CMaXKRP9DSdxwiGFwGS8wvCRMnwy30s8nKeamYPPlE.png" group-title="M+  DOCUMENTALES",ES MV| El Garage TV
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724527
 #EXTINF:-1 tvg-id="" tvg-name="ES MV| CGTN Español" tvg-logo="https://server3.welovepales.org:443/images/lMNTNY2lSu0hF8hOiHYs1t6H0dZlTIA7SLakse7FKhvB5pyYGnfcY3dD8tJohY4cMMT-bQ9LjT-KG-Cy3sQ6r2idLBpxC_oI0yU4BDNHZRUnHI6AeDy5WVufSkvEDURnj5yc46Y4Wb-4m1znu6hstw.png" group-title="M+  DOCUMENTALES",ES MV| CGTN Español
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724528
-#EXTINF:-1 tvg-id="" tvg-name="ES| Mega FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/mega-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| Mega FHD
+#EXTINF:-1 tvg-id="" tvg-name="Mega FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/mega-es.png?raw=true" group-title="M+  DOCUMENTALES",Mega FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724529
-#EXTINF:-1 tvg-id="" tvg-name="ES| Mega HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/mega-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| Mega HD
+#EXTINF:-1 tvg-id="" tvg-name="Mega HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/mega-es.png?raw=true" group-title="M+  DOCUMENTALES",Mega HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724530
-#EXTINF:-1 tvg-id="" tvg-name="ES| Mega SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/mega-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| Mega SD
+#EXTINF:-1 tvg-id="" tvg-name="Mega SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/mega-es.png?raw=true" group-title="M+  DOCUMENTALES",Mega SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724531
-#EXTINF:-1 tvg-id="" tvg-name="ES| DMAX FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dmax-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| DMAX FHD
+#EXTINF:-1 tvg-id="" tvg-name="DMAX FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dmax-es.png?raw=true" group-title="M+  DOCUMENTALES",DMAX FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724532
-#EXTINF:-1 tvg-id="" tvg-name="ES| DMAX HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dmax-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| DMAX HD
+#EXTINF:-1 tvg-id="" tvg-name="DMAX HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dmax-es.png?raw=true" group-title="M+  DOCUMENTALES",DMAX HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724533
-#EXTINF:-1 tvg-id="" tvg-name="ES| DMAX SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dmax-es.png?raw=true" group-title="M+  DOCUMENTALES",ES| DMAX SD
+#EXTINF:-1 tvg-id="" tvg-name="DMAX SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dmax-es.png?raw=true" group-title="M+  DOCUMENTALES",DMAX SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724534
-#EXTINF:-1 tvg-id="" tvg-name="ES| ¡BUENVIAJE! FHD" tvg-logo="http://iptv.legacy4k.tv:8000/images/xLzxO7JuvTYyJ-BAA7rZx_LpnXm8wtS34EzaUEGeH9qXBUSZZtC-G1Bp5rD0v4704gOc_miIu7Mne3VqJZd-Q1GncrgXUUuCGAcP5F-MzQ43XmJpLDpr1KnLO_pugh1p2QQI9nOlrEj3DZ7YqtQ1303aomUKPF0RxYR9_lPfDP1HSHD-PfMCrNnAgfFs0iND.png" group-title="M+  DOCUMENTALES",ES| ¡BUENVIAJE! FHD
+#EXTINF:-1 tvg-id="" tvg-name="¡BUENVIAJE! FHD" tvg-logo="http://iptv.legacy4k.tv:8000/images/xLzxO7JuvTYyJ-BAA7rZx_LpnXm8wtS34EzaUEGeH9qXBUSZZtC-G1Bp5rD0v4704gOc_miIu7Mne3VqJZd-Q1GncrgXUUuCGAcP5F-MzQ43XmJpLDpr1KnLO_pugh1p2QQI9nOlrEj3DZ7YqtQ1303aomUKPF0RxYR9_lPfDP1HSHD-PfMCrNnAgfFs0iND.png" group-title="M+  DOCUMENTALES",¡BUENVIAJE! FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724535
-#EXTINF:-1 tvg-id="" tvg-name="ES| ¡BUENVIAJE! HD" tvg-logo="http://iptv.legacy4k.tv:8000/images/xLzxO7JuvTYyJ-BAA7rZx_LpnXm8wtS34EzaUEGeH9qXBUSZZtC-G1Bp5rD0v4704gOc_miIu7Mne3VqJZd-Q1GncrgXUUuCGAcP5F-MzQ43XmJpLDpr1KnLO_pugh1p2QQI9nOlrEj3DZ7YqtQ1303aomUKPF0RxYR9_lPfDP1HSHD-PfMCrNnAgfFs0iND.png" group-title="M+  DOCUMENTALES",ES| ¡BUENVIAJE! HD
+#EXTINF:-1 tvg-id="" tvg-name="¡BUENVIAJE! HD" tvg-logo="http://iptv.legacy4k.tv:8000/images/xLzxO7JuvTYyJ-BAA7rZx_LpnXm8wtS34EzaUEGeH9qXBUSZZtC-G1Bp5rD0v4704gOc_miIu7Mne3VqJZd-Q1GncrgXUUuCGAcP5F-MzQ43XmJpLDpr1KnLO_pugh1p2QQI9nOlrEj3DZ7YqtQ1303aomUKPF0RxYR9_lPfDP1HSHD-PfMCrNnAgfFs0iND.png" group-title="M+  DOCUMENTALES",¡BUENVIAJE! HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724536
-#EXTINF:-1 tvg-id="" tvg-name="ES| ¡BUENVIAJE! SD" tvg-logo="http://iptv.legacy4k.tv:8000/images/xLzxO7JuvTYyJ-BAA7rZx_LpnXm8wtS34EzaUEGeH9qXBUSZZtC-G1Bp5rD0v4704gOc_miIu7Mne3VqJZd-Q1GncrgXUUuCGAcP5F-MzQ43XmJpLDpr1KnLO_pugh1p2QQI9nOlrEj3DZ7YqtQ1303aomUKPF0RxYR9_lPfDP1HSHD-PfMCrNnAgfFs0iND.png" group-title="M+  DOCUMENTALES",ES| ¡BUENVIAJE! SD
+#EXTINF:-1 tvg-id="" tvg-name="¡BUENVIAJE! SD" tvg-logo="http://iptv.legacy4k.tv:8000/images/xLzxO7JuvTYyJ-BAA7rZx_LpnXm8wtS34EzaUEGeH9qXBUSZZtC-G1Bp5rD0v4704gOc_miIu7Mne3VqJZd-Q1GncrgXUUuCGAcP5F-MzQ43XmJpLDpr1KnLO_pugh1p2QQI9nOlrEj3DZ7YqtQ1303aomUKPF0RxYR9_lPfDP1HSHD-PfMCrNnAgfFs0iND.png" group-title="M+  DOCUMENTALES",¡BUENVIAJE! SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724537
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nick FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nickelodeon-es.png?raw=true" group-title="M+  INFANTILES",ES| Nick FHD
+#EXTINF:-1 tvg-id="" tvg-name="Nick FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nickelodeon-es.png?raw=true" group-title="M+  INFANTILES",Nick FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724541
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nick HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nickelodeon-es.png?raw=true" group-title="M+  INFANTILES",ES| Nick HD
+#EXTINF:-1 tvg-id="" tvg-name="Nick HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nickelodeon-es.png?raw=true" group-title="M+  INFANTILES",Nick HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724542
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nick SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nickelodeon-es.png?raw=true" group-title="M+  INFANTILES",ES| Nick SD
+#EXTINF:-1 tvg-id="" tvg-name="Nick SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nickelodeon-es.png?raw=true" group-title="M+  INFANTILES",Nick SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724543
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nick JR FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nick-jr-es.png?raw=true" group-title="M+  INFANTILES",ES| Nick JR FHD
+#EXTINF:-1 tvg-id="" tvg-name="Nick JR FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nick-jr-es.png?raw=true" group-title="M+  INFANTILES",Nick JR FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724544
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nick JR HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nick-jr-es.png?raw=true" group-title="M+  INFANTILES",ES| Nick JR HD
+#EXTINF:-1 tvg-id="" tvg-name="Nick JR HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nick-jr-es.png?raw=true" group-title="M+  INFANTILES",Nick JR HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724545
-#EXTINF:-1 tvg-id="" tvg-name="ES| Nick JR SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nick-jr-es.png?raw=true" group-title="M+  INFANTILES",ES| Nick JR SD
+#EXTINF:-1 tvg-id="" tvg-name="Nick JR SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/nick-jr-es.png?raw=true" group-title="M+  INFANTILES",Nick JR SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724546
-#EXTINF:-1 tvg-id="" tvg-name="ES| Ten FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ten-es.png?raw=true" group-title="M+  INFANTILES",ES| Ten FHD
+#EXTINF:-1 tvg-id="" tvg-name="Ten FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ten-es.png?raw=true" group-title="M+  INFANTILES",Ten FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724547
-#EXTINF:-1 tvg-id="" tvg-name="ES| Ten HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ten-es.png?raw=true" group-title="M+  INFANTILES",ES| Ten HD
+#EXTINF:-1 tvg-id="" tvg-name="Ten HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ten-es.png?raw=true" group-title="M+  INFANTILES",Ten HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724548
-#EXTINF:-1 tvg-id="" tvg-name="ES| Ten SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ten-es.png?raw=true" group-title="M+  INFANTILES",ES| Ten SD
+#EXTINF:-1 tvg-id="" tvg-name="Ten SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/ten-es.png?raw=true" group-title="M+  INFANTILES",Ten SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724549
-#EXTINF:-1 tvg-id="" tvg-name="ES| DisneyJr FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/disney-jr-es.png?raw=true" group-title="M+  INFANTILES",ES| DisneyJr FHD
+#EXTINF:-1 tvg-id="" tvg-name="DisneyJr FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/disney-jr-es.png?raw=true" group-title="M+  INFANTILES",DisneyJr FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724550
-#EXTINF:-1 tvg-id="" tvg-name="ES| DisneyJr HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/disney-jr-es.png?raw=true" group-title="M+  INFANTILES",ES| DisneyJr HD
+#EXTINF:-1 tvg-id="" tvg-name="DisneyJr HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/disney-jr-es.png?raw=true" group-title="M+  INFANTILES",DisneyJr HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724551
-#EXTINF:-1 tvg-id="" tvg-name="ES| DisneyJr SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/disney-jr-es.png?raw=true" group-title="M+  INFANTILES",ES| DisneyJr SD
+#EXTINF:-1 tvg-id="" tvg-name="DisneyJr SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/disney-jr-es.png?raw=true" group-title="M+  INFANTILES",DisneyJr SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724552
-#EXTINF:-1 tvg-id="" tvg-name="ES| BabyTV FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="M+  INFANTILES",ES| BabyTV FHD
+#EXTINF:-1 tvg-id="" tvg-name="BabyTV FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="M+  INFANTILES",BabyTV FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724553
-#EXTINF:-1 tvg-id="" tvg-name="ES| BabyTV HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="M+  INFANTILES",ES| BabyTV HD
+#EXTINF:-1 tvg-id="" tvg-name="BabyTV HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="M+  INFANTILES",BabyTV HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724554
-#EXTINF:-1 tvg-id="" tvg-name="ES| BabyTV SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="M+  INFANTILES",ES| BabyTV SD
+#EXTINF:-1 tvg-id="" tvg-name="BabyTV SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="M+  INFANTILES",BabyTV SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724555
-#EXTINF:-1 tvg-id="" tvg-name="ES| Boing FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/boing-es.png?raw=true" group-title="M+  INFANTILES",ES| Boing FHD
+#EXTINF:-1 tvg-id="" tvg-name="Boing FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/boing-es.png?raw=true" group-title="M+  INFANTILES",Boing FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724556
-#EXTINF:-1 tvg-id="" tvg-name="ES| Boing HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/boing-es.png?raw=true" group-title="M+  INFANTILES",ES| Boing HD
+#EXTINF:-1 tvg-id="" tvg-name="Boing HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/boing-es.png?raw=true" group-title="M+  INFANTILES",Boing HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724557
-#EXTINF:-1 tvg-id="" tvg-name="ES| Boing SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/boing-es.png?raw=true" group-title="M+  INFANTILES",ES| Boing SD
+#EXTINF:-1 tvg-id="" tvg-name="Boing SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/boing-es.png?raw=true" group-title="M+  INFANTILES",Boing SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724558
-#EXTINF:-1 tvg-id="" tvg-name="ES| Dreamworks FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dreamworks-channel-es.png?raw=true" group-title="M+  INFANTILES",ES| Dreamworks FHD
+#EXTINF:-1 tvg-id="" tvg-name="Dreamworks FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dreamworks-channel-es.png?raw=true" group-title="M+  INFANTILES",Dreamworks FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724559
-#EXTINF:-1 tvg-id="" tvg-name="ES| Dreamworks HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dreamworks-channel-es.png?raw=true" group-title="M+  INFANTILES",ES| Dreamworks HD
+#EXTINF:-1 tvg-id="" tvg-name="Dreamworks HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dreamworks-channel-es.png?raw=true" group-title="M+  INFANTILES",Dreamworks HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724560
-#EXTINF:-1 tvg-id="" tvg-name="ES| Dreamworks SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dreamworks-channel-es.png?raw=true" group-title="M+  INFANTILES",ES| Dreamworks SD
+#EXTINF:-1 tvg-id="" tvg-name="Dreamworks SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/dreamworks-channel-es.png?raw=true" group-title="M+  INFANTILES",Dreamworks SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724561
-#EXTINF:-1 tvg-id="" tvg-name="ES| Clan FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clan-es.png?raw=true" group-title="M+  INFANTILES",ES| Clan FHD
+#EXTINF:-1 tvg-id="" tvg-name="Clan FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clan-es.png?raw=true" group-title="M+  INFANTILES",Clan FHD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724562
-#EXTINF:-1 tvg-id="" tvg-name="ES| Clan HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clan-hd-es.png?raw=true" group-title="M+  INFANTILES",ES| Clan HD
+#EXTINF:-1 tvg-id="" tvg-name="Clan HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clan-hd-es.png?raw=true" group-title="M+  INFANTILES",Clan HD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724563
-#EXTINF:-1 tvg-id="" tvg-name="ES| Clan SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clan-es.png?raw=true" group-title="M+  INFANTILES",ES| Clan SD
+#EXTINF:-1 tvg-id="" tvg-name="Clan SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/clan-es.png?raw=true" group-title="M+  INFANTILES",Clan SD
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724564
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(CUT) 
 http://cord-cutter.net:8080/7bJBhh/138115/9811
