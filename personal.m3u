@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",09 Set. 2025 09:46
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",10 Set. 2025 09:27
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(PET9AGO)
 http://181.65.191.195:7090/play/a00p/index.m3u8
@@ -123,7 +123,7 @@ http://152.200.150.150:8000/play/a0me/index.m3u8
 http://152.200.150.150:8000/play/a0ec/index.m3u8
 #EXTINF:-1 tvg-id="nickelodeon_centro" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="animation",Nickelodeon(AR181)
 http://181.10.123.154:14000/play/a04z/index.m3u8
-#EXTINF:-1,SYFY(PET4AGO)
+#EXTINF:-1,USA Network(PET4AGO)
 http://200.60.97.100:28888/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="warner_tv_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies;Series",Warner Channel(PEI8AGO)
 http://192.141.99.87:8000/play/a0ao
@@ -983,7 +983,7 @@ http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12335
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12351
 #EXTINF:-1,HOLLYWOODHD HEVC(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12355
-#EXTINF:-1,FOX HD HEVC(US-FL13AGO)
+#EXTINF:-1,Star Channel(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12357
 #EXTINF:-1,#VAMOS HD HEVC(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12360
