@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",13 Set. 2025 15:27
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",15 Set. 2025 08:17
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV opc 1(PET9AGO)
 http://181.65.191.195:7090/play/a00p/index.m3u8
@@ -63,10 +63,14 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/1378.m3u8
 https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/iYFWG06.png" group-title="EL SALVADOR",TCS+ - ESA(CT)
 https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(SVUF15SEP)
+http://181.78.99.187:8000/play/a0qp/index.m3u8
 #EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(ORI)
 https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
 #EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1116.m3u8
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF15SEP)
+http://181.78.99.187:8000/play/a0qq/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVIF-4SEP)
 http://181.78.99.187:8000/play/a0qq/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVCC-4SEP)
@@ -81,22 +85,24 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/1112.m3u8
 http://45.5.116.178:8000/play/a03p/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(CT)
 http://45.5.116.178:8000/play/a00g/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="Canal6.sv" tvg-logo="https://i.imgur.com/M4muPLK.png" group-title="EL SALVADOR",Canal 6(SVUF15SEP)
+http://181.78.99.187:8000/play/a0qs/index.m3u8
 #EXTINF:-1 tvg-id="Canal6.sv" tvg-logo="http://lista.lamtv.site:80/images/22509e02cccd96e7d4b12fa3e6667188.png" group-title="EL SALVADOR",Canal 6(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1115.m3u8
 #EXTINF:-1 tvg-id="Canal6.sv" tvg-logo="https://i.imgur.com/M4muPLK.png" group-title="EL SALVADOR",Canal 6(OR)
 https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
-#EXTINF:-1 tvg-id="Canal10.sv" tvg-logo="https://immaa.xyz/Canal10SD.png" group-title="EL SALVADOR",Canal 10(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/1122.m3u8
-#EXTINF:-1 tvg-id="Canal12.sv" tvg-logo="http://swedtv.vip/logos/LAT_centroamerica/elsal_canal12.png" group-title="EL SALVADOR",Canal 12(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/1117.m3u8
+#EXTINF:-1 tvg-id="Canal10.sv" tvg-logo="https://immaa.xyz/Canal10SD.png" group-title="EL SALVADOR",Canal 10(SVUF15SEP)
+http://181.78.99.187:8000/play/a0r8/index.m3u8
+#EXTINF:-1 tvg-id="Canal12.sv" tvg-logo="http://swedtv.vip/logos/LAT_centroamerica/elsal_canal12.png" group-title="EL SALVADOR",Canal 12(SVUF15SEP)
+http://181.78.99.187:8000/play/a0nw/index.m3u8
 #EXTINF:-1 tvg-id="Canal12.sv" tvg-logo="http://swedtv.vip/logos/LAT_centroamerica/elsal_canal12.png" group-title="EL SALVADOR",Canal 12(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1120.m3u8
-#EXTINF:-1 tvg-id="MegavisionCanal19.sv" tvg-logo="http://lista.lamtv.site:80/images/0a95b66b1931b0264e10f3c367f1f640.png" group-title="EL SALVADOR",Canal 19(4K)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/1113.m3u8
+#EXTINF:-1 tvg-id="MegavisionCanal19.sv" tvg-logo="http://lista.lamtv.site:80/images/0a95b66b1931b0264e10f3c367f1f640.png" group-title="EL SALVADOR",Canal 19(SVUF15SEP)
+http://181.78.99.187:8000/play/a0rq/index.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="http://lista.lamtv.site:80/images/6ad42c5869a1c5e2bbe2fd6b00025184.png" group-title="EL SALVADOR",Canal 21(4K)
 http://masterprotv1.com:8080/22silke2107/71615syabtr4/1119.m3u8
-#EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="https://i.imgur.com/esGYn21.png" group-title="EL SALVADOR",Canal 21(ORI)
-https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8
+#EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="https://i.imgur.com/esGYn21.png" group-title="EL SALVADOR",Canal 21(SVUF15SEP)
+http://181.78.99.187:8000/play/a0m4/index.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="https://i.imgur.com/esGYn21.png" group-title="EL SALVADOR",Canal 21(CT)
 https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="TVX.sv" tvg-logo="https://immaa.xyz/TVX.png" group-title="EL SALVADOR",Canal TVX(4K)
