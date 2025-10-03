@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",02 Oct. 2025 09:36
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",03 Oct. 2025 17:23
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PETE26SEP)
 http://181.66.249.246:8000/play/a021/index.m3u8
@@ -63,14 +63,10 @@ http://190.234.82.143:5050/play/a07z/index.m3u8
 https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/iYFWG06.png" group-title="EL SALVADOR",TCS+ - ESA(CT)
 https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(SVUF15SEP)
-http://181.78.99.187:8000/play/a0qp/index.m3u8
 #EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(ORI)
 https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF15SEP)
-http://181.78.99.187:8000/play/a0qq/index.m3u8
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVIF-4SEP)
-http://181.78.99.187:8000/play/a0qq/index.m3u8
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF3OCT1)
+http://181.119.98.221:8000/play/a0qq/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVCC-4SEP)
 http://138.97.142.34:8125/play/a03w/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF-28AGO)
@@ -81,18 +77,8 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/1112.m3u8
 http://45.5.116.178:8000/play/a03p/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(CT)
 http://45.5.116.178:8000/play/a00g/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="Canal6.sv" tvg-logo="https://i.imgur.com/M4muPLK.png" group-title="EL SALVADOR",Canal 6(SVUF15SEP)
-http://181.78.99.187:8000/play/a0qs/index.m3u8
 #EXTINF:-1 tvg-id="Canal6.sv" tvg-logo="https://i.imgur.com/M4muPLK.png" group-title="EL SALVADOR",Canal 6(OR)
 https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
-#EXTINF:-1 tvg-id="Canal10.sv" tvg-logo="https://immaa.xyz/Canal10SD.png" group-title="EL SALVADOR",Canal 10(SVUF15SEP)
-http://181.78.99.187:8000/play/a0r8/index.m3u8
-#EXTINF:-1 tvg-id="Canal12.sv" tvg-logo="http://swedtv.vip/logos/LAT_centroamerica/elsal_canal12.png" group-title="EL SALVADOR",Canal 12(SVUF15SEP)
-http://181.78.99.187:8000/play/a0nw/index.m3u8
-#EXTINF:-1 tvg-id="MegavisionCanal19.sv" tvg-logo="http://lista.lamtv.site:80/images/0a95b66b1931b0264e10f3c367f1f640.png" group-title="EL SALVADOR",Canal 19(SVUF15SEP)
-http://181.78.99.187:8000/play/a0rq/index.m3u8
-#EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="https://i.imgur.com/esGYn21.png" group-title="EL SALVADOR",Canal 21(SVUF15SEP)
-http://181.78.99.187:8000/play/a0m4/index.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="https://i.imgur.com/esGYn21.png" group-title="EL SALVADOR",Canal 21(CT)
 https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="CartoonNetworkSouthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network(PETE26SEP)
@@ -157,8 +143,6 @@ http://181.189.241.114:5050/play/a0rj
 http://181.176.153.107:8090/play/a1cl/index.m3u8
 #EXTINF:-1 tvg-id="film_and_arts" tvg-logo="https://i.imgur.com/2kHUsl7.png" group-title="Movies",Film & arts HD(PET18SEP)
 http://190.234.82.143:5050/play/a07p/index.m3u8
-#EXTINF:-1 tvg-id="film_and_arts" tvg-logo="https://i.imgur.com/2kHUsl7.png" group-title="Movies",Film & arts HD(SVUF15SEP)
-http://181.78.99.187:8000/play/a0q9/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel(PETE26SEP)
 http://181.66.249.246:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel(PEXA26SEP)
@@ -167,8 +151,6 @@ http://190.108.80.138:8000/play/a08r/index.m3u8
 http://181.64.186.85:8001/play/a0ou/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel(PET18SEP)
 http://190.234.82.143:5050/play/a0bj/index.m3u8
-#EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel(SVUF15SEP)
-http://181.78.99.187:8000/play/a0lb/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel(PET4AGO)
 http://200.60.97.100:28888/play/a0i4/index.m3u8
 #EXTINF:-1 tvg-id="StarChannel.mx" channel-number="106" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel(PET1AGO)
@@ -181,8 +163,6 @@ http://190.108.80.138:8000/play/a085/index.m3u8
 http://181.64.186.85:8001/play/a0ot/index.m3u8
 #EXTINF:-1 tvg-id="space_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",Space(PET18SEP)
 http://190.234.82.143:5050/play/a0ax/index.m3u8
-#EXTINF:-1 tvg-id="space_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",Space(SVUF15SEP)
-http://181.78.99.187:8000/play/a0rw/index.m3u8
 #EXTINF:-1 tvg-id="space_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",Space(PET4AGO)
 http://200.60.97.100:28888/play/a0i5/index.m3u8
 #EXTINF:-1 tvg-id="space_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/512px-SpaceLogo.svg.png" group-title="Movies",Space(PET1AGO)
@@ -201,8 +181,6 @@ http://200.121.48.5:8000/play/a0iy/index.m3u8
 http://181.66.249.246:8000/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies;Series",HBO 2(PET18SEP)
 http://190.234.82.143:5050/play/a088/index.m3u8
-#EXTINF:-1 tvg-id="HBO2LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies;Series",HBO 2(SVUF15SEP)
-http://181.78.99.187:8000/play/a0lp/index.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies;Series",HBO 2(PET4AGO)
 http://200.60.97.100:28888/play/a0fi/index.m3u8
 #EXTINF:-1 tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/512px-Logohboplus2019.svg.png" group-title="Movies;Series",HBO Plus(PETE26SEP)
@@ -251,12 +229,6 @@ http://190.234.82.143:5050/play/a08l/index.m3u8
 http://181.66.249.246:8000/play/a05l/index.m3u8
 #EXTINF:-1 tvg-id="1513dtv.cl" tvg-name="C/S• DHE (HD) »1«" tvg-logo="https://i.ibb.co/FW2yCV3/DHD.jpg" group-title="Movies",DHE(PEXA26SEP)
 http://190.108.80.138:8000/play/a0br/index.m3u8
-#EXTINF:-1 tvg-id="1513dtv.cl" tvg-name="C/S• DHE (HD) »1«" tvg-logo="https://i.ibb.co/FW2yCV3/DHD.jpg" group-title="Movies",DHE(SVUF15SEP)
-http://newkalaplay.xyz:8080/pedromatiastv/of5234/121
-#EXTINF:-1 tvg-id="1513dtv.cl" tvg-name="C/S• DHE (HD) »1«" tvg-logo="https://i.ibb.co/FW2yCV3/DHD.jpg" group-title="Movies",DHE(SVUF15SEP)
-http://newkalaplay.xyz:8080/pedromatiastv/of5234/122
-#EXTINF:-1 tvg-id="1513dtv.cl" tvg-name="C/S• DHE (HD) »1«" tvg-logo="https://i.ibb.co/FW2yCV3/DHD.jpg" group-title="Movies",DHE(SVUF15SEP)
-http://newkalaplay.xyz:8080/pedromatiastv/of5234/123
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(PETE26SEP)
 http://181.66.249.246:8000/play/a01k/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(PEXA26SEP)
@@ -265,8 +237,6 @@ http://190.108.80.138:8000/play/a071/index.m3u8
 http://181.64.186.85:8001/play/a0om/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(PET18SEP)
 http://190.234.82.143:5050/play/a0ac/index.m3u8
-#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(SVUF15SEP)
-http://181.78.99.187:8000/play/a0rl/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(PET4AGO)
 http://200.60.97.100:28888/play/a01v/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(PET1AGO)
@@ -279,8 +249,6 @@ http://190.108.80.138:8000/play/a0fj/index.m3u8
 http://181.64.186.85:8001/play/a0mf/index.m3u8
 #EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal(PET18SEP)
 http://190.234.82.143:5050/play/a0as/index.m3u8
-#EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal(SVUF15SEP)
-http://181.78.99.187:8000/play/a0o2/index.m3u8
 #EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal(PET4AGO)
 http://200.60.97.100:28888/play/a0il/index.m3u8
 #EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal(PET1AGO)
@@ -297,8 +265,6 @@ http://181.64.186.85:8001/play/a0i2/index.m3u8
 http://190.234.82.143:5050/play/a0c1/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(PET18SEP)
 http://190.234.82.143:5050/play/a0bz/index.m3u8
-#EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(SVUF15SEP)
-http://181.78.99.187:8000/play/a0o3/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(PET4AGO)
 http://200.60.97.100:28888/play/a0ji/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/512px-Universal_TV_logo.svg.png" group-title="Movies",Universal(PET1AGO)
@@ -321,8 +287,6 @@ http://181.66.249.246:8000/play/a00b/index.m3u8
 http://190.108.80.138:8000/play/a097/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(PET18SEP)
 http://190.234.82.143:5050/play/a072/index.m3u8
-#EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(SVUF15SEP)
-http://181.78.99.187:8000/play/a0ln/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(PET4AGO)
 http://200.60.97.100:28888/play/a0i7/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="TV",Studio Universal 1080(PET1AGO)
@@ -335,8 +299,6 @@ http://181.66.249.246:8000/play/a00q/index.m3u8
 http://181.64.186.85:8001/play/a0oz/index.m3u8
 #EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(PET18SEP)
 http://190.234.82.143:5050/play/a0ar/index.m3u8
-#EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(SVUF15SEP)
-http://181.78.99.187:8000/play/a0rn/index.m3u8
 #EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(PET4AGO)
 http://200.60.97.100:28888/play/a0ie/index.m3u8
 #EXTINF:-1 tvg-id="TNTSouth.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT SD(PET1AGO)
@@ -347,8 +309,6 @@ http://181.189.241.114:5050/play/a0pn
 http://181.64.186.85:8001/play/a0ox/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series(PET18SEP)
 http://190.234.82.143:5050/play/a0c5/index.m3u8
-#EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series(SVUF15SEP)
-http://181.78.99.187:8000/play/a0l8/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series(PET4AGO)
 http://200.60.97.100:28888/play/a0dx/index.m3u8
 #EXTINF:-1 tvg-id="tnt_series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Movies;Series",TNT Series(CO725)
@@ -357,8 +317,6 @@ http://181.189.241.114:5050/play/a0q4
 http://181.66.249.246:8000/play/a03r/index.m3u8
 #EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT Novelas(PET22SEP)
 http://181.64.186.85:8001/play/a0p4/index.m3u8
-#EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT Novelas(SVUF15SEP)
-http://181.78.99.187:8000/play/a0le/index.m3u8
 #EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT Novelas(PET4AGO)
 http://200.60.97.100:28888/play/a07g/index.m3u8
 #EXTINF:-1 tvg-id="tnt_novelas_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TNT_Novelas.png" group-title="Movies;Series",TNT Novelas(181176)
@@ -369,8 +327,6 @@ http://181.66.249.246:8000/play/a01o/index.m3u8
 http://190.108.80.138:8000/play/a09d/index.m3u8
 #EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX(PET22SEP)
 http://181.64.186.85:8001/play/a0p5/index.m3u8
-#EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX(SVUF15SEP)
-http://181.78.99.187:8000/play/a0kz/index.m3u8
 #EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX(PET4AGO)
 http://200.60.97.100:28888/play/a0g9/index.m3u8
 #EXTINF:-1 tvg-id="FX.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Movies",FX(PET1AGO)
@@ -381,8 +337,6 @@ http://200.121.48.5:8000/play/a0jf/index.m3u8
 http://181.66.249.246:8000/play/a00o/index.m3u8
 #EXTINF:-1 tvg-id="TCMPanregional.us" tvg-logo="https://i.imgur.com/QpDkrmT.png" group-title="Movies;Serie",TCM(PET18SEP)
 http://190.234.82.143:5050/play/a084/index.m3u8
-#EXTINF:-1 tvg-id="TCMPanregional.us" tvg-logo="https://i.imgur.com/QpDkrmT.png" group-title="Movies;Serie",TCM(SVUF15SEP)
-http://181.78.99.187:8000/play/a0nu/index.m3u8
 #EXTINF:-1 tvg-id="TCMPanregional.us" tvg-logo="https://i.imgur.com/QpDkrmT.png" group-title="Movies;Serie",TCM(PET4AGO)
 http://200.60.97.100:28888/play/a00c/index.m3u8
 #EXTINF:-1 tvg-id="TCMPanregional.us" tvg-logo="https://i.imgur.com/QpDkrmT.png" group-title="Movies;Serie",TCM(CO725)
@@ -391,8 +345,6 @@ http://181.189.241.114:5050/play/a0g6
 http://190.108.80.138:8000/play/a07r/index.m3u8
 #EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC(PET18SEP)
 http://190.234.82.143:5050/play/a0cg/index.m3u8
-#EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC(SVUF15SEP)
-http://181.78.99.187:8000/play/a0o1/index.m3u8
 #EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC(PET4AGO)
 http://200.60.97.100:28888/play/a0f8/index.m3u8
 #EXTINF:-1 tvg-id="amc_mexico" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies;Serie",AMC(181176)
@@ -403,8 +355,6 @@ http://190.108.80.138:8000/play/a0gx/index.m3u8
 http://181.64.186.85:8001/play/a0j3/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount(PET18SEP)
 http://190.234.82.143:5050/play/a0aj/index.m3u8
-#EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount(SVUF15SEP)
-http://181.78.99.187:8000/play/a0ro/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount(PET4AGO)
 http://200.60.97.100:28888/play/a0d1/index.m3u8
 #EXTINF:-1 tvg-id="paramount_channel_mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount(PET1AGO)
@@ -423,8 +373,6 @@ http://181.64.186.85:8001/play/a0or/index.m3u8
 http://190.234.82.143:5050/play/a0a1/index.m3u8
 #EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony(PET18SEP)
 http://190.234.82.143:5050/play/a0at/index.m3u8
-#EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony(SVUF15SEP)
-http://181.78.99.187:8000/play/a0qc/index.m3u8
 #EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony(PET4AGO)
 http://200.60.97.100:28888/play/a0io/index.m3u8
 #EXTINF:-1 tvg-id="sony_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony(PET1AGO)
@@ -439,8 +387,6 @@ http://181.64.186.85:8001/play/a0gr/index.m3u8
 http://190.234.82.143:5050/play/a0a1/index.m3u8
 #EXTINF:-1 tvg-id="CineSony.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony Movies(PET18SEP)
 http://190.234.82.143:5050/play/a0at/index.m3u8
-#EXTINF:-1 tvg-id="CineSony.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony Movies(SVUF15SEP)
-http://181.78.99.187:8000/play/a0qy/index.m3u8
 #EXTINF:-1 tvg-id="CineSony.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony Movies(PET4AGO)
 http://200.60.97.100:28888/play/a0b0/index.m3u8
 #EXTINF:-1 tvg-id="CineSony.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Movies;Series",Sony Movies(PET1AGO)
@@ -491,8 +437,6 @@ http://200.121.48.5:8000/play/a0m2/index.m3u8
 http://181.66.249.246:8000/play/a01a/index.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(PET18SEP)
 http://190.234.82.143:5050/play/a07h/index.m3u8
-#EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(SVUF15SEP)
-http://181.78.99.187:8000/play/a0qd/index.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(PET4AGO)
 http://200.60.97.100:28888/play/a01e/index.m3u8
 #EXTINF:-1 tvg-id="TLC.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Documentary",TLC(PET1AGO)
@@ -505,8 +449,6 @@ http://190.108.80.138:8000/play/a07p/index.m3u8
 http://181.64.186.85:8001/play/a0l4/index.m3u8
 #EXTINF:-1 tvg-id="AEPanregional.us" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary",A&E(PET18SEP)
 http://190.234.82.143:5050/play/a0an/index.m3u8
-#EXTINF:-1 tvg-id="AEPanregional.us" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary",A&E(SVUF15SEP)
-http://181.78.99.187:8000/play/a0nz/index.m3u8
 #EXTINF:-1 tvg-id="AEPanregional.us" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary",A&E(PET4AGO)
 http://200.60.97.100:28888/play/a0i1/index.m3u8
 #EXTINF:-1 tvg-id="AEPanregional.us" tvg-logo="https://w7.pngwing.com/pngs/23/503/png-transparent-a-e-network-high-definition-television-logo-dish-network-opening-miscellaneous-television-angle.png" group-title="Documentary",A&E(PET1AGO)
@@ -523,8 +465,6 @@ http://190.108.80.138:8000/play/a0bt/index.m3u8
 http://181.64.186.85:8001/play/a0p6/index.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="TV",Animal Planet 1080(PET18SEP)
 http://190.234.82.143:5050/play/a0ak/index.m3u8
-#EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="TV",Animal Planet 1080(SVUF15SEP)
-http://181.78.99.187:8000/play/a0nt/index.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="TV",Animal Planet 1080(PET4AGO)
 http://200.60.97.100:28888/play/a0jk/index.m3u8
 #EXTINF:-1 tvg-id="animal_planet_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="TV",Animal Planet 1080(PET1AGO)
@@ -539,8 +479,6 @@ http://190.108.80.138:8000/play/a0gs/index.m3u8
 http://181.64.186.85:8001/play/a0on/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H(PET18SEP)
 http://190.234.82.143:5050/play/a0b3/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H(SVUF15SEP)
-http://181.78.99.187:8000/play/a0oj/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H(PET4AGO)
 http://200.60.97.100:28888/play/a0cx/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryHomeHealth.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/225px-Discovery_Home_%26_Health_logo.svg.png" group-title="documentary",Discovery H&H(PET1AGO)
@@ -559,8 +497,6 @@ http://190.108.80.138:8000/play/a0gz/index.m3u8
 http://181.64.186.85:8001/play/a03g/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us" tvg-logo="https://i.imgur.com/T07gvEb.png" group-title="documentary",Discovery Theater(PET18SEP)
 http://190.234.82.143:5050/play/a0b4/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us" tvg-logo="https://i.imgur.com/T07gvEb.png" group-title="documentary",Discovery Theater(SVUF15SEP)
-http://181.78.99.187:8000/play/a0l0/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us" tvg-logo="https://i.imgur.com/T07gvEb.png" group-title="documentary",Discovery Theater(PET4AGO)
 http://200.60.97.100:28888/play/a0fd/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us" tvg-logo="https://i.imgur.com/T07gvEb.png" group-title="documentary",Discovery Theater(PET1AGO)
@@ -571,8 +507,6 @@ http://200.121.48.5:8000/play/a0k7/index.m3u8
 http://190.108.80.138:8000/play/a09e/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(PET18SEP)
 http://190.234.82.143:5050/play/a0c7/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(SVUF15SEP)
-http://181.78.99.187:8000/play/a0m3/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(PET4AGO)
 http://200.60.97.100:28888/play/a0jc/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(PET1AGO)
@@ -587,8 +521,6 @@ http://181.64.186.85:8001/play/a0an/index.m3u8
 http://190.234.82.143:5050/play/a09x/index.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(PET18SEP)
 http://190.234.82.143:5050/play/a0aw/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(SVUF15SEP)
-http://181.78.99.187:8000/play/a0ol/index.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(PET4AGO)
 http://200.60.97.100:28888/play/a0ih/index.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(PET1AGO)
@@ -605,8 +537,6 @@ http://181.64.186.85:8001/play/a0oo/index.m3u8
 http://190.234.82.143:5050/play/a0al/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(PET18SEP)
 http://190.234.82.143:5050/play/a09q/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(SVUF15SEP)
-http://181.78.99.187:8000/play/a0ok/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(PET4AGO)
 http://200.60.97.100:28888/play/a0d9/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(PET1AGO)
@@ -627,12 +557,12 @@ http://190.108.80.138:8000/play/a0go/index.m3u8
 http://181.64.186.85:8001/play/a0ar/index.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(PET18SEP)
 http://190.234.82.143:5050/play/a0aq/index.m3u8
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(SVUF15SEP)
-http://181.78.99.187:8000/play/a0o0/index.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(PET4AGO)
 http://200.60.97.100:28888/play/a0id/index.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(181176)
 http://181.176.153.107:8090/play/a1cj/index.m3u8
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/713
 #EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-CA8SEP)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724524
 #EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-CA8SEP)
@@ -651,8 +581,6 @@ http://190.108.80.138:8000/play/a0bs/index.m3u8
 http://181.64.186.85:8001/play/a0am/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(PET18SEP)
 http://190.234.82.143:5050/play/a0am/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(SVUF15SEP)
-http://181.78.99.187:8000/play/a0ny/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(PET4AGO)
 http://200.60.97.100:28888/play/a0iq/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(PET1AGO)
@@ -681,8 +609,6 @@ http://181.64.186.85:8001/play/a0e4/index.m3u8
 http://190.234.82.143:5050/play/a0cs/index.m3u8
 #EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(PET18SEP)
 http://190.234.82.143:5050/play/a0ab/index.m3u8
-#EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(SVUF15SEP)
-http://181.78.99.187:8000/play/a0qe/index.m3u8
 #EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(PET4AGO)
 http://200.60.97.100:28888/play/a021/index.m3u8
 #EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(PET1AGO)
@@ -693,42 +619,54 @@ http://181.189.241.114:5050/play/a0dn
 http://190.108.80.138:8000/play/a07q/index.m3u8
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(PET18SEP)
 http://190.234.82.143:5050/play/a0ap/index.m3u8
-#EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(SVUF15SEP)
-http://181.78.99.187:8000/play/a0lj/index.m3u8
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(PET4AGO)
 http://200.60.97.100:28888/play/a0i2/index.m3u8
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(PET1AGO)
 http://200.121.48.5:8000/play/a0j0/index.m3u8
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(181176)
 http://181.176.153.107:8090/play/a1ah/index.m3u8
-#EXTINF:-1,COMEDY CENTRAL(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12311
-#EXTINF:-1,COMEDY CENTRAL HEVC(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12359
-#EXTINF:-1,Comedy Central(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12417
-#EXTINF:-1,AXN MOVIES(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12320
-#EXTINF:-1,CALLE 13(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12323
-#EXTINF:-1,La 1(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12334
-#EXTINF:-1,LA 1 HEVC(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12335
-#EXTINF:-1,COSMO(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12351
-#EXTINF:-1,HOLLYWOODHD HEVC(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12355
-#EXTINF:-1,Star Channel(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12357
-#EXTINF:-1,#VAMOS HEVC(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12360
-#EXTINF:-1,AMC BREAK(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12365
-#EXTINF:-1,AMC BREAK(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12422
-#EXTINF:-1,AMC CRIME(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12375
+#EXTINF:-1,NOVA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/653
+#EXTINF:-1,NOVA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12429
+#EXTINF:-1,M+ DOCUMENTALES(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/87108
+#EXTINF:-1,CANAL DECASA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12415
+#EXTINF:-1,CANAL DECASA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/705
+#EXTINF:-1,CANAL COCINA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/742
+#EXTINF:-1,CANAL COCINA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12418
+#EXTINF:-1,CAZA Y PESCA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/706
+#EXTINF:-1,CAZA Y PESCA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12420
+#EXTINF:-1,DISCOVERY(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/708
+#EXTINF:-1,DISCOVERY(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12376
+#EXTINF:-1,DISCOVERY(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724518
+#EXTINF:-1,DISCOVERY(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724519
+#EXTINF:-1,DISCOVERY(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724520
+#EXTINF:-1,MEGA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/753
+#EXTINF:-1,MEGA(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12406
+#EXTINF:-1,DMAX(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/709
+#EXTINF:-1,DMAX(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724532
+#EXTINF:-1,DMAX(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724533
+#EXTINF:-1,DMAX(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724534
+#EXTINF:-1,ODISEA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/710
 #EXTINF:-1,CANAL ODISEA(US-CA8SEP)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724521
 #EXTINF:-1,CANAL ODISEA(US-CA8SEP)
@@ -739,64 +677,18 @@ https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724523
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12373
 #EXTINF:-1,ODISEA(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12441
-#EXTINF:-1,DISCOVERY(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12376
-#EXTINF:-1,DISCOVERY(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724518
-#EXTINF:-1,DISCOVERY(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724519
-#EXTINF:-1,DISCOVERY(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724520
-#EXTINF:-1,DMAX(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724532
-#EXTINF:-1,DMAX(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724533
-#EXTINF:-1,DMAX(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724534
-#EXTINF:-1,TRECE TV(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12393
-#EXTINF:-1,MADRID TV(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12396
-#EXTINF:-1,IBERALIA TV(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12400
-#EXTINF:-1,Mega(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12406
+#EXTINF:-1,NATIONAL GEOGRAPHIC(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/711
+#EXTINF:-1,NAT GEOGRAPHIC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12445
+#EXTINF:-1,NAT GEO WILD(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/712
+#EXTINF:-1,NAT GEO WILD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12444
+#EXTINF:-1,DKISS(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/748
 #EXTINF:-1,DKISS(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12410
-#EXTINF:-1,Divinity(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12411
-#EXTINF:-1,DIVINITY SD(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12413
-#EXTINF:-1,CANAL DECASA(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12415
-#EXTINF:-1,CANAL COCINA(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12418
-#EXTINF:-1,Caza y Pesca(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12420
-#EXTINF:-1,Be Mad(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12423
-#EXTINF:-1,AXN MOVIES(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724364
-#EXTINF:-1,AXN MOVIES(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724365
-#EXTINF:-1,AXN MOVIES(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724366
-#EXTINF:-1,AXN MOVIES(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12425
-#EXTINF:-1,AXN(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12426
-#EXTINF:-1,AXN(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724340
-#EXTINF:-1,AXN(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724341
-#EXTINF:-1,AXN(US-CA8SEP)
-https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724342
-#EXTINF:-1,Nova(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12429
-#EXTINF:-1,Boing(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12430
-#EXTINF:-1,XTRM(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12432
 #EXTINF:-1,BUEN VIAJE(US-CA8SEP)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724535
 #EXTINF:-1,BUEN VIAJE(US-CA8SEP)
@@ -805,20 +697,200 @@ https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724536
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724537
 #EXTINF:-1,BUEN VIAJE(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12433
-#EXTINF:-1,WARNER SD(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12434
-#EXTINF:-1,TCM(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12436
-#EXTINF:-1,SYFY(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12437
-#EXTINF:-1,PARAMOUNT NETWORK(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12439
+#EXTINF:-1,M+ BUEN VIAJE(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/60251
+#EXTINF:-1,RALLY TV(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/128955
+#EXTINF:-1,COMEDY CENTRAL(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/745
+#EXTINF:-1,COMEDY CENTRAL(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12311
+#EXTINF:-1,COMEDY CENTRAL(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12359
+#EXTINF:-1,COMEDY CENTRAL(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12417
+#EXTINF:-1,COSMO(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12351
+#EXTINF:-1,ENFAMILIA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/639
 #EXTINF:-1,ENFAMILIA(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12440
-#EXTINF:-1,NAT GEO WILD(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12444
-#EXTINF:-1,NAT GEOGRAPHIC(US-FL13AGO)
-http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12445
+#EXTINF:-1,DISNEY CHANNEL(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/640
+#EXTINF:-1,DISNEY JUNIOR(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/641
+#EXTINF:-1,DREAMWORKS(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/643
+#EXTINF:-1,NICK JR(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/644
+#EXTINF:-1,NICKELODEON(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/645
+#EXTINF:-1,FACTORÍA DE FICCIÓN(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/652
+#EXTINF:-1,M+ ACCIÓN(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/656
+#EXTINF:-1,M+ COMEDIA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/657
+#EXTINF:-1,M+ CINE ESPAÑOL(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/658
+#EXTINF:-1,M+ CLÁSICOS(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/659
+#EXTINF:-1,M+ CINE(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/87110
+#EXTINF:-1,M+ DRAMA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/660
+#EXTINF:-1,M+ SERIES(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/663
+#EXTINF:-1,M+ ORIGINALES(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/87107
+#EXTINF:-1,M+ INDIE(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/87106
+#EXTINF:-1,XTRM(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/767
+#EXTINF:-1,XTRM(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12432
+#EXTINF:-1,HOLLYWOOD(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/665
+#EXTINF:-1,HOLLYWOODHD HEVC(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12355
+#EXTINF:-1,PARAMOUNT(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/666
+#EXTINF:-1,PARAMOUNT(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12439
+#EXTINF:-1,SOMOS(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/667
+#EXTINF:-1,WARNER(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/668
+#EXTINF:-1,WARNER(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12434
+#EXTINF:-1,TCM(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/669
+#EXTINF:-1,TCM(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12436
+#EXTINF:-1,AXN(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/735
+#EXTINF:-1,AXN(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12426
+#EXTINF:-1,AXN(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724340
+#EXTINF:-1,AXN(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724341
+#EXTINF:-1,AXN(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724342
+#EXTINF:-1,AXN MOVIES(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/736
+#EXTINF:-1,AXN MOVIES(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12320
+#EXTINF:-1,AXN MOVIES(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724364
+#EXTINF:-1,AXN MOVIES(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724365
+#EXTINF:-1,AXN MOVIES(US-CA8SEP)
+https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724366
+#EXTINF:-1,AXN MOVIES(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12425
+#EXTINF:-1,CALLE 13(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/740
+#EXTINF:-1,CALLE 13(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12323
+#EXTINF:-1,DARK(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/782
+#EXTINF:-1,ATRESERIES(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/800
+#EXTINF:-1,MOVISTAR PLUS+(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/87109
+#EXTINF:-1,AMC(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/732
+#EXTINF:-1,AMC CRIME(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/707
+#EXTINF:-1,AMC CRIME(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12375
+#EXTINF:-1,AMC BREAK(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/778
+#EXTINF:-1,AMC BREAK(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12365
+#EXTINF:-1,AMC BREAK(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12422
+#EXTINF:-1,SYFY(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/760
+#EXTINF:-1,SYFY(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12437
+#EXTINF:-1,STAR CHANNEL(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/752
+#EXTINF:-1,STAR CHANNEL(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12357
+#EXTINF:-1,SUNDANCE(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/759
+#EXTINF:-1,DIVINITY(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/747
+#EXTINF:-1,DIVINITY(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12411
+#EXTINF:-1,DIVINITY(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12413
+#EXTINF:-1,BARCA TV(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/721
+#EXTINF:-1,#VAMOS(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12360
+#EXTINF:-1,M+ ELLAS V(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/723
+#EXTINF:-1,TELEDEPORTE(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/726
+#EXTINF:-1,TELECINCO(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/647
+#EXTINF:-1,LA 1(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/648
+#EXTINF:-1,La 1(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12334
+#EXTINF:-1,LA 1(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12335
+#EXTINF:-1,LA 2(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/649
+#EXTINF:-1,ANTENA 3(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/646
+#EXTINF:-1,LA SEXTA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/650
+#EXTINF:-1,CUATRO(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/651
+#EXTINF:-1,ENERGY(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/654
+#EXTINF:-1,TRECE(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/655
+#EXTINF:-1,TRECE(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12393
+#EXTINF:-1,BE MAD(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/737
+#EXTINF:-1,BE MAD(US-FL13AGO)
+http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12423
+#EXTINF:-1,IBERALIA TV(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/714
+#EXTINF:-1,MEZZO LIVE(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/716
+#EXTINF:-1,24 HORAS(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/730
+#EXTINF:-1,CANAL EXTREMADURA SAT(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/750
+#EXTINF:-1,NEOX(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/755
+#EXTINF:-1,TELEMADRID INT(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/761
+#EXTINF:-1,TEN(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/762
+#EXTINF:-1,TV3 CAT(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/764
+#EXTINF:-1,ETB 2(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/768
+#EXTINF:-1,ETB 1(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/769
+#EXTINF:-1,CNN(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/775
+#EXTINF:-1,À PUNT(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/777
+#EXTINF:-1,MEZZO(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/34145
+#EXTINF:-1,M+ ESTRENOS(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/132309
+#EXTINF:-1,MTV ESPAÑA(NE2OCT)
+http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/719
 #EXTINF:-1,MTV ESPAÑA(US-FL13AGO)
 http://canal-pro.xyz:8080/CEc9mNNwgA/SKwvRCrvHK/12446
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(CUT) 
