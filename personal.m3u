@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",06 Oct. 2025 18:53
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",07 Oct. 2025 08:10
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PETE26SEP)
 http://181.66.249.246:8000/play/a021/index.m3u8
@@ -63,8 +63,12 @@ http://190.234.82.143:5050/play/a07z/index.m3u8
 https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/iYFWG06.png" group-title="EL SALVADOR",TCS+ - ESA(CT)
 https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="-",Canal 2(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0qp/index.m3u8
 #EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(ORI)
 https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
+#EXTINF:-1 group-title="-",Canal 4(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0qq/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF3OCT1)
 http://181.119.98.221:8000/play/a0qq/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVCC-4SEP)
@@ -77,10 +81,26 @@ http://masterprotv1.com:8080/22silke2107/71615syabtr4/1112.m3u8
 http://45.5.116.178:8000/play/a03p/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(CT)
 http://45.5.116.178:8000/play/a00g/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="-",Canal 6(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0qs/index.m3u8
 #EXTINF:-1 tvg-id="Canal6.sv" tvg-logo="https://i.imgur.com/M4muPLK.png" group-title="EL SALVADOR",Canal 6(OR)
 https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
+#EXTINF:-1 group-title="-",Agape Canal 8(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0qr/index.m3u8
+#EXTINF:-1 group-title="-",CANAL 9(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0r5/index.m3u8
+#EXTINF:-1 group-title="-",CANAL 10(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0r8/index.m3u8
+#EXTINF:-1 group-title="-",Canal 12(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0nw/index.m3u8
+#EXTINF:-1 group-title="-",Canal 19 Megavision(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0rq/index.m3u8
+#EXTINF:-1 group-title="-",Canal 21(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0m4/index.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="https://i.imgur.com/esGYn21.png" group-title="EL SALVADOR",Canal 21(CT)
 https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="-",TVO(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0qo/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkSouthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network(PETE26SEP)
 http://181.66.249.246:8000/play/a00p/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkSouthAtlantic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="animation",Cartoon Network(PEXA26SEP)
@@ -983,6 +1003,14 @@ http://181.189.241.114:5050/play/a0bw
 http://181.66.249.246:8000/play/a05e/index.m3u8
 #EXTINF:-1,ESPN Premium HD(PET22SEP)
 http://181.64.186.85:8001/play/a0l5/index.m3u8
+#EXTINF:-1 group-title="-",TUDN(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0r4/index.m3u8
+#EXTINF:-1 group-title="-",FoxSport(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0rs/index.m3u8
+#EXTINF:-1 group-title="-",FoxSport2(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0rt/index.m3u8
+#EXTINF:-1 group-title="-",FoxSport3(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0rw/index.m3u8
 #EXTINF:-1,Liga Max(PETE26SEP)
 http://181.66.249.246:8000/play/a03u/index.m3u8
 #EXTINF:-1,Liga Max(PET22SEP)
