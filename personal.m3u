@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",05 Nov. 2025 10:13
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",07 Nov. 2025 09:40
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PELI14OCT)
 http://38.183.182.166:8000/play/a0rb/index.m3u8
@@ -415,6 +415,8 @@ http://181.66.249.246:8000/play/a05s/index.m3u8
 http://190.108.80.138:8000/play/a0ga/index.m3u8
 #EXTINF:-1 tvg-id="golden_edge" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Movies",Golden Edge(PET18SEP)
 http://190.234.82.143:5050/play/a082/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(USWA5NOV1)
+http://fortv.cc:8080/Vzd9QC/767610/46717
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(USWA15SEP)
 http://xxip25.top:8080/25220837/51659469/46717
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(USWA29AGO)
@@ -425,6 +427,8 @@ http://canal-pro.xyz:8080/996794768tv/a32hd22/23993
 http://canal-pro.xyz:8080/996794768tv/a32hd22/23994
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(CUT)
 http://cord-cutter.net:8080/7bJBhh/138115/46717
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",Home Network CA(USWA5NOV1)
+http://fortv.cc:8080/Vzd9QC/767610/57273
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",Home Network CA(USWA15SEP)
 http://xxip25.top:8080/25220837/51659469/57273
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",Home Network CA(CUT)
@@ -979,6 +983,12 @@ http://38.183.182.166:8000/play/a0re/index.m3u8
 http://181.66.249.246:8000/play/a05e/index.m3u8
 #EXTINF:-1 group-title="-",TUDN(SVUF30OCT1)
 http://181.119.98.221:8000/play/a0r4/index.m3u8
+#EXTINF:-1 group-title="-",TUDN(USWA5NOV2)
+http://nocable.cc:8080/r7DvhMC/Wa6K0Ma/11885
+#EXTINF:-1 group-title="-",TUDN(USWA5NOV2)
+http://nocable.cc:8080/r7DvhMC/Wa6K0Ma/82241
+#EXTINF:-1,Win Sports Colombia(USWA5NOV2)
+http://nocable.cc:8080/r7DvhMC/Wa6K0Ma/78717
 #EXTINF:-1 group-title="-",FoxSport(SVUF30OCT1)
 http://181.119.98.221:8000/play/a0rs/index.m3u8
 #EXTINF:-1 group-title="-",FoxSport2(SVUF30OCT1)
