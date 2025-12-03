@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",02 Dic. 2025 09:50
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",03 Dic. 2025 17:58
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PETE2DIC)
 http://200.106.13.204:8000/play/a0pj/index.m3u8
@@ -51,10 +51,12 @@ http://190.61.114.186:8000/play/a03n/index.m3u8
 http://181.119.98.221:8000/play/a0qp/index.m3u8
 #EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(ORI)
 https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
+#EXTINF:-1 tvg-id="Canal2.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/Canal_2_TCS.png" group-title="EL SALVADOR",Canal 2(SVUFSS3DIC)
+http://190.61.114.186:8000/play/a03n/index.m3u8
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUFSS3DIC)
+http://190.61.114.186:8000/play/a03o/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF11NOV25)
 http://45.167.1.138:8000/play/a032
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(PACW26NOV25)
-http://190.34.12.89:8000/play/a0d2/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF26NOV25)
 http://181.119.98.221:8000/play/a0qq/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF14OCT2)
@@ -63,30 +65,36 @@ http://45.167.2.138:8000/play/a0qq/index.m3u8
 http://190.61.114.186:8000/play/a03o/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF3OCT1)
 http://181.119.98.221:8000/play/a0qq/index.m3u8
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVCC-4SEP)
-http://138.97.142.34:8125/play/a03w/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF-28AGO)
 http://190.61.34.164:8000/play/a00i/index.m3u8
-#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(MA)
-http://masterprotv1.com:8080/22silke2107/71615syabtr4/1112.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(CT)
 http://45.5.116.178:8000/play/a03p/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4 480(CT)
 http://45.5.116.178:8000/play/a00g/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="-",Canal 6(SVUF30OCT1)
-http://181.119.98.221:8000/play/a0qs/index.m3u8
 #EXTINF:-1 tvg-id="Canal6.sv" tvg-logo="https://i.imgur.com/M4muPLK.png" group-title="EL SALVADOR",Canal 6(OR)
 https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
+#EXTINF:-1 group-title="-",Canal 6(SVUF30OCT1)
+http://181.119.98.221:8000/play/a0qs/index.m3u8
+#EXTINF:-1 group-title="-",Canal 6(SVUFSS3DIC)
+http://190.61.114.186:8000/play/a03q/index.m3u8
 #EXTINF:-1 group-title="-",Agape Canal 8(SVUF30OCT1)
 http://181.119.98.221:8000/play/a0qr/index.m3u8
 #EXTINF:-1 group-title="-",CANAL 9(SVUF30OCT1)
 http://181.119.98.221:8000/play/a0r5/index.m3u8
+#EXTINF:-1 group-title="-",CANAL 10(SVUFSS3DIC)
+http://190.61.114.186:8000/play/a00o/index.m3u8
 #EXTINF:-1 group-title="-",CANAL 10(SVUF30OCT1)
 http://181.119.98.221:8000/play/a0r8/index.m3u8
 #EXTINF:-1 group-title="-",Canal 12(SVUF30OCT1)
+http://190.61.114.186:8000/play/a00p/index.m3u8
+#EXTINF:-1 group-title="-",Canal 12(SVUFSS3DIC)
 http://181.119.98.221:8000/play/a0nw/index.m3u8
+#EXTINF:-1 group-title="-",Canal 19 Megavision(SVUFSS3DIC)
+http://190.61.114.186:8000/play/a03s/index.m3u8
 #EXTINF:-1 group-title="-",Canal 19 Megavision(SVUF30OCT1)
 http://181.119.98.221:8000/play/a0rq/index.m3u8
+#EXTINF:-1 group-title="-",Canal 21(SVUFSS3DIC)
+http://190.61.114.186:8000/play/a010/index.m3u8
 #EXTINF:-1 group-title="-",Canal 21(SVUF30OCT1)
 http://181.119.98.221:8000/play/a0m4/index.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal21.sv" tvg-logo="https://i.imgur.com/esGYn21.png" group-title="EL SALVADOR",Canal 21(CT)
@@ -903,6 +911,8 @@ http://38.224.48.4:8000/play/a0qv/index.m3u8
 http://181.66.249.246:8000/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="CNNenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/512px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" group-title="News",CNN en Español
 http://stream.flynetwifi.com:1935/live/mobile-061/playlist.m3u8
+#EXTINF:-1 group-title="-",VH1
+http://190.61.114.186:8000/play/a03h/index.m3u8
 #EXTINF:-1 group-title="-",MTV
 http://200.106.13.204:8000/play/a0m0/index.m3u8
 #EXTINF:-1 tvg-id="MTV00s.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png" group-title="music",MTV 00s(USCO26NOV)
@@ -917,9 +927,5 @@ http://200.106.13.204:8000/play/a0lz/index.m3u8
 https://linear-400.frequency.stream/mt/studio/400/hls/master/playlist.m3u8
 #EXTINF:-1,Playboy(PETE2DIC)
 http://200.106.13.204:8000/play/a0k0/index.m3u8
-#EXTINF:-1,Playboy
-http://192.141.99.87:8000/play/a0ju
 #EXTINF:-1 group-title="-",VENUS(PETE2DIC)
 http://200.106.13.204:8000/play/a0ms/index.m3u8
-#EXTINF:-1 group-title="-",VENUS
-http://80.80.91.195:8000/play/a0ds/index.m3u8
