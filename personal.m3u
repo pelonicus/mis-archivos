@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",08 Dic. 2025 10:05
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",09 Dic. 2025 09:48
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PETE2DIC)
 http://200.106.13.204:8000/play/a0pj/index.m3u8
@@ -665,19 +665,19 @@ http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/9790
 http://38.224.48.4:8000/play/a0ik/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorldLatinAmerica.us" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="documentary",Discovery World(PET4AGO)
 http://200.60.97.100:28888/play/a0jc/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(CATO4DIC)
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(CATO4DIC)
 http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/9785
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(PETE2DIC)
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(PETE2DIC)
 http://200.106.13.204:8000/play/a0k8/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(USCO26NOV)
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(USCO26NOV)
 http://38.224.48.4:8000/play/a0ob/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(USCO26NOV)
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(USCO26NOV)
 http://38.224.48.4:8000/play/a0or/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(USCO26NOV)
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(USCO26NOV)
 http://38.224.48.4:8000/play/a0hz/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(PETE26SEP)
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(PETE26SEP)
 http://181.66.249.246:8000/play/a05o/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Discovery ID(PET4AGO)
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(PET4AGO)
 http://200.60.97.100:28888/play/a0ih/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(CATO4DIC)
 http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/9814
@@ -695,27 +695,27 @@ http://38.224.48.4:8000/play/a0oi/index.m3u8
 http://200.60.97.100:28888/play/a0d9/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(CATO4DIC)
 http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/10708
-#EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(USWA15SEP)
-http://xxip25.top:8080/25220837/51659469/57645
+#EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(USWA8DIC)
+http://tvmate.icu:8080/streatj87@gmail.com/HpU2jesf8w/57645
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(USFL0725)
 http://canal-pro.xyz:8080/996794768tv/a32hd22/23418
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(CUT)
 http://cord-cutter.net:8080/7bJBhh/138115/57645
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(CATO4DIC)
-http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/9847
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(CATO4DIC)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo Mundo(USNY8DIC)
+http://masterprotv1.com:8080/56933112327wspztv1/280123ztv/243
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(CATO4DIC)
 http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/9846
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(CATO4DIC)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(CATO4DIC)
 http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/9805
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(PETE2DIC)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(PETE2DIC)
 http://200.106.13.204:8000/play/a0lj/index.m3u8
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(USCO26NOV)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(USCO26NOV)
 http://38.224.48.4:8000/play/a0ok/index.m3u8
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(USCO26NOV)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(USCO26NOV)
 http://38.224.48.4:8000/play/a0hs/index.m3u8
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(PETE26SEP)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(PETE26SEP)
 http://181.66.249.246:8000/play/a00f/index.m3u8
-#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",National Geo(PET4AGO)
+#EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(PET4AGO)
 http://200.60.97.100:28888/play/a0id/index.m3u8
 #EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(CATO4DIC)
 http://tv.proyectox.vip:8080/germanpineda47/NycFbj9P9s/154649
