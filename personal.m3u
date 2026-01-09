@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",09 Ene. 2026 17:23
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",09 Ene. 2026 17:47
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(AMS7ENE)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8433
@@ -1373,399 +1373,399 @@ http://200.106.13.204:8000/play/a0jb/index.m3u8
 http://38.224.48.4:8000/play/a0ie/index.m3u8
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(PET4AGO)
 http://200.60.97.100:28888/play/a0i2/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ESP - 24h (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/6be7cbfc3e262821b3c3cf041f24de5c.png" group-title="ESPAÑA",ESP - 24h (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="24h (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/6be7cbfc3e262821b3c3cf041f24de5c.png" group-title="ESPAÑA",24h (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8136
-#EXTINF:-1 tvg-id="" tvg-name="ESP - A3Series (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/aa72578fb81aa3510cb3ba860b8925cc.png" group-title="ESPAÑA",ESP - A3Series (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="A3Series (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/aa72578fb81aa3510cb3ba860b8925cc.png" group-title="ESPAÑA",A3Series (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8138
-#EXTINF:-1 tvg-id="" tvg-name="ESP - AMC (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/e2c26deb02e0c7fc77a8028e3955dec6.png" group-title="ESPAÑA",ESP - AMC (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="AMC (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/e2c26deb02e0c7fc77a8028e3955dec6.png" group-title="ESPAÑA",AMC (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8140
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Antena 3 Internacional (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/70d0c97078cc29a450de49c7a4e4d2f6.png" group-title="ESPAÑA",ESP - Antena 3 Internacional (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3 Internacional (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/70d0c97078cc29a450de49c7a4e4d2f6.png" group-title="ESPAÑA",Antena 3 Internacional (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8143
-#EXTINF:-1 tvg-id="" tvg-name="ESP - AXN White (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/9051a0a08d3c5d5390a485b47d3102d0.png" group-title="ESPAÑA",ESP - AXN White (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="AXN White (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/9051a0a08d3c5d5390a485b47d3102d0.png" group-title="ESPAÑA",AXN White (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8146
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Baby TV (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/ccb03048ba6ad47bdbd8b94fc80aca84.png" group-title="ESPAÑA",ESP - Baby TV (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Baby TV (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/ccb03048ba6ad47bdbd8b94fc80aca84.png" group-title="ESPAÑA",Baby TV (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8148
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BeMad (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/8a45b4a43167bcbf78de7a1faeebe876.png" group-title="ESPAÑA",ESP - BeMad (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="BeMad (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/8a45b4a43167bcbf78de7a1faeebe876.png" group-title="ESPAÑA",BeMad (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8151
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Bom Cine (TV)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Bom Cine (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Bom Cine (TV)(720)" tvg-logo="" group-title="ESPAÑA",Bom Cine (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8154
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Calle 13 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/fa96ad727b37d8dac3f1dd504a781976.png" group-title="ESPAÑA",ESP - Calle 13 (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="Calle 13 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/fa96ad727b37d8dac3f1dd504a781976.png" group-title="ESPAÑA",Calle 13 (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8156
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DARK (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/2350435c7d30336da90420b9b2931497.png" group-title="ESPAÑA",ESP - DARK (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="DARK (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/2350435c7d30336da90420b9b2931497.png" group-title="ESPAÑA",DARK (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8168
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Disney Channel (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/09062220ca78d6c2587628e68ec361ba.png" group-title="ESPAÑA",ESP - Disney Channel (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/09062220ca78d6c2587628e68ec361ba.png" group-title="ESPAÑA",Disney Channel (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8171
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Energy (TV)(SD)" tvg-logo="http://tvgolatino.com:8080/images/40cb0e93363408e0087033cc724aa9d2.png" group-title="ESPAÑA",ESP - Energy (TV)(SD)
+#EXTINF:-1 tvg-id="" tvg-name="Energy (TV)(SD)" tvg-logo="http://tvgolatino.com:8080/images/40cb0e93363408e0087033cc724aa9d2.png" group-title="ESPAÑA",Energy (TV)(SD)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8179
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Eurosport 1 (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/5019948ec61d43f5f92858f06537aef1.png" group-title="ESPAÑA",ESP - Eurosport 1 (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/5019948ec61d43f5f92858f06537aef1.png" group-title="ESPAÑA",Eurosport 1 (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8180
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Eurosport 2 (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/111256bc3d526aa689154822101f20a3.png" group-title="ESPAÑA",ESP - Eurosport 2 (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 2 (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/111256bc3d526aa689154822101f20a3.png" group-title="ESPAÑA",Eurosport 2 (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8181
-#EXTINF:-1 tvg-id="" tvg-name="ESP - GOL (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/7fd69a57aa39430953380549ec247b4a.png" group-title="ESPAÑA",ESP - GOL (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="GOL (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/7fd69a57aa39430953380549ec247b4a.png" group-title="ESPAÑA",GOL (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8187
-#EXTINF:-1 tvg-id="" tvg-name="ESP - La 1 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/a924160875308aca0b0c65016cc520ee.png" group-title="ESPAÑA",ESP - La 1 (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="La 1 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/a924160875308aca0b0c65016cc520ee.png" group-title="ESPAÑA",La 1 (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8192
-#EXTINF:-1 tvg-id="" tvg-name="ESP - La 2 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/90ecf40ad33b1bd3f632b06e297c8615.png" group-title="ESPAÑA",ESP - La 2 (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="La 2 (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/90ecf40ad33b1bd3f632b06e297c8615.png" group-title="ESPAÑA",La 2 (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8193
-#EXTINF:-1 tvg-id="" tvg-name="ESP - La Sexta (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/4ad96d32906d80a3359345be9f8a20d6.png" group-title="ESPAÑA",ESP - La Sexta (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="La Sexta (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/4ad96d32906d80a3359345be9f8a20d6.png" group-title="ESPAÑA",La Sexta (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8195
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Accion (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/5d58a602d028589e28a558f8980a08c1.png" group-title="ESPAÑA",ESP - M. Accion (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="M. Accion (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/5d58a602d028589e28a558f8980a08c1.png" group-title="ESPAÑA",M. Accion (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8196
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Cine Español (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/bd8c0148c56ab8adf0425fb3ed9e9fb9.png" group-title="ESPAÑA",ESP - M. Cine Español (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="M. Cine Español (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/bd8c0148c56ab8adf0425fb3ed9e9fb9.png" group-title="ESPAÑA",M. Cine Español (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8197
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Comedia (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/42b52e9629284dbf30c4f378512716f6.png" group-title="ESPAÑA",ESP - M. Comedia (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="M. Comedia (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/42b52e9629284dbf30c4f378512716f6.png" group-title="ESPAÑA",M. Comedia (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8198
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Deportes (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/a1c1e337292ad263f3031aab71beb7c9.png" group-title="ESPAÑA",ESP - M. Deportes (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="M. Deportes (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/a1c1e337292ad263f3031aab71beb7c9.png" group-title="ESPAÑA",M. Deportes (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8199
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Drama (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/7b7f24505f4e793b05df3d6c6e25ddbe.png" group-title="ESPAÑA",ESP - M. Drama (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="M. Drama (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/7b7f24505f4e793b05df3d6c6e25ddbe.png" group-title="ESPAÑA",M. Drama (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8200
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Dreamworks (TV)(1080)" tvg-logo="" group-title="ESPAÑA",ESP - M. Dreamworks (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="M. Dreamworks (TV)(1080)" tvg-logo="" group-title="ESPAÑA",M. Dreamworks (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8201
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Golf (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/166be4e42f3f2542bdda06b6fa2bab9b.png" group-title="ESPAÑA",ESP - M. Golf (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="M. Golf (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/166be4e42f3f2542bdda06b6fa2bab9b.png" group-title="ESPAÑA",M. Golf (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8202
-#EXTINF:-1 tvg-id="" tvg-name="ESP - M. Series (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/077bd8bad93170796c768290e12ad0b7.png" group-title="ESPAÑA",ESP - M. Series (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="M. Series (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/077bd8bad93170796c768290e12ad0b7.png" group-title="ESPAÑA",M. Series (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8203
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Mega (L)(720)" tvg-logo="http://23.153.216.121:25461/images/4ed0e0ecb998940e016def789ae1bdd0.png" group-title="ESPAÑA",ESP - Mega (L)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Mega (L)(720)" tvg-logo="http://23.153.216.121:25461/images/4ed0e0ecb998940e016def789ae1bdd0.png" group-title="ESPAÑA",Mega (L)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8204
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MEGA (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/d859fd3f0c05be226b0523af2c709455.png" group-title="ESPAÑA",ESP - MEGA (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="MEGA (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/d859fd3f0c05be226b0523af2c709455.png" group-title="ESPAÑA",MEGA (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8205
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Mundo Toros (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/227318f510fb320fafbdac770f16dcb4.png" group-title="ESPAÑA",ESP - Mundo Toros (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Mundo Toros (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/227318f510fb320fafbdac770f16dcb4.png" group-title="ESPAÑA",Mundo Toros (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8217
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Nat Geo Wild (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/5102ce3be98d74f57156e462a208ae35.png" group-title="ESPAÑA",ESP - Nat Geo Wild (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/5102ce3be98d74f57156e462a208ae35.png" group-title="ESPAÑA",Nat Geo Wild (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8218
-#EXTINF:-1 tvg-id="National.Geographic.es" tvg-name="ESP - National Geographic (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/3123d9e8a5ac317c848d30fdfe79022e.png" group-title="ESPAÑA",ESP - National Geographic (TV)(1080)
+#EXTINF:-1 tvg-id="National.Geographic.es" tvg-name="National Geographic (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/3123d9e8a5ac317c848d30fdfe79022e.png" group-title="ESPAÑA",National Geographic (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8221
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Neox (TV)(SD)" tvg-logo="http://23.153.216.121:25461/images/4bd915ca6138751f28c472db3d6b3f5e.png" group-title="ESPAÑA",ESP - Neox (TV)(SD)
+#EXTINF:-1 tvg-id="" tvg-name="Neox (TV)(SD)" tvg-logo="http://23.153.216.121:25461/images/4bd915ca6138751f28c472db3d6b3f5e.png" group-title="ESPAÑA",Neox (TV)(SD)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8223
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Nickelodeon (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/80422e9a138487b496a13e04533e2b32.png" group-title="ESPAÑA",ESP - Nickelodeon (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="Nickelodeon (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/80422e9a138487b496a13e04533e2b32.png" group-title="ESPAÑA",Nickelodeon (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8226
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Odisea (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/c7e1a13ded82ddb8c09500522b443ffd.png" group-title="ESPAÑA",ESP - Odisea (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Odisea (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/c7e1a13ded82ddb8c09500522b443ffd.png" group-title="ESPAÑA",Odisea (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8229
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Paramount Channel (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/1ee9fef6d5c6cc7c7917ea651f59673c.png" group-title="ESPAÑA",ESP - Paramount Channel (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Paramount Channel (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/1ee9fef6d5c6cc7c7917ea651f59673c.png" group-title="ESPAÑA",Paramount Channel (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8231
-#EXTINF:-1 tvg-id="" tvg-name="ESP - SOMOS (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/34ee1df0c9b3ce9f185e5a79391bcf1b.png" group-title="ESPAÑA",ESP - SOMOS (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="SOMOS (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/34ee1df0c9b3ce9f185e5a79391bcf1b.png" group-title="ESPAÑA",SOMOS (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8234
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TCM (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/0b40af06d362dd88373a2c0e2b81c265.png" group-title="ESPAÑA",ESP - TCM (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="TCM (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/0b40af06d362dd88373a2c0e2b81c265.png" group-title="ESPAÑA",TCM (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8239
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Telecinco (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/f20b260961505a415a3a1f11f8c06aad.png" group-title="ESPAÑA",ESP - Telecinco (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="Telecinco (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/f20b260961505a415a3a1f11f8c06aad.png" group-title="ESPAÑA",Telecinco (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8241
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Telecinco (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/f20b260961505a415a3a1f11f8c06aad.png" group-title="ESPAÑA",ESP - Telecinco (TV)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Telecinco (TV)(720)" tvg-logo="http://23.153.216.121:25461/images/f20b260961505a415a3a1f11f8c06aad.png" group-title="ESPAÑA",Telecinco (TV)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8242
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Teledeporte (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/dca55d4c00daa95a5856ecc9530fbc0d.png" group-title="ESPAÑA",ESP - Teledeporte (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="Teledeporte (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/dca55d4c00daa95a5856ecc9530fbc0d.png" group-title="ESPAÑA",Teledeporte (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8243
-#EXTINF:-1 tvg-id="" tvg-name="ESP - XTRM (TV)(1080)" tvg-logo="" group-title="ESPAÑA",ESP - XTRM (TV)(1080)
+#EXTINF:-1 tvg-id="" tvg-name="XTRM (TV)(1080)" tvg-logo="" group-title="ESPAÑA",XTRM (TV)(1080)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8254
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BEIN LALIGA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BEIN LALIGA 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BEIN LALIGA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",BEIN LALIGA 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161871
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BEIN SPORTS LA LIGA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BEIN SPORTS LA LIGA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS LA LIGA (M)(720)" tvg-logo="" group-title="ESPAÑA",BEIN SPORTS LA LIGA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161872
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTE 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTE 2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DEPORTE 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR DEPORTE 2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161873
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTE 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTE 3 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DEPORTE 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR DEPORTE 3 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161874
-#EXTINF:-1 tvg-id="" tvg-name="ESP - LA LIGA 2 TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - LA LIGA 2 TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="LA LIGA 2 TV (M)(720)" tvg-logo="" group-title="ESPAÑA",LA LIGA 2 TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161875
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BEIN SPORTS F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BEIN SPORTS F(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS F(M)(720)" tvg-logo="" group-title="ESPAÑA",BEIN SPORTS F(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161876
-#EXTINF:-1 tvg-id="" tvg-name="ESP - LA LIGA TV (M)(720) BAR" tvg-logo="" group-title="ESPAÑA",ESP - LA LIGA TV (M)(720) BAR
+#EXTINF:-1 tvg-id="" tvg-name="LA LIGA TV (M)(720) BAR" tvg-logo="" group-title="ESPAÑA",LA LIGA TV (M)(720) BAR
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161877
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTES (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTES (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DEPORTES (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR DEPORTES (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161878
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR ACCION (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR ACCION (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161879
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DRAMA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DRAMA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DRAMA (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR DRAMA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161880
-#EXTINF:-1 tvg-id="" tvg-name="ESP - SERIES MANIA F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SERIES MANIA F(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="SERIES MANIA F(M)(720)" tvg-logo="" group-title="ESPAÑA",SERIES MANIA F(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161881
-#EXTINF:-1 tvg-id="" tvg-name="ESP - COMEDIA. (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - COMEDIA. (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="COMEDIA. (M)(720)" tvg-logo="" group-title="ESPAÑA",COMEDIA. (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161882
-#EXTINF:-1 tvg-id="" tvg-name="ESP -  CINE ESPANOL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  CINE ESPANOL (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name=" CINE ESPANOL (M)(720)" tvg-logo="" group-title="ESPAÑA", CINE ESPANOL (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161883
-#EXTINF:-1 tvg-id="" tvg-name="ESP - AXN WHITE. (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AXN WHITE. (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="AXN WHITE. (M)(720)" tvg-logo="" group-title="ESPAÑA",AXN WHITE. (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161884
-#EXTINF:-1 tvg-id="" tvg-name="ESP - NICKELODEON  (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NICKELODEON  (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="NICKELODEON  (M)(720)" tvg-logo="" group-title="ESPAÑA",NICKELODEON  (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161885
-#EXTINF:-1 tvg-id="" tvg-name="ESP - CALLE 13 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CALLE 13 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="CALLE 13 (M)(720)" tvg-logo="" group-title="ESPAÑA",CALLE 13 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161886
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Fox (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Fox (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Fox (M)(720)" tvg-logo="" group-title="ESPAÑA",Fox (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161887
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Fox Life (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Fox Life (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Fox Life (M)(720)" tvg-logo="" group-title="ESPAÑA",Fox Life (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161888
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Neox (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Neox (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Neox (M)(720)" tvg-logo="" group-title="ESPAÑA",Neox (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161889
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Energy (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Energy (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Energy (M)(720)" tvg-logo="" group-title="ESPAÑA",Energy (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161890
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Cocina TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cocina TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Cocina TV (M)(720)" tvg-logo="" group-title="ESPAÑA",Cocina TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161891
-#EXTINF:-1 tvg-id="" tvg-name="ESP -  Dark2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  Dark2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name=" Dark2 (M)(720)" tvg-logo="" group-title="ESPAÑA", Dark2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161892
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Telecinco (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Telecinco (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Telecinco (M)(720)" tvg-logo="" group-title="ESPAÑA",Telecinco (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161893
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Cuatro (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cuatro (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Cuatro (M)(720)" tvg-logo="" group-title="ESPAÑA",Cuatro (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161894
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Antena 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Antena 3 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",Antena 3 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161895
-#EXTINF:-1 tvg-id="" tvg-name="ESP - La 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - La 2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="La 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",La 2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161896
-#EXTINF:-1 tvg-id="" tvg-name="ESP - La 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - La 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="La 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",La 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161897
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TNT (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TNT (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TNT (M)(720)" tvg-logo="" group-title="ESPAÑA",TNT (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161898
-#EXTINF:-1 tvg-id="" tvg-name="ESP -  VIAJAR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  VIAJAR (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name=" VIAJAR (M)(720)" tvg-logo="" group-title="ESPAÑA", VIAJAR (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161899
-#EXTINF:-1 tvg-id="" tvg-name="ESP - #VAMOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - #VAMOS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="#VAMOS (M)(720)" tvg-logo="" group-title="ESPAÑA",#VAMOS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161900
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIES (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIES (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR SERIES (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR SERIES (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161901
-#EXTINF:-1 tvg-id="" tvg-name="ESP - I24 NEWS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - I24 NEWS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="I24 NEWS (M)(720)" tvg-logo="" group-title="ESPAÑA",I24 NEWS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161902
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DISNEY CHANNEL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISNEY CHANNEL (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY CHANNEL (M)(720)" tvg-logo="" group-title="ESPAÑA",DISNEY CHANNEL (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161903
-#EXTINF:-1 tvg-id="" tvg-name="ESP - ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ACCION (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",ACCION (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161904
-#EXTINF:-1 tvg-id="" tvg-name="ESP - IBERALIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - IBERALIA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="IBERALIA (M)(720)" tvg-logo="" group-title="ESPAÑA",IBERALIA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161905
-#EXTINF:-1 tvg-id="" tvg-name="ESP - HISTORIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - HISTORIA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="HISTORIA (M)(720)" tvg-logo="" group-title="ESPAÑA",HISTORIA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161906
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR FOTBOL F(M)(720) 4K" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR FOTBOL F(M)(720) 4K
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR FOTBOL F(M)(720) 4K" tvg-logo="" group-title="ESPAÑA",MOVISTAR FOTBOL F(M)(720) 4K
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161907
-#EXTINF:-1 tvg-id="" tvg-name="ESP - EUROSPORT 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - EUROSPORT 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",EUROSPORT 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161908
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR ESTRENOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR ESTRENOS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR ESTRENOS (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR ESTRENOS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161909
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR FORMULA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR FORMULA 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR FORMULA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR FORMULA 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161910
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Odisea (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Odisea (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Odisea (M)(720)" tvg-logo="" group-title="ESPAÑA",Odisea (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161911
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar LaLiga (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",Movistar LaLiga (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161912
-#EXTINF:-1 tvg-id="" tvg-name="ESP - COSMO. (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - COSMO. (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="COSMO. (M)(720)" tvg-logo="" group-title="ESPAÑA",COSMO. (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161913
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DRAMA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DRAMA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DRAMA (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR DRAMA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161914
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTES(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTES(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DEPORTES(M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR DEPORTES(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161915
-#EXTINF:-1 tvg-id="" tvg-name="ESP - LA LIGA TV BAR 1 [LIVE-EVENT]" tvg-logo="" group-title="ESPAÑA",ESP - LA LIGA TV BAR 1 [LIVE-EVENT]
+#EXTINF:-1 tvg-id="" tvg-name="LA LIGA TV BAR 1 [LIVE-EVENT]" tvg-logo="" group-title="ESPAÑA",LA LIGA TV BAR 1 [LIVE-EVENT]
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161916
-#EXTINF:-1 tvg-id="" tvg-name="ESP - HOLLYWOOD(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - HOLLYWOOD(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="HOLLYWOOD(M)(720)" tvg-logo="" group-title="ESPAÑA",HOLLYWOOD(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161917
-#EXTINF:-1 tvg-id="" tvg-name="ESP - FOX (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FOX (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="FOX (M)(720)" tvg-logo="" group-title="ESPAÑA",FOX (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161918
-#EXTINF:-1 tvg-id="" tvg-name="ESP - EUROSPORT 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - EUROSPORT 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",EUROSPORT 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161919
-#EXTINF:-1 tvg-id="" tvg-name="ESP - COMEDY CENTRAL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - COMEDY CENTRAL (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="COMEDY CENTRAL (M)(720)" tvg-logo="" group-title="ESPAÑA",COMEDY CENTRAL (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161920
-#EXTINF:-1 tvg-id="" tvg-name="ESP - #VAMOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - #VAMOS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="#VAMOS (M)(720)" tvg-logo="" group-title="ESPAÑA",#VAMOS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161921
 #EXTINF:-1 tvg-id="" tvg-name="ES DAZN 1 F(M)(720)" tvg-logo="" group-title="ESPAÑA",ES DAZN 1 F(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161922
 #EXTINF:-1 tvg-id="" tvg-name="ES DAZN 2 F(M)(720)" tvg-logo="" group-title="ESPAÑA",ES DAZN 2 F(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161923
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DAZN 4 F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DAZN 4 F(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 4 F(M)(720)" tvg-logo="" group-title="ESPAÑA",DAZN 4 F(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161924
 #EXTINF:-1 tvg-id="" tvg-name="ES DAZN 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ES DAZN 3 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161925
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BLAZE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BLAZE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BLAZE (M)(720)" tvg-logo="" group-title="ESPAÑA",BLAZE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161926
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BABY TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BABY TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BABY TV (M)(720)" tvg-logo="" group-title="ESPAÑA",BABY TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161927
-#EXTINF:-1 tvg-id="" tvg-name="ESP - #0 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - #0 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="#0 (M)(720)" tvg-logo="" group-title="ESPAÑA",#0 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161928
-#EXTINF:-1 tvg-id="" tvg-name="ESP - 24 Horas (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - 24 Horas (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="24 Horas (M)(720)" tvg-logo="" group-title="ESPAÑA",24 Horas (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161929
-#EXTINF:-1 tvg-id="" tvg-name="ESP - A3 Series (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - A3 Series (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="A3 Series (M)(720)" tvg-logo="" group-title="ESPAÑA",A3 Series (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161930
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR LALIGA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR LALIGA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR LALIGA (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR LALIGA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161931
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BLOOMBERG (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BLOOMBERG (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BLOOMBERG (M)(720)" tvg-logo="" group-title="ESPAÑA",BLOOMBERG (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161932
-#EXTINF:-1 tvg-id="" tvg-name="ESP - CANAL GOLF F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CANAL GOLF F(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="CANAL GOLF F(M)(720)" tvg-logo="" group-title="ESPAÑA",CANAL GOLF F(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161933
-#EXTINF:-1 tvg-id="" tvg-name="ESP - CANAL SUR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CANAL SUR (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="CANAL SUR (M)(720)" tvg-logo="" group-title="ESPAÑA",CANAL SUR (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161934
-#EXTINF:-1 tvg-id="" tvg-name="ESP - CRIME AND INVESTIGATION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CRIME AND INVESTIGATION (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="CRIME AND INVESTIGATION (M)(720)" tvg-logo="" group-title="ESPAÑA",CRIME AND INVESTIGATION (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161935
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DISCOVERY CHANNEL(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISCOVERY CHANNEL(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY CHANNEL(M)(720)" tvg-logo="" group-title="ESPAÑA",DISCOVERY CHANNEL(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161936
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DMAX (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DMAX (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="DMAX (M)(720)" tvg-logo="" group-title="ESPAÑA",DMAX (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161937
-#EXTINF:-1 tvg-id="" tvg-name="ESP - FOX NEWS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FOX NEWS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="FOX NEWS (M)(720)" tvg-logo="" group-title="ESPAÑA",FOX NEWS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161938
-#EXTINF:-1 tvg-id="" tvg-name="ESP - GALICIA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - GALICIA TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="GALICIA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",GALICIA TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161939
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar LaLiga (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",Movistar LaLiga (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161940
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR CINEDOC&ROLL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR CINEDOC&ROLL (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR CINEDOC&ROLL (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR CINEDOC&ROLL (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161941
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR DEPORTES 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR DEPORTES 2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR DEPORTES 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR DEPORTES 2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161942
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR COMEDIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR COMEDIA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR COMEDIA (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR COMEDIA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161943
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR SERIE (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR SERIE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161944
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIE MANIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIE MANIA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR SERIE MANIA (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR SERIE MANIA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161945
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TAQUILLA 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TAQUILLA 2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TAQUILLA 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",TAQUILLA 2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161946
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TAQUILLA 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TAQUILLA 3 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TAQUILLA 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",TAQUILLA 3 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161947
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TOROS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TOROS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TOROS (M)(720)" tvg-logo="" group-title="ESPAÑA",TOROS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161948
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TRECE TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TRECE TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TRECE TV (M)(720)" tvg-logo="" group-title="ESPAÑA",TRECE TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161949
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TVE 24H (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TVE 24H (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TVE 24H (M)(720)" tvg-logo="" group-title="ESPAÑA",TVE 24H (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161950
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Teledeporte (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Teledeporte (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Teledeporte (M)(720)" tvg-logo="" group-title="ESPAÑA",Teledeporte (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161951
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MADRID TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MADRID TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MADRID TV (M)(720)" tvg-logo="" group-title="ESPAÑA",MADRID TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161952
-#EXTINF:-1 tvg-id="" tvg-name="ESP -  Dazn F1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP -  Dazn F1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name=" Dazn F1 (M)(720)" tvg-logo="" group-title="ESPAÑA", Dazn F1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161953
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTARr GOLF F(M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTARr GOLF F(M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTARr GOLF F(M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTARr GOLF F(M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161954
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Deportes (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Deportes (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Deportes (M)(720)" tvg-logo="" group-title="ESPAÑA",Movistar Deportes (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161955
-#EXTINF:-1 tvg-id="" tvg-name="ESP - IBERALIA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - IBERALIA TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="IBERALIA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",IBERALIA TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161956
-#EXTINF:-1 tvg-id="" tvg-name="ESP - GOL TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - GOL TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="GOL TV (M)(720)" tvg-logo="" group-title="ESPAÑA",GOL TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161957
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Eurosport 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Eurosport 2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",Eurosport 2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161958
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Liga de Campeones (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",Movistar Liga de Campeones (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161959
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MEZZO LIVE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MEZZO LIVE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MEZZO LIVE (M)(720)" tvg-logo="" group-title="ESPAÑA",MEZZO LIVE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161960
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Mega (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Mega (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Mega (M)(720)" tvg-logo="" group-title="ESPAÑA",Mega (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161961
-#EXTINF:-1 tvg-id="" tvg-name="ESP - FOX (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FOX (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="FOX (M)(720)" tvg-logo="" group-title="ESPAÑA",FOX (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161962
-#EXTINF:-1 tvg-id="" tvg-name="ESP - FDF (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - FDF (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="FDF (M)(720)" tvg-logo="" group-title="ESPAÑA",FDF (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161963
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DKISS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DKISS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="DKISS (M)(720)" tvg-logo="" group-title="ESPAÑA",DKISS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161964
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Divinity (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Divinity (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Divinity (M)(720)" tvg-logo="" group-title="ESPAÑA",Divinity (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161965
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DISNEY CHANEL (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISNEY CHANEL (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY CHANEL (M)(720)" tvg-logo="" group-title="ESPAÑA",DISNEY CHANEL (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161966
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DISNEY (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - DISNEY (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY (M)(720)" tvg-logo="" group-title="ESPAÑA",DISNEY (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161967
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Disney Jr (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Disney Jr (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Disney Jr (M)(720)" tvg-logo="" group-title="ESPAÑA",Disney Jr (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161968
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Canal Casa (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Canal Casa (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Canal Casa (M)(720)" tvg-logo="" group-title="ESPAÑA",Canal Casa (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161969
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Cosmo (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cosmo (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Cosmo (M)(720)" tvg-logo="" group-title="ESPAÑA",Cosmo (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161970
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Comedy Central (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Comedy Central (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Comedy Central (M)(720)" tvg-logo="" group-title="ESPAÑA",Comedy Central (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161971
-#EXTINF:-1 tvg-id="" tvg-name="ESP - CANAL COCINA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CANAL COCINA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="CANAL COCINA (M)(720)" tvg-logo="" group-title="ESPAÑA",CANAL COCINA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161972
-#EXTINF:-1 tvg-id="" tvg-name="ESP - CLAN TVE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CLAN TVE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="CLAN TVE (M)(720)" tvg-logo="" group-title="ESPAÑA",CLAN TVE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161973
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Caza y Pesca (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Caza y Pesca (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Caza y Pesca (M)(720)" tvg-logo="" group-title="ESPAÑA",Caza y Pesca (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161974
-#EXTINF:-1 tvg-id="" tvg-name="ESP - CALLE 13 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - CALLE 13 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="CALLE 13 (M)(720)" tvg-logo="" group-title="ESPAÑA",CALLE 13 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161975
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BLAZE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BLAZE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BLAZE (M)(720)" tvg-logo="" group-title="ESPAÑA",BLAZE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161976
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Be Mad (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Be Mad (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Be Mad (M)(720)" tvg-logo="" group-title="ESPAÑA",Be Mad (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161977
-#EXTINF:-1 tvg-id="" tvg-name="ESP - BARCA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - BARCA TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="BARCA TV (M)(720)" tvg-logo="" group-title="ESPAÑA",BARCA TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161978
-#EXTINF:-1 tvg-id="" tvg-name="ESP - AXN WHITE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AXN WHITE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="AXN WHITE (M)(720)" tvg-logo="" group-title="ESPAÑA",AXN WHITE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161979
-#EXTINF:-1 tvg-id="" tvg-name="ESP - AXN (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AXN (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="AXN (M)(720)" tvg-logo="" group-title="ESPAÑA",AXN (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161980
-#EXTINF:-1 tvg-id="" tvg-name="ESP - ARAGON TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ARAGON TV (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="ARAGON TV (M)(720)" tvg-logo="" group-title="ESPAÑA",ARAGON TV (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161981
-#EXTINF:-1 tvg-id="" tvg-name="ESP - AMC (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - AMC (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="AMC (M)(720)" tvg-logo="" group-title="ESPAÑA",AMC (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161982
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Nova (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Nova (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Nova (M)(720)" tvg-logo="" group-title="ESPAÑA",Nova (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161983
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Boing (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Boing (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Boing (M)(720)" tvg-logo="" group-title="ESPAÑA",Boing (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161984
-#EXTINF:-1 tvg-id="" tvg-name="ESP - HOLLYWOOD (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - HOLLYWOOD (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="HOLLYWOOD (M)(720)" tvg-logo="" group-title="ESPAÑA",HOLLYWOOD (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161985
-#EXTINF:-1 tvg-id="" tvg-name="ESP - VIAJAR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - VIAJAR (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="VIAJAR (M)(720)" tvg-logo="" group-title="ESPAÑA",VIAJAR (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161986
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TNT (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TNT (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TNT (M)(720)" tvg-logo="" group-title="ESPAÑA",TNT (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161987
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TELEMADRID (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TELEMADRID (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TELEMADRID (M)(720)" tvg-logo="" group-title="ESPAÑA",TELEMADRID (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161988
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TCM (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TCM (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TCM (M)(720)" tvg-logo="" group-title="ESPAÑA",TCM (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161989
-#EXTINF:-1 tvg-id="" tvg-name="ESP - SYFY (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SYFY (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="SYFY (M)(720)" tvg-logo="" group-title="ESPAÑA",SYFY (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161990
-#EXTINF:-1 tvg-id="" tvg-name="ESP - SUNDANCE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SUNDANCE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="SUNDANCE (M)(720)" tvg-logo="" group-title="ESPAÑA",SUNDANCE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161991
-#EXTINF:-1 tvg-id="" tvg-name="ESP - PARAMOUNT NETWORK (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - PARAMOUNT NETWORK (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="PARAMOUNT NETWORK (M)(720)" tvg-logo="" group-title="ESPAÑA",PARAMOUNT NETWORK (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161992
-#EXTINF:-1 tvg-id="" tvg-name="ESP - PANDA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - PANDA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="PANDA (M)(720)" tvg-logo="" group-title="ESPAÑA",PANDA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161993
-#EXTINF:-1 tvg-id="" tvg-name="ESP - ODESEA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ODESEA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="ODESEA (M)(720)" tvg-logo="" group-title="ESPAÑA",ODESEA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161994
-#EXTINF:-1 tvg-id="" tvg-name="ESP - NICKELODEON (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NICKELODEON (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="NICKELODEON (M)(720)" tvg-logo="" group-title="ESPAÑA",NICKELODEON (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161995
-#EXTINF:-1 tvg-id="" tvg-name="ESP - NICK JUNIOR (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NICK JUNIOR (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="NICK JUNIOR (M)(720)" tvg-logo="" group-title="ESPAÑA",NICK JUNIOR (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161996
-#EXTINF:-1 tvg-id="" tvg-name="ESP - NAT GEO WILD (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NAT GEO WILD (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="NAT GEO WILD (M)(720)" tvg-logo="" group-title="ESPAÑA",NAT GEO WILD (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161997
-#EXTINF:-1 tvg-id="" tvg-name="ESP - NAT GEO (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NAT GEO (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="NAT GEO (M)(720)" tvg-logo="" group-title="ESPAÑA",NAT GEO (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161998
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MTV ESPAÑA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MTV ESPAÑA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MTV ESPAÑA (M)(720)" tvg-logo="" group-title="ESPAÑA",MTV ESPAÑA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161999
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MoviStar ESTRENOS (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MoviStar ESTRENOS (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MoviStar ESTRENOS (M)(720)" tvg-logo="" group-title="ESPAÑA",MoviStar ESTRENOS (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162000
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR CINE N (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR CINE N (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR CINE N (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR CINE N (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162001
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR Disney (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR Disney (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR Disney (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR Disney (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162002
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR ACCION (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR ACCION (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR ACCION (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162003
-#EXTINF:-1 tvg-id="" tvg-name="ESP - La Sexta (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - La Sexta (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="La Sexta (M)(720)" tvg-logo="" group-title="ESPAÑA",La Sexta (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162004
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Cuatro (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Cuatro (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Cuatro (M)(720)" tvg-logo="" group-title="ESPAÑA",Cuatro (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162005
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Antena 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Antena 3 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Antena 3 (M)(720)" tvg-logo="" group-title="ESPAÑA",Antena 3 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162006
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TVE LA 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TVE LA 2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TVE LA 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",TVE LA 2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162007
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TVE LA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TVE LA 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TVE LA 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",TVE LA 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162008
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR SERIES MANIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR SERIES MANIA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR SERIES MANIA (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR SERIES MANIA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162009
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR COMEDIA (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR COMEDIA (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR COMEDIA (M)(720)" tvg-logo="" group-title="ESPAÑA",MOVISTAR COMEDIA (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162010
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR LIGA CAMPEONES 2 [LIVE-EVENT]" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR LIGA CAMPEONES 2 [LIVE-EVENT]
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR LIGA CAMPEONES 2 [LIVE-EVENT]" tvg-logo="" group-title="ESPAÑA",MOVISTAR LIGA CAMPEONES 2 [LIVE-EVENT]
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162011
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MOVISTAR LIGA CAMPEONES" tvg-logo="" group-title="ESPAÑA",ESP - MOVISTAR LIGA CAMPEONES
+#EXTINF:-1 tvg-id="" tvg-name="MOVISTAR LIGA CAMPEONES" tvg-logo="" group-title="ESPAÑA",MOVISTAR LIGA CAMPEONES
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162012
-#EXTINF:-1 tvg-id="" tvg-name="ESP - MEZZO LIVE (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - MEZZO LIVE (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="MEZZO LIVE (M)(720)" tvg-logo="" group-title="ESPAÑA",MEZZO LIVE (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162013
-#EXTINF:-1 tvg-id="" tvg-name="ESP - NATIONAL GEO WILD (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - NATIONAL GEO WILD (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="NATIONAL GEO WILD (M)(720)" tvg-logo="" group-title="ESPAÑA",NATIONAL GEO WILD (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162014
-#EXTINF:-1 tvg-id="" tvg-name="ESP - SYFY (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - SYFY (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="SYFY (M)(720)" tvg-logo="" group-title="ESPAÑA",SYFY (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162015
-#EXTINF:-1 tvg-id="" tvg-name="ESP - TCM (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - TCM (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="TCM (M)(720)" tvg-logo="" group-title="ESPAÑA",TCM (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162016
 #EXTINF:-1 tvg-id="" tvg-name="[PRIVATE] ES:Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",[PRIVATE] ES:Movistar LaLiga (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162017
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar LaLiga (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Movistar LaLiga (M)(720)" tvg-logo="" group-title="ESPAÑA",Movistar LaLiga (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162018
 #EXTINF:-1 tvg-id="" tvg-name="[PRIVATE] ES:Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",[PRIVATE] ES:Movistar Liga de Campeones (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162019
 #EXTINF:-1 tvg-id="" tvg-name="[PRIVATE] ES:Movistar Fórmula 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",[PRIVATE] ES:Movistar Fórmula 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162020
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Liga de Campeones (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Liga de Campeones (M)(720)" tvg-logo="" group-title="ESPAÑA",Movistar Liga de Campeones (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162021
 #EXTINF:-1 tvg-id="" tvg-name="[PRIVATE] ES:Movistar Deportes (M)(720)" tvg-logo="" group-title="ESPAÑA",[PRIVATE] ES:Movistar Deportes (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162022
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Movistar Deportes 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - Movistar Deportes 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="Movistar Deportes 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",Movistar Deportes 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162023
-#EXTINF:-1 tvg-id="" tvg-name="ESP - ETB 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ETB 1 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="ETB 1 (M)(720)" tvg-logo="" group-title="ESPAÑA",ETB 1 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162024
-#EXTINF:-1 tvg-id="" tvg-name="ESP - ETB 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ETB 2 (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="ETB 2 (M)(720)" tvg-logo="" group-title="ESPAÑA",ETB 2 (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162025
-#EXTINF:-1 tvg-id="" tvg-name="ESP - ETB Basque (M)(720)" tvg-logo="" group-title="ESPAÑA",ESP - ETB Basque (M)(720)
+#EXTINF:-1 tvg-id="" tvg-name="ETB Basque (M)(720)" tvg-logo="" group-title="ESPAÑA",ETB Basque (M)(720)
 http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/162026
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery EAST-US(CUT) 
 http://cord-cutter.net:8080/7bJBhh/138115/9811
