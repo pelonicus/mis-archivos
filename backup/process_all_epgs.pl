@@ -5,7 +5,7 @@ use IO::Uncompress::Gunzip qw(gunzip $GunzipError);
 use File::Glob ':glob';
 
 my $m3u_file    = 'personal.m3u';
-my $output_file = 'epgshare.xml';
+my $output_file = 'all_epgshare.xml';
 
 print "Leyendo M3U...\n";
 

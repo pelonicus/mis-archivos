@@ -47,8 +47,8 @@ call download_epgs.pl
 echo Procesar all epgs 
 call process_all_epgs.pl
 
-echo GZ xmls
-call gzip_all_xml.pl
+echo Split 50MB
+call split_xml_50mb.pl all_epgshare.xml
 
 echo Actualizar fecha
 call actualizar_fecha.pl personal.m3u
@@ -60,9 +60,9 @@ copy *.bat /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos\backup"
 echo Upload files
 copy personal.m3u /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
 copy extra.m3u /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
-copy gatotv.xml.gz /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
-copy mitv.xml.gz /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
-copy epgshare.xml.gz /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
+copy gatotv.xml /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
+copy mitv.xml /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
+copy epgshare*.xml /y "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
 
 C:
 cd "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
