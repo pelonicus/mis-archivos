@@ -16,22 +16,22 @@ call npm run grab -- --days 7 --maxConnections 15 --site=gatotv.com --output=../
 ::call npm run grab -- --days 3 --channels=./custom_mitv.xml --output=..\PERSONAL\guide_2_mitv_all.xml
 
 echo Running mi.tv MX...
-call npm run grab --- --days 7 --maxConnections 15 --channels=sites/mi.tv/mi.tv_mx.channels.xml --output=../PERSONAL/mitv_MX.xml
+call npm run grab --- --days 3 --maxConnections 15 --channels=sites/mi.tv/mi.tv_mx.channels.xml --output=../PERSONAL/mitv_MX.xml
 
 echo Running mi.tv SV...
-call npm run grab --- --days 7 --maxConnections 15 --channels=sites/mi.tv/mi.tv_sv.channels.xml --output=../PERSONAL/mitv_SV.xml
+call npm run grab --- --days 3 --maxConnections 15 --channels=sites/mi.tv/mi.tv_sv.channels.xml --output=../PERSONAL/mitv_SV.xml
 
 echo Running mi.tv PE...
-call npm run grab --- --days 7 --maxConnections 15 --channels=sites/mi.tv/mi.tv_pe.channels.xml --output=../PERSONAL/mitv_PE.xml
+call npm run grab --- --days 3 --maxConnections 15 --channels=sites/mi.tv/mi.tv_pe.channels.xml --output=../PERSONAL/mitv_PE.xml
 
 echo Running mi.tv CO...
-call npm run grab --- --days 7 --maxConnections 15 --channels=sites/mi.tv/mi.tv_co.channels.xml --output=../PERSONAL/mitv_CO.xml
+call npm run grab --- --days 3 --maxConnections 15 --channels=sites/mi.tv/mi.tv_co.channels.xml --output=../PERSONAL/mitv_CO.xml
 
 echo Running mi.tv CL...
-call npm run grab --- --days 7 --maxConnections 15 --channels=sites/mi.tv/mi.tv_cl.channels.xml --output=../PERSONAL/mitv_CL.xml
+call npm run grab --- --days 3 --maxConnections 15 --channels=sites/mi.tv/mi.tv_cl.channels.xml --output=../PERSONAL/mitv_CL.xml
 
 echo Running mi.tv AR...
-call npm run grab --- --days 7 --maxConnections 15 --channels=sites/mi.tv/mi.tv_ar.channels.xml --output=../PERSONAL/mitv_AR.xml
+call npm run grab --- --days 3 --maxConnections 15 --channels=sites/mi.tv/mi.tv_ar.channels.xml --output=../PERSONAL/mitv_AR.xml
 
 call cd ..\PERSONAL
 
@@ -69,4 +69,4 @@ cd "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
 
 git add -A
 git commit -m "Actualizo todo"
-git push --force origin main
+git push --force origin master
