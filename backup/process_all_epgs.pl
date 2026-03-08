@@ -95,8 +95,8 @@ foreach my $gz_file (@gz_files) {
             my $block = $1;
 
             # actualizar zona horaria a +0000
-            $block =~ s/(start="[\d]+) [^"]+"/$1 +0000"/;
-            $block =~ s/(stop="[\d]+) [^"]+"/$1 +0000"/;
+            #$block =~ s/(start="[\d]+) [^"]+"/$1 +0000"/;
+            #$block =~ s/(stop="[\d]+) [^"]+"/$1 +0000"/;
 
             my ($id) = $block =~ /channel="([^"]+)"/;
             if ($id && exists $valid_ids{$id}) {
