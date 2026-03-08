@@ -69,4 +69,4 @@ cd "C:\Users\Victor Salvador\Documents\GitHub\mis-archivos"
 
 git add -A
 git commit -m "Actualizo todo"
-git push --force origin master
+git push --force origin main
