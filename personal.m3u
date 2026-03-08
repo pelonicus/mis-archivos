@@ -667,22 +667,38 @@ http://38.224.48.4:8000/play/a0ok/index.m3u8
 http://38.224.48.4:8000/play/a0hs/index.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(PET4AGO)
 http://200.60.97.100:28888/play/a0id/index.m3u8
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(USSF4DIC)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(USSF4DIC)
 http://1.o33er.store:80/play/mfvNF83D5pg0UK52ceIR2xW36T6gzD3f_8kKNaKM95RP_f4zY5SHSSruHgEDh6pc
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(USSF4DIC)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(USSF4DIC)
 http://1.o33er.store:80/play/mfvNF83D5pg0UK52ceIR21Gz9UKWWoe4-d3jXBUjuzcVhGvyJ22dTLrSPN9DIst7
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(NE2OCT)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(NE2OCT)
 http://vipboacnn.top:8080/Germanaguilar/Germanaguilar2024/713
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-CA8SEP)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(US-CA8SEP)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724524
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-CA8SEP)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(US-CA8SEP)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724525
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-CA8SEP)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(US-CA8SEP)
 https://secretoiberico.net:443/Davidconejo023/PGKEjHqg8p/724526
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-FL0725)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161906
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(US-FL0725)
 http://canal-pro.xyz:8080/996794768tv/a32hd22/236341
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia ES(US-FL0725)
+#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(US-FL0725)
 http://canal-pro.xyz:8080/996794768tv/a32hd22/236362
+#EXTINF:-1 tvg-id="" tvg-name="Odisea (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/c7e1a13ded82ddb8c09500522b443ffd.png" group-title="ESPAÑA",Odisea(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/8229
+#EXTINF:-1 tvg-id="" tvg-name="Odisea (M)(720)" tvg-logo="http://tvgolatino.com:8080/images/c7e1a13ded82ddb8c09500522b443ffd.png" group-title="ESPAÑA",Odisea(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161911
+#EXTINF:-1 tvg-id="" tvg-name="ESP - Mega (L)(720)" tvg-logo="http://23.153.216.121:25461/images/4ed0e0ecb998940e016def789ae1bdd0.png" group-title="ESPAÑA",MEGA(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/8204
+#EXTINF:-1 tvg-id="" tvg-name="ESP - MEGA (TV)(1080)" tvg-logo="http://23.153.216.121:25461/images/d859fd3f0c05be226b0523af2c709455.png" group-title="ESPAÑA",MEGA(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/8205
+#EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161936
+#EXTINF:-1 tvg-id="" tvg-name="ESP - DMAX (M)(720)" tvg-logo="" group-title="ESPAÑA",DMAX(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161937
+#EXTINF:-1 tvg-id="" tvg-name="ESP - Nova (M)(720)" tvg-logo="" group-title="ESPAÑA",Nova(AMS25FEB)
+http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161983
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/9838
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(AMS25FEB)
@@ -723,10 +739,6 @@ http://38.224.48.4:8000/play/a0li/index.m3u8
 http://181.66.249.246:8000/play/a05t/index.m3u8
 #EXTINF:-1 tvg-id="History2.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/512px-History2_logo_%282022%29.svg.png" group-title="Documentary",History 2(PET4AGO)
 http://200.60.97.100:28888/play/a0h8/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Odisea (TV)(720)" tvg-logo="http://tvgolatino.com:8080/images/c7e1a13ded82ddb8c09500522b443ffd.png" group-title="ESPAÑA",Odisea(HKMAR25)
-http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/8229
-#EXTINF:-1 tvg-id="" tvg-name="Odisea (M)(720)" tvg-logo="" group-title="ESPAÑA",Odisea(HKMAR25)
-http://tv.diablotv.net:8080/MarceloG1505/j2ebtEyPGZ/161911
 #EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/9829
 #EXTINF:-1 tvg-id="discovery_turbo_latinoamerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/archive/1/11/20140426071151%21Discovery_Turbo.png" group-title="Documentary",Discovery Turbo(AMS25FEB)
