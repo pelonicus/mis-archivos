@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",08 Mar.. 2026 11:00
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",09 Mar.. 2026 09:40
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PE12FEB)
 http://181.224.255.210:8001/play/a0s1/index.m3u8
@@ -695,10 +695,6 @@ http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/8204
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/8205
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161936
-#EXTINF:-1 tvg-id="" tvg-name="ESP - DMAX (M)(720)" tvg-logo="" group-title="ESPAÑA",DMAX(AMS25FEB)
-http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161937
-#EXTINF:-1 tvg-id="" tvg-name="ESP - Nova (M)(720)" tvg-logo="" group-title="ESPAÑA",Nova(AMS25FEB)
-http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/161983
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/9838
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(AMS25FEB)
