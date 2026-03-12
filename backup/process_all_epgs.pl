@@ -17,7 +17,6 @@ while (my $line = <$m3u>) {
     next unless $line =~ /^#EXTINF/i;
     if ($line =~ /,(.+)$/) {
         my $name = lc($1);
-        # limpiar paréntesis y números
         $name =~ s/\([^)]*\)//g;
         $name =~ s/\d+//g;
         $name =~ s/\s+/ /g;
@@ -33,14 +32,14 @@ print "Canales buscados: " . scalar(keys %wanted) . "\n\n";
 my @gz_files = bsd_glob("*.xml.gz");
 die "No se encontraron archivos .xml.gz\n" unless @gz_files;
 
-my %channels_data;      # id => { block, country }
-my %programme_count;    # id => cantidad
+my %channels_data;
+my %programme_count;
 my @all_programmes;
 
 foreach my $gz_file (@gz_files) {
+
     print "Procesando $gz_file ...\n";
 
-    # extraer código país del archivo (archivo.PAIS.xml.gz)
     my ($country) = $gz_file =~ /\.([A-Z0-9]{2,3})\.xml\.gz$/i;
     $country ||= "XX";
 
@@ -56,16 +55,22 @@ foreach my $gz_file (@gz_files) {
 
         # ----------------- CHANNEL -----------------
         while ($line =~ /(<channel\b.*?<\/channel>)/gs) {
+
             my $block = $1;
 
-            # obtener id
             my ($id) = $block =~ /id="([^"]+)"/;
+            next unless $id;
 
-            # obtener display-name
+            # -------- NORMALIZAR ID (ESPACIOS -> .) --------
+            my $clean_id = $id;
+            $clean_id =~ s/\s+/./g;
+
+            # actualizar id dentro del bloque
+            $block =~ s/id="\Q$id\E"/id="$clean_id"/;
+
             my ($display) = $block =~ /<display-name[^>]*>(.*?)<\/display-name>/i;
             next unless $display;
 
-            # limpiar nombre para coincidencia
             my $xml_name = lc($display);
             $xml_name =~ s/\([^)]*\)//g;
             $xml_name =~ s/\d+//g;
@@ -73,18 +78,22 @@ foreach my $gz_file (@gz_files) {
             $xml_name =~ s/^\s+|\s+$//g;
 
             foreach my $wanted_name (keys %wanted) {
+
                 if (index($xml_name, $wanted_name) != -1
                     || index($wanted_name, $xml_name) != -1) {
 
-                    unless (exists $channels_data{$id}) {
+                    unless (exists $channels_data{$clean_id}) {
+
                         $block =~ s/\r?\n/ /g;
                         $block =~ s/\s{2,}/ /g;
-                        $channels_data{$id} = {
+
+                        $channels_data{$clean_id} = {
                             block   => $block,
                             country => $country,
                         };
                     }
-                    $valid_ids{$id} = 1;
+
+                    $valid_ids{$clean_id} = 1;
                     last;
                 }
             }
@@ -92,18 +101,26 @@ foreach my $gz_file (@gz_files) {
 
         # ----------------- PROGRAMME -----------------
         while ($line =~ /(<programme\b.*?<\/programme>)/gs) {
+
             my $block = $1;
 
-            # actualizar zona horaria a +0000
-            #$block =~ s/(start="[\d]+) [^"]+"/$1 +0000"/;
-            #$block =~ s/(stop="[\d]+) [^"]+"/$1 +0000"/;
-
             my ($id) = $block =~ /channel="([^"]+)"/;
-            if ($id && exists $valid_ids{$id}) {
+            next unless $id;
+
+            # normalizar id igual que en channel
+            my $clean_id = $id;
+            $clean_id =~ s/\s+/./g;
+
+            # actualizar channel dentro del bloque
+            $block =~ s/channel="\Q$id\E"/channel="$clean_id"/;
+
+            if (exists $valid_ids{$clean_id}) {
+
                 $block =~ s/\r?\n/ /g;
                 $block =~ s/\s{2,}/ /g;
+
                 push @all_programmes, $block;
-                $programme_count{$id}++;
+                $programme_count{$clean_id}++;
             }
         }
     }
@@ -121,6 +138,7 @@ print $out qq{<!DOCTYPE tv SYSTEM "xmltv.dtd">\n};
 print $out qq{<tv>\n};
 
 foreach my $id (keys %channels_data) {
+
     my $block   = $channels_data{$id}{block};
     my $country = $channels_data{$id}{country};
     my $count   = $programme_count{$id} || 0;
@@ -130,7 +148,6 @@ foreach my $id (keys %channels_data) {
         "$1$name($country)($count)$3"
     }e;
 
-    # separar cualquier channel múltiple en líneas
     $block =~ s/<channel/\n<channel/g;
     $block =~ s/^\n//;
 
