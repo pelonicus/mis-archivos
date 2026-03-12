@@ -9,26 +9,40 @@ my $output_file = 'all_epgshare.xml';
 
 print "Leyendo M3U...\n";
 
-# ----------------- Leer y limpiar nombres de M3U -----------------
+# ----------------- Leer nombres del M3U -----------------
+
 open(my $m3u, "<", $m3u_file) or die "No puedo abrir $m3u_file\n";
 
-my %wanted;
+my %wanted_full;
+my %wanted_first;
+
 while (my $line = <$m3u>) {
+
     next unless $line =~ /^#EXTINF/i;
+
     if ($line =~ /,(.+)$/) {
+
         my $name = lc($1);
+
         $name =~ s/\([^)]*\)//g;
-        $name =~ s/\d+//g;
         $name =~ s/\s+/ /g;
         $name =~ s/^\s+|\s+$//g;
+
         next unless length $name;
-        $wanted{$name} = 1;
+
+        $wanted_full{$name} = 1;
+
+        my ($first) = split(/\s+/, $name);
+        $wanted_first{$first} = 1 if $first;
     }
 }
-close($m3u);
-print "Canales buscados: " . scalar(keys %wanted) . "\n\n";
 
-# ----------------- Procesar archivos XML.GZ -----------------
+close($m3u);
+
+print "Canales buscados: " . scalar(keys %wanted_full) . "\n\n";
+
+# ----------------- Procesar XML.GZ -----------------
+
 my @gz_files = bsd_glob("*.xml.gz");
 die "No se encontraron archivos .xml.gz\n" unless @gz_files;
 
@@ -49,86 +63,89 @@ foreach my $gz_file (@gz_files) {
             next;
         };
 
+    my $xml = '';
+    my $buffer;
+
+    while ($z->read($buffer) > 0) {
+        $xml .= $buffer;
+    }
+
+    close($z);
+
     my %valid_ids;
 
-    while (defined(my $line = <$z>)) {
+    # ----------------- CHANNEL -----------------
 
-        # ----------------- CHANNEL -----------------
-        while ($line =~ /(<channel\b.*?<\/channel>)/gs) {
+    while ($xml =~ /(<channel\b.*?<\/channel>)/gis) {
 
-            my $block = $1;
+        my $block = $1;
 
-            my ($id) = $block =~ /id="([^"]+)"/;
-            next unless $id;
+        my ($id) = $block =~ /id="([^"]+)"/i;
+        my ($display) = $block =~ /<display-name[^>]*>(.*?)<\/display-name>/i;
 
-            # -------- NORMALIZAR ID (ESPACIOS -> .) --------
-            my $clean_id = $id;
-            $clean_id =~ s/\s+/./g;
+        next unless $display;
 
-            # actualizar id dentro del bloque
-            $block =~ s/id="\Q$id\E"/id="$clean_id"/;
+        my $xml_name = lc($display);
 
-            my ($display) = $block =~ /<display-name[^>]*>(.*?)<\/display-name>/i;
-            next unless $display;
+        $xml_name =~ s/\([^)]*\)//g;
+        $xml_name =~ s/\s+/ /g;
+        $xml_name =~ s/^\s+|\s+$//g;
 
-            my $xml_name = lc($display);
-            $xml_name =~ s/\([^)]*\)//g;
-            $xml_name =~ s/\d+//g;
-            $xml_name =~ s/\s+/ /g;
-            $xml_name =~ s/^\s+|\s+$//g;
+        my ($first_word) = split(/\s+/, $xml_name);
 
-            foreach my $wanted_name (keys %wanted) {
+        my $match = 0;
 
-                if (index($xml_name, $wanted_name) != -1
-                    || index($wanted_name, $xml_name) != -1) {
+        foreach my $wanted (keys %wanted_full) {
 
-                    unless (exists $channels_data{$clean_id}) {
-
-                        $block =~ s/\r?\n/ /g;
-                        $block =~ s/\s{2,}/ /g;
-
-                        $channels_data{$clean_id} = {
-                            block   => $block,
-                            country => $country,
-                        };
-                    }
-
-                    $valid_ids{$clean_id} = 1;
-                    last;
-                }
+            if (index($xml_name, $wanted) != -1) {
+                $match = 1;
+                last;
             }
         }
 
-        # ----------------- PROGRAMME -----------------
-        while ($line =~ /(<programme\b.*?<\/programme>)/gs) {
+        if (!$match && exists $wanted_first{$first_word}) {
+            $match = 1;
+        }
 
-            my $block = $1;
+        if ($match) {
 
-            my ($id) = $block =~ /channel="([^"]+)"/;
-            next unless $id;
-
-            # normalizar id igual que en channel
-            my $clean_id = $id;
-            $clean_id =~ s/\s+/./g;
-
-            # actualizar channel dentro del bloque
-            $block =~ s/channel="\Q$id\E"/channel="$clean_id"/;
-
-            if (exists $valid_ids{$clean_id}) {
+            unless (exists $channels_data{$id}) {
 
                 $block =~ s/\r?\n/ /g;
                 $block =~ s/\s{2,}/ /g;
 
-                push @all_programmes, $block;
-                $programme_count{$clean_id}++;
+                $channels_data{$id} = {
+                    block   => $block,
+                    country => $country,
+                };
             }
+
+            $valid_ids{$id} = 1;
         }
     }
 
-    close($z);
+    # ----------------- PROGRAMME -----------------
+
+    while ($xml =~ /(<programme\b.*?<\/programme>)/gis) {
+
+        my $block = $1;
+
+        my ($id) = $block =~ /channel="([^"]+)"/i;
+
+        if ($id && exists $valid_ids{$id}) {
+
+            $block =~ s/\r?\n/ /g;
+            $block =~ s/\s{2,}/ /g;
+
+            push @all_programmes, $block;
+
+            $programme_count{$id}++;
+        }
+    }
 }
 
 # ----------------- GENERAR XML FINAL -----------------
+
 print "\nGenerando $output_file ...\n";
 
 open(my $out, ">", $output_file) or die "No puedo escribir $output_file\n";
@@ -148,6 +165,9 @@ foreach my $id (keys %channels_data) {
         "$1$name($country)($count)$3"
     }e;
 
+    # ---- CORREGIR ESPACIOS EN channel id ----
+    1 while $block =~ s/(<channel[^>]*id="[^"]*)\s([^"]*")/$1.$2/g;
+
     $block =~ s/<channel/\n<channel/g;
     $block =~ s/^\n//;
 
@@ -155,10 +175,15 @@ foreach my $id (keys %channels_data) {
 }
 
 foreach my $prog (@all_programmes) {
+
+    # ---- CORREGIR ESPACIOS EN programme channel ----
+    1 while $prog =~ s/(<programme[^>]*channel="[^"]*)\s([^"]*")/$1.$2/g;
+
     print $out "$prog\n";
 }
 
 print $out "</tv>\n";
+
 close($out);
 
 print "====================================\n";

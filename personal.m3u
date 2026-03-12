@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",12 Mar.. 2026 15:46
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",12 Mar.. 2026 16:49
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PE12MAR)
 http://177.53.152.117:8000/play/a089/index.m3u8
@@ -1085,23 +1085,23 @@ http://38.224.48.4:8000/play/a0on/index.m3u8
 http://181.66.249.246:8000/play/a03w/index.m3u8
 #EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(CO725)
 http://181.189.241.114:5050/play/a0bw
-#EXTINF:-1,ESPN Premium HD(PE12MAR)
+#EXTINF:-1,ESPN Premium(PE12MAR)
 http://177.53.152.117:8000/play/a091/index.m3u8
-#EXTINF:-1,ESPN Premium HD(AMS25FEB)
+#EXTINF:-1,ESPN Premium(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/9549
-#EXTINF:-1,ESPN Premium HD(AMS25FEB)
+#EXTINF:-1,ESPN Premium(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/9546
-#EXTINF:-1,ESPN Premium HD(AMS25FEB)
+#EXTINF:-1,ESPN Premium(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/9550
-#EXTINF:-1,ESPN Premium HD(AMS25FEB)
+#EXTINF:-1,ESPN Premium(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/179511
-#EXTINF:-1,ESPN Premium HD(AMS25FEB)
+#EXTINF:-1,ESPN Premium(AMS25FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/115016
-#EXTINF:-1,ESPN Premium HD(PE12FEB)
+#EXTINF:-1,ESPN Premium(PE12FEB)
 http://181.224.255.210:8001/play/a0pt/index.m3u8
-#EXTINF:-1,ESPN Premium HD(USCO26NOV)
+#EXTINF:-1,ESPN Premium(USCO26NOV)
 http://38.224.48.4:8000/play/a0hj/index.m3u8
-#EXTINF:-1,ESPN Premium HD(PETE26SEP)
+#EXTINF:-1,ESPN Premium(PETE26SEP)
 http://181.66.249.246:8000/play/a05e/index.m3u8
 #EXTINF:-1 group-title="-",TNT Sports Premiun(PE12MAR)
 http://177.53.152.117:8000/play/a08e/index.m3u8
