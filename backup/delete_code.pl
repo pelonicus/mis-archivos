@@ -1,48 +1,45 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-use File::Copy;
-use POSIX qw(strftime);
 
 # ----------------- Argumentos -----------------
-my $pattern = shift or die "Uso: $0 <texto_en_parentesis>\n";
-my $file    = 'personal.m3u';
+my ($file, $key) = @ARGV;
 
-# ----------------- Crear backup -----------------
-mkdir "backup" unless -d "backup";
-my $timestamp = strftime("%Y%m%d_%H%M%S", localtime);
-my $backup_file = "backup/$file.$timestamp";
-copy($file, $backup_file) or die "No se pudo crear backup $backup_file: $!\n";
-print "Backup creado: $backup_file\n";
+die "Uso: delete_code.pl archivo.m3u TEXTO_CLAVE\n" unless $file && $key;
 
-# ----------------- Procesar archivo -----------------
-open(my $in,  "<", $file) or die "No puedo abrir $file\n";
-my @lines = <$in>;
-close($in);
+# ----------------- Leer archivo -----------------
+open(my $in, "<", $file) or die "No puedo abrir $file: $!";
 
-my @new_lines;
+my @output;
 my $skip_next = 0;
+my $deleted = 0;
 
-for (my $i = 0; $i < @lines; $i++) {
-    my $line = $lines[$i];
+while (my $line = <$in>) {
 
+    # Si la linea anterior fue eliminada (#EXTINF), saltamos la URL
     if ($skip_next) {
         $skip_next = 0;
-        next;  # saltar la URL del canal
-    }
-
-    if ($line =~ /\($pattern\)/) {
-        print "Eliminando canal: $line";
-        $skip_next = 1; # saltar siguiente línea
         next;
     }
 
-    push @new_lines, $line;
+    # Detectar EXTINF con (CLAVE)
+    if ($line =~ /^#EXTINF:.*\($key\)/) {
+        $skip_next = 1;   # saltar tambien la siguiente linea (URL)
+        $deleted++;       # contar canal eliminado
+        next;
+    }
+
+    push @output, $line;
 }
 
+close($in);
+
 # ----------------- Sobrescribir archivo -----------------
-open(my $out, ">", $file) or die "No puedo escribir $file\n";
-print $out @new_lines;
+open(my $out, ">", $file) or die "No puedo escribir $file: $!";
+
+print $out @output;
+
 close($out);
 
-print "Proceso terminado. Se eliminaron todas las coincidencias de '$pattern'.\n";
+print "Canales con ($key) eliminados: $deleted\n";
+print "Archivo actualizado: $file\n";

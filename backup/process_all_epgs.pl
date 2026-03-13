@@ -142,6 +142,8 @@ foreach my $gz_file (@gz_files) {
             $programme_count{$id}++;
         }
     }
+	
+	unlink $gz_file;
 }
 
 # ----------------- GENERAR XML FINAL -----------------
