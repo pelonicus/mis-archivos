@@ -1,0 +1,228 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Xml.Linq;
+using Windows.Security.Credentials.UI;
+
+namespace ValmerPasswordsDB
+{
+    public partial class MainWindow : Window
+    {
+        private bool _yaInicieAutenticacion = false;
+        private bool _accesoConcedido = false;
+        private XDocument? _xmlData;
+        private const string MasterKey = "V4lmerSys_Secur1ty_Key_2026_Auth!";
+
+        private Dictionary<TreeViewItem, XElement> _nodosServidores = new();
+        private Dictionary<TreeViewItem, string> _nodosGrupos = new();
+
+        public MainWindow()
+        {
+            InitializeComponent();
+            Loaded += MainWindow_Loaded;
+        }
+
+        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (_yaInicieAutenticacion || _accesoConcedido) return;
+
+            _yaInicieAutenticacion = true;
+
+            if (await IniciarSeguridad())
+            {
+                _accesoConcedido = true;
+                PanelBloqueo.Visibility = Visibility.Collapsed;
+                PanelBienvenida.Visibility = Visibility.Visible;
+                CargarDatosXML();
+            }
+            else
+            {
+                Close();
+            }
+
+            _yaInicieAutenticacion = false;
+        }
+
+        private async Task<bool> IniciarSeguridad()
+        {
+            try
+            {
+                var disponibilidad = await UserConsentVerifier.CheckAvailabilityAsync();
+
+                if (disponibilidad == UserConsentVerifierAvailability.Available)
+                {
+                    var resultado = await UserConsentVerifier.RequestVerificationAsync("Acceso a ValmerPasswordsDB");
+                    return resultado == UserConsentVerificationResult.Verified;
+                }
+
+                return true;
+            }
+            catch
+            {
+                return true;
+            }
+        }
+
+        private void CargarDatosXML()
+        {
+            try
+            {
+                string? onedrive = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
+                if (string.IsNullOrEmpty(onedrive)) return;
+
+                string ruta = Path.Combine(onedrive, "General - Servicios", "Softwares", "ValmerSystem", "ValmerPasswordsDB", "passwordsdb.xml");
+
+                if (!File.Exists(ruta)) return;
+
+                _xmlData = XDocument.Load(ruta);
+
+                ArbolServidores.Items.Clear();
+                _nodosServidores.Clear();
+                _nodosGrupos.Clear();
+
+                foreach (var grupoXml in _xmlData.Descendants("Grupo"))
+                {
+                    var nodoGrupo = new TreeViewItem { Header = grupoXml.Attribute("nombre")?.Value };
+
+                    _nodosGrupos.Add(nodoGrupo, nodoGrupo.Header?.ToString());
+
+                    foreach (var srvXml in grupoXml.Descendants("Servidor"))
+                    {
+                        var nodoSrv = new TreeViewItem
+                        {
+                            Header = $"{srvXml.Attribute("nombre")?.Value} ({srvXml.Attribute("ip")?.Value})"
+                        };
+
+                        _nodosServidores.Add(nodoSrv, srvXml);
+                        nodoGrupo.Items.Add(nodoSrv);
+                    }
+
+                    nodoGrupo.IsExpanded = true;
+                    ArbolServidores.Items.Add(nodoGrupo);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void ArbolServidores_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            var nodo = ArbolServidores.SelectedItem as TreeViewItem;
+
+            if (nodo != null && _nodosServidores.ContainsKey(nodo))
+            {
+                XElement srv = _nodosServidores[nodo];
+
+                TxtTituloServidor.Text = $"{srv.Attribute("nombre")?.Value} ({srv.Attribute("ip")?.Value})";
+
+                var usuario = srv.Descendants("Usuario").FirstOrDefault();
+
+                if (usuario != null)
+                {
+                    TxtUsuario.Text = usuario.Attribute("nombre")?.Value;
+
+                    var pass = usuario.Elements("Password")
+                        .FirstOrDefault(p => p.Attribute("activa")?.Value == "true");
+
+                    TxtPassword.Password = Desencriptar(pass?.Value ?? "");
+                }
+
+                TxtSSH.Text = srv.Descendants("Llave")
+                    .FirstOrDefault(x => x.Attribute("activa")?.Value == "true")
+                    ?.Element("Contenido")?.Value ?? "Sin llave SSH";
+            }
+        }
+
+        private void BtnVerPassword_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            TxtPassword.PasswordChar = '\0';
+        }
+
+        private void BtnVerPassword_MouseUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            TxtPassword.PasswordChar = '●';
+        }
+
+        private void CopiarPassword_Click(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText(TxtPassword.Password);
+        }
+
+        private void BtnAddGrupo_Click(object sender, RoutedEventArgs e)
+        {
+            string nombre = Microsoft.VisualBasic.Interaction.InputBox("Nombre del grupo:", "Nuevo Grupo");
+
+            if (!string.IsNullOrWhiteSpace(nombre))
+            {
+                _xmlData?.Root?.Add(new XElement("Grupo", new XAttribute("nombre", nombre)));
+                GuardarXML();
+                CargarDatosXML();
+            }
+        }
+
+        private void BtnCambiarPassword_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Función simplificada. Luego la mejoramos.");
+        }
+
+        private void BtnHistorial_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Historial simplificado.");
+        }
+
+        private void GuardarXML()
+        {
+            try
+            {
+                string? onedrive = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
+                if (string.IsNullOrEmpty(onedrive) || _xmlData == null) return;
+
+                string ruta = Path.Combine(onedrive, "General - Servicios", "Softwares", "ValmerSystem", "ValmerPasswordsDB", "passwordsdb.xml");
+
+                _xmlData.Save(ruta);
+            }
+            catch { }
+        }
+
+        private string Encriptar(string texto)
+        {
+            using Aes aes = Aes.Create();
+            byte[] key = new byte[32];
+            Array.Copy(Encoding.UTF8.GetBytes(MasterKey), key, Math.Min(MasterKey.Length, 32));
+            aes.Key = key;
+            aes.IV = new byte[16];
+
+            using var enc = aes.CreateEncryptor();
+            byte[] buffer = Encoding.UTF8.GetBytes(texto);
+            return Convert.ToBase64String(enc.TransformFinalBlock(buffer, 0, buffer.Length));
+        }
+
+        private string Desencriptar(string base64)
+        {
+            try
+            {
+                using Aes aes = Aes.Create();
+                byte[] key = new byte[32];
+                Array.Copy(Encoding.UTF8.GetBytes(MasterKey), key, Math.Min(MasterKey.Length, 32));
+                aes.Key = key;
+                aes.IV = new byte[16];
+
+                using var dec = aes.CreateDecryptor();
+                byte[] buffer = Convert.FromBase64String(base64);
+                return Encoding.UTF8.GetString(dec.TransformFinalBlock(buffer, 0, buffer.Length));
+            }
+            catch
+            {
+                return "---";
+            }
+        }
+    }
+}

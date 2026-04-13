@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zCEW+E6ogMo=",
+  "success": true,
+  "projectFilePath": "D:\\Users\\VictorSalvador\\source\\repos\\ValmerPasswordsDB\\ValmerPasswordsDB\\ValmerPasswordsDB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VictorSalvador\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+  ],
+  "logs": []
+}

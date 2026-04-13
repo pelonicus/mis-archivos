@@ -1,0 +1,1083 @@
+Mon Feb 16 09:26:01 -05 2026
+Iniciando Firefox headless...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/common/service.py", line 76, in start
+    stdin=PIPE)
+  File "/usr/lib64/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib64/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'geckodriver': 'geckodriver'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/scripts/selenium_test.py", line 61, in <module>
+    driver = webdriver.Firefox(options=options)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/firefox/webdriver.py", line 164, in __init__
+    self.service.start()
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/common/service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+
+CRON OK Mon Feb 16 09:27:02 -05 2026
+Iniciando Firefox headless...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/common/service.py", line 76, in start
+    stdin=PIPE)
+  File "/usr/lib64/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib64/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'geckodriver': 'geckodriver'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/scripts/selenium_test.py", line 61, in <module>
+    driver = webdriver.Firefox(options=options)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/firefox/webdriver.py", line 164, in __init__
+    self.service.start()
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/common/service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+
+CRON OK Mon Feb 16 09:28:01 -05 2026
+Iniciando Firefox headless...
+Abriendo El Peruano...
+No hay publicaciones nuevas que coincidan con las claves.
+CRON OK Mon Feb 16 09:29:01 -05 2026
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION SUPREMA
+Título         : Designan Presidente Ejecutivo del Organismo Técnico de la Administración de los Servicios de Saneamiento - OTASS
+--------------------------------------------------------------------------------
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION SUPREMA
+Título         : Designan Viceministro de Construcción y Saneamiento
+--------------------------------------------------------------------------------
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION MINISTERIAL
+Título         : Designan Directora General de Programas y Proyectos de Vivienda y Urbanismo de la Dirección General de Programas y Proyectos en Vivienda y Urbanismo
+--------------------------------------------------------------------------------
+Entidad / Tipo : COMERCIO EXTERIOR Y TURISMO RESOLUCION MINISTERIAL
+Título         : Designan Asesora del Despacho Ministerial
+--------------------------------------------------------------------------------
+Entidad / Tipo : PROCURADURÍA GENERAL DEL ESTADO RESOLUCION
+Título         : Designan Gerente General de la Procuraduría General del Estado quien a su vez ejerce las funciones de Secretario General del Consejo Directivo
+--------------------------------------------------------------------------------
+Entidad / Tipo : INTERIOR RESOLUCION DIRECTORAL
+Título         : Designan Subprefectos(as) Distritales en diversas regiones del país
+--------------------------------------------------------------------------------
+Entidad / Tipo : INSTITUTO NACIONAL DE SALUD RESOLUCION
+Título         : Designan Jefe de Equipo II de la Gerencia General del Instituto Nacional de Salud
+--------------------------------------------------------------------------------
+Entidad / Tipo : ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Título         : Designan representante titular del Ministerio de Economía y Finanzas y Presidenta de la Comisión Especial a la que se refiere el artículo 7 de la Ley N° 28933
+
+CRON OK Mon Feb 16 09:30:01 -05 2026
+Iniciando Firefox headless...
+Abriendo El Peruano...
+No hay publicaciones nuevas que coincidan con las claves.
+CRON OK Mon Feb 16 09:31:01 -05 2026
+Iniciando Firefox headless...
+Abriendo El Peruano...
+No hay publicaciones nuevas que coincidan con las claves.
+CRON OK Mon Feb 16 09:32:01 -05 2026
+Iniciando Firefox headless...
+Abriendo El Peruano...
+No hay publicaciones nuevas que coincidan con las claves.
+CRON OK Mon Feb 16 09:33:01 -05 2026
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION SUPREMA
+Título         : Designan Presidente Ejecutivo del Organismo Técnico de la Administración de los Servicios de Saneamiento - OTASS
+--------------------------------------------------------------------------------
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION SUPREMA
+Título         : Designan Viceministro de Construcción y Saneamiento
+--------------------------------------------------------------------------------
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION MINISTERIAL
+Título         : Designan Directora General de Programas y Proyectos de Vivienda y Urbanismo de la Dirección General de Programas y Proyectos en Vivienda y Urbanismo
+--------------------------------------------------------------------------------
+Entidad / Tipo : COMERCIO EXTERIOR Y TURISMO RESOLUCION MINISTERIAL
+Título         : Designan Asesora del Despacho Ministerial
+--------------------------------------------------------------------------------
+Entidad / Tipo : PROCURADURÍA GENERAL DEL ESTADO RESOLUCION
+Título         : Designan Gerente General de la Procuraduría General del Estado quien a su vez ejerce las funciones de Secretario General del Consejo Directivo
+--------------------------------------------------------------------------------
+Entidad / Tipo : INTERIOR RESOLUCION DIRECTORAL
+Título         : Designan Subprefectos(as) Distritales en diversas regiones del país
+--------------------------------------------------------------------------------
+Entidad / Tipo : INSTITUTO NACIONAL DE SALUD RESOLUCION
+Título         : Designan Jefe de Equipo II de la Gerencia General del Instituto Nacional de Salud
+--------------------------------------------------------------------------------
+Entidad / Tipo : ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Título         : Designan representante titular del Ministerio de Economía y Finanzas y Presidenta de la Comisión Especial a la que se refiere el artículo 7 de la Ley N° 28933
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION SUPREMA
+Título         : Designan Presidenta Ejecutiva del Organismo de Focalización e Información Social (OFIS)
+--------------------------------------------------------------------------------
+Entidad / Tipo : SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA RESOLUCION
+Título         : Designan Ejecutor Coactivo de la Intendencia Lima
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Título         : Designan Jefe de la Unidad de Planeamiento Presupuesto y Modernización del FONCODES
+--------------------------------------------------------------------------------
+Entidad / Tipo : CENTRAL DE COMPRAS PÚBLICAS RESOLUCION JEFATURAL
+Título         : Designan jefa de la Oficina de Asesoría Jurídica de la Central de Compras Públicas (Perú Compras)
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Título         : Designan Coordinador de la Unidad de Gestión de Proyectos Productivos del FONCODES
+--------------------------------------------------------------------------------
+Entidad / Tipo : CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Título         : Designan Jefe del Órgano de Control Institucional de la Superintendencia Nacional de Educación Superior Universitaria – SUNEDU
+--------------------------------------------------------------------------------
+Entidad / Tipo : MINISTERIO PUBLICO RESOLUCION
+Título         : Designan fiscales adjuntos provinciales en plazas del Distrito Fiscal de Lima Este
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION DIRECTORAL
+Título         : Designan Jefe de la Oficina de Administración de la Autoridad Nacional Autónoma para el desarrollo estratégico e integral del Terminal Portuario Multipropósito de Chancay
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : FUERO MILITAR POLICIAL RESOLUCION ADMINISTRATIVA
+Título         : Designan Director del Centro de Altos Estudios de Justicia Militar
+--------------------------------------------------------------------------------
+Entidad / Tipo : AUTORIDAD DE TRANSPORTE URBANO PARA LIMA Y CALLAO RESOLUCION
+Título         : Designan Asesor I de la Gerencia General de la Autoridad de Transporte Urbano para Lima y Callao – ATU
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Título         : Designan Coordinador de la Unidad Territorial Ancash del Programa Nacional Cuna Más
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION SUPREMA
+Título         : Designan Secretario General del Despacho Presidencial
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Título         : Designan Gerente General del Organismo de Focalización e Información Social (OFIS)
+--------------------------------------------------------------------------------
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION DIRECTORAL
+Título         : Designan Jefe de Unidad de la Unidad de Administración del Programa Nacional de Saneamiento Rural
+--------------------------------------------------------------------------------
+Entidad / Tipo : PROCURADURÍA GENERAL DEL ESTADO RESOLUCION
+Título         : Designan vocales de la Primera Sala del Tribunal Disciplinario de la Procuraduría General del Estado
+--------------------------------------------------------------------------------
+Entidad / Tipo : ORGANISMO TÉCNICO DE LA ADMINISTRACIÓN DE LOS SERVICIOS DE SANEAMIENTO ACUERDO
+Título         : Designan gerentes y subgerente en diversas Empresas Prestadoras de Servicios de Agua Potable y Saneamiento Pública de Accionariado Municipal – EPS incorporadas al Régimen de Apoyo Transitorio
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Título         : Designan Jefe de la Unidad Territorial Lambayeque del Programa Nacional de Asistencia Solidaria Pensión 65
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESPACHO PRESIDENCIAL RESOLUCION
+Título         : Designan asesor del gabinete de asesores de la Secretaría General del Despacho Presidencial
+--------------------------------------------------------------------------------
+Entidad / Tipo : AUTORIDAD DE TRANSPORTE URBANO PARA LIMA Y CALLAO RESOLUCION
+Título         : Designan Asesor I de la Gerencia General de la ATU
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : BIBLIOTECA NACIONAL DEL PERU RESOLUCION JEFATURAL
+Título         : Designan Coordinadora de Acceso a Contenidos Digitales de la Dirección del Acceso y Promoción de la Información
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESPACHO PRESIDENCIAL RESOLUCION
+Título         : Designan jefe de Gabinete de Asesores de la Secretaría General del Despacho Presidencial
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Título         : Designan Jefa de la Unidad de Asesoría Jurídica del Programa Nacional de Asistencia Solidaria Pensión 65
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO AGRARIO Y RIEGO RESOLUCION DIRECTORAL
+Título         : Designan Asesor de la Dirección Ejecutiva del Programa de Desarrollo Productivo Agrario Rural – AGRO RURAL
+--------------------------------------------------------------------------------
+Entidad / Tipo : SALUD RESOLUCION
+Título         : Designan jefe de la Unidad de Administración y Finanzas del Programa Nacional de Inversiones en Salud
+--------------------------------------------------------------------------------
+Entidad / Tipo : SALUD RESOLUCION
+Título         : Designan jefe de la Sub Unidad de Logística de la Unidad de Administración y Finanzas del Programa Nacional de Inversiones en Salud
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Título         : Designan Asesora de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros
+--------------------------------------------------------------------------------
+Entidad / Tipo : TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION VICE MINISTERIAL
+Título         : Designan Jefa de la Unidad de Asesoría Jurídica del Programa Nacional de Empleo Jóvenes Productivos
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Título         : Designan Jefe de la Oficina General de Recursos Humanos del Ministerio
+--------------------------------------------------------------------------------
+Entidad / Tipo : MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Título         : Designan Director General de la Oficina General de Asesoría Jurídica del Ministerio
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO AGRARIO Y RIEGO RESOLUCION DIRECTORAL
+Título         : Designan Asesora de la Dirección Ejecutiva del Programa de Desarrollo Productivo Agrario Rural – AGRO RURAL
+--------------------------------------------------------------------------------
+Entidad / Tipo : INSTITUTO NACIONAL DE DEFENSA CIVIL RESOLUCION JEFATURAL
+Título         : Designan Jefe de la Oficina de Administración del Instituto Nacional de Defensa Civil
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Título         : Designan Secretaria General del Ministerio
+--------------------------------------------------------------------------------
+Entidad / Tipo : MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Título         : Designan Asesora II del Despacho Ministerial
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION SUPREMA
+Título         : Designan Secretaria General de la Secretaría General de la Presidencia del Consejo de Ministros
+--------------------------------------------------------------------------------
+Entidad / Tipo : TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Título         : Designan Secretaria General del Ministerio de Transportes y Comunicaciones
+--------------------------------------------------------------------------------
+Entidad / Tipo : AMBIENTE RESOLUCION MINISTERIAL
+Título         : Designan Asesor del Despacho Ministerial del Ministerio del Ambiente.
+--------------------------------------------------------------------------------
+Entidad / Tipo : AMBIENTE RESOLUCION MINISTERIAL
+Título         : Designan Secretaria General del Ministerio del Ambiente.
+--------------------------------------------------------------------------------
+Entidad / Tipo : MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Título         : Designan Directora General de la Oficina General de Administración del Ministerio
+--------------------------------------------------------------------------------
+Entidad / Tipo : AMBIENTE RESOLUCION MINISTERIAL
+Título         : Designan Jefa de la Oficina General de Asesoría Jurídica del Ministerio del Ambiente.
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DEFENSA RESOLUCION MINISTERIAL
+Título         : Designan Asesor II del Despacho Ministerial
+--------------------------------------------------------------------------------
+Entidad / Tipo : PROCURADURÍA GENERAL DEL ESTADO RESOLUCION
+Título         : Designan Asesor de Alta Dirección de la Procuraduría General del Estado
+--------------------------------------------------------------------------------
+Entidad / Tipo : JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Título         : Designan Jefe de la Oficina General de Asesoría Jurídica del Ministerio de Justicia y Derechos Humanos
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Título         : Designan Asesora del Despacho Ministerial
+--------------------------------------------------------------------------------
+Entidad / Tipo : EDUCACION RESOLUCION MINISTERIAL
+Título         : Designan Jefa de Gabinete de Asesores del Despacho Ministerial
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Título         : Designan Jefe de la Oficina de Seguridad y Defensa Nacional
+--------------------------------------------------------------------------------
+Entidad / Tipo : VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO RESOLUCION MINISTERIAL
+Título         : Designan Asesor de Despacho Ministerial
+--------------------------------------------------------------------------------
+Entidad / Tipo : FUERO MILITAR POLICIAL RESOLUCION ADMINISTRATIVA
+Título         : Designan Directora de Logística del Fuero Militar Policial
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : AMBIENTE RESOLUCION MINISTERIAL
+Título         : Designan Jefe de la Oficina de Presupuesto y Programación Multianual de Inversiones
+--------------------------------------------------------------------------------
+Entidad / Tipo : TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION VICE MINISTERIAL
+Título         : Designan Jefe de la Unidad de Administración y Finanzas del Programa Nacional de Empleo Jóvenes Productivos
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Título         : Designan Jefe de la Oficina General de Administración
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Título         : Designan Asesora de la Secretaría General del Ministerio
+--------------------------------------------------------------------------------
+Entidad / Tipo : ENERGIA Y MINAS RESOLUCION MINISTERIAL
+Título         : Designan Asesor de Alta Dirección del Despacho Ministerial
+--------------------------------------------------------------------------------
+Entidad / Tipo : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Título         : Designan Jefe de la Oficina de Atención al Ciudadano y Gestión Documental
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Traceback (most recent call last):
+  File "/root/scripts/selenium_test.py", line 71, in <module>
+    driver.get(URL)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//elperuano.pe/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20elperuano.pe.
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Traceback (most recent call last):
+  File "/root/scripts/selenium_test.py", line 71, in <module>
+    driver.get(URL)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//elperuano.pe/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20elperuano.pe.
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Traceback (most recent call last):
+  File "/root/scripts/selenium_test.py", line 71, in <module>
+    driver.get(URL)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//elperuano.pe/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20elperuano.pe.
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION JEFATURAL
+Designan Director de la Dirección de Estudios y Obras de la Autoridad Nacional de Infraestructura
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina General de Asesoría Jurídica de la Presidencia del Consejo de Ministros
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION SUPREMA
+Designan Presidente del Consejo Nacional Penitenciario del Instituto Nacional Penitenciario
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Directora General de la Oficina General de Recursos Humanos
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Coordinador Técnico del FONCODES
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Asesora II del Despacho Ministerial
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Coordinadora de la Unidad de Planeamiento Presupuesto y Modernización del FONCODES
+Analizando designación: Designan a Rafael Basurto Zapata director ejecutivo de Pronabec
+
+Título : MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Asesora II del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2493623-1
+Artículo Único.- Designar a la señora MARGARITA MILAGRO DELGADO ARROYO en el cargo de confianza de Asesora II del Despacho Ministerial del Ministerio de la Mujer y Poblaciones Vulnerables.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Coordinadora de la Unidad de Planeamiento Presupuesto y Modernización del FONCODES
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2493507-1
+Artículo 1.- Conclusión de designación
+--------------------------------------------------------------------------------
+Título : Designan a Rafael Basurto Zapata director ejecutivo de Pronabec
+Link   : https://elperuano.pe/noticia/290844-designan-a-rafael-basurto-zapata-director-ejecutivo-de-pronabec
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de Becas y Crédito Educativo – PRONABEC
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION JEFATURAL
+Designan Director de la Dirección de Estudios y Obras de la Autoridad Nacional de Infraestructura
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION SUPREMA
+Designan Presidente del Consejo Nacional Penitenciario del Instituto Nacional Penitenciario
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Directora General de la Oficina General de Recursos Humanos
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Coordinador Técnico del FONCODES
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Integridad y Lucha Contra la Corrupción
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Asesora II del Despacho Ministerial
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Coordinadora de la Unidad de Planeamiento Presupuesto y Modernización del FONCODES
+
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494024-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : EDUCACION RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de Becas y Crédito Educativo – PRONABEC
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494030-1
+Artículo Único.- Designar al señor RAFAEL ANTONIO BASURTO ZAPATA, en el cargo de Director Ejecutivo del Programa Nacional de Becas y Crédito Educativo - PRONABEC.
+--------------------------------------------------------------------------------
+Título : JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Integridad y Lucha Contra la Corrupción
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2493767-1
+Artículo Único.- Designar a la señora Rosana Asunta Madrid Montoro en el puesto de confianza de Jefa de la Oficina de Integridad y Lucha Contra la Corrupción del Ministerio de Justicia y Derechos Humanos.
+--------------------------------------------------------------------------------
+Título : Ciencia y Tecnología
+Link   : https://elperuano.pe/Ciencia%20y%20Tecnologia
+--------------------------------------------------------------------------------
+Título : La expansión de la inteligencia artificial en salud abre una nueva etapa tecnológica para el sistema sanitario, en un contexto en el que las instituciones comienzan a incorporar ecosistemas digitales integrados y no solo dispositivos médicos aislados.
+Link   : https://elperuano.pe/noticia/290930-inteligencia-artificial-en-la-salud
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de Becas y Crédito Educativo – PRONABEC
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Asesor II del Despacho Ministerial
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Administración del Ministerio
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Integridad y Lucha Contra la Corrupción
+Analizando designación: DESPACHO PRESIDENCIAL RESOLUCION
+Designan Subsecretario General del Despacho Presidencial
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Director de Sistema Administrativo II de la Secretaría General
+Analizando designación: SEGURO INTEGRAL DE SALUD RESOLUCION JEFATURAL
+Designan Gerente de la Gerencia del Asegurado del Seguro Integral de Salud
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Directora General de la Oficina General de Monitoreo Evaluación de Políticas y Gestión Descentralizada
+Analizando designación: SALUD RESOLUCION
+Designan Asesor de la Unidad de Administración y Finanzas del Programa Nacional de Inversiones en Salud
+
+Título : TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Asesor II del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494339-1
+Artículo Único.- Designar al señor JOSE JIMAEL PRECIADO MARTINEZ en el cargo de Asesor II del Despacho Ministerial del Ministerio de Transportes y Comunicaciones.
+--------------------------------------------------------------------------------
+Título : TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Administración del Ministerio
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494356-1
+Artículo Único.- Designar al señor PEDRO HUMBERTO LEON NIETO en el cargo de Director General de la Oficina General de Administración del Ministerio de Transportes y Comunicaciones.
+--------------------------------------------------------------------------------
+Título : DESPACHO PRESIDENCIAL RESOLUCION
+Designan Subsecretario General del Despacho Presidencial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494340-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Director de Sistema Administrativo II de la Secretaría General
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494033-1
+Artículo Único.- Designar al señor LUIS FRANCISCO SALINAS QUINTANA en el cargo de Director de Sistema Administrativo II de la Secretaría General del Ministerio de Transportes y Comunicaciones.
+--------------------------------------------------------------------------------
+Título : SEGURO INTEGRAL DE SALUD RESOLUCION JEFATURAL
+Designan Gerente de la Gerencia del Asegurado del Seguro Integral de Salud
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2493954-1
+Artículo 1.- Designar a la señora DELIA FLORENCIA DÁVILA VIGIL en el cargo de confianza de Gerente de la Gerencia del Asegurado del Seguro Integral de Salud, bajo el Régimen Laboral Especial de Contratación Administrativa de Servicios, regulado por el Decreto Legislativo N° 1057 y sus modificatorias.
+--------------------------------------------------------------------------------
+Título : MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Directora General de la Oficina General de Monitoreo Evaluación de Políticas y Gestión Descentralizada
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494026-1
+Artículo Único.- Designar a la señora FLORITA YSABEL CHÁVEZARROYO MAURICIO, en el cargo de confianza de Directora General de la Oficina General de Monitoreo, Evaluación de Políticas y Gestión Descentralizada del Ministerio de la Mujer y Poblaciones Vulnerables.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION
+Designan Asesor de la Unidad de Administración y Finanzas del Programa Nacional de Inversiones en Salud
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494447-1
+Artículo 1.- Designar al señor VICTOR KETIN VIDAL HERRERA en el cargo estructural de Asesor de la Unidad de Administración y Finanzas (CAP-P N° 0027), del Programa Nacional de Inversiones en Salud.
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Directora Ejecutiva del Programa Nacional Cuna Más
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Asesora de la Secretaría General del Ministerio
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Asesora de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION SUPREMA
+Designan Presidente Ejecutivo y representante del Estado ante el Consejo Directivo del Seguro Social de Salud - ESSALUD
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Asesor II del Despacho Ministerial
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Administración del Ministerio
+Analizando designación: DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefe de la Oficina General de Tecnologías de la Información y Comunicaciones del Despacho Presidencial
+
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Directora Ejecutiva del Programa Nacional Cuna Más
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494992-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Asesora de la Secretaría General del Ministerio
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494801-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Asesora de Gabinete de Asesores del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2494741-1
+Artículo Único.- Designar a la señora Malena Chacón Arenas en el puesto de Asesora de Gabinete de Asesores del Despacho Ministerial del Ministerio de Economía y Finanzas.
+--------------------------------------------------------------------------------
+Título : TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION SUPREMA
+Designan Presidente Ejecutivo y representante del Estado ante el Consejo Directivo del Seguro Social de Salud - ESSALUD
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495025-1
+Artículo 1.- Aceptar la renuncia formulada por el señor SEGUNDO CECILIO ACHO MEGO, al cargo de Presidente Ejecutivo y representante del Estado ante el Consejo Directivo del Seguro Social de Salud – ESSALUD; dándosele las gracias por los servicios prestados.
+--------------------------------------------------------------------------------
+Título : DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefe de la Oficina General de Tecnologías de la Información y Comunicaciones del Despacho Presidencial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495023-1
+Artículo 1.- Designación
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Directora Ejecutiva del Programa Nacional Cuna Más
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Asesora de la Secretaría General del Ministerio
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Asesora de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION SUPREMA
+Designan Presidente Ejecutivo y representante del Estado ante el Consejo Directivo del Seguro Social de Salud - ESSALUD
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete del Despacho Ministerial
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Ejecutivo Adjunto II del Despacho Ministerial
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Ejecutiva de Administración de la Unidad de Administración del Programa Nacional Cuna Más
+Analizando designación: CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Designan profesionales en el cargo de Jefe/a del Órgano de Control Institucional de diversas instituciones
+
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495432-1
+Artículo 1.- Designar al señor LUIS MELCHOR LORO CHERO, en el cargo Jefe de Gabinete (CAP-P N° 002) del Despacho Ministerial del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Ejecutivo Adjunto II del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495431-1
+Artículo 1.- Designar al señor PEDRO JAVIER NAVARRETE MEJÍA, en el cargo de Ejecutivo Adjunto II (CAP-P N° 006), Nivel F-5, del Despacho Ministerial del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Ejecutiva de Administración de la Unidad de Administración del Programa Nacional Cuna Más
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495423-1
+Artículo 1.- Designar a la señora ISABEL SUSANA LOMPARTE CRUZ, en el cargo de Ejecutiva de Administración de la Unidad de Administración del Programa Nacional Cuna Más, a partir del 13 de marzo de 2026.
+--------------------------------------------------------------------------------
+Título : CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Designan profesionales en el cargo de Jefe/a del Órgano de Control Institucional de diversas instituciones
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495013-1
+Artículo 1.- Dar por terminada la designación en el cargo de Jefe/a del Órgano de Control Institucional de los/las profesionales que se detallan a continuación:
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete del Despacho Ministerial
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Ejecutivo Adjunto II del Despacho Ministerial
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Asesora de la Secretaría General del Ministerio
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Administración
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Asesoría Jurídica
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Ejecutiva de Administración de la Unidad de Administración del Programa Nacional Cuna Más
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Directora General de la Oficina General de Gestión de Recursos Humanos
+Analizando designación: CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Designan profesionales en el cargo de Jefe/a del Órgano de Control Institucional de diversas instituciones
+Analizando designación: DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefe de la Oficina General de Recursos Humanos del Despacho Presidencial
+
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Asesora de la Secretaría General del Ministerio
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495934-1
+Artículo 1.- Designar a la señora LISETHE ERIKA MIRANDA COYA, en el cargo de Asesora (CAP-P N° 037), Nivel F-4, de la Secretaría General del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Administración
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495791-1
+Artículo 1.- Designar al señor CARLOS ALBERTO MAS MÁRQUEZ, en el cargo de Director General, Nivel F-5, de la Oficina General de Administración del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Asesoría Jurídica
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495788-1
+Artículo 1.- Designar al señor JUAN FRANCISCO OCHOA SOTOMAYOR, en el cargo de Director General, (CAP-P N° 213), Nivel F-5, de la Oficina General de Asesoría Jurídica del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Directora General de la Oficina General de Gestión de Recursos Humanos
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495795-1
+Artículo 1.- Designar a la señora ROSA JANET VÁSQUEZ MANAY, en el cargo de Directora General, Nivel F-5, de la Oficina General de Gestión de Recursos Humanos del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefe de la Oficina General de Recursos Humanos del Despacho Presidencial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495935-1
+Artículo 1.- Designación
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Asesora de la Secretaría General del Ministerio
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Administración
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Asesoría Jurídica
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Directora General de la Oficina General de Gestión de Recursos Humanos
+Analizando designación: DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefe de la Oficina General de Recursos Humanos del Despacho Presidencial
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Secretario Nacional de la Juventud
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Asesora de Alta Dirección de la Secretaría General del Ministerio
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Abastecimiento de la Oficina General de Administración
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina General de Tecnologías de Información
+
+Título : La producción nacional registró un crecimiento del 3.54% durante enero del 2026, en comparación con igual mes del año previo, y acumuló 22 meses de expansión consecutiva, informó el Instituto Nacional de Estadística e Informática (INEI).
+Link   : https://elperuano.pe/noticia/291314-economia-registra-22-meses-de-expansion-y-crece-354-en-enero
+--------------------------------------------------------------------------------
+Título : EDUCACION RESOLUCION MINISTERIAL
+Designan Secretario Nacional de la Juventud
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495951-1
+Artículo Único.- Designar al señor RAUL ERNESTO MARQUEZ ALBUJAR, en el cargo de Secretario Nacional de la Juventud del Ministerio de Educación.
+--------------------------------------------------------------------------------
+Título : JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Asesora de Alta Dirección de la Secretaría General del Ministerio
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495838-1
+Artículo Único.- Designar a la señora Araceli Acuña Chávez en el puesto de confianza de Asesora de Alta Dirección de la Secretaría General del Ministerio de Justicia y Derechos Humanos.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Abastecimiento de la Oficina General de Administración
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495958-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina General de Tecnologías de Información
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495843-1
+Artículo Único.- Designar al señor Paolo Giusseppe Terrazas Escalante en el puesto de confianza de Jefe de la Oficina General de Tecnologías de Información del Ministerio de Justicia y Derechos Humanos.
+--------------------------------------------------------------------------------
+Título : Adopción de tecnología médica
+Link   : https://elperuano.pe/noticia/291325-adopcion-de-tecnologia-medica
+--------------------------------------------------------------------------------
+Título : Perú cuenta con condiciones para avanzar en la adopción de tecnología médica, aunque aún enfrenta desafíos para acelerar los procesos regulatorios y mejorar el acceso a innovaciones en el sistema sanitario, coincidieron Daniela Paredes y Giselle Tutor, representantes regionales de Medtronic.
+Link   : https://elperuano.pe/noticia/291325-adopcion-de-tecnologia-medica
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Abastecimiento de la Oficina General de Administración
+Analizando designación: CULTURA RESOLUCION MINISTERIAL
+Designan Directora de Sistema Administrativo IV de la Oficina General de Planeamiento y Presupuesto
+Analizando designación: TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION MINISTERIAL
+Designan Coordinadora de Administración de Recursos Humanos de la Oficina General de Recursos Humanos
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina de Integridad Institucional
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Asesora II del Despacho Ministerial
+Analizando designación: INSTITUTO TECNOLÓGICO DE LA PRODUCCIÓN RESOLUCION
+Designan Asesor de la Dirección Ejecutiva del Instituto Tecnológico de la Producción
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Secretario Nacional de la Juventud
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina General de Administración
+Analizando designación: PROCURADURÍA GENERAL DEL ESTADO RESOLUCION
+Designan director de la Dirección Técnico Normativa de la Procuraduría General del Estado
+
+Título : CULTURA RESOLUCION MINISTERIAL
+Designan Directora de Sistema Administrativo IV de la Oficina General de Planeamiento y Presupuesto
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495956-1
+Artículo Único.- Designar a la señora ROSSINA MANCHE MANTERO en el cargo de Directora de Sistema Administrativo IV de la Oficina General de Planeamiento y Presupuesto del Ministerio de Cultura.
+--------------------------------------------------------------------------------
+Título : TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION MINISTERIAL
+Designan Coordinadora de Administración de Recursos Humanos de la Oficina General de Recursos Humanos
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495953-1
+Artículo Único.- Designar a la señora PATRICIA VERONICA LOYOLA RIOJA, en el cargo de Coordinadora de Administración de Recursos Humanos de la Oficina General de Recursos Humanos del Ministerio de Trabajo y Promoción del Empleo.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina de Integridad Institucional
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495959-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Asesora II del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496002-1
+Artículo Único.- Designar a la señora ROSA LUZ MATIAS PAZ en el cargo de confianza de Asesora II del Despacho Ministerial del Ministerio de la Mujer y Poblaciones Vulnerables.
+--------------------------------------------------------------------------------
+Título : INSTITUTO TECNOLÓGICO DE LA PRODUCCIÓN RESOLUCION
+Designan Asesor de la Dirección Ejecutiva del Instituto Tecnológico de la Producción
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495832-1
+Artículo 1.- Designar al señor Marcos Lester Deza Guzmán en el puesto de confianza de Asesor de la Dirección Ejecutiva del Instituto Tecnológico de la Producción.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina General de Administración
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496336-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : PROCURADURÍA GENERAL DEL ESTADO RESOLUCION
+Designan director de la Dirección Técnico Normativa de la Procuraduría General del Estado
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2495952-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : Dentro del proceso de preparación de elecciones, el ensamblaje es la etapa en la que se preparan las cajas que contienen todos los materiales necesarios en las mesas de sufragio. La Oficina Nacional de Procesos Electorales (ONPE) ha modernizado esta etapa, introduciendo tecnología de identificación por radiofrecuencia (RFID) para que cada una de las cajas pueda ser identificada y rastreada a lo largo de todo su almacenamiento y recorrido.
+Link   : https://elperuano.pe/noticia/291377-onpe-moderniza-ensamblaje-de-material-para-las-elecciones-generales
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina General de Administración
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Abastecimiento de la Oficina General de Administración
+Analizando designación: CULTURA RESOLUCION MINISTERIAL
+Designan Directora de Sistema Administrativo IV de la Oficina General de Planeamiento y Presupuesto
+Analizando designación: ENERGIA Y MINAS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho Ministerial
+Analizando designación: AMBIENTE RESOLUCION MINISTERIAL
+Designan Directora de la Dirección General de Cambio Climático y Desertificación
+Analizando designación: TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION MINISTERIAL
+Designan Coordinadora de Administración de Recursos Humanos de la Oficina General de Recursos Humanos
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina de Integridad Institucional
+Analizando designación: ENERGIA Y MINAS RESOLUCION MINISTERIAL
+Designan Director General de la Dirección General de Electricidad
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de entrega de la pensión no contributiva a personas con discapacidad severa en situación de pobreza – CONTIGO
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Asesora II del Despacho Ministerial
+
+Título : ENERGIA Y MINAS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496388-1
+Artículo Único.- Designar al señor Carlos Alberto Lezameta Escribens como Asesor de Alta Dirección del Despacho Ministerial del Ministerio de Energía y Minas, puesto considerado de confianza.
+--------------------------------------------------------------------------------
+Título : AMBIENTE RESOLUCION MINISTERIAL
+Designan Directora de la Dirección General de Cambio Climático y Desertificación
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496176-1
+Artículo Único.- Designar a la señora Jessica Celmira Moscoso Guerrero, en el puesto de Directora de la Dirección General de Cambio Climático y Desertificación del Ministerio del Ambiente.
+--------------------------------------------------------------------------------
+Título : ENERGIA Y MINAS RESOLUCION MINISTERIAL
+Designan Director General de la Dirección General de Electricidad
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496349-1
+Artículo Único.- Designar al señor Adrián Zapata Sernaqué como Director General de la Dirección General de Electricidad del Ministerio de Energía y Minas, puesto considerado de confianza.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de entrega de la pensión no contributiva a personas con discapacidad severa en situación de pobreza – CONTIGO
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496340-1
+Artículo 1.- Designación
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina General de Administración
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Asesora de Alta Dirección de la Secretaría General del Ministerio
+Analizando designación: ENERGIA Y MINAS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho Ministerial
+Analizando designación: AMBIENTE RESOLUCION MINISTERIAL
+Designan Directora de la Dirección General de Cambio Climático y Desertificación
+Analizando designación: ENERGIA Y MINAS RESOLUCION MINISTERIAL
+Designan Director General de la Dirección General de Electricidad
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de entrega de la pensión no contributiva a personas con discapacidad severa en situación de pobreza – CONTIGO
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: INSTITUTO PERUANO DE ENERGIA NUCLEAR RESOLUCION
+Designan Ejecutivo/a de la Unidad de Recursos Humanos del Instituto Peruano de Energía Nuclear – IPEN
+
+Título : JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Asesora de Alta Dirección de la Secretaría General del Ministerio
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496916-1
+Artículo Único.- Designar a la señora Rosario del Pilar Pérez Santillán en el puesto de confianza de Asesora de Alta Dirección de la Secretaría General del Ministerio de Justicia y Derechos Humanos.
+--------------------------------------------------------------------------------
+Título : EDUCACION RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497481-1
+Artículo Único.- Designar al señor EBERT HERNAN ORDINOLA RAMIREZ, en el cargo de Jefe de Gabinete de Asesores del Despacho Ministerial del Ministerio de Educación.
+--------------------------------------------------------------------------------
+Título : INSTITUTO PERUANO DE ENERGIA NUCLEAR RESOLUCION
+Designan Ejecutivo/a de la Unidad de Recursos Humanos del Instituto Peruano de Energía Nuclear – IPEN
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496891-1
+Artículo 1°.- Aceptar la renuncia presentada por el señor Frank Ricky Huachaca Reyes, al cargo de confianza de Ejecutivo/a de la Unidad de Recursos Humanos del Instituto Peruano de Energía Nuclear - IPEN, con efectividad al 17 de marzo de 2026, dándosele las gracias por los servicios prestados a la Entidad y el logro de las metas alcanzadas.
+--------------------------------------------------------------------------------
+Título : En representación del titular de Salud Juan Carlos Velasco Guerrero, el viceministro de Salud Pública, Leonardo Rojas Mezarina, participó en la inauguración del Congreso Ecosystem TechCare, donde destacó el papel clave de la tecnología en la transformación del sistema de salud.
+Link   : https://elperuano.pe/noticia/291569-peru-impulsa-la-salud-digital-y-se-consolida-como-uno-de-los-paises-lideres-en-latinoamerica
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Comunicaciones del Ministerio
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Asesora de Alta Dirección de la Secretaría General del Ministerio
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Escuela Nacional de Salud Pública del Ministerio de Salud
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Jefa de Equipo II del Despacho Ministerial
+Analizando designación: CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Designan profesionales en el cargo de Jefe/a del Órgano de Control Institucional de diversas instituciones
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Jefa de Gabinete de Asesores del Despacho de la Presidencia del Consejo de Ministros
+Analizando designación: COMISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMO RESOLUCION
+Designan Jefe de la Oficina de Administración de PROMPERÚ
+Analizando designación: TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION MINISTERIAL
+Designan Asesor del Despacho Viceministerial de Promoción del Empleo y Capacitación Laboral I
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Jefe de la Unidad de Tecnologías de la Información del FONCODES
+
+Título : ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Comunicaciones del Ministerio
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497510-1
+Artículo Único.- Designar a la señora Gabriela Aurora Carrillo Valencia en el puesto de Jefa de la Oficina de Comunicaciones del Ministerio de Economía y Finanzas.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Escuela Nacional de Salud Pública del Ministerio de Salud
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497244-1
+Artículo 1.- Designar al señor JUAN JOSE MARIA PIZARRO LADERAS, en el cargo de Director General, (CAP-P Nº 2814), Nivel F-5, de la Escuela Nacional de Salud Pública del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Jefa de Equipo II del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497205-1
+Artículo 1.- Designar a la señora KARIN MIRELLA SALAZAR PUENTE, en el cargo de Jefa de Equipo II (CAP – P Nº 011), Nivel F-3, del Despacho Ministerial del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Designan profesionales en el cargo de Jefe/a del Órgano de Control Institucional de diversas instituciones
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2496953-1
+Artículo 1.- Dar por terminada la designación de la señora Jenny Nancy Calua Tasilla, en el cargo de Jefa del Órgano de Control Institucional de la Municipalidad Distrital de Los Baños del Inca.
+--------------------------------------------------------------------------------
+Título : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Jefa de Gabinete de Asesores del Despacho de la Presidencia del Consejo de Ministros
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498173-1
+Artículo Único.- Designar a la señora MARIA DEL PILAR SOSA SAN MIGUEL VDA. DE TENORIO en el cargo de Jefa de Gabinete de Asesores del Despacho de la Presidencia del Consejo de Ministros.
+--------------------------------------------------------------------------------
+Título : COMISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMO RESOLUCION
+Designan Jefe de la Oficina de Administración de PROMPERÚ
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497237-1
+Artículo Único.- Designar, al señor JOSE EDINSON TIMANA ANASTACIO en el puesto de confianza de Jefe de la Oficina de Administración de la Comisión de Promoción del Perú para la Exportación y el Turismo – PROMPERÚ.
+--------------------------------------------------------------------------------
+Título : TRABAJO Y PROMOCION DEL EMPLEO RESOLUCION MINISTERIAL
+Designan Asesor del Despacho Viceministerial de Promoción del Empleo y Capacitación Laboral I
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497320-1
+Artículo Único.- Designar al señor ARMANDO RUFINO BAZAN LOPEZ, en el cargo de Asesor del Despacho Viceministerial de Promoción del Empleo y Capacitación Laboral I del Ministerio de Trabajo y Promoción del Empleo.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION
+Designan Jefe de la Unidad de Tecnologías de la Información del FONCODES
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497383-1
+Artículo 1.- Conclusión de designación
+--------------------------------------------------------------------------------
+Título : El ministro de la Producción, César Quispe Luján, destacó hoy que el Perú ha logrado expandir su infraestructura de apoyo a la innovación, tecnología y desarrollo productivo, pasando de contar con 3 Centros de Innovación Productiva y Transferencia Tecnológica (CITE) a una red sólida de más de 25 centros y 11 Unidades Técnicas en todo el territorio nacional.
+Link   : https://elperuano.pe/noticia/291654-peru-cuenta-con-25-centros-de-innovacion-productiva-y-transferencia-tecnologica-y-11-unidades-tecnicas
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Jefa de Gabinete de Asesores del Despacho de la Presidencia del Consejo de Ministros
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefa de la Oficina General de Administración del Despacho Presidencial
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: AMBIENTE RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina General de Planeamiento y Presupuesto
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Asesora de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina de Comunicaciones del Ministerio
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Escuela Nacional de Salud Pública del Ministerio de Salud
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Directora Ejecutiva de la Oficina de Desarrollo de Recursos Humanos de la Oficina General de Gestión de Recursos Humanos
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección de la Secretaría General de la Presidencia del Consejo de Ministros
+
+Título : ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498164-1
+Artículo Único.- Designar al señor Henry Alberto Cuentas Vásquez en el puesto de Jefe de Gabinete de Asesores del Despacho Ministerial del Ministerio de Economía y Finanzas.
+--------------------------------------------------------------------------------
+Título : DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefa de la Oficina General de Administración del Despacho Presidencial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498175-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : AMBIENTE RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina General de Planeamiento y Presupuesto
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498126-1
+Artículo Único.- Designar al señor Daniel Enrique Chávez Castillo en el puesto de Jefe de la Oficina General de Planeamiento y Presupuesto del Ministerio del Ambiente.
+--------------------------------------------------------------------------------
+Título : ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Asesora de Gabinete de Asesores del Despacho Ministerial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498166-1
+Artículo Único.- Designar a la señora Fanny Ysabel Vidal Vidal en el puesto de Asesora de Gabinete de Asesores del Despacho Ministerial del Ministerio de Economía y Finanzas.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Directora Ejecutiva de la Oficina de Desarrollo de Recursos Humanos de la Oficina General de Gestión de Recursos Humanos
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497593-1
+Artículo 1.- Designar a la señora CARLA LIZBETH MENDOZA PEÑA, en el cargo de Directora Ejecutiva, (CAP-P N° 531), Nivel F-4, de la Oficina de Desarrollo de Recursos Humanos de la Oficina General de Gestión de Recursos Humanos del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección de la Secretaría General de la Presidencia del Consejo de Ministros
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497840-1
+Artículo Único.- Designar al señor JOSE LUIS CABALLERO DIAZ, en el cargo de Asesor de Alta Dirección de la Secretaría General de la Presidencia del Consejo de Ministros.
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Jefa de Gabinete de Asesores del Despacho de la Presidencia del Consejo de Ministros
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: DESPACHO PRESIDENCIAL RESOLUCION
+Designan jefa de la Oficina General de Administración del Despacho Presidencial
+Analizando designación: AMBIENTE RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina General de Planeamiento y Presupuesto
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Asesora de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Directora Ejecutiva de la Oficina de Desarrollo de Recursos Humanos de la Oficina General de Gestión de Recursos Humanos
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección de la Secretaría General de la Presidencia del Consejo de Ministros
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION SUPREMA
+Designan Secretaria General de la Secretaría General de la Presidencia del Consejo de Ministros
+Analizando designación: CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Designan profesionales en el cargo de Jefe/a del Órgano de Control Institucional de diversas entidades
+
+Título : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498387-1
+Artículo Único.- Designar al señor MIGUEL FRANCISCO VEGA SUCCAR en el cargo de Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros.
+--------------------------------------------------------------------------------
+Título : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION SUPREMA
+Designan Secretaria General de la Secretaría General de la Presidencia del Consejo de Ministros
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498678-2
+Artículo 1.- Designar a la señora MARIA CECILIA CHUMBE RODRIGUEZ en el cargo de Secretaria General de la Secretaría General de la Presidencia del Consejo de Ministros.
+--------------------------------------------------------------------------------
+Título : CONTRALORIA GENERAL DE LA REPUBLICA RESOLUCION
+Designan profesionales en el cargo de Jefe/a del Órgano de Control Institucional de diversas entidades
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2497167-1
+Artículo 1.- Dar por terminada la designación en el cargo de Jefe/a del Órgano de Control Institucional de los/as profesionales que se detallan a continuación:
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION SUPREMA
+Designan Secretaria General de la Secretaría General de la Presidencia del Consejo de Ministros
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Secretaria General del Ministerio
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Tecnologías de la Información
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional Plataformas de Acción para la Inclusión Social – PAIS
+Analizando designación: AMBIENTE RESOLUCION MINISTERIAL
+Designan Jefa de Gabinete de Asesores del Ministerio del Ambiente
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho Viceministerial de Gobernanza Territorial
+Analizando designación: JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de Centros Juveniles – PRONACEJ
+
+Título : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498685-1
+Artículo Único.- Designar al señor ANGEL FLORENCIO PAJUELO JIBAJA en el cargo de Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros.
+--------------------------------------------------------------------------------
+Título : TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Secretaria General del Ministerio
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498697-1
+Artículo Único.- Designar a la señora DALIA MIROSLAVA SUAREZ SALAZAR en el cargo de Secretaria General del Ministerio de Transportes y Comunicaciones.
+--------------------------------------------------------------------------------
+Título : SALUD RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Tecnologías de la Información
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498232-1
+Artículo 1.- Designar al señor ALFONSO HERVER ERAZO PAZ, en el cargo de Director General (CAP - P N° 672), Nivel F-5, de la Oficina General de Tecnologías de la Información del Ministerio de Salud.
+--------------------------------------------------------------------------------
+Título : DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional Plataformas de Acción para la Inclusión Social – PAIS
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498668-1
+Artículo 1.- Designación
+--------------------------------------------------------------------------------
+Título : AMBIENTE RESOLUCION MINISTERIAL
+Designan Jefa de Gabinete de Asesores del Ministerio del Ambiente
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498240-1
+Artículo Único.- Designar a la señora Joanna Fischer Battistini en el puesto de Jefa de Gabinete de Asesores del Ministerio del Ambiente.
+--------------------------------------------------------------------------------
+Título : PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho Viceministerial de Gobernanza Territorial
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498702-1
+Artículo Único.- Designar al señor RODRIGO VALDIVIA ZAMORA en el cargo de Asesor de Alta Dirección del Despacho Viceministerial de Gobernanza Territorial de la Presidencia del Consejo de Ministros.
+--------------------------------------------------------------------------------
+Título : JUSTICIA Y DERECHOS HUMANOS RESOLUCION MINISTERIAL
+Designan Director Ejecutivo del Programa Nacional de Centros Juveniles – PRONACEJ
+Link   : https://busquedas.elperuano.pe/dispositivo/NL/2498661-1
+Artículo Único.- Designar al señor Luis Alberto Vega Marroquín como Director Ejecutivo del Programa Nacional de Centros Juveniles – PRONACEJ, del Ministerio de Justicia y Derechos Humanos.
+
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Secretaria General del Ministerio
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho Viceministerial de Gobernanza Territorial
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina de Logística de la Oficina General de Administración
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina de Tesorería de la Oficina General de Administración del Ministerio
+Analizando designación: PROCURADURÍA GENERAL DEL ESTADO RESOLUCION
+Designan Jefe de la Oficina de Planeamiento Presupuesto y Modernización
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Director de Sistema Administrativo II de la Secretaría General del Ministerio
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho de la Presidencia del Consejo de Ministros
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Asesoría Jurídica
+Enviando correo HTML...
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina General de Administración de la Presidencia del Consejo de Ministros
+Analizando designación: TRANSPORTES Y COMUNICACIONES RESOLUCION MINISTERIAL
+Designan Secretaria General del Ministerio
+Analizando designación: DEFENSA RESOLUCION MINISTERIAL
+Designan Secretario General del Ministerio
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Asesor de Alta Dirección del Despacho Viceministerial de Gobernanza Territorial
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director Ejecutivo de la Oficina de Administración de Recursos Humanos de la Oficina General de Gestión de Recursos Humanos
+Analizando designación: INTERIOR RESOLUCION SUPREMA
+Designan Viceministro de Seguridad Pública
+Analizando designación: EDUCACION RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina de Logística de la Oficina General de Administración
+Analizando designación: DESARROLLO E INCLUSIÓN SOCIAL RESOLUCION MINISTERIAL
+Designan Jefe de la Oficina de Tesorería de la Oficina General de Administración del Ministerio
+Analizando designación: MUJER Y POBLACIONES VULNERABLES RESOLUCION MINISTERIAL
+Designan Director General de la Oficina General de Administración del Ministerio
+Enviando correo HTML...
+Iniciando Firefox headless...
+Abriendo El Peruano...
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION MINISTERIAL
+Designan Jefa de la Oficina General de Administración de la Presidencia del Consejo de Ministros
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION SUPREMA
+Designan Viceministro de Economía
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION SUPREMA
+Designan Viceministro de Hacienda
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Jefe de Gabinete del Despacho Ministerial
+Analizando designación: DEFENSA RESOLUCION MINISTERIAL
+Designan Secretario General del Ministerio
+Analizando designación: PRESIDENCIA DEL CONSEJO DE MINISTROS RESOLUCION SUPREMA
+Designan Director de Inteligencia Nacional de la Dirección Nacional de Inteligencia - DINI
+Analizando designación: ECONOMIA Y FINANZAS RESOLUCION MINISTERIAL
+Designan Asesora de Gabinete de Asesores del Despacho Ministerial
+Analizando designación: SALUD RESOLUCION SUPREMA
+Designan Viceministro de Prestaciones y Aseguramiento en Salud
+Analizando designación: SALUD RESOLUCION MINISTERIAL
+Designan Director Ejecutivo de la Oficina de Administración de Recursos Humanos de la Oficina General de Gestión de Recursos Humanos
+Enviando correo HTML...

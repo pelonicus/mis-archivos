@@ -1,0 +1,318 @@
+﻿<Window x:Class="ValmerPasswordsDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ValmerPasswordsDB"
+        Height="850" Width="1100"
+        Background="#F3F4F6"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid x:Name="PanelPrincipal" Visibility="Collapsed" Margin="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="335"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Background="White" CornerRadius="10" Padding="15" Margin="0,0,15,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Grupos" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,10"/>
+                    <Button Grid.Row="1" Content="➕ Nuevo Grupo" Click="BtnAddGrupo_Click" Height="35"
+                            Background="#2563EB" Foreground="White" BorderThickness="0" Cursor="Hand" Margin="0,0,0,10"/>
+                    <TreeView x:Name="ArbolServidores" Grid.Row="2" SelectedItemChanged="ArbolServidores_SelectedItemChanged"
+                              BorderThickness="0" HorizontalContentAlignment="Stretch">
+                        <TreeView.ItemContainerStyle>
+                            <Style TargetType="TreeViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                <Setter Property="Padding" Value="0,2,5,2"/>
+                            </Style>
+                        </TreeView.ItemContainerStyle>
+                    </TreeView>
+                </Grid>
+            </Border>
+
+            <Border Grid.Column="1" Background="White" CornerRadius="10" Padding="25">
+                <Grid>
+                    <TextBlock x:Name="TxtMensajeVacio" Text="Seleccione un registro o pulse [+] para agregar" 
+                               HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" FontSize="16"/>
+
+                    <ScrollViewer x:Name="ScrollModoVer" Visibility="Collapsed">
+                        <StackPanel>
+                            <Grid Margin="0,0,0,20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="LblVerTitulo" Text="Servidor (IP)" FontSize="22" FontWeight="Bold" TextWrapping="Wrap"/>
+                                <Button Grid.Column="1" Content="✏️ Editar" Click="BtnActivarEdicion_Click"
+                                        Background="#F3F4F6" BorderThickness="1" BorderBrush="#D1D5DB" 
+                                        Padding="10,5" Cursor="Hand" FontWeight="SemiBold"/>
+                            </Grid>
+
+                            <Grid Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,5,15">
+                                    <TextBlock Text="Tipo" Foreground="Gray" FontSize="11"/>
+                                    <TextBlock x:Name="LblVerTipo" Text="-" FontSize="15" FontWeight="Medium"/>
+                                </StackPanel>
+                                <StackPanel Grid.Row="0" Grid.Column="1" Margin="5,0,0,15" x:Name="PanelVerURL">
+                                    <TextBlock Text="URL" Foreground="Gray" FontSize="11"/>
+                                    <TextBlock x:Name="LblVerURL" Text="-" FontSize="15" FontWeight="Medium"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,5,15" x:Name="PanelVerDominio">
+                                    <TextBlock Text="Dominio / HW" Foreground="Gray" FontSize="11"/>
+                                    <TextBlock x:Name="LblVerDominio" Text="-" FontSize="15" FontWeight="Medium"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,5,15">
+                                    <TextBlock Text="Usuario" Foreground="Gray" FontSize="11"/>
+                                    <TextBlock x:Name="LblVerUsuario" Text="-" FontSize="15" FontWeight="Medium"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="2" Grid.Column="1" Margin="5,0,0,15">
+                                    <TextBlock Text="Contraseña" Foreground="Gray" FontSize="11" Margin="0,0,0,2"/>
+                                    <Border Background="#F9FAFB" BorderBrush="#E5E7EB" BorderThickness="1" CornerRadius="5" Height="35">
+                                        <Grid>
+                                            <TextBlock x:Name="TxtVerPasswordOculta" Text="••••••••••••" VerticalAlignment="Center" Margin="10,0,80,0" FontFamily="Consolas" FontSize="14"/>
+                                            <TextBlock x:Name="TxtVerPasswordReal" Text="" VerticalAlignment="Center" Margin="10,0,80,0" FontFamily="Consolas" FontSize="14" Visibility="Collapsed"/>
+                                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                                <Button Content="👁" Width="35" BorderThickness="0" Background="Transparent" PreviewMouseDown="VerPassLectura_Down" PreviewMouseUp="VerPassLectura_Up" MouseLeave="VerPassLectura_Up" Cursor="Hand"/>
+                                                <Button Content="📋" Width="35" BorderThickness="0" Background="Transparent" Click="CopiarPassLectura_Click" Cursor="Hand"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Border>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,0,15" x:Name="PanelVerLlave">
+                                    <TextBlock Text="Llave SSH" Foreground="Gray" FontSize="11"/>
+                                    <TextBox x:Name="TxtVerLlave" IsReadOnly="True" Height="70" AcceptsReturn="True" FontFamily="Consolas" FontSize="12" Background="#F9FAFB" BorderBrush="#E5E7EB"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Margin="0,0,0,15">
+                                    <TextBlock Text="Comentarios" Foreground="Gray" FontSize="11"/>
+                                    <TextBlock x:Name="LblVerComentarios" Text="-" FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0"/>
+                                </StackPanel>
+                            </Grid>
+
+                            <Separator Background="#EEEEEE" Height="1" Margin="0,5,0,15"/>
+                            <TextBlock Text="Historial" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,10"/>
+                            <StackPanel x:Name="ContenedorHistorial">
+                            </StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>
+
+                    <ScrollViewer x:Name="ScrollModoEdicion" Visibility="Collapsed">
+                        <StackPanel>
+                            <TextBlock x:Name="TxtTituloDerecho" Text="Configuración" FontSize="20" FontWeight="Bold" Margin="0,0,0,15"/>
+
+                            <Grid Margin="0,0,0,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <StackPanel Grid.Row="0" Margin="0,0,5,10">
+                                    <TextBlock Text="Tipo" Foreground="Gray" Margin="0,0,0,5"/>
+                                    <ComboBox x:Name="ComboTipo" Height="32" SelectionChanged="ComboTipo_SelectionChanged">
+                                        <ComboBoxItem Content="WEB"/>
+                                        <ComboBoxItem Content="SSH"/>
+                                        <ComboBoxItem Content="SFTP"/>
+                                        <ComboBoxItem Content="FTP"/>
+                                        <ComboBoxItem Content="VPN"/>
+                                        <ComboBoxItem Content="RDP"/>
+                                        <ComboBoxItem Content="WINDOWS"/>
+                                        <ComboBoxItem Content="HARDWARE"/>
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="0" Grid.Column="1" Margin="5,0,0,10">
+                                    <TextBlock x:Name="LblNombre" Text="Nombre" Foreground="Gray" Margin="0,0,0,5"/>
+                                    <TextBox x:Name="TxtNombre" Height="32"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="1" x:Name="PanelIP" Margin="0,0,5,10">
+                                    <TextBlock x:Name="LblIP" Text="IP" Foreground="Gray" Margin="0,0,0,5"/>
+                                    <TextBox x:Name="TxtIP" Height="32"/>
+                                </StackPanel>
+                                <StackPanel Grid.Row="1" Grid.Column="1" x:Name="PanelURL" Margin="5,0,0,10">
+                                    <TextBlock Text="URL" Foreground="Gray" Margin="0,0,0,5"/>
+                                    <TextBox x:Name="TxtURL" Height="32"/>
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="2" x:Name="PanelHardwareTipo" Margin="0,0,5,10" Visibility="Collapsed">
+                                    <TextBlock Text="Tipo Equipo" Foreground="Gray" Margin="0,0,0,5"/>
+                                    <TextBox x:Name="TxtHardwareTipo" Height="32"/>
+                                </StackPanel>
+                                <StackPanel Grid.Row="2" x:Name="PanelDominio" Margin="0,0,5,10" Visibility="Collapsed">
+                                    <TextBlock Text="Dominio" Foreground="Gray" Margin="0,0,0,5"/>
+                                    <TextBox x:Name="TxtDominio" Height="32"/>
+                                </StackPanel>
+
+                                <StackPanel x:Name="ContenedorListaUsuarios" Grid.Row="3" Grid.ColumnSpan="2">
+
+                                    <Grid x:Name="GridUsuarioBase" Margin="0,0,0,10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1.2*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        
+                                        <!-- FILA UNIFICADA -->
+     
+                                    <!-- USUARIO -->
+                                        <StackPanel Grid.Column="0" Margin="0,0,5,0">
+                                            <StackPanel Orientation="Horizontal" Margin="0,0,0,5" Height="22">
+                                                <TextBlock Text="Usuario" Foreground="Gray" VerticalAlignment="Center"/>
+                                                <Button x:Name="BtnAddUsuario" Content="+" Width="22" Height="22" 
+                Margin="8,0,0,0" Cursor="Hand" Background="Transparent" 
+                BorderThickness="0" FontWeight="Bold" Foreground="#374151"
+                Click="BtnAddUsuario_Click"/>
+                                            </StackPanel>
+                                            <TextBox x:Name="TxtUsuario" Height="32"/>
+                                        </StackPanel>
+
+                                        <!-- CONTRASEÑA (EDICIÓN + NUEVO conviven aquí) -->
+                                        <StackPanel Grid.Column="1" Margin="5,0,5,0" VerticalAlignment="Top">
+                                            <StackPanel x:Name="PanelPassEdicion" Visibility="Collapsed">
+                                                <TextBlock Text="Contraseña" Foreground="Gray" Margin="0,0,0,5" Height="22"/>
+                                                <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <Border BorderThickness="1" BorderBrush="#D1D5DB" Background="#F3F4F6" CornerRadius="3" Height="32">
+                                                    <Grid>
+                                                        <TextBlock x:Name="TxtEdicionPassOculta" Text="••••••••" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="Gray"/>
+                                                        <TextBlock x:Name="TxtEdicionPassReal" Visibility="Collapsed" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="#374151" FontWeight="Bold"/>
+                                                    </Grid>
+                                                </Border>
+
+                                                <Button Grid.Column="1" Content="👁" 
+                                                    PreviewMouseDown="EdicionOjo_Down" 
+                                                    PreviewMouseUp="EdicionOjo_Up" 
+                                                    MouseLeave="EdicionOjo_Up"
+                                                    Width="35" Height="32" Margin="5,0,0,0"
+                                                    Background="#E5E7EB" BorderBrush="#D1D5DB" Cursor="Hand"/>
+
+                                                <Button Grid.Column="2" Content="Cambiar"
+                                                    Click="BtnCambiarPassword_Click"
+                                                    Width="70" Height="32"
+                                                       Margin="5,0,0,0"
+                                                    Background="#374151"
+                                                    Foreground="White"
+                                                    BorderThickness="0"
+                                                    Cursor="Hand"/>
+                                            </Grid>
+                                        </StackPanel>
+
+                                        <!-- MODO NUEVO (NO TOCAR LÓGICA) -->
+                                        <StackPanel x:Name="PanelPassNuevo">
+                                                <TextBlock Text="Contraseña" Foreground="Gray" Margin="0,0,0,5" Height="22"/>
+                                            <Grid>
+                                                <PasswordBox x:Name="TxtNuevoPass" Height="32" Padding="5,0,35,0"/>
+                                                <TextBox x:Name="TxtNuevoPassVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
+                                                <Button Content="👁" Width="30" HorizontalAlignment="Right"
+                                                    Background="Transparent" BorderThickness="0"
+                                                    PreviewMouseDown="NuevoOjo1_Down"
+                                                    PreviewMouseUp="NuevoOjo1_Up"
+                                                    MouseLeave="NuevoOjo1_Up"
+                                                    Cursor="Hand"/>
+                                            </Grid>
+                                        </StackPanel>
+
+                                    </StackPanel>
+
+                                    <!-- CONFIRMAR -->
+                                        <StackPanel Grid.Column="2" Margin="5,0,0,0" x:Name="PanelConfirmarNuevo" VerticalAlignment="Top">
+                                            <TextBlock Text="Confirmar Contraseña" Foreground="Gray" Margin="0,0,0,5" Height="22"/>
+                                        <Grid>
+                                            <PasswordBox x:Name="TxtNuevoConfirm" Height="32" Padding="5,0,35,0"/>
+                                            <TextBox x:Name="TxtNuevoConfirmVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
+                                            <Button Content="👁" Width="30" HorizontalAlignment="Right"
+                                                Background="Transparent" BorderThickness="0"
+                                                PreviewMouseDown="NuevoOjo2_Down"
+                                                PreviewMouseUp="NuevoOjo2_Up"
+                                                MouseLeave="NuevoOjo2_Up"
+                                                Cursor="Hand"/>
+                                        </Grid>
+                                    </StackPanel>
+                                </Grid>
+
+                                </StackPanel>
+
+                                <StackPanel Grid.Row="4" Grid.ColumnSpan="2" x:Name="PanelLlave" Margin="0,5,0,10" Visibility="Collapsed">
+                                    <TextBlock Text="Llave SSH" Foreground="Gray" Margin="0,0,0,5"/>
+                                    <TextBox x:Name="TxtLlave" Height="80" AcceptsReturn="True" FontFamily="Consolas" FontSize="11" VerticalScrollBarVisibility="Auto"/>
+                                </StackPanel>
+                            </Grid>
+
+                            <TextBlock Text="Comentarios" FontWeight="SemiBold" Margin="0,0,0,5" FontSize="12"/>
+                            <TextBox x:Name="TxtComentario" Height="60" AcceptsReturn="True" TextWrapping="Wrap" Padding="5" FontSize="12"/>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                                <Button x:Name="BtnGuardarServidor" Content="Guardar" Click="BtnGuardarServidor_Click" Width="150" Height="40" Background="#2563EB" Foreground="White" BorderThickness="0" FontWeight="Bold" Cursor="Hand"/>
+                                <Button Content="Cancelar" Click="BtnCerrarForm_Click" Width="90" Height="40" Background="#9CA3AF" Foreground="White" BorderThickness="0" Margin="10,0,0,0" Cursor="Hand"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <Grid x:Name="PanelPopupPassword" Visibility="Collapsed" Background="#99000000">
+            <Border Background="White" CornerRadius="10" Padding="25" Width="380" VerticalAlignment="Center">
+                <StackPanel>
+                    <TextBlock Text="Cambiar Contraseña" FontSize="18" FontWeight="Bold" Margin="0,0,0,15" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Nueva Contraseña" Foreground="Gray" Margin="0,0,0,5"/>
+                    <Grid Margin="0,0,0,10">
+                        <PasswordBox x:Name="TxtPopupNueva" Height="32" Padding="5,0,35,0"/>
+                        <TextBox x:Name="TxtPopupNuevaVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
+                        <Button Content="👁" Width="30" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" PreviewMouseDown="PopupOjo1_Down" PreviewMouseUp="PopupOjo1_Up" Cursor="Hand"/>
+                    </Grid>
+                    <TextBlock Text="Confirmar" Foreground="Gray" Margin="0,0,0,5"/>
+                    <Grid Margin="0,0,0,20">
+                        <PasswordBox x:Name="TxtPopupConfirm" Height="32" Padding="5,0,35,0"/>
+                        <TextBox x:Name="TxtPopupConfirmVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
+                        <Button Content="👁" Width="30" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" PreviewMouseDown="PopupOjo2_Down" PreviewMouseUp="PopupOjo2_Up" Cursor="Hand"/>
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Aceptar" Click="BtnPopupAceptar_Click" Width="90" Height="32" Background="#10B981" Foreground="White" BorderThickness="0" FontWeight="Bold" Margin="0,0,10,0" Cursor="Hand"/>
+                        <Button Content="Cerrar" Click="BtnPopupCancelar_Click" Width="90" Height="32" Background="#9CA3AF" Foreground="White" BorderThickness="0" Cursor="Hand"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Grid x:Name="PanelBloqueo" Background="#F3F4F6">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="ValmerPasswordsDB" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+                <ProgressBar IsIndeterminate="True" Width="180" Height="4"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

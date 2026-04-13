@@ -1,0 +1,1197 @@
+
+1771251613606	geckodriver	INFO	Listening on 127.0.0.1:33131
+1771251613643	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileiVgb4C"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1771251614280	Marionette	INFO	Marionette enabled
+1771251614487	Marionette	INFO	Listening on port 46331
+Read port: 46331
+1771251614592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1771251624047	Marionette	INFO	Stopped listening on port 46331
+JavaScript warning: https://ads.us.criteo.com/delivery/r/afr.php?z=aZMnoQAL3JQGuTlTACsrE7dWC0Z12MWuQd3ypQ&u=%7Cdrcv9A5Z9gTMLcTMNu7G7FWnId0UxBZHrFZQBJ0FSwc%3D%7C&c1=KDnqesnxSL_rihT3I-OnH25PZfEmMX3_w55xQFL41l3LGpyvzcFcqGekUuGxXg4L2lWM2lKypzrA1rSOrMmoQ9k0SR4OTQXrcnSHHvjaic8DwaCUdJbM_q-sLH-VkxScc9r13-WT4WERJhP5b5y-dKB5vUQ_2xHu2ryNta60JnUoQ7Q3SBESUHHter5at69HFjju0zgzn1WvBbjZbLNr-445TjDIvBDhT-8DDacR1LyXJwqVqIjXeorxKnN5_PywNG17l1Xl37xaSzJSDDG8ZEWDqI0dVjhk54dv-tWURsK-gSc02D8jiuo_nvrXHXN7JmlO-cetr-Z6Tjj4pytdqVbQQqnwvvjQKR9ClQQeU7BPgNzgcI6SHAoscEfCO5t9vjiS6brmQQR8oodRU8HJXU58ACjFkMmG7EC8JHFsf9d4W3XtpCwWXuY44IjLTT-Cn--96DdlVlhnMYt0DdowcMxDDW5epQKE93S9-_0sixBTkIexM3p_KnLvuvqO3uC3-6zwEJk0i3Q3d8XUlDDR446ASGAufe7Ks1XVTjav7qdwqefDlexqfFv-DKw6E7TVKOZcTLRtnIHXBmie7t4VvnqXYqRieyDR_aqCfaO_R_6d7HseR9baF8TF1xZR25TEg9q3I6pRctwFwUfu47VQgYQITeVDEw5rT6r4fRVjUt3rOCk8I5QI1w&ct0=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCATTnoSeTaZS5L9Py5OUPk9as-Qqcge-wXKLKp6p0wI23ARABILaIn48BYN0EyAEJ4AIAqAMByAMCqgScAk_Q3fGndEsuxs027jjnAZUQUj8Rgo1nsAIQ-U0k2x54laAUQZS_TQlCLQrfENDHFO0S2KFZC7rsEWau5hMqmR1d6Gm8d1l-qP5QZ1wUXYtHWzxZGS8k9vJj0VsMe8Q1X4Ol3-KuaQkZuirbWS6UXNSSVxKcG6bsnMmsikqnb8Am_Z4kX4oCUXEblz3AV0Hvl--ZYHdmOIz1XEmjRYjuGBddaLLdSOK5ownHF_yt8OzbKje07sL0G8OqX3sunmwgdN6QSclzWfk3A7xhhDSzDZK9SgQGT268U3Az0yqV01H_VEj-Zx_x2QiuUwmPMNCRpB4iQmlq6Oa7JcJELtMjsTBenFImW4lEDhxn1DmMhs0sVYE_N0dgUns7W-3e4AQBgAb6kvSdkpO5kSWgBiGoB5PYsQKoB5TYsQKoB5XYsQKoB6a-G6gHltgbqAeqm7ECqAf_nrECqAffn7ECqAetvrECqAe_07EC2AcA0ggsCIBhEAEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYkq3vu5rekgP6CwIIAYAMAaoNAlBF4g0TCPTS77ua3pIDFVM5uQYdEysrr-oNEwiMvPC7mt6SAxVTObkGHRMrK6-IDv___________wHQFQGAFwGyFxAYDCoKMjA3Nzk0OTYwN1ABqhgXCUe28_0EUMRAEgoyMDc3OTQ5NjA3GAE%26num%3D1%26sig%3DAOD64_2UvRBkgIOGEzVPtlkfpp2cODDRMQ%26client%3Dca-pub-1025857209677303%26adurl%3D, line 37: Script terminated by timeout at:
+s@https://ads.us.criteo.com/delivery/r/afr.php?z=aZMnoQAL3JQGuTlTACsrE7dWC0Z12MWuQd3ypQ&u=%7Cdrcv9A5Z9gTMLcTMNu7G7FWnId0UxBZHrFZQBJ0FSwc%3D%7C&c1=KDnqesnxSL_rihT3I-OnH25PZfEmMX3_w55xQFL41l3LGpyvzcFcqGekUuGxXg4L2lWM2lKypzrA1rSOrMmoQ9k0SR4OTQXrcnSHHvjaic8DwaCUdJbM_q-sLH-VkxScc9r13-WT4WERJhP5b5y-dKB5vUQ_2xHu2ryNta60JnUoQ7Q3SBESUHHter5at69HFjju0zgzn1WvBbjZbLNr-445TjDIvBDhT-8DDacR1LyXJwqVqIjXeorxKnN5_PywNG17l1Xl37xaSzJSDDG8ZEWDqI0dVjhk54dv-tWURsK-gSc02D8jiuo_nvrXHXN7JmlO-cetr-Z6Tjj4pytdqVbQQqnwvvjQKR9ClQQeU7BPgNzgcI6SHAoscEfCO5t9vjiS6brmQQR8oodRU8HJXU58ACjFkMmG7EC8JHFsf9d4W3XtpCwWXuY44IjLTT-Cn--96DdlVlhnMYt0DdowcMxDDW5epQKE93S9-_0sixBTkIexM3p_KnLvuvqO3uC3-6zwEJk0i3Q3d8XUlDDR446ASGAufe7Ks1XVTjav7qdwqefDlexqfFv-DKw6E7TVKOZcTLRtnIHXBmie7t4VvnqXYqRieyDR_aqCfaO_R_6d7HseR9baF8TF1xZR25TEg9q3I6pRctwFwUfu47VQgYQITeVDEw5rT6r4fRVjUt3rOCk8I5QI1w&ct0=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCATTnoSeTaZS5L9Py5OUPk9as-Qqcge-wXKLKp6p0wI23ARABILaIn48BYN0EyAEJ4AIAqAMByAMCqgScAk_Q3fGndEsuxs027jjnAZUQUj8Rgo1nsAIQ-U0k2x54laAUQZS_TQlCLQrfENDHFO0S2KFZC7rsEWau5hMqmR1d6Gm8d1l-qP5QZ1wUXYtHWzxZGS8k9vJj0VsMe8Q1X4Ol3-KuaQkZuirbWS6UXNSSVxKcG6bsnMmsikqnb8Am_Z4kX4oCUXEblz3AV0Hvl--ZYHdmOIz1XEmjRYjuGBddaLLdSOK5ownHF_yt8OzbKje07sL0G8OqX3sunmwgdN6QSclzWfk3A7xhhDSzDZK9SgQGT268U3Az0yqV01H_VEj-Zx_x2QiuUwmPMNCRpB4iQmlq6Oa7JcJELtMjsTBenFImW4lEDhxn1DmMhs0sVYE_N0dgUns7W-3e4AQBgAb6kvSdkpO5kSWgBiGoB5PYsQKoB5TYsQKoB5XYsQKoB6a-G6gHltgbqAeqm7ECqAf_nrECqAffn7ECqAetvrECqAe_07EC2AcA0ggsCIBhEAEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYkq3vu5rekgP6CwIIAYAMAaoNAlBF4g0TCPTS77ua3pIDFVM5uQYdEysrr-oNEwiMvPC7mt6SAxVTObkGHRMrK6-IDv___________wHQFQGAFwGyFxAYDCoKMjA3Nzk0OTYwN1ABqhgXCUe28_0EUMRAEgoyMDc3OTQ5NjA3GAE%26num%3D1%26sig%3DAOD64_2UvRBkgIOGEzVPtlkfpp2cODDRMQ%26client%3Dca-pub-1025857209677303%26adurl%3D:37:9221
+r.framerateObserver<@https://ads.us.criteo.com/delivery/r/afr.php?z=aZMnoQAL3JQGuTlTACsrE7dWC0Z12MWuQd3ypQ&u=%7Cdrcv9A5Z9gTMLcTMNu7G7FWnId0UxBZHrFZQBJ0FSwc%3D%7C&c1=KDnqesnxSL_rihT3I-OnH25PZfEmMX3_w55xQFL41l3LGpyvzcFcqGekUuGxXg4L2lWM2lKypzrA1rSOrMmoQ9k0SR4OTQXrcnSHHvjaic8DwaCUdJbM_q-sLH-VkxScc9r13-WT4WERJhP5b5y-dKB5vUQ_2xHu2ryNta60JnUoQ7Q3SBESUHHter5at69HFjju0zgzn1WvBbjZbLNr-445TjDIvBDhT-8DDacR1LyXJwqVqIjXeorxKnN5_PywNG17l1Xl37xaSzJSDDG8ZEWDqI0dVjhk54dv-tWURsK-gSc02D8jiuo_nvrXHXN7JmlO-cetr-Z6Tjj4pytdqVbQQqnwvvjQKR9ClQQeU7BPgNzgcI6SHAoscEfCO5t9vjiS6brmQQR8oodRU8HJXU58ACjFkMmG7EC8JHFsf9d4W3XtpCwWXuY44IjLTT-Cn--96DdlVlhnMYt0DdowcMxDDW5epQKE93S9-_0sixBTkIexM3p_KnLvuvqO3uC3-6zwEJk0i3Q3d8XUlDDR446ASGAufe7Ks1XVTjav7qdwqefDlexqfFv-DKw6E7TVKOZcTLRtnIHXBmie7t4VvnqXYqRieyDR_aqCfaO_R_6d7HseR9baF8TF1xZR25TEg9q3I6pRctwFwUfu47VQgYQITeVDEw5rT6r4fRVjUt3rOCk8I5QI1w&ct0=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCATTnoSeTaZS5L9Py5OUPk9as-Qqcge-wXKLKp6p0wI23ARABILaIn48BYN0EyAEJ4AIAqAMByAMCqgScAk_Q3fGndEsuxs027jjnAZUQUj8Rgo1nsAIQ-U0k2x54laAUQZS_TQlCLQrfENDHFO0S2KFZC7rsEWau5hMqmR1d6Gm8d1l-qP5QZ1wUXYtHWzxZGS8k9vJj0VsMe8Q1X4Ol3-KuaQkZuirbWS6UXNSSVxKcG6bsnMmsikqnb8Am_Z4kX4oCUXEblz3AV0Hvl--ZYHdmOIz1XEmjRYjuGBddaLLdSOK5ownHF_yt8OzbKje07sL0G8OqX3sunmwgdN6QSclzWfk3A7xhhDSzDZK9SgQGT268U3Az0yqV01H_VEj-Zx_x2QiuUwmPMNCRpB4iQmlq6Oa7JcJELtMjsTBenFImW4lEDhxn1DmMhs0sVYE_N0dgUns7W-3e4AQBgAb6kvSdkpO5kSWgBiGoB5PYsQKoB5TYsQKoB5XYsQKoB6a-G6gHltgbqAeqm7ECqAf_nrECqAffn7ECqAetvrECqAe_07EC2AcA0ggsCIBhEAEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYkq3vu5rekgP6CwIIAYAMAaoNAlBF4g0TCPTS77ua3pIDFVM5uQYdEysrr-oNEwiMvPC7mt6SAxVTObkGHRMrK6-IDv___________wHQFQGAFwGyFxAYDCoKMjA3Nzk0OTYwN1ABqhgXCUe28_0EUMRAEgoyMDc3OTQ5NjA3GAE%26num%3D1%26sig%3DAOD64_2UvRBkgIOGEzVPtlkfpp2cODDRMQ%26client%3Dca-pub-1025857209677303%26adurl%3D:37:9454
+
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773070853233	geckodriver	INFO	Listening on 127.0.0.1:45027
+1773070853272	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilen1tUM6"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773070866118	Marionette	INFO	Marionette enabled
+1773070866278	Marionette	INFO	Listening on port 39113
+Read port: 39113
+1773070866341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1773070872531	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1773070872596	Marionette	INFO	Stopped listening on port 39113
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/CaptiveDetect.sys.mjs, line 20: : 
+console.error: services.settings: 
+  Remote Settings startup changesets bundle could not be extracted (TypeError: NetworkError: Network request failed)
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":630,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":482,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:630:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:482:28|
+  - prototype Object
+1773071304355	geckodriver	INFO	Listening on 127.0.0.1:56491
+1773071304471	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile5SYKTO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773071305128	Marionette	INFO	Marionette enabled
+1773071305276	Marionette	INFO	Listening on port 40057
+Read port: 40057
+1773071305451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 365: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 365 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1773071346134	Marionette	INFO	Stopped listening on port 40057
+JavaScript warning: https://elperuano.pe/bnith__rAi8Z3YmclJEvilvoiwT7dHJX0HxUOos2R_lLB2ZixyEciHTQnUbQ0rbJ0ocNNPg, line 1: Script terminated by timeout at:
+_0x4e0a5a@https://elperuano.pe/bnith__rAi8Z3YmclJEvilvoiwT7dHJX0HxUOos2R_lLB2ZixyEciHTQnUbQ0rbJ0ocNNPg:1:30233
+
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773071705596	geckodriver	INFO	Listening on 127.0.0.1:34485
+1773071705642	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile18qXeS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773071706166	Marionette	INFO	Marionette enabled
+1773071706307	Marionette	INFO	Listening on port 39009
+Read port: 39009
+1773071706416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773071745152	Marionette	INFO	Stopped listening on port 39009
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773071903806	geckodriver	INFO	Listening on 127.0.0.1:41553
+1773071903845	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileITGczS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773071904395	Marionette	INFO	Marionette enabled
+1773071904515	Marionette	INFO	Listening on port 33259
+Read port: 33259
+1773071904600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773071943095	Marionette	INFO	Stopped listening on port 33259
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773072113008	geckodriver	INFO	Listening on 127.0.0.1:51633
+1773072113047	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileWoFR3w"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773072113575	Marionette	INFO	Marionette enabled
+1773072113723	Marionette	INFO	Listening on port 43003
+Read port: 43003
+1773072113810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773072156878	Marionette	INFO	Stopped listening on port 43003
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773072253567	geckodriver	INFO	Listening on 127.0.0.1:59063
+1773072253607	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexlX3al"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773072254134	Marionette	INFO	Marionette enabled
+1773072254278	Marionette	INFO	Listening on port 38955
+Read port: 38955
+1773072254387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773072296341	Marionette	INFO	Stopped listening on port 38955
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773072309257	geckodriver	INFO	Listening on 127.0.0.1:44255
+1773072309295	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3IFsPr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773072309827	Marionette	INFO	Marionette enabled
+1773072309975	Marionette	INFO	Listening on port 46801
+Read port: 46801
+1773072310044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 7400: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 7400 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1773072348872	Marionette	INFO	Stopped listening on port 46801
+JavaScript warning: https://elperuano.pe/bnith__xaGTAkjZtv7g8OZaQoFyQAM6aUXIecTgcW8Fv7t8cQIckn5IFLDqw8nirIVMaXWH, line 1: Script terminated by timeout at:
+_0x4e0a5a@https://elperuano.pe/bnith__xaGTAkjZtv7g8OZaQoFyQAM6aUXIecTgcW8Fv7t8cQIckn5IFLDqw8nirIVMaXWH:1:30233
+
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773072434090	geckodriver	INFO	Listening on 127.0.0.1:43509
+1773072434137	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewKRptY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773072434674	Marionette	INFO	Marionette enabled
+1773072434819	Marionette	INFO	Listening on port 33941
+Read port: 33941
+1773072434907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773072484274	Marionette	INFO	Stopped listening on port 33941
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773072588095	geckodriver	INFO	Listening on 127.0.0.1:38203
+1773072588133	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilet1qhCa"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773072588674	Marionette	INFO	Marionette enabled
+1773072588811	Marionette	INFO	Listening on port 32811
+Read port: 32811
+1773072588898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773072626748	Marionette	INFO	Stopped listening on port 32811
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773072854522	geckodriver	INFO	Listening on 127.0.0.1:58959
+1773072854561	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepfkTPE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773072855135	Marionette	INFO	Marionette enabled
+1773072855274	Marionette	INFO	Listening on port 40453
+Read port: 40453
+1773072855399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773072866513	Marionette	INFO	Stopped listening on port 40453
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773073007591	geckodriver	INFO	Listening on 127.0.0.1:46369
+1773073007637	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileJ0wDMt"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773073008170	Marionette	INFO	Marionette enabled
+1773073008315	Marionette	INFO	Listening on port 39217
+Read port: 39217
+1773073008406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773073020464	Marionette	INFO	Stopped listening on port 39217
+JavaScript warning: https://elperuano.pe/bnith__mf4DgBio0wucRVcspwe9lFa2nU4hA5GEigM0zomDJHVH7vJR4t5crkZlDlZw36EK, line 1: Script terminated by timeout at:
+_0x4e0a5a@https://elperuano.pe/bnith__mf4DgBio0wucRVcspwe9lFa2nU4hA5GEigM0zomDJHVH7vJR4t5crkZlDlZw36EK:1:30233
+
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1773073098855	geckodriver	INFO	Listening on 127.0.0.1:42981
+1773073098893	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileLiVu2e"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773073099435	Marionette	INFO	Marionette enabled
+1773073099580	Marionette	INFO	Listening on port 37369
+Read port: 37369
+1773073099632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773073110550	Marionette	INFO	Stopped listening on port 37369
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773073162863	geckodriver	INFO	Listening on 127.0.0.1:42535
+1773073162901	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileRkNIU4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773073163428	Marionette	INFO	Marionette enabled
+1773073163579	Marionette	INFO	Listening on port 35031
+Read port: 35031
+1773073163666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773073174634	Marionette	INFO	Stopped listening on port 35031
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1773073230911	geckodriver	INFO	Listening on 127.0.0.1:35325
+1773073230951	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevPiPSY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773073231506	Marionette	INFO	Marionette enabled
+1773073231651	Marionette	INFO	Listening on port 35335
+Read port: 35335
+1773073231696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.error: [Exception... "Favicon at "https://elperuano.pe/static/img/icon.png" failed to load."  nsresult: "0x804b0047 (NS_ERROR_NET_INTERRUPT)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 225"  data: no]
+console.error: [Exception... "ServiceManager::GetService returned failure code:"  nsresult: "0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE)"  location: "JS frame :: resource://gre/modules/XPCOMUtils.sys.mjs :: defineLazyServiceGetter/< :: line 131"  data: no]
+console.error: (new TypeError("can't access property \"getCurrentSession\", lazy.dragService is undefined", "resource://gre/modules/SubDialog.sys.mjs", 187))
+1773073240502	Marionette	INFO	Stopped listening on port 35335
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1235: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1082: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1773084685265	geckodriver	INFO	Listening on 127.0.0.1:60151
+1773084685362	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilePbcDc5"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773084686003	Marionette	INFO	Marionette enabled
+1773084686138	Marionette	INFO	Listening on port 34953
+Read port: 34953
+1773084686215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773084692271	Marionette	INFO	Stopped listening on port 34953
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773084798250	geckodriver	INFO	Listening on 127.0.0.1:53245
+1773084798296	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezGPZaV"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773084798810	Marionette	INFO	Marionette enabled
+1773084798950	Marionette	INFO	Listening on port 42887
+Read port: 42887
+1773084799053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773084804856	Marionette	INFO	Stopped listening on port 42887
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773084983625	geckodriver	INFO	Listening on 127.0.0.1:49423
+1773084983670	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileLTgkDM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773084984198	Marionette	INFO	Marionette enabled
+1773084984344	Marionette	INFO	Listening on port 46379
+Read port: 46379
+1773084984429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 4999: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 4999 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1773084999669	Marionette	INFO	Stopped listening on port 46379
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085109985	geckodriver	INFO	Listening on 127.0.0.1:47125
+1773085110031	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilennChGF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085110537	Marionette	INFO	Marionette enabled
+1773085110690	Marionette	INFO	Listening on port 37081
+Read port: 37081
+1773085110773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085116837	Marionette	INFO	Stopped listening on port 37081
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085161646	geckodriver	INFO	Listening on 127.0.0.1:53111
+1773085161693	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileASYmfD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085162197	Marionette	INFO	Marionette enabled
+1773085162342	Marionette	INFO	Listening on port 45327
+Read port: 45327
+1773085162448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085169379	Marionette	INFO	Stopped listening on port 45327
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085223144	geckodriver	INFO	Listening on 127.0.0.1:36975
+1773085223194	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3DRBiq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085223703	Marionette	INFO	Marionette enabled
+1773085223853	Marionette	INFO	Listening on port 33719
+Read port: 33719
+1773085223937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085237057	Marionette	INFO	Stopped listening on port 33719
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085301385	geckodriver	INFO	Listening on 127.0.0.1:56311
+1773085301438	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileojSlgd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085301937	Marionette	INFO	Marionette enabled
+1773085302094	Marionette	INFO	Listening on port 40681
+Read port: 40681
+1773085302195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085319356	Marionette	INFO	Stopped listening on port 40681
+JavaScript warning: https://busquedas.elperuano.pe/bnith__e5qNVOvKHYwiSbYm6gfRWIFk-LtneQcZ1BfhfjnSA5U1Sg_Jh9r9Jh-OB5fW2eoV, line 1: Script terminated by timeout at:
+_0x4e0a5a@https://busquedas.elperuano.pe/bnith__e5qNVOvKHYwiSbYm6gfRWIFk-LtneQcZ1BfhfjnSA5U1Sg_Jh9r9Jh-OB5fW2eoV:1:30233
+
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085369247	geckodriver	INFO	Listening on 127.0.0.1:38713
+1773085369290	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilexGWrZm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085369964	Marionette	INFO	Marionette enabled
+1773085370117	Marionette	INFO	Listening on port 37855
+Read port: 37855
+1773085370227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085393183	Marionette	INFO	Stopped listening on port 37855
+JavaScript warning: https://busquedas.elperuano.pe/bnith__e5qNVOvKHYz8vewi2l1yGHPDpxNDwNVNsNTyqkLaQDDNCsgZlB1b6TKLSr7hviA_, line 1: Script terminated by timeout at:
+_0x4e0a5a@https://busquedas.elperuano.pe/bnith__e5qNVOvKHYz8vewi2l1yGHPDpxNDwNVNsNTyqkLaQDDNCsgZlB1b6TKLSr7hviA_:1:30233
+
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085447413	geckodriver	INFO	Listening on 127.0.0.1:53289
+1773085447459	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileM9Szzr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085448125	Marionette	INFO	Marionette enabled
+1773085448278	Marionette	INFO	Listening on port 43741
+Read port: 43741
+1773085448388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085472188	Marionette	INFO	Stopped listening on port 43741
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085524669	geckodriver	INFO	Listening on 127.0.0.1:39443
+1773085524716	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWWnXgJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085525395	Marionette	INFO	Marionette enabled
+1773085525532	Marionette	INFO	Listening on port 35375
+Read port: 35375
+1773085525656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085542598	Marionette	INFO	Stopped listening on port 35375
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085602098	geckodriver	INFO	Listening on 127.0.0.1:37277
+1773085602144	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileNhJZvU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085602657	Marionette	INFO	Marionette enabled
+1773085602793	Marionette	INFO	Listening on port 39501
+Read port: 39501
+1773085602895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1773085616063	Marionette	INFO	Stopped listening on port 39501
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085779566	geckodriver	INFO	Listening on 127.0.0.1:59499
+1773085779612	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile8gmzYV"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085780118	Marionette	INFO	Marionette enabled
+1773085780268	Marionette	INFO	Listening on port 35719
+Read port: 35719
+1773085780354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773085798797	Marionette	INFO	Stopped listening on port 35719
+JavaScript warning: https://busquedas.elperuano.pe/bnith__hywjMnu0fi4Kjkt5BXAmcPVXS0GpaDvoWxn6Jd3k49eLX-wYD_PDDxePo2lPufXC, line 1: Script terminated by timeout at:
+_0x4e0a5a@https://busquedas.elperuano.pe/bnith__hywjMnu0fi4Kjkt5BXAmcPVXS0GpaDvoWxn6Jd3k49eLX-wYD_PDDxePo2lPufXC:1:30233
+
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773085887188	geckodriver	INFO	Listening on 127.0.0.1:37853
+1773085887238	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6pSw8U"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773085887730	Marionette	INFO	Marionette enabled
+1773085887871	Marionette	INFO	Listening on port 37843
+Read port: 37843
+1773085887976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773085949837	Marionette	INFO	Stopped listening on port 37843
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773086339937	geckodriver	INFO	Listening on 127.0.0.1:44937
+1773086339983	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewyMsWX"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773086340503	Marionette	INFO	Marionette enabled
+1773086340640	Marionette	INFO	Listening on port 38369
+Read port: 38369
+1773086340746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval, line 327: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/M8iVCVm4vAS0U1nj-mAeAll9B9KussZqV5cjNkM1Z8w.js line 2 > eval line 327 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1773086402414	Marionette	INFO	Stopped listening on port 38369
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773086567608	geckodriver	INFO	Listening on 127.0.0.1:47929
+1773086567659	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilegQvERf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773086568176	Marionette	INFO	Marionette enabled
+1773086568311	Marionette	INFO	Listening on port 33703
+Read port: 33703
+1773086568415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773086630194	Marionette	INFO	Stopped listening on port 33703
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773086973333	geckodriver	INFO	Listening on 127.0.0.1:48475
+1773086973378	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileo2up63"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773086973882	Marionette	INFO	Marionette enabled
+1773086974015	Marionette	INFO	Listening on port 38049
+Read port: 38049
+1773086974123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773087036156	Marionette	INFO	Stopped listening on port 38049
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1773087107440	geckodriver	INFO	Listening on 127.0.0.1:39579
+1773087107587	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileIn225f"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773087108346	Marionette	INFO	Marionette enabled
+1773087108566	Marionette	INFO	Listening on port 40283
+Read port: 40283
+1773087108649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+1773087170249	Marionette	INFO	Stopped listening on port 40283
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1774276928447	geckodriver	INFO	Listening on 127.0.0.1:37421
+1774276928486	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEDdw08"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774276928980	Marionette	INFO	Marionette enabled
+1774276929110	Marionette	INFO	Listening on port 44033
+Read port: 44033
+1774276929238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-beta-149 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 6581: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 6581 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1774277017178	Marionette	INFO	Stopped listening on port 44033
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1774277188533	geckodriver	INFO	Listening on 127.0.0.1:59461
+1774277188573	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile7VxC19"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774277189062	Marionette	INFO	Marionette enabled
+1774277189226	Marionette	INFO	Listening on port 40901
+Read port: 40901
+1774277189337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-beta-149 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7311: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7311 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+libEGL warning: egl: failed to create dri2 screen
+1774277278256	Marionette	INFO	Stopped listening on port 40901
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1774277342555	geckodriver	INFO	Listening on 127.0.0.1:56909
+1774277342597	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilelGq5ca"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774277343088	Marionette	INFO	Marionette enabled
+1774277343248	Marionette	INFO	Listening on port 45041
+Read port: 45041
+1774277343360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-beta-149 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+1774277347242	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5690: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5690 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1774277430370	Marionette	INFO	Stopped listening on port 45041
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1774277757436	geckodriver	INFO	Listening on 127.0.0.1:54639
+1774277757478	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKI35Ec"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774277757988	Marionette	INFO	Marionette enabled
+1774277758149	Marionette	INFO	Listening on port 45759
+Read port: 45759
+1774277758242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-beta-149 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 4044 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 4044 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 4044: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 4044 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 4044 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 4044 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 4044 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 4044 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1774277845961	Marionette	INFO	Stopped listening on port 45759
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1774278274118	geckodriver	INFO	Listening on 127.0.0.1:44549
+1774278274158	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezbmKMI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774278274638	Marionette	INFO	Marionette enabled
+1774278274807	Marionette	INFO	Listening on port 33691
+Read port: 33691
+1774278274916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-beta-149 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5570 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5570 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5570: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5570 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5570 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5570 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5570 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5570 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1774278363249	Marionette	INFO	Stopped listening on port 33691
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1774278690268	geckodriver	INFO	Listening on 127.0.0.1:55619
+1774278690308	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile04mubY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774278690799	Marionette	INFO	Marionette enabled
+1774278690951	Marionette	INFO	Listening on port 40113
+Read port: 40113
+1774278691063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-beta-149 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 5008: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 5008 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://busquedas.elperuano.pe/dispositivo/NL/2498697-1, line 45: ReferenceError: FingerprintJS is not defined
+1774278735990	Marionette	INFO	Stopped listening on port 40113
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1774278777360	geckodriver	INFO	Listening on 127.0.0.1:59113
+1774278777400	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileYNd8U0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774278777871	Marionette	INFO	Marionette enabled
+1774278778022	Marionette	INFO	Listening on port 35317
+Read port: 35317
+1774278778139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-beta-149 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-150120260304231049-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+libEGL warning: egl: failed to create dri2 screen
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval, line 7426: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nADNdV95tIcopDkSGuCfji3IQTFUrIEnY4AlVBBCNUY.js line 2 > eval line 7426 > eval line 1 > eval line 1 > eval, line 1: unreachable code after return statement
+1774278866036	Marionette	INFO	Stopped listening on port 35317
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

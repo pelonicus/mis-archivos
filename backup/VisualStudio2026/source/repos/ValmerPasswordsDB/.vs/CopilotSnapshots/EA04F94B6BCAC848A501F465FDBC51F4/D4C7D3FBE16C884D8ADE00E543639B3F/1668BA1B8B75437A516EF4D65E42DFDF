@@ -1,0 +1,433 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Xml.Linq;
+using Windows.Security.Credentials.UI;
+
+namespace ValmerPasswordsDB
+{
+    public partial class MainWindow : Window
+    {
+        private bool _accesoConcedido = false;
+        private XDocument? _xmlData;
+        private const string MasterKey = "V4lmerSys_Secur1ty_Key_2026_Auth!";
+        private XElement? _grupoSeleccionadoParaNuevo;
+        private XElement? _servidorEditando;
+        private Dictionary<TreeViewItem, XElement> _nodosServidores = new();
+
+        // Clase auxiliar para manejar la data de cada fila dinámica en edición
+        private class FilaUsuarioData
+        {
+            public TextBox TxtUser { get; set; }
+            public PasswordBox PwdPass { get; set; }
+            public PasswordBox PwdConf { get; set; }
+            public string ContrasenaAntiguaEncriptada { get; set; }
+        }
+
+        private string GetXmlPath()
+        {
+            string? od = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
+            if (string.IsNullOrEmpty(od)) return "";
+            return Path.Combine(od, "General - Servicios", "Softwares", "ValmerSystem", "ValmerPasswordsDB", "passwordsdb.xml");
+        }
+
+        private string GetLockPath()
+        {
+            string xmlPath = GetXmlPath();
+            return string.IsNullOrEmpty(xmlPath) ? "" : xmlPath.Replace(".xml", ".lock");
+        }
+
+        public MainWindow() { InitializeComponent(); Loaded += MainWindow_Loaded; }
+
+        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (await IniciarSeguridad())
+            {
+                _accesoConcedido = true; PanelBloqueo.Visibility = Visibility.Collapsed;
+                PanelPrincipal.Visibility = Visibility.Visible; CargarDatosXML();
+            }
+            else { Close(); }
+        }
+
+        private async Task<bool> IniciarSeguridad()
+        {
+            try
+            {
+                var disp = await UserConsentVerifier.CheckAvailabilityAsync();
+                if (disp == UserConsentVerifierAvailability.Available)
+                {
+                    var res = await UserConsentVerifier.RequestVerificationAsync("Acceso a ValmerPasswordsDB");
+                    return res == UserConsentVerificationResult.Verified;
+                }
+                return true;
+            }
+            catch { return true; }
+        }
+
+        private void CargarDatosXML()
+        {
+            try
+            {
+                string ruta = GetXmlPath();
+                if (string.IsNullOrEmpty(ruta) || !File.Exists(ruta)) return;
+
+                using (FileStream fs = new FileStream(ruta, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    _xmlData = XDocument.Load(fs);
+                }
+
+                ArbolServidores.Items.Clear(); _nodosServidores.Clear();
+
+                foreach (var gXml in _xmlData.Descendants("Grupo"))
+                {
+                    var grid = new Grid { Width = 260 };
+                    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                    var txt = new TextBlock { Text = gXml.Attribute("nombre")?.Value, VerticalAlignment = VerticalAlignment.Center, FontWeight = FontWeights.Bold };
+                    var btn = new Button { Content = "+", Width = 22, Height = 22, Background = Brushes.Transparent, BorderThickness = new Thickness(0), Cursor = Cursors.Hand, Tag = gXml };
+                    btn.Click += BtnAddServidorDesdeGrupo_Click;
+                    Grid.SetColumn(txt, 0); Grid.SetColumn(btn, 1); grid.Children.Add(txt); grid.Children.Add(btn);
+                    var nodoG = new TreeViewItem { Header = grid };
+                    foreach (var sXml in gXml.Descendants("Servidor"))
+                    {
+                        var nS = new TreeViewItem { Header = $"{sXml.Attribute("nombre")?.Value} ({sXml.Attribute("ip")?.Value}{sXml.Attribute("url")?.Value})" };
+                        _nodosServidores.Add(nS, sXml); nodoG.Items.Add(nS);
+                    }
+                    nodoG.IsExpanded = true; ArbolServidores.Items.Add(nodoG);
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void ComboTipo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (TxtNombre == null) return;
+            string t = (ComboTipo.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "WEB";
+            PanelIP.Visibility = (t == "WEB") ? Visibility.Collapsed : Visibility.Visible;
+            PanelURL.Visibility = (t == "WEB" || t == "HARDWARE" || t == "VPN") ? Visibility.Visible : Visibility.Collapsed;
+            PanelDominio.Visibility = (t == "RDP" || t == "WINDOWS") ? Visibility.Visible : Visibility.Collapsed;
+            PanelLlave.Visibility = (t == "SSH" || t == "SFTP") ? Visibility.Visible : Visibility.Collapsed;
+            PanelHardwareTipo.Visibility = (t == "HARDWARE") ? Visibility.Visible : Visibility.Collapsed;
+        }
+
+        // ==========================================
+        // SISTEMA DE BLOQUEO (LOCK) DE 5 MINUTOS
+        // ==========================================
+        private bool VerificarYTomarLock()
+        {
+            string lockPath = GetLockPath();
+            if (string.IsNullOrEmpty(lockPath)) return false;
+            try
+            {
+                if (File.Exists(lockPath))
+                {
+                    string[] lines = File.ReadAllLines(lockPath);
+                    if (lines.Length >= 2 && DateTime.TryParse(lines[0], out DateTime timestamp))
+                    {
+                        if ((DateTime.Now - timestamp).TotalMinutes < 5)
+                        {
+                            MessageBox.Show($"Este registro está siendo editado por {lines[1]}.\nIniciado a las {timestamp:HH:mm:ss}.", "Bloqueo Activo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                            return false;
+                        }
+                    }
+                }
+                File.WriteAllLines(lockPath, new string[] { DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Environment.UserName });
+                return true;
+            }
+            catch { return false; }
+        }
+
+        private void LiberarLock()
+        {
+            try { string path = GetLockPath(); if (File.Exists(path)) File.Delete(path); } catch { }
+        }
+
+        private bool ValidarLockParaGuardar()
+        {
+            string lockPath = GetLockPath();
+            if (!File.Exists(lockPath)) return false;
+            try
+            {
+                string[] lines = File.ReadAllLines(lockPath);
+                if (lines.Length >= 2 && DateTime.TryParse(lines[0], out DateTime time))
+                {
+                    if ((DateTime.Now - time).TotalMinutes > 5)
+                    {
+                        MessageBox.Show("Lock Timeout: Tiempo de edición expirado. Cambios no guardados.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        return false;
+                    }
+                    return lines[1] == Environment.UserName;
+                }
+                return false;
+            }
+            catch { return false; }
+        }
+
+        // ==========================================
+        // MODO LECTURA (VISTA)
+        // ==========================================
+        private void ArbolServidores_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            if (ArbolServidores.SelectedItem is TreeViewItem n && _nodosServidores.ContainsKey(n))
+            {
+                _servidorEditando = _nodosServidores[n]; _grupoSeleccionadoParaNuevo = null;
+                MostrarDatosEnModoVer(_servidorEditando);
+            }
+        }
+
+        private void MostrarDatosEnModoVer(XElement s)
+        {
+            string ipUrl = string.IsNullOrEmpty(s.Attribute("ip")?.Value) ? s.Attribute("url")?.Value : s.Attribute("ip")?.Value;
+            LblVerTitulo.Text = $"{s.Attribute("nombre")?.Value} ({ipUrl})";
+            LblVerTipo.Text = s.Attribute("tipo")?.Value;
+            LblVerURL.Text = s.Attribute("url")?.Value ?? "-";
+            PanelVerURL.Visibility = string.IsNullOrEmpty(s.Attribute("url")?.Value) ? Visibility.Collapsed : Visibility.Visible;
+            var dom = s.Attribute("dominio")?.Value; var hw = s.Attribute("hw_tipo")?.Value;
+            LblVerDominio.Text = !string.IsNullOrEmpty(dom) ? dom : (!string.IsNullOrEmpty(hw) ? hw : "-");
+            PanelVerDominio.Visibility = LblVerDominio.Text == "-" ? Visibility.Collapsed : Visibility.Visible;
+            TxtVerLlave.Text = s.Element("LlaveSSH")?.Value ?? "";
+            PanelVerLlave.Visibility = string.IsNullOrEmpty(TxtVerLlave.Text) ? Visibility.Collapsed : Visibility.Visible;
+            LblVerComentarios.Text = s.Element("Comentario")?.Value ?? "-";
+
+            // Generar filas de usuarios dinámicamente
+            ContenedorUsuariosVer.Children.Clear();
+            var usuarios = s.Elements("Usuario").ToList();
+            if (usuarios.Count == 0) ContenedorUsuariosVer.Children.Add(new TextBlock { Text = "No hay usuarios registrados.", FontStyle = FontStyles.Italic, Foreground = Brushes.Gray });
+
+            foreach (var u in usuarios)
+            {
+                string pEnc = u.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true")?.Value ?? "";
+                GenerarFilaVistaUsuario(u.Attribute("nombre")?.Value ?? "-", Desencriptar(pEnc));
+            }
+
+            RenderizarHistorial(s);
+            ScrollModoVer.Visibility = Visibility.Visible; ScrollModoEdicion.Visibility = Visibility.Collapsed; TxtMensajeVacio.Visibility = Visibility.Collapsed;
+        }
+
+        private void GenerarFilaVistaUsuario(string nombre, string passDec)
+        {
+            var grid = new Grid { Margin = new Thickness(0, 0, 0, 8) };
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(200) });
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(200) });
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+
+            var txtU = new TextBlock { Text = "👤 " + nombre, FontWeight = FontWeights.Medium, VerticalAlignment = VerticalAlignment.Center };
+            var txtPReal = new TextBlock { Text = passDec, Visibility = Visibility.Collapsed, VerticalAlignment = VerticalAlignment.Center, Foreground = Brushes.DarkRed, FontFamily = new FontFamily("Consolas") };
+            var txtPOculta = new TextBlock { Text = "••••••••", VerticalAlignment = VerticalAlignment.Center, FontFamily = new FontFamily("Consolas") };
+
+            var btnEye = new Button { Content = "👁", Width = 30, Height = 25, Margin = new Thickness(10, 0, 5, 0), Cursor = Cursors.Hand };
+            btnEye.PreviewMouseDown += (s, e) => { txtPOculta.Visibility = Visibility.Collapsed; txtPReal.Visibility = Visibility.Visible; };
+            btnEye.PreviewMouseUp += (s, e) => { txtPReal.Visibility = Visibility.Collapsed; txtPOculta.Visibility = Visibility.Visible; };
+            btnEye.MouseLeave += (s, e) => { txtPReal.Visibility = Visibility.Collapsed; txtPOculta.Visibility = Visibility.Visible; };
+
+            var btnCopy = new Button { Content = "📋 Copiar", Width = 60, Height = 25, Margin = new Thickness(5, 0, 0, 0), Cursor = Cursors.Hand, ToolTip = "Copiar Contraseña" };
+            btnCopy.Click += (s, e) => { if (!string.IsNullOrEmpty(passDec)) Clipboard.SetText(passDec); };
+
+            Grid.SetColumn(txtU, 0);
+            Grid.SetColumn(txtPReal, 1); Grid.SetColumn(txtPOculta, 1);
+            Grid.SetColumn(btnEye, 2); Grid.SetColumn(btnCopy, 3);
+
+            grid.Children.Add(txtU); grid.Children.Add(txtPReal); grid.Children.Add(txtPOculta); grid.Children.Add(btnEye); grid.Children.Add(btnCopy);
+            ContenedorUsuariosVer.Children.Add(grid);
+        }
+
+        private void RenderizarHistorial(XElement s)
+        {
+            ContenedorHistorial.Children.Clear();
+            var h = s.Element("Historial");
+            if (h == null || !h.Elements("Evento").Any()) { ContenedorHistorial.Children.Add(new TextBlock { Text = "Sin historial.", FontSize = 11, Foreground = Brushes.Gray }); return; }
+
+            foreach (var ev in h.Elements("Evento"))
+            {
+                var g = new Grid { Margin = new Thickness(0, 0, 0, 4) };
+                g.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(115) });
+                g.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(90) });
+                g.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                var tF = new TextBlock { Text = ev.Attribute("fecha")?.Value, FontSize = 10, Foreground = Brushes.DimGray, VerticalAlignment = VerticalAlignment.Center };
+                var tU = new TextBlock { Text = ev.Attribute("autor")?.Value, FontSize = 10, Foreground = Brushes.Gray, VerticalAlignment = VerticalAlignment.Center };
+                var tA = new TextBlock { Text = ev.Attribute("accion")?.Value, FontSize = 11, FontWeight = FontWeights.Medium, VerticalAlignment = VerticalAlignment.Center, TextWrapping = TextWrapping.Wrap };
+                Grid.SetColumn(tF, 0); Grid.SetColumn(tU, 1); Grid.SetColumn(tA, 2);
+                g.Children.Add(tF); g.Children.Add(tU); g.Children.Add(tA);
+                ContenedorHistorial.Children.Add(g);
+                ContenedorHistorial.Children.Add(new Separator { Height = 1, Background = new SolidColorBrush(Color.FromRgb(240, 240, 240)), Margin = new Thickness(0, 2, 0, 2) });
+            }
+        }
+
+        // ==========================================
+        // MODO EDICIÓN (GENERACIÓN DINÁMICA DE USUARIOS)
+        // ==========================================
+        private void BtnAddFilaUsuario_Click(object sender, RoutedEventArgs e) => AgregarFilaEdicionUsuario("", "");
+
+        private void AgregarFilaEdicionUsuario(string user, string passDec)
+        {
+            var grid = new Grid { Margin = new Thickness(0, 0, 0, 10) };
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) }); // User
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) }); // Pass
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) }); // Confirm
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(35) }); // Ojo
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(45) }); // Check Status
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(35) }); // Trash
+
+            var txtU = new TextBox { Text = user, Margin = new Thickness(2), Padding = new Thickness(3) };
+            var pwdP = new PasswordBox { Password = passDec, Margin = new Thickness(2), Padding = new Thickness(3) };
+            var pwdC = new PasswordBox { Password = passDec, Margin = new Thickness(2), Padding = new Thickness(3) };
+            var txtPVis = new TextBox { Text = passDec, Margin = new Thickness(2), Padding = new Thickness(3), Visibility = Visibility.Collapsed };
+            var txtCVis = new TextBox { Text = passDec, Margin = new Thickness(2), Padding = new Thickness(3), Visibility = Visibility.Collapsed };
+
+            // Icono de estado (Cruz Roja / Check Verde)
+            bool okInit = !string.IsNullOrEmpty(passDec);
+            var icoStatus = new TextBlock { Text = okInit ? "✅" : "❌", Foreground = okInit ? Brushes.Green : Brushes.Red, VerticalAlignment = VerticalAlignment.Center, HorizontalAlignment = HorizontalAlignment.Center, FontSize = 14 };
+
+            RoutedEventHandler val = (s, e) => {
+                bool ok = !string.IsNullOrEmpty(pwdP.Password) && pwdP.Password == pwdC.Password;
+                icoStatus.Text = ok ? "✅" : "❌"; icoStatus.Foreground = ok ? Brushes.Green : Brushes.Red;
+            };
+            pwdP.PasswordChanged += val; pwdC.PasswordChanged += val;
+
+            var btnEye = new Button { Content = "👁", Margin = new Thickness(2), Cursor = Cursors.Hand };
+            btnEye.PreviewMouseDown += (s, e) => {
+                txtPVis.Text = pwdP.Password; txtCVis.Text = pwdC.Password;
+                pwdP.Visibility = pwdC.Visibility = Visibility.Collapsed; txtPVis.Visibility = txtCVis.Visibility = Visibility.Visible;
+            };
+            btnEye.PreviewMouseUp += (s, e) => {
+                pwdP.Visibility = pwdC.Visibility = Visibility.Visible; txtPVis.Visibility = txtCVis.Visibility = Visibility.Collapsed;
+            };
+
+            var btnDel = new Button { Content = "🗑", Margin = new Thickness(2), Foreground = Brushes.Red, Cursor = Cursors.Hand };
+            btnDel.Click += (s, e) => ContenedorUsuariosEdicion.Children.Remove(grid);
+
+            Grid.SetColumn(txtU, 0);
+            Grid.SetColumn(pwdP, 1); Grid.SetColumn(txtPVis, 1);
+            Grid.SetColumn(pwdC, 2); Grid.SetColumn(txtCVis, 2);
+            Grid.SetColumn(btnEye, 3); Grid.SetColumn(icoStatus, 4); Grid.SetColumn(btnDel, 5);
+
+            grid.Children.Add(txtU); grid.Children.Add(pwdP); grid.Children.Add(txtPVis);
+            grid.Children.Add(pwdC); grid.Children.Add(txtCVis); grid.Children.Add(btnEye);
+            grid.Children.Add(icoStatus); grid.Children.Add(btnDel);
+
+            // Guardamos la info de la fila en su Tag para leerla al guardar
+            grid.Tag = new FilaUsuarioData { TxtUser = txtU, PwdPass = pwdP, PwdConf = pwdC, ContrasenaAntiguaEncriptada = Encriptar(passDec) };
+
+            ContenedorUsuariosEdicion.Children.Add(grid);
+        }
+
+        private void BtnAddServidorDesdeGrupo_Click(object sender, RoutedEventArgs e)
+        {
+            if (!VerificarYTomarLock()) return;
+            _grupoSeleccionadoParaNuevo = (XElement)((Button)sender).Tag; _servidorEditando = null;
+            TxtNombre.Text = TxtIP.Text = TxtURL.Text = TxtComentario.Text = TxtDominio.Text = TxtHardwareTipo.Text = TxtLlave.Text = ""; ComboTipo.SelectedIndex = 0;
+            ContenedorUsuariosEdicion.Children.Clear(); AgregarFilaEdicionUsuario("", ""); // Agrega una fila vacía
+            TxtTituloDerecho.Text = "Nuevo Servidor"; ScrollModoVer.Visibility = Visibility.Collapsed; ScrollModoEdicion.Visibility = Visibility.Visible; TxtMensajeVacio.Visibility = Visibility.Collapsed;
+        }
+
+        private void BtnActivarEdicion_Click(object sender, RoutedEventArgs e)
+        {
+            if (_servidorEditando == null || !VerificarYTomarLock()) return;
+            TxtTituloDerecho.Text = "Editar Registro";
+
+            string t = _servidorEditando.Attribute("tipo")?.Value; foreach (ComboBoxItem i in ComboTipo.Items) if (i.Content.ToString() == t) ComboTipo.SelectedItem = i;
+            TxtNombre.Text = _servidorEditando.Attribute("nombre")?.Value; TxtIP.Text = _servidorEditando.Attribute("ip")?.Value; TxtURL.Text = _servidorEditando.Attribute("url")?.Value;
+            TxtComentario.Text = _servidorEditando.Element("Comentario")?.Value; TxtDominio.Text = _servidorEditando.Attribute("dominio")?.Value;
+            TxtHardwareTipo.Text = _servidorEditando.Attribute("hw_tipo")?.Value; TxtLlave.Text = _servidorEditando.Element("LlaveSSH")?.Value;
+
+            ContenedorUsuariosEdicion.Children.Clear();
+            var usuarios = _servidorEditando.Elements("Usuario").ToList();
+            if (usuarios.Count == 0) AgregarFilaEdicionUsuario("", "");
+            foreach (var u in usuarios)
+            {
+                string pEnc = u.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true")?.Value ?? "";
+                AgregarFilaEdicionUsuario(u.Attribute("nombre")?.Value, Desencriptar(pEnc));
+            }
+            ScrollModoVer.Visibility = Visibility.Collapsed; ScrollModoEdicion.Visibility = Visibility.Visible;
+        }
+
+        private void BtnGuardarServidor_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(TxtNombre.Text) || _xmlData == null) return;
+            if (!ValidarLockParaGuardar()) { LiberarLock(); ScrollModoEdicion.Visibility = Visibility.Collapsed; TxtMensajeVacio.Visibility = Visibility.Visible; return; }
+
+            // Recopilar y validar todas las filas de usuarios
+            var nuevosUsuarios = new List<XElement>();
+            foreach (Grid grid in ContenedorUsuariosEdicion.Children)
+            {
+                var data = (FilaUsuarioData)grid.Tag;
+                string u = data.TxtUser.Text.Trim(); string p1 = data.PwdPass.Password; string p2 = data.PwdConf.Password;
+                if (string.IsNullOrEmpty(u) && string.IsNullOrEmpty(p1)) continue; // Fila vacía ignorada
+
+                if (p1 != p2) { MessageBox.Show($"Las contraseñas para el usuario '{u}' no coinciden.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning); return; }
+                if (string.IsNullOrEmpty(p1)) { MessageBox.Show($"La contraseña para el usuario '{u}' no puede estar vacía.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning); return; }
+
+                string encP = p1 == Desencriptar(data.ContrasenaAntiguaEncriptada) ? data.ContrasenaAntiguaEncriptada : Encriptar(p1);
+                nuevosUsuarios.Add(new XElement("Usuario", new XAttribute("nombre", u), new XElement("Password", encP, new XAttribute("activa", "true"))));
+            }
+
+            if (nuevosUsuarios.Count == 0) { MessageBox.Show("Debe agregar al menos un usuario.", "Aviso", MessageBoxButton.OK, MessageBoxImage.Warning); return; }
+
+            string uAct = Environment.UserName; string fH = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            if (_servidorEditando == null)
+            {
+                _servidorEditando = new XElement("Servidor"); var h = new XElement("Historial"); _servidorEditando.Add(h);
+                RegistrarEventoHistorial(h, "Creación de Servidor", uAct, fH);
+                _grupoSeleccionadoParaNuevo?.Add(_servidorEditando);
+            }
+            else
+            {
+                var h = _servidorEditando.Element("Historial"); if (h == null) { h = new XElement("Historial"); _servidorEditando.AddFirst(h); }
+                RegistrarEventoHistorial(h, "Actualización de Registro y/o Usuarios", uAct, fH);
+                _servidorEditando.Elements().Where(x => x.Name != "Historial").Remove();
+            }
+
+            _servidorEditando.SetAttributeValue("tipo", (ComboTipo.SelectedItem as ComboBoxItem)?.Content.ToString());
+            _servidorEditando.SetAttributeValue("nombre", TxtNombre.Text); _servidorEditando.SetAttributeValue("ip", TxtIP.Text); _servidorEditando.SetAttributeValue("url", TxtURL.Text);
+            _servidorEditando.SetAttributeValue("dominio", TxtDominio.Text); _servidorEditando.SetAttributeValue("hw_tipo", TxtHardwareTipo.Text);
+            _servidorEditando.Add(new XElement("Comentario", TxtComentario.Text), new XElement("LlaveSSH", TxtLlave.Text));
+            _servidorEditando.Add(nuevosUsuarios); // Agregamos todos los usuarios
+
+            GuardarXML(); LiberarLock(); CargarDatosXML();
+            ScrollModoEdicion.Visibility = Visibility.Collapsed; TxtMensajeVacio.Visibility = Visibility.Visible;
+        }
+
+        private void BtnCerrarForm_Click(object sender, RoutedEventArgs e) { LiberarLock(); ScrollModoEdicion.Visibility = Visibility.Collapsed; TxtMensajeVacio.Visibility = Visibility.Visible; }
+
+        private void RegistrarEventoHistorial(XElement h, string ac, string au, string f) => h.AddFirst(new XElement("Evento", new XAttribute("fecha", f), new XAttribute("accion", ac), new XAttribute("autor", au)));
+
+        private void GuardarXML()
+        {
+            try
+            {
+                string ruta = GetXmlPath();
+                if (!string.IsNullOrEmpty(ruta) && _xmlData != null)
+                {
+                    string tempFile = ruta + ".tmp";
+                    using (FileStream fs = new FileStream(tempFile, FileMode.Create, FileAccess.Write, FileShare.None)) { _xmlData.Save(fs); }
+                    if (File.Exists(ruta)) File.Delete(ruta);
+                    File.Move(tempFile, ruta);
+                }
+            }
+            catch (Exception ex) { MessageBox.Show("Error al guardar: " + ex.Message); }
+        }
+
+        private void BtnAddGrupo_Click(object sender, RoutedEventArgs e)
+        {
+            string n = Microsoft.VisualBasic.Interaction.InputBox("Nombre Grupo:", "Nuevo Grupo");
+            if (!string.IsNullOrWhiteSpace(n))
+            {
+                var g = new XElement("Grupo", new XAttribute("nombre", n)); var h = new XElement("Historial");
+                RegistrarEventoHistorial(h, "Creación de Grupo", Environment.UserName, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                g.Add(h); _xmlData?.Root?.Add(g); GuardarXML(); CargarDatosXML();
+            }
+        }
+
+        private string Encriptar(string t) { using Aes aes = Aes.Create(); byte[] k = new byte[32]; Array.Copy(Encoding.UTF8.GetBytes(MasterKey), k, Math.Min(MasterKey.Length, 32)); aes.Key = k; aes.IV = new byte[16]; using var enc = aes.CreateEncryptor(); byte[] b = Encoding.UTF8.GetBytes(t); return Convert.ToBase64String(enc.TransformFinalBlock(b, 0, b.Length)); }
+        private string Desencriptar(string b64) { try { using Aes aes = Aes.Create(); byte[] k = new byte[32]; Array.Copy(Encoding.UTF8.GetBytes(MasterKey), k, Math.Min(MasterKey.Length, 32)); aes.Key = k; aes.IV = new byte[16]; using var dec = aes.CreateDecryptor(); byte[] b = Convert.FromBase64String(b64); return Encoding.UTF8.GetString(dec.TransformFinalBlock(b, 0, b.Length)); } catch { return ""; } }
+    }
+}

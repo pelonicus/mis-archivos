@@ -1,0 +1,307 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Xml.Linq;
+using Windows.Security.Credentials.UI;
+
+namespace ValmerPasswordsDB
+{
+    public partial class MainWindow : Window
+    {
+        private XDocument? _xmlData;
+        private const string MasterKey = "V4lmerSys_Secur1ty_Key_2026_Auth!";
+        private XElement? _grupoSeleccionadoParaNuevo;
+        private XElement? _servidorEditando;
+        private Dictionary<TreeViewItem, XElement> _nodosServidores = new();
+
+        private string _nuevaPasswordPendiente = "";
+        private string _passwordDesencriptadaActual = "";
+
+        public MainWindow() { InitializeComponent(); Loaded += MainWindow_Loaded; }
+
+        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (await IniciarSeguridad())
+            {
+                PanelBloqueo.Visibility = Visibility.Collapsed;
+                PanelPrincipal.Visibility = Visibility.Visible; CargarDatosXML();
+            }
+            else { Close(); }
+        }
+
+        private async Task<bool> IniciarSeguridad()
+        {
+            try
+            {
+                var disp = await UserConsentVerifier.CheckAvailabilityAsync();
+                if (disp == UserConsentVerifierAvailability.Available)
+                {
+                    var res = await UserConsentVerifier.RequestVerificationAsync("Acceso a ValmerPasswordsDB");
+                    return res == UserConsentVerificationResult.Verified;
+                }
+                return true;
+            }
+            catch { return true; }
+        }
+
+        private void CargarDatosXML()
+        {
+            try
+            {
+                string? od = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
+                if (string.IsNullOrEmpty(od)) return;
+                string ruta = Path.Combine(od, "General - Servicios", "Softwares", "ValmerSystem", "ValmerPasswordsDB", "passwordsdb.xml");
+                if (!File.Exists(ruta)) return;
+
+                _xmlData = XDocument.Load(ruta);
+                ArbolServidores.Items.Clear(); _nodosServidores.Clear();
+
+                foreach (var gXml in _xmlData.Descendants("Grupo"))
+                {
+                    var grid = new Grid { Width = 260 };
+                    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                    var txt = new TextBlock { Text = gXml.Attribute("nombre")?.Value, VerticalAlignment = VerticalAlignment.Center, FontWeight = FontWeights.Bold };
+                    var btn = new Button { Content = "+", Width = 22, Height = 22, Background = Brushes.Transparent, BorderThickness = new Thickness(0), Cursor = Cursors.Hand, Tag = gXml };
+                    btn.Click += BtnAddServidorDesdeGrupo_Click;
+                    Grid.SetColumn(txt, 0); Grid.SetColumn(btn, 1); grid.Children.Add(txt); grid.Children.Add(btn);
+                    var nodoG = new TreeViewItem { Header = grid };
+                    foreach (var sXml in gXml.Descendants("Servidor"))
+                    {
+                        var nS = new TreeViewItem { Header = $"{sXml.Attribute("nombre")?.Value} ({sXml.Attribute("ip")?.Value}{sXml.Attribute("url")?.Value})" };
+                        _nodosServidores.Add(nS, sXml); nodoG.Items.Add(nS);
+                    }
+                    nodoG.IsExpanded = true; ArbolServidores.Items.Add(nodoG);
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void ComboTipo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (TxtNombre == null) return;
+            string t = (ComboTipo.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "WEB";
+            PanelIP.Visibility = (t == "WEB") ? Visibility.Collapsed : Visibility.Visible;
+            PanelURL.Visibility = (t == "WEB" || t == "HARDWARE" || t == "VPN") ? Visibility.Visible : Visibility.Collapsed;
+            PanelDominio.Visibility = (t == "RDP" || t == "WINDOWS") ? Visibility.Visible : Visibility.Collapsed;
+            PanelLlave.Visibility = (t == "SSH" || t == "SFTP") ? Visibility.Visible : Visibility.Collapsed;
+            PanelHardwareTipo.Visibility = (t == "HARDWARE") ? Visibility.Visible : Visibility.Collapsed;
+        }
+
+        private void ArbolServidores_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            if (ArbolServidores.SelectedItem is TreeViewItem n && _nodosServidores.ContainsKey(n))
+            {
+                _servidorEditando = _nodosServidores[n]; _grupoSeleccionadoParaNuevo = null;
+                MostrarDatosEnModoVer(_servidorEditando);
+            }
+        }
+
+        private void MostrarDatosEnModoVer(XElement s)
+        {
+            string ipUrl = string.IsNullOrEmpty(s.Attribute("ip")?.Value) ? s.Attribute("url")?.Value : s.Attribute("ip")?.Value;
+            LblVerTitulo.Text = $"{s.Attribute("nombre")?.Value} ({ipUrl})";
+            LblVerTipo.Text = s.Attribute("tipo")?.Value;
+            LblVerURL.Text = s.Attribute("url")?.Value ?? "-";
+            PanelVerURL.Visibility = string.IsNullOrEmpty(s.Attribute("url")?.Value) ? Visibility.Collapsed : Visibility.Visible;
+            var dom = s.Attribute("dominio")?.Value; var hw = s.Attribute("hw_tipo")?.Value;
+            LblVerDominio.Text = !string.IsNullOrEmpty(dom) ? dom : (!string.IsNullOrEmpty(hw) ? hw : "-");
+            PanelVerDominio.Visibility = LblVerDominio.Text == "-" ? Visibility.Collapsed : Visibility.Visible;
+            var u = s.Element("Usuario"); LblVerUsuario.Text = u?.Attribute("nombre")?.Value ?? "-";
+            var p = u?.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true");
+            _passwordDesencriptadaActual = Desencriptar(p?.Value ?? "");
+            TxtVerPasswordReal.Text = _passwordDesencriptadaActual; TxtVerPasswordOculta.Text = string.IsNullOrEmpty(_passwordDesencriptadaActual) ? "-" : "••••••••";
+            TxtVerLlave.Text = s.Element("LlaveSSH")?.Value ?? "";
+            PanelVerLlave.Visibility = string.IsNullOrEmpty(TxtVerLlave.Text) ? Visibility.Collapsed : Visibility.Visible;
+            LblVerComentarios.Text = s.Element("Comentario")?.Value ?? "-";
+            RenderizarHistorial(s);
+            ScrollModoVer.Visibility = Visibility.Visible; ScrollModoEdicion.Visibility = Visibility.Collapsed; TxtMensajeVacio.Visibility = Visibility.Collapsed;
+        }
+
+        private void RenderizarHistorial(XElement s)
+        {
+            ContenedorHistorial.Children.Clear();
+            var h = s.Element("Historial");
+            if (h == null || !h.Elements("Evento").Any())
+            {
+                ContenedorHistorial.Children.Add(new TextBlock { Text = "Sin historial.", FontSize = 11, Foreground = Brushes.Gray }); return;
+            }
+
+            foreach (var ev in h.Elements("Evento"))
+            {
+                var g = new Grid { Margin = new Thickness(0, 0, 0, 4) };
+
+                // Columna 0: Fecha, Columna 1: Usuario, Columna 2: Descripción + Password (todo junto)
+                g.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(115) });
+                g.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(90) });
+                g.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+                var tF = new TextBlock { Text = ev.Attribute("fecha")?.Value, FontSize = 10, Foreground = Brushes.DimGray, VerticalAlignment = VerticalAlignment.Center };
+                var tU = new TextBlock { Text = ev.Attribute("autor")?.Value, FontSize = 10, Foreground = Brushes.Gray, VerticalAlignment = VerticalAlignment.Center };
+
+                // Contenedor para Descripción y Password para que vayan seguidos
+                var spContent = new StackPanel { Orientation = Orientation.Horizontal };
+                var tA = new TextBlock { Text = ev.Attribute("accion")?.Value, FontSize = 11, FontWeight = FontWeights.Medium, VerticalAlignment = VerticalAlignment.Center };
+                spContent.Children.Add(tA);
+
+                string pAnt = ev.Attribute("passwordAnterior")?.Value;
+                if (!string.IsNullOrEmpty(pAnt))
+                {
+                    // Un pequeño margen antes de la contraseña
+                    var tPass = new TextBlock { Text = "••••••••", FontSize = 12, FontFamily = new FontFamily("Consolas"), VerticalAlignment = VerticalAlignment.Center, Foreground = Brushes.Gray, Margin = new Thickness(20, 0, 5, 0) };
+                    var btnO = new Button { Content = "👁", FontSize = 10, Width = 25, Height = 18, Background = Brushes.Transparent, BorderThickness = new Thickness(0), Cursor = Cursors.Hand };
+
+                    string passReal = Desencriptar(pAnt);
+                    btnO.PreviewMouseDown += (sender, e) => { tPass.Text = passReal; tPass.Foreground = Brushes.DarkRed; };
+                    btnO.PreviewMouseUp += (sender, e) => { tPass.Text = "••••••••"; tPass.Foreground = Brushes.Gray; };
+                    btnO.MouseLeave += (sender, e) => { tPass.Text = "••••••••"; tPass.Foreground = Brushes.Gray; };
+
+                    spContent.Children.Add(tPass);
+                    spContent.Children.Add(btnO);
+                }
+
+                Grid.SetColumn(tF, 0);
+                Grid.SetColumn(tU, 1);
+                Grid.SetColumn(spContent, 2);
+
+                g.Children.Add(tF);
+                g.Children.Add(tU);
+                g.Children.Add(spContent);
+
+                ContenedorHistorial.Children.Add(g);
+                ContenedorHistorial.Children.Add(new Separator { Height = 1, Background = new SolidColorBrush(Color.FromRgb(240, 240, 240)), Margin = new Thickness(0, 2, 0, 2) });
+            }
+        }
+
+        private void BtnAddServidorDesdeGrupo_Click(object sender, RoutedEventArgs e)
+        {
+            _grupoSeleccionadoParaNuevo = (XElement)((Button)sender).Tag; _servidorEditando = null;
+            _nuevaPasswordPendiente = ""; LimpiarForm();
+            TxtTituloDerecho.Text = "Nuevo Servidor";
+            PanelPassEdicion.Visibility = Visibility.Collapsed;
+            PanelPassNuevo.Visibility = Visibility.Visible;
+            PanelConfirmarNuevo.Visibility = Visibility.Visible;
+            ScrollModoVer.Visibility = Visibility.Collapsed; ScrollModoEdicion.Visibility = Visibility.Visible; TxtMensajeVacio.Visibility = Visibility.Collapsed;
+        }
+
+        private void BtnActivarEdicion_Click(object sender, RoutedEventArgs e)
+        {
+            if (_servidorEditando == null) return;
+            TxtTituloDerecho.Text = "Editar Registro"; _nuevaPasswordPendiente = "";
+            CargarForm(_servidorEditando);
+            PanelPassEdicion.Visibility = Visibility.Visible;
+            PanelPassNuevo.Visibility = Visibility.Collapsed;
+            PanelConfirmarNuevo.Visibility = Visibility.Collapsed;
+            ScrollModoVer.Visibility = Visibility.Collapsed; ScrollModoEdicion.Visibility = Visibility.Visible;
+        }
+
+        private void BtnGuardarServidor_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(TxtNombre.Text) || _xmlData == null) return;
+            bool esN = _servidorEditando == null;
+            string uAct = Environment.UserName; string fH = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+            if (esN)
+            {
+                if (TxtNuevoPass.Password != TxtNuevoConfirm.Password) { MessageBox.Show("Contraseñas no coinciden."); return; }
+                if (string.IsNullOrEmpty(TxtNuevoPass.Password)) { MessageBox.Show("Ingrese contraseña."); return; }
+                _nuevaPasswordPendiente = TxtNuevoPass.Password;
+                _servidorEditando = new XElement("Servidor");
+                var h = new XElement("Historial"); _servidorEditando.Add(h);
+                RegistrarEventoHistorial(h, "Creación de Servidor", uAct, fH);
+                _grupoSeleccionadoParaNuevo?.Add(_servidorEditando);
+            }
+            else
+            {
+                var h = _servidorEditando.Element("Historial"); if (h == null) { h = new XElement("Historial"); _servidorEditando.AddFirst(h); }
+                RegistrarEventoHistorial(h, "Modificación de Servidor", uAct, fH);
+                if (!string.IsNullOrEmpty(_nuevaPasswordPendiente))
+                {
+                    RegistrarEventoHistorial(h, "Cambio de Contraseña", uAct, fH, _servidorEditando.Element("Usuario")?.Attribute("nombre")?.Value, Encriptar(_passwordDesencriptadaActual));
+                }
+                _servidorEditando.Elements().Where(x => x.Name != "Historial").Remove();
+            }
+
+            _servidorEditando.SetAttributeValue("tipo", (ComboTipo.SelectedItem as ComboBoxItem)?.Content.ToString());
+            _servidorEditando.SetAttributeValue("nombre", TxtNombre.Text);
+            _servidorEditando.SetAttributeValue("ip", TxtIP.Text); _servidorEditando.SetAttributeValue("url", TxtURL.Text);
+            _servidorEditando.SetAttributeValue("dominio", TxtDominio.Text); _servidorEditando.SetAttributeValue("hw_tipo", TxtHardwareTipo.Text);
+            _servidorEditando.Add(new XElement("Comentario", TxtComentario.Text), new XElement("LlaveSSH", TxtLlave.Text));
+            string pFinal = !string.IsNullOrEmpty(_nuevaPasswordPendiente) ? _nuevaPasswordPendiente : _passwordDesencriptadaActual;
+            _servidorEditando.Add(new XElement("Usuario", new XAttribute("nombre", TxtUsuario.Text), new XElement("Password", Encriptar(pFinal), new XAttribute("activa", "true"))));
+
+            GuardarXML(); CargarDatosXML(); ScrollModoEdicion.Visibility = Visibility.Collapsed; TxtMensajeVacio.Visibility = Visibility.Visible;
+        }
+
+        private void RegistrarEventoHistorial(XElement h, string ac, string au, string f, string uAnt = null, string pAnt = null)
+        {
+            var ev = new XElement("Evento", new XAttribute("fecha", f), new XAttribute("accion", ac), new XAttribute("autor", au));
+            if (uAnt != null) { ev.SetAttributeValue("usuarioAnterior", uAnt); ev.SetAttributeValue("passwordAnterior", pAnt); }
+            h.AddFirst(ev);
+        }
+
+        private void BtnCambiarPassword_Click(object sender, RoutedEventArgs e) { TxtPopupNueva.Password = TxtPopupConfirm.Password = ""; PanelPopupPassword.Visibility = Visibility.Visible; }
+        private void BtnPopupAceptar_Click(object sender, RoutedEventArgs e)
+        {
+            if (TxtPopupNueva.Password != TxtPopupConfirm.Password) { MessageBox.Show("No coinciden."); return; }
+            _nuevaPasswordPendiente = TxtPopupNueva.Password; PanelPopupPassword.Visibility = Visibility.Collapsed;
+        }
+        private void BtnPopupCancelar_Click(object sender, RoutedEventArgs e) => PanelPopupPassword.Visibility = Visibility.Collapsed;
+
+        // Ojos de Nuevo Servidor
+        private void NuevoOjo1_Down(object sender, MouseButtonEventArgs e) { TxtNuevoPassVisible.Text = TxtNuevoPass.Password; TxtNuevoPass.Visibility = Visibility.Collapsed; TxtNuevoPassVisible.Visibility = Visibility.Visible; }
+        private void NuevoOjo1_Up(object sender, EventArgs e) { TxtNuevoPassVisible.Visibility = Visibility.Collapsed; TxtNuevoPass.Visibility = Visibility.Visible; }
+        private void NuevoOjo2_Down(object sender, MouseButtonEventArgs e) { TxtNuevoConfirmVisible.Text = TxtNuevoConfirm.Password; TxtNuevoConfirm.Visibility = Visibility.Collapsed; TxtNuevoConfirmVisible.Visibility = Visibility.Visible; }
+        private void NuevoOjo2_Up(object sender, EventArgs e) { TxtNuevoConfirmVisible.Visibility = Visibility.Collapsed; TxtNuevoConfirm.Visibility = Visibility.Visible; }
+
+        // Ojos de Lectura y Popup
+        private void VerPassLectura_Down(object sender, MouseButtonEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) { TxtVerPasswordOculta.Visibility = Visibility.Collapsed; TxtVerPasswordReal.Visibility = Visibility.Visible; } }
+        private void VerPassLectura_Up(object sender, EventArgs e) { TxtVerPasswordOculta.Visibility = Visibility.Visible; TxtVerPasswordReal.Visibility = Visibility.Collapsed; }
+        private void CopiarPassLectura_Click(object sender, RoutedEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) Clipboard.SetText(_passwordDesencriptadaActual); }
+        private void PopupOjo1_Down(object sender, MouseButtonEventArgs e) { TxtPopupNuevaVisible.Text = TxtPopupNueva.Password; TxtPopupNueva.Visibility = Visibility.Collapsed; TxtPopupNuevaVisible.Visibility = Visibility.Visible; }
+        private void PopupOjo1_Up(object sender, EventArgs e) { TxtPopupNuevaVisible.Visibility = Visibility.Collapsed; TxtPopupNueva.Visibility = Visibility.Visible; }
+        private void PopupOjo2_Down(object sender, MouseButtonEventArgs e) { TxtPopupConfirmVisible.Text = TxtPopupConfirm.Password; TxtPopupConfirm.Visibility = Visibility.Collapsed; TxtPopupConfirmVisible.Visibility = Visibility.Visible; }
+        private void PopupOjo2_Up(object sender, EventArgs e) { TxtPopupConfirmVisible.Visibility = Visibility.Collapsed; TxtPopupConfirm.Visibility = Visibility.Visible; }
+
+        private void LimpiarForm() { TxtNombre.Text = TxtIP.Text = TxtURL.Text = TxtUsuario.Text = TxtComentario.Text = TxtDominio.Text = TxtHardwareTipo.Text = TxtLlave.Text = ""; TxtNuevoPass.Password = TxtNuevoConfirm.Password = ""; ComboTipo.SelectedIndex = 0; }
+        private void CargarForm(XElement s)
+        {
+            string t = s.Attribute("tipo")?.Value; foreach (ComboBoxItem i in ComboTipo.Items) if (i.Content.ToString() == t) ComboTipo.SelectedItem = i;
+            TxtNombre.Text = s.Attribute("nombre")?.Value; TxtIP.Text = s.Attribute("ip")?.Value; TxtURL.Text = s.Attribute("url")?.Value;
+            TxtUsuario.Text = s.Element("Usuario")?.Attribute("nombre")?.Value; TxtComentario.Text = s.Element("Comentario")?.Value;
+            TxtDominio.Text = s.Attribute("dominio")?.Value; TxtHardwareTipo.Text = s.Attribute("hw_tipo")?.Value; TxtLlave.Text = s.Element("LlaveSSH")?.Value;
+            var p = s.Element("Usuario")?.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true");
+            _passwordDesencriptadaActual = Desencriptar(p?.Value ?? "");
+        }
+        private void BtnCerrarForm_Click(object sender, RoutedEventArgs e) { ScrollModoEdicion.Visibility = Visibility.Collapsed; TxtMensajeVacio.Visibility = Visibility.Visible; }
+        private void GuardarXML()
+        {
+            try
+            {
+                string? od = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
+                if (od != null && _xmlData != null) _xmlData.Save(Path.Combine(od, "General - Servicios", "Softwares", "ValmerSystem", "ValmerPasswordsDB", "passwordsdb.xml"));
+            }
+            catch { }
+        }
+        private void BtnAddGrupo_Click(object sender, RoutedEventArgs e)
+        {
+            string n = Microsoft.VisualBasic.Interaction.InputBox("Nombre Grupo:", "Nuevo Grupo");
+            if (!string.IsNullOrWhiteSpace(n))
+            {
+                var g = new XElement("Grupo", new XAttribute("nombre", n)); var h = new XElement("Historial");
+                RegistrarEventoHistorial(h, "Creación de Grupo", Environment.UserName, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                g.Add(h); _xmlData?.Root?.Add(g); GuardarXML(); CargarDatosXML();
+            }
+        }
+        private string Encriptar(string t) { using Aes aes = Aes.Create(); byte[] k = new byte[32]; Array.Copy(Encoding.UTF8.GetBytes(MasterKey), k, Math.Min(MasterKey.Length, 32)); aes.Key = k; aes.IV = new byte[16]; using var enc = aes.CreateEncryptor(); byte[] b = Encoding.UTF8.GetBytes(t); return Convert.ToBase64String(enc.TransformFinalBlock(b, 0, b.Length)); }
+        private string Desencriptar(string b64) { try { using Aes aes = Aes.Create(); byte[] k = new byte[32]; Array.Copy(Encoding.UTF8.GetBytes(MasterKey), k, Math.Min(MasterKey.Length, 32)); aes.Key = k; aes.IV = new byte[16]; using var dec = aes.CreateDecryptor(); byte[] b = Convert.FromBase64String(b64); return Encoding.UTF8.GetString(dec.TransformFinalBlock(b, 0, b.Length)); } catch { return ""; } }
+    }
+}}
