@@ -198,7 +198,7 @@ foreach my $id (keys %channels_data) {
     }e;
 
     # ---- CORREGIR ESPACIOS EN channel id ----
-    1 while $block =~ s/(<channel[^>]*id="[^"]*)\s([^"]*")/$1.$2/g;
+    #1 while $block =~ s/(<channel[^>]*id="[^"]*)\s([^"]*")/$1.$2/g;
 
     $block =~ s/<channel/\n<channel/g;
     $block =~ s/^\n//;
@@ -209,7 +209,7 @@ foreach my $id (keys %channels_data) {
 foreach my $prog (@all_programmes) {
 
     # ---- CORREGIR ESPACIOS EN programme channel ----
-    1 while $prog =~ s/(<programme[^>]*channel="[^"]*)\s([^"]*")/$1.$2/g;
+    #1 while $prog =~ s/(<programme[^>]*channel="[^"]*)\s([^"]*")/$1.$2/g;
 
     print $out "$prog\n";
 }
