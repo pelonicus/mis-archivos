@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,14 +44,10 @@
               "RelativeDocumentMoniker": "ValmerPasswordsDB\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Users\\VictorSalvador\\source\\repos\\ValmerPasswordsDB\\ValmerPasswordsDB\\MainWindow.xaml.cs",
               "RelativeToolTip": "ValmerPasswordsDB\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAJACAAAAAAAAAADwv7ACAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJACAAAAAAAAAAAAwLACAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T15:12:25.545Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
