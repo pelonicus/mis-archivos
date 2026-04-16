@@ -23,13 +23,10 @@ namespace ValmerPasswordsDB
         private XElement? _servidorEditando;
         private Dictionary<TreeViewItem, XElement> _nodosServidores = new();
 
-        private string _nuevaPasswordPendiente = "";
         private string _passwordDesencriptadaActual = "";
-
-        // Timer para renovar lock automáticamente
         private System.Windows.Threading.DispatcherTimer _lockRenewTimer;
 
-        // --- RUTAS DE ARCHIVOS ---
+        // Rutas
         private string GetXmlPath()
         {
             string? od = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
@@ -50,9 +47,8 @@ namespace ValmerPasswordsDB
             Loaded += MainWindow_Loaded;
             Closed += MainWindow_Closed;
 
-            // Inicializar timer para renovar lock
             _lockRenewTimer = new System.Windows.Threading.DispatcherTimer();
-            _lockRenewTimer.Interval = TimeSpan.FromMinutes(4); // Renovar cada 4 minutos
+            _lockRenewTimer.Interval = TimeSpan.FromMinutes(4);
             _lockRenewTimer.Tick += LockRenewTimer_Tick;
         }
 
@@ -96,7 +92,6 @@ namespace ValmerPasswordsDB
                 string ruta = GetXmlPath();
                 if (string.IsNullOrEmpty(ruta) || !File.Exists(ruta)) return;
 
-                // Leer con FileShare.None evita chocar con OneDrive si está sincronizando en ese instante
                 using (FileStream fs = new FileStream(ruta, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                 {
                     _xmlData = XDocument.Load(fs);
@@ -120,7 +115,10 @@ namespace ValmerPasswordsDB
                     var nodoG = new TreeViewItem { Header = grid };
                     foreach (var sXml in gXml.Descendants("Servidor"))
                     {
-                        var nS = new TreeViewItem { Header = $"{sXml.Attribute("nombre")?.Value} ({sXml.Attribute("ip")?.Value})" };
+                        string nombre = sXml.Attribute("nombre")?.Value;
+                        string tipo = sXml.Attribute("tipo")?.Value;
+                        string detalle = (tipo == "WEB") ? sXml.Attribute("url")?.Value : sXml.Attribute("ip")?.Value;
+                        var nS = new TreeViewItem { Header = $"{nombre} ({detalle})" };
                         _nodosServidores.Add(nS, sXml);
                         nodoG.Items.Add(nS);
                     }
@@ -163,15 +161,36 @@ namespace ValmerPasswordsDB
             var hw = s.Attribute("hw_tipo")?.Value;
             LblVerDominio.Text = !string.IsNullOrEmpty(dom) ? dom : (!string.IsNullOrEmpty(hw) ? hw : "-");
             PanelVerDominio.Visibility = LblVerDominio.Text == "-" ? Visibility.Collapsed : Visibility.Visible;
-            var u = s.Element("Usuario");
-            LblVerUsuario.Text = u?.Attribute("nombre")?.Value ?? "-";
-            var p = u?.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true");
+
+            // Nombre y password del usuario principal
+            var usuarioPrincipal = s.Element("Usuario");
+            LblVerUsuario.Text = usuarioPrincipal?.Attribute("nombre")?.Value ?? "-";
+            var p = usuarioPrincipal?.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true");
             _passwordDesencriptadaActual = Desencriptar(p?.Value ?? "");
             TxtVerPasswordReal.Text = _passwordDesencriptadaActual;
             TxtVerPasswordOculta.Text = string.IsNullOrEmpty(_passwordDesencriptadaActual) ? "-" : "••••••••";
             TxtVerLlave.Text = s.Element("LlaveSSH")?.Value ?? "";
             PanelVerLlave.Visibility = string.IsNullOrEmpty(TxtVerLlave.Text) ? Visibility.Collapsed : Visibility.Visible;
             LblVerComentarios.Text = s.Element("Comentario")?.Value ?? "-";
+
+            // --- Lógica para usuarios adicionales ---
+            ContenedorUsuariosAdicionalesLectura.Children.Clear();
+            var listaUsuarios = s.Elements("Usuario").ToList();
+
+            // Empezamos desde el segundo usuario (índice 1) porque el primero ya se muestra arriba
+            if (listaUsuarios.Count > 1)
+            {
+                for (int i = 1; i < listaUsuarios.Count; i++)
+                {
+                    var usuarioAd = listaUsuarios[i];
+                    string nom = usuarioAd.Attribute("nombre")?.Value ?? "-";
+                    string pEnc = usuarioAd.Element("Password")?.Value ?? "";
+                    string pDec = Desencriptar(pEnc);
+
+                    AgregarFilaUsuarioAdicional(nom, pDec);
+                }
+            }
+
             RenderizarHistorial(s);
             ScrollModoVer.Visibility = Visibility.Visible;
             ScrollModoEdicion.Visibility = Visibility.Collapsed;
@@ -207,12 +226,10 @@ namespace ValmerPasswordsDB
                 {
                     var tPass = new TextBlock { Text = "••••••••", FontSize = 12, FontFamily = new FontFamily("Consolas"), VerticalAlignment = VerticalAlignment.Center, Foreground = Brushes.Gray, Margin = new Thickness(20, 0, 5, 0) };
                     var btnO = new Button { Content = "👁", FontSize = 10, Width = 25, Height = 18, Background = Brushes.Transparent, BorderThickness = new Thickness(0), Cursor = Cursors.Hand };
-
                     string passReal = Desencriptar(pAnt);
                     btnO.PreviewMouseDown += (sender, e) => { tPass.Text = passReal; tPass.Foreground = Brushes.DarkRed; };
                     btnO.PreviewMouseUp += (sender, e) => { tPass.Text = "••••••••"; tPass.Foreground = Brushes.Gray; };
                     btnO.MouseLeave += (sender, e) => { tPass.Text = "••••••••"; tPass.Foreground = Brushes.Gray; };
-
                     spContent.Children.Add(tPass);
                     spContent.Children.Add(btnO);
                 }
@@ -230,14 +247,13 @@ namespace ValmerPasswordsDB
         }
 
         // ==========================================
-        // SISTEMA DE BLOQUEO (LOCK) CORREGIDO
+        // SISTEMA DE BLOQUEO Y LIMPIEZA
         // ==========================================
 
         private bool VerificarYTomarLock()
         {
             string lockPath = GetLockPath();
             if (string.IsNullOrEmpty(lockPath)) return false;
-
             try
             {
                 if (File.Exists(lockPath))
@@ -247,40 +263,22 @@ namespace ValmerPasswordsDB
                     {
                         string usuarioLock = lines[1];
                         TimeSpan diff = DateTime.Now - timestamp;
-
-                        // Si el lock es del mismo usuario, permitir acceso y renovar lock
                         if (usuarioLock == Environment.UserName)
                         {
-                            // Mismo usuario: renovamos el lock (actualizamos timestamp)
-                            File.WriteAllLines(lockPath, new string[] {
-                                DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
-                                Environment.UserName
-                            });
-                            return true; // Permitir edición
+                            File.WriteAllLines(lockPath, new string[] { DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Environment.UserName });
+                            return true;
                         }
-
-                        // Diferente usuario: verificar si el lock expiró
                         if (diff.TotalMinutes < 5)
                         {
-                            MessageBox.Show($"Registro ocupado.\n\nEste registro está siendo editado actualmente por {usuarioLock}.\nEl bloqueo fue iniciado a las {timestamp:HH:mm:ss}.\n\nPor favor, inténtalo de nuevo en unos minutos.",
-                                "Bloqueo Activo", MessageBoxButton.OK, MessageBoxImage.Warning);
-                            return false; // Bloqueo vigente de otro usuario
+                            MessageBox.Show($"Registro ocupado por {usuarioLock}.\nInténtalo más tarde.", "Bloqueo Activo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                            return false;
                         }
                     }
                 }
-
-                // Si no existe, expiró, o es de otro usuario pero expiró, tomamos control
-                File.WriteAllLines(lockPath, new string[] {
-                    DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
-                    Environment.UserName
-                });
+                File.WriteAllLines(lockPath, new string[] { DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Environment.UserName });
                 return true;
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("No se pudo verificar el acceso concurrente: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return false;
-            }
+            catch { return false; }
         }
 
         private void LiberarLock()
@@ -290,64 +288,32 @@ namespace ValmerPasswordsDB
             {
                 if (File.Exists(lockPath))
                 {
-                    // Solo liberar el lock si es del usuario actual
                     string[] lines = File.ReadAllLines(lockPath);
-                    if (lines.Length >= 2 && lines[1] == Environment.UserName)
-                    {
-                        File.Delete(lockPath);
-                    }
+                    if (lines.Length >= 2 && lines[1] == Environment.UserName) File.Delete(lockPath);
                 }
             }
-            catch { /* Ignorar si no se puede borrar */ }
+            catch { }
         }
 
         private bool ValidarLockParaGuardar()
         {
             string lockPath = GetLockPath();
-            if (!File.Exists(lockPath))
-            {
-                MessageBox.Show("El archivo de bloqueo ha desaparecido. No se puede guardar por seguridad.",
-                    "Error de Seguridad", MessageBoxButton.OK, MessageBoxImage.Error);
-                return false;
-            }
-
+            if (!File.Exists(lockPath)) return false;
             try
             {
                 string[] lines = File.ReadAllLines(lockPath);
                 if (lines.Length >= 2 && DateTime.TryParse(lines[0], out DateTime timestamp))
                 {
-                    string usuarioLock = lines[1];
-                    TimeSpan diff = DateTime.Now - timestamp;
-
-                    // Si es el mismo usuario, permitir guardar (aunque haya pasado tiempo)
-                    if (usuarioLock == Environment.UserName)
+                    if (lines[1] == Environment.UserName)
                     {
-                        // Renovamos el lock al guardar
-                        File.WriteAllLines(lockPath, new string[] {
-                            DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
-                            Environment.UserName
-                        });
+                        File.WriteAllLines(lockPath, new string[] { DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Environment.UserName });
                         return true;
                     }
-
-                    // Diferente usuario: verificar expiración
-                    if (diff.TotalMinutes > 5)
-                    {
-                        MessageBox.Show("Lock Timeout: El tiempo de edición ha expirado (5 minutos).\n\nTus cambios no se guardaron por seguridad para evitar conflictos con otros usuarios.",
-                            "Tiempo Excedido", MessageBoxButton.OK, MessageBoxImage.Error);
-                        return false;
-                    }
-
-                    MessageBox.Show($"El archivo de bloqueo pertenece a {usuarioLock}. No se pueden guardar los cambios.",
-                        "Error de Seguridad", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return false;
+                    if ((DateTime.Now - timestamp).TotalMinutes > 5) return false;
                 }
                 return false;
             }
-            catch
-            {
-                return false;
-            }
+            catch { return false; }
         }
 
         private void LockRenewTimer_Tick(object sender, EventArgs e)
@@ -357,68 +323,103 @@ namespace ValmerPasswordsDB
             {
                 try
                 {
-                    // Verificar que el lock sigue siendo nuestro antes de renovar
                     string[] lines = File.ReadAllLines(lockPath);
                     if (lines.Length >= 2 && lines[1] == Environment.UserName)
                     {
-                        // Renovar el lock
-                        File.WriteAllLines(lockPath, new string[] {
-                            DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
-                            Environment.UserName
-                        });
+                        File.WriteAllLines(lockPath, new string[] { DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), Environment.UserName });
                     }
                 }
                 catch { }
             }
         }
 
+        // --- RUTINA 1: LIMPIEZA DE FORMULARIO ---
+        private void LimpiarFormularioUsuarios()
+        {
+            // Borra controles generados dinámicamente dejando solo el Index 0 (GridUsuarioBase)
+            while (ContenedorListaUsuarios.Children.Count > 1)
+            {
+                ContenedorListaUsuarios.Children.RemoveAt(1);
+            }
+
+            // Resetea campos base
+            TxtNombre.Text = TxtIP.Text = TxtURL.Text = TxtComentario.Text = TxtDominio.Text = TxtHardwareTipo.Text = TxtLlave.Text = "";
+            ComboTipo.SelectedIndex = 0;
+
+            TxtUsuario.Text = "";
+            TxtNuevoPass.Password = "";
+            TxtNuevoConfirm.Password = "";
+            TxtNuevoPassVisible.Text = "";
+            TxtNuevoConfirmVisible.Text = "";
+            _passwordDesencriptadaActual = "";
+
+            // Estado Nuevo por defecto
+            PanelPassLecturaBase.Visibility = Visibility.Collapsed;
+            PanelPassEdicionBase.Visibility = Visibility.Visible;
+            PanelConfirmarBase.Visibility = Visibility.Visible;
+            //BtnCancelarCambioBase.Visibility = Visibility.Collapsed;
+        }
+
+        // ==========================================
+        // EVENTOS PRINCIPALES (BOTONES FORMS)
         // ==========================================
 
         private void BtnAddServidorDesdeGrupo_Click(object sender, RoutedEventArgs e)
         {
-            // Verificamos el Lock antes de dejarlo entrar a editar
             if (!VerificarYTomarLock()) return;
+
+            LimpiarFormularioUsuarios(); // Limpieza antes de usar
 
             _grupoSeleccionadoParaNuevo = (XElement)((Button)sender).Tag;
             _servidorEditando = null;
-            _nuevaPasswordPendiente = "";
-            LimpiarForm();
+
             TxtTituloDerecho.Text = "Nuevo Servidor";
-            PanelPassEdicion.Visibility = Visibility.Collapsed;
-            PanelPassNuevo.Visibility = Visibility.Visible;
-            PanelConfirmarNuevo.Visibility = Visibility.Visible;
             ScrollModoVer.Visibility = Visibility.Collapsed;
             ScrollModoEdicion.Visibility = Visibility.Visible;
             TxtMensajeVacio.Visibility = Visibility.Collapsed;
 
-            // Iniciar timer para renovar lock automáticamente
             _lockRenewTimer.Start();
         }
 
         private void BtnActivarEdicion_Click(object sender, RoutedEventArgs e)
         {
             if (_servidorEditando == null) return;
-
-            // Verificamos el Lock antes de dejarlo entrar a editar
             if (!VerificarYTomarLock()) return;
 
+            LimpiarFormularioUsuarios(); // Limpieza antes de cargar
+
             TxtTituloDerecho.Text = "Editar Registro";
-            _nuevaPasswordPendiente = "";
             CargarForm(_servidorEditando);
-            PanelPassEdicion.Visibility = Visibility.Visible;
-            PanelPassNuevo.Visibility = Visibility.Collapsed;
-            PanelConfirmarNuevo.Visibility = Visibility.Collapsed;
+
             ScrollModoVer.Visibility = Visibility.Collapsed;
             ScrollModoEdicion.Visibility = Visibility.Visible;
 
-            // Iniciar timer para renovar lock automáticamente
             _lockRenewTimer.Start();
         }
 
         private void BtnGuardarServidor_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(TxtNombre.Text) || _xmlData == null) return;
+            // --- 1. VALIDACIONES INICIALES DE CAMPOS ---
+            if (string.IsNullOrWhiteSpace(TxtNombre.Text))
+            {
+                MessageBox.Show("El campo 'Nombre' es obligatorio.");
+                return;
+            }
+            if (_xmlData == null) return;
 
+            string tipo = (ComboTipo.SelectedItem as ComboBoxItem)?.Content.ToString();
+            if (tipo == "WEB" && string.IsNullOrWhiteSpace(TxtURL.Text))
+            {
+                MessageBox.Show($"Para servidores tipo '{tipo}', la URL es obligatoria.");
+                return;
+            }
+            else if (tipo != "WEB" && string.IsNullOrWhiteSpace(TxtIP.Text))
+            {
+                MessageBox.Show($"Para el tipo '{tipo}', la IP es obligatoria.");
+                return;
+            }
+
+            // --- 2. VALIDACIÓN DE LOCK ---
             if (!ValidarLockParaGuardar())
             {
                 LiberarLock();
@@ -428,72 +429,122 @@ namespace ValmerPasswordsDB
                 return;
             }
 
+            // --- 3. PREPARACIÓN DE DATOS E HISTORIAL ---
             bool esN = _servidorEditando == null;
             string uAct = Environment.UserName;
             string fH = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
             if (esN)
             {
-                // Validación básica (solo para el primer usuario)
-                if (TxtNuevoPass.Password != TxtNuevoConfirm.Password) { MessageBox.Show("Las contraseñas del primer usuario no coinciden."); return; }
-                if (string.IsNullOrEmpty(TxtNuevoPass.Password)) { MessageBox.Show("Ingrese la contraseña del primer usuario."); return; }
-
-                _nuevaPasswordPendiente = TxtNuevoPass.Password;
                 _servidorEditando = new XElement("Servidor");
-                var h = new XElement("Historial");
-                _servidorEditando.Add(h);
-                RegistrarEventoHistorial(h, "Creación de Servidor", uAct, fH);
+                var hNew = new XElement("Historial");
+                _servidorEditando.Add(hNew);
+                RegistrarEventoHistorial(hNew, "Creación de Servidor", uAct, fH);
                 _grupoSeleccionadoParaNuevo?.Add(_servidorEditando);
             }
-            else
-            {
-                var h = _servidorEditando.Element("Historial");
-                if (h == null) { h = new XElement("Historial"); _servidorEditando.AddFirst(h); }
-                RegistrarEventoHistorial(h, "Modificación de Servidor", uAct, fH);
 
-                // Eliminamos los nodos antiguos de usuarios para reemplazarlos por los nuevos (menos el historial)
-                _servidorEditando.Elements().Where(x => x.Name != "Historial" && x.Name != "Usuario").Remove();
-                // Nota: Si tus usuarios dinámicos antes no existían, esto limpia la estructura vieja
+            var h = _servidorEditando.Element("Historial");
+            if (h == null) { h = new XElement("Historial"); _servidorEditando.AddFirst(h); }
+
+            // --- DETECCIÓN DE CAMBIOS (SOLO EN EDICIÓN) ---
+            if (!esN)
+            {
+                List<string> cambios = new List<string>();
+
+                if ((_servidorEditando.Attribute("tipo")?.Value ?? "") != tipo) cambios.Add("Tipo");
+                if ((_servidorEditando.Attribute("nombre")?.Value ?? "") != TxtNombre.Text) cambios.Add("Nombre");
+                if ((_servidorEditando.Attribute("ip")?.Value ?? "") != TxtIP.Text) cambios.Add("IP");
+                if ((_servidorEditando.Attribute("url")?.Value ?? "") != TxtURL.Text) cambios.Add("URL");
+                if ((_servidorEditando.Attribute("dominio")?.Value ?? "") != TxtDominio.Text) cambios.Add("Dominio");
+                if ((_servidorEditando.Attribute("hw_tipo")?.Value ?? "") != TxtHardwareTipo.Text) cambios.Add("HW Tipo");
+                if ((_servidorEditando.Element("Comentario")?.Value ?? "") != TxtComentario.Text) cambios.Add("Comentario");
+                if ((_servidorEditando.Element("LlaveSSH")?.Value ?? "") != TxtLlave.Text) cambios.Add("Llave");
+                if ((_servidorEditando.Element("Usuario")?.Attribute("nombre")?.Value ?? "") != TxtUsuario.Text) cambios.Add("Usuario");
+
+                // Regla: SI hubo cambios en datos físicos, se crea el historial general
+                if (cambios.Count > 0)
+                {
+                    string titulo = "Modificación de servidor: " + string.Join(", ", cambios);
+                    RegistrarEventoHistorial(h, titulo, uAct, fH);
+                }
             }
 
-            // Atributos básicos
-            _servidorEditando.SetAttributeValue("tipo", (ComboTipo.SelectedItem as ComboBoxItem)?.Content.ToString());
+            // Limpiar elementos antiguos para actualizar (excepto historial y usuarios)
+            _servidorEditando.Elements().Where(x => x.Name != "Historial" && x.Name != "Usuario").Remove();
+
+            // Seteo de atributos
+            _servidorEditando.SetAttributeValue("tipo", tipo);
             _servidorEditando.SetAttributeValue("nombre", TxtNombre.Text);
             _servidorEditando.SetAttributeValue("ip", TxtIP.Text);
             _servidorEditando.SetAttributeValue("url", TxtURL.Text);
             _servidorEditando.SetAttributeValue("dominio", TxtDominio.Text);
             _servidorEditando.SetAttributeValue("hw_tipo", TxtHardwareTipo.Text);
-
-            // Comentarios y llaves
             _servidorEditando.Add(new XElement("Comentario", TxtComentario.Text), new XElement("LlaveSSH", TxtLlave.Text));
 
-            // --- AQUÍ CONSTRUIMOS TODOS LOS USUARIOS ---
+            // --- 4. LECTURA Y VALIDACIÓN DE USUARIOS ---
 
-            // 1. Primero, el usuario principal (fijo)
-            string pPrincipal = !string.IsNullOrEmpty(_nuevaPasswordPendiente) ? _nuevaPasswordPendiente : _passwordDesencriptadaActual;
+            // Usuario Principal
+            string pPrincipal = "";
+            if (PanelPassEdicionBase.Visibility == Visibility.Visible)
+            {
+                if (TxtNuevoPass.Password != TxtNuevoConfirm.Password) { MessageBox.Show("Las contraseñas del usuario principal no coinciden."); return; }
+                if (string.IsNullOrEmpty(TxtNuevoPass.Password)) { MessageBox.Show("La contraseña del usuario principal no puede estar vacía."); return; }
+                pPrincipal = TxtNuevoPass.Password;
+
+                if (!esN && pPrincipal != _passwordDesencriptadaActual)
+                {
+                    // Regla: Si cambió la contraseña, crea su historial independiente
+                    RegistrarEventoHistorial(h, "Cambio de Contraseña (Principal)", uAct, fH, TxtUsuario.Text, Encriptar(_passwordDesencriptadaActual));
+                }
+            }
+            else { pPrincipal = _passwordDesencriptadaActual; }
+
+            // Reemplazamos usuarios en el XML
+            var viejosUsuarios = _servidorEditando.Elements("Usuario").ToList();
+            _servidorEditando.Elements("Usuario").Remove();
             _servidorEditando.Add(new XElement("Usuario",
                 new XAttribute("nombre", TxtUsuario.Text),
                 new XElement("Password", Encriptar(pPrincipal), new XAttribute("activa", "true"))));
 
-            // 2. Luego, recorremos el ContenedorListaUsuarios para los adicionales
-            foreach (var fila in ContenedorListaUsuarios.Children)
+            // Usuarios Dinámicos
+            for (int i = 0; i < ContenedorListaUsuarios.Children.Count; i++)
             {
-                if (fila is Grid gridFila)
-                {
-                    TextBox txtUser = gridFila.Children.OfType<TextBox>().FirstOrDefault();
-                    var gridPassContainer = gridFila.Children.OfType<Grid>().FirstOrDefault(g => Grid.GetColumn(g) == 1);
-                    PasswordBox pbx = gridPassContainer?.Children.OfType<PasswordBox>().FirstOrDefault();
+                var gridFila = ContenedorListaUsuarios.Children[i] as Grid;
+                if (gridFila == null || gridFila.Tag?.ToString() != "DINAMICO") continue;
 
-                    if (txtUser != null && pbx != null && !string.IsNullOrEmpty(txtUser.Text))
+                TextBox txtUser = FindChild<TextBox>(gridFila, "User");
+                if (txtUser == null || string.IsNullOrWhiteSpace(txtUser.Text)) continue;
+
+                Grid gridEdicion = FindChild<Grid>(gridFila, "PassEdicionGrid");
+                string pDinamica = "";
+
+                if (gridEdicion != null && gridEdicion.Visibility == Visibility.Visible)
+                {
+                    PasswordBox pbxNew = FindChild<PasswordBox>(gridFila, "PassNew");
+                    PasswordBox pbxConfirm = FindChild<PasswordBox>(gridFila, "PassConfirm");
+
+                    if (pbxNew.Password != pbxConfirm.Password) { MessageBox.Show($"Las contraseñas del usuario '{txtUser.Text}' no coinciden."); return; }
+                    if (string.IsNullOrEmpty(pbxNew.Password)) { MessageBox.Show($"Ingrese la contraseña para el usuario '{txtUser.Text}'."); return; }
+                    pDinamica = pbxNew.Password;
+
+                    string currentEnc = FindChild<TextBlock>(gridFila, "CurrentEncryptedPass")?.Text;
+                    if (!esN && !string.IsNullOrEmpty(currentEnc) && currentEnc != "NEW")
                     {
-                        // Agregamos como elemento Usuario adicional
-                        _servidorEditando.Add(new XElement("Usuario",
-                            new XAttribute("nombre", txtUser.Text),
-                            new XElement("Password", Encriptar(pbx.Password), new XAttribute("activa", "true"))));
+                        // Regla: Cambio de contraseña dinámica
+                        RegistrarEventoHistorial(h, $"Cambio de Contraseña ({txtUser.Text})", uAct, fH, txtUser.Text, currentEnc);
                     }
                 }
+                else
+                {
+                    pDinamica = Desencriptar(FindChild<TextBlock>(gridFila, "CurrentEncryptedPass")?.Text ?? "");
+                }
+
+                _servidorEditando.Add(new XElement("Usuario",
+                    new XAttribute("nombre", txtUser.Text),
+                    new XElement("Password", Encriptar(pDinamica), new XAttribute("activa", "true"))));
             }
 
+            // --- 5. FINALIZACIÓN ---
             GuardarXML();
             LiberarLock();
             _lockRenewTimer.Stop();
@@ -505,62 +556,319 @@ namespace ValmerPasswordsDB
 
         private void BtnCerrarForm_Click(object sender, RoutedEventArgs e)
         {
-            LiberarLock(); // Si el usuario cancela, liberamos inmediatamente el recurso
+            LiberarLock();
             _lockRenewTimer.Stop();
+            LimpiarFormularioUsuarios();
             ScrollModoEdicion.Visibility = Visibility.Collapsed;
             TxtMensajeVacio.Visibility = Visibility.Visible;
         }
 
-        private void RegistrarEventoHistorial(XElement h, string ac, string au, string f, string uAnt = null, string pAnt = null)
-        {
-            var ev = new XElement("Evento", new XAttribute("fecha", f), new XAttribute("accion", ac), new XAttribute("autor", au));
-            if (uAnt != null) { ev.SetAttributeValue("usuarioAnterior", uAnt); ev.SetAttributeValue("passwordAnterior", pAnt); }
-            h.AddFirst(ev);
-        }
-
-        private void BtnCambiarPassword_Click(object sender, RoutedEventArgs e) { TxtPopupNueva.Password = TxtPopupConfirm.Password = ""; PanelPopupPassword.Visibility = Visibility.Visible; }
-        private void BtnPopupAceptar_Click(object sender, RoutedEventArgs e)
-        {
-            if (TxtPopupNueva.Password != TxtPopupConfirm.Password) { MessageBox.Show("No coinciden."); return; }
-            _nuevaPasswordPendiente = TxtPopupNueva.Password; PanelPopupPassword.Visibility = Visibility.Collapsed;
-        }
-        private void BtnPopupCancelar_Click(object sender, RoutedEventArgs e) => PanelPopupPassword.Visibility = Visibility.Collapsed;
-
-        private void NuevoOjo1_Down(object sender, MouseButtonEventArgs e) { TxtNuevoPassVisible.Text = TxtNuevoPass.Password; TxtNuevoPass.Visibility = Visibility.Collapsed; TxtNuevoPassVisible.Visibility = Visibility.Visible; }
-        private void NuevoOjo1_Up(object sender, EventArgs e) { TxtNuevoPassVisible.Visibility = Visibility.Collapsed; TxtNuevoPass.Visibility = Visibility.Visible; }
-        private void NuevoOjo2_Down(object sender, MouseButtonEventArgs e) { TxtNuevoConfirmVisible.Text = TxtNuevoConfirm.Password; TxtNuevoConfirm.Visibility = Visibility.Collapsed; TxtNuevoConfirmVisible.Visibility = Visibility.Visible; }
-        private void NuevoOjo2_Up(object sender, EventArgs e) { TxtNuevoConfirmVisible.Visibility = Visibility.Collapsed; TxtNuevoConfirm.Visibility = Visibility.Visible; }
-
-        private void VerPassLectura_Down(object sender, MouseButtonEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) { TxtVerPasswordOculta.Visibility = Visibility.Collapsed; TxtVerPasswordReal.Visibility = Visibility.Visible; } }
-        private void VerPassLectura_Up(object sender, EventArgs e) { TxtVerPasswordOculta.Visibility = Visibility.Visible; TxtVerPasswordReal.Visibility = Visibility.Collapsed; }
-        private void CopiarPassLectura_Click(object sender, RoutedEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) Clipboard.SetText(_passwordDesencriptadaActual); }
-        private void PopupOjo1_Down(object sender, MouseButtonEventArgs e) { TxtPopupNuevaVisible.Text = TxtPopupNueva.Password; TxtPopupNueva.Visibility = Visibility.Collapsed; TxtPopupNuevaVisible.Visibility = Visibility.Visible; }
-        private void PopupOjo1_Up(object sender, EventArgs e) { TxtPopupNuevaVisible.Visibility = Visibility.Collapsed; TxtPopupNueva.Visibility = Visibility.Visible; }
-        private void PopupOjo2_Down(object sender, MouseButtonEventArgs e) { TxtPopupConfirmVisible.Text = TxtPopupConfirm.Password; TxtPopupConfirm.Visibility = Visibility.Collapsed; TxtPopupConfirmVisible.Visibility = Visibility.Visible; }
-        private void PopupOjo2_Up(object sender, EventArgs e) { TxtPopupConfirmVisible.Visibility = Visibility.Collapsed; TxtPopupConfirm.Visibility = Visibility.Visible; }
-
-        private void LimpiarForm() { TxtNombre.Text = TxtIP.Text = TxtURL.Text = TxtUsuario.Text = TxtComentario.Text = TxtDominio.Text = TxtHardwareTipo.Text = TxtLlave.Text = ""; TxtNuevoPass.Password = TxtNuevoConfirm.Password = ""; ComboTipo.SelectedIndex = 0; }
+        // ==========================================
+        // RUTINAS DE UI (IN-PLACE EDIT Y DINÁMICOS)
+        // ==========================================
 
         private void CargarForm(XElement s)
         {
             string t = s.Attribute("tipo")?.Value;
             foreach (ComboBoxItem i in ComboTipo.Items)
-                if (i.Content.ToString() == t)
-                    ComboTipo.SelectedItem = i;
+                if (i.Content.ToString() == t) ComboTipo.SelectedItem = i;
+
             TxtNombre.Text = s.Attribute("nombre")?.Value;
             TxtIP.Text = s.Attribute("ip")?.Value;
             TxtURL.Text = s.Attribute("url")?.Value;
-            TxtUsuario.Text = s.Element("Usuario")?.Attribute("nombre")?.Value;
             TxtComentario.Text = s.Element("Comentario")?.Value;
             TxtDominio.Text = s.Attribute("dominio")?.Value;
             TxtHardwareTipo.Text = s.Attribute("hw_tipo")?.Value;
             TxtLlave.Text = s.Element("LlaveSSH")?.Value;
-            var p = s.Element("Usuario")?.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true");
-            _passwordDesencriptadaActual = Desencriptar(p?.Value ?? "");
 
-            // Debajo de: _passwordDesencriptadaActual = Desencriptar(p?.Value ?? "");
-            TxtEdicionPassOculta.Text = string.IsNullOrEmpty(_passwordDesencriptadaActual) ? "-" : "••••••••";
+            var usuarios = s.Elements("Usuario").ToList();
+            if (usuarios.Count > 0)
+            {
+                // Cargar Principal
+                var u0 = usuarios[0];
+                TxtUsuario.Text = u0.Attribute("nombre")?.Value;
+                var p0 = u0.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true");
+                _passwordDesencriptadaActual = Desencriptar(p0?.Value ?? "");
+                TxtEdicionPassOculta.Text = string.IsNullOrEmpty(_passwordDesencriptadaActual) ? "-" : "••••••••";
+
+                PanelPassLecturaBase.Visibility = Visibility.Visible;
+                PanelPassEdicionBase.Visibility = Visibility.Collapsed;
+                PanelConfirmarBase.Visibility = Visibility.Collapsed;
+                //BtnCancelarCambioBase.Visibility = Visibility.Visible;
+            }
+
+            // Cargar Dinámicos
+            for (int i = 1; i < usuarios.Count; i++)
+            {
+                var ui = usuarios[i];
+                string nom = ui.Attribute("nombre")?.Value;
+                string passEnc = ui.Elements("Password").FirstOrDefault(x => x.Attribute("activa")?.Value == "true")?.Value;
+                CrearFilaUsuarioDinamico(nom, passEnc);
+            }
         }
+
+        // Eventos UX Base
+        private void VerPassLectura_Down(object sender, MouseButtonEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) { TxtVerPasswordOculta.Visibility = Visibility.Collapsed; TxtVerPasswordReal.Visibility = Visibility.Visible; } }
+        private void VerPassLectura_Up(object sender, EventArgs e) { TxtVerPasswordOculta.Visibility = Visibility.Visible; TxtVerPasswordReal.Visibility = Visibility.Collapsed; }
+        private void CopiarPassLectura_Click(object sender, RoutedEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) Clipboard.SetText(_passwordDesencriptadaActual); }
+
+        private void EdicionOjoBase_Down(object sender, MouseButtonEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) { TxtEdicionPassOculta.Visibility = Visibility.Collapsed; TxtEdicionPassReal.Text = _passwordDesencriptadaActual; TxtEdicionPassReal.Visibility = Visibility.Visible; } }
+        private void EdicionOjoBase_Up(object sender, EventArgs e) { TxtEdicionPassOculta.Visibility = Visibility.Visible; TxtEdicionPassReal.Visibility = Visibility.Collapsed; }
+
+        private void NuevoOjo1Base_Down(object sender, MouseButtonEventArgs e) { TxtNuevoPassVisible.Text = TxtNuevoPass.Password; TxtNuevoPass.Visibility = Visibility.Collapsed; TxtNuevoPassVisible.Visibility = Visibility.Visible; }
+        private void NuevoOjo1Base_Up(object sender, EventArgs e) { TxtNuevoPassVisible.Visibility = Visibility.Collapsed; TxtNuevoPass.Visibility = Visibility.Visible; }
+        private void NuevoOjo2Base_Down(object sender, MouseButtonEventArgs e) { TxtNuevoConfirmVisible.Text = TxtNuevoConfirm.Password; TxtNuevoConfirm.Visibility = Visibility.Collapsed; TxtNuevoConfirmVisible.Visibility = Visibility.Visible; }
+        private void NuevoOjo2Base_Up(object sender, EventArgs e) { TxtNuevoConfirmVisible.Visibility = Visibility.Collapsed; TxtNuevoConfirm.Visibility = Visibility.Visible; }
+
+        private void BtnIniciarCambioPassBase_Click(object sender, RoutedEventArgs e)
+        {
+            // Ocultamos el modo lectura
+            PanelPassLecturaBase.Visibility = Visibility.Collapsed;
+
+            // Mostramos el modo edición (campos de password)
+            PanelPassEdicionBase.Visibility = Visibility.Visible;
+            PanelConfirmarBase.Visibility = Visibility.Visible;
+
+            // MOSTRAMOS el botón cancelar (X)
+            BtnCancelarCambioBase.Visibility = Visibility.Visible;
+
+            // Limpiamos los campos para la nueva contraseña
+            TxtNuevoPass.Password = "";
+            TxtNuevoConfirm.Password = "";
+        }
+
+        private void BtnCancelarCambioPassBase_Click(object sender, RoutedEventArgs e)
+        {
+            // Volvemos al modo lectura
+            PanelPassLecturaBase.Visibility = Visibility.Visible;
+
+            // Ocultamos los campos de edición
+            PanelPassEdicionBase.Visibility = Visibility.Collapsed;
+            PanelConfirmarBase.Visibility = Visibility.Collapsed;
+
+            // OCULTAMOS el botón cancelar (X)
+            BtnCancelarCambioBase.Visibility = Visibility.Collapsed;
+        }
+
+        // --- LOGICA DE VALIDACIÓN VISUAL DE CONTRASEÑAS ---
+        private void ValidarPasswordBase_Changed(object sender, RoutedEventArgs e)
+        {
+            // Verificamos que los objetos existan antes de actuar
+            if (TxtNuevoPass == null || TxtNuevoConfirm == null || BordeConfirmacionBase == null) return;
+
+            // LLAMADA CORRECTA: Solo 3 argumentos (string, string, Border)
+            AplicarColorValidacion(TxtNuevoPass.Password, TxtNuevoConfirm.Password, BordeConfirmacionBase);
+        }
+
+        private void AplicarColorValidacion(string pass1, string pass2, Border bordeContenedor)
+        {
+            if (string.IsNullOrEmpty(pass2))
+            {
+                bordeContenedor.BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#ABADB3"));
+                bordeContenedor.BorderThickness = new Thickness(1);
+                return;
+            }
+
+            var colorExito = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#10B981")); // Verde
+            var colorError = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#EF4444")); // Rojo
+
+            if (pass1 == pass2)
+            {
+                bordeContenedor.BorderBrush = colorExito;
+                bordeContenedor.BorderThickness = new Thickness(2);
+            }
+            else
+            {
+                bordeContenedor.BorderBrush = colorError;
+                bordeContenedor.BorderThickness = new Thickness(2);
+            }
+        }
+
+        // Overload to support dynamic rows: adjusts the BorderBrush/BorderThickness of a PasswordBox and its visible TextBox mirror
+        private void AplicarColorValidacion(string pass1, string pass2, PasswordBox pbConfirm, TextBox tbConfirmVisible)
+        {
+            if (pbConfirm == null) return;
+
+            // If confirm is empty, set neutral style
+            if (string.IsNullOrEmpty(pass2))
+            {
+                var neutral = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#ABADB3"));
+                pbConfirm.BorderBrush = neutral;
+                pbConfirm.BorderThickness = new Thickness(1);
+                if (tbConfirmVisible != null)
+                {
+                    tbConfirmVisible.BorderBrush = neutral;
+                    tbConfirmVisible.BorderThickness = new Thickness(1);
+                }
+                return;
+            }
+
+            var colorExito = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#10B981")); // Verde
+            var colorError = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#EF4444")); // Rojo
+
+            if (pass1 == pass2)
+            {
+                pbConfirm.BorderBrush = colorExito;
+                pbConfirm.BorderThickness = new Thickness(2);
+                if (tbConfirmVisible != null)
+                {
+                    tbConfirmVisible.BorderBrush = colorExito;
+                    tbConfirmVisible.BorderThickness = new Thickness(2);
+                }
+            }
+            else
+            {
+                pbConfirm.BorderBrush = colorError;
+                pbConfirm.BorderThickness = new Thickness(2);
+                if (tbConfirmVisible != null)
+                {
+                    tbConfirmVisible.BorderBrush = colorError;
+                    tbConfirmVisible.BorderThickness = new Thickness(2);
+                }
+            }
+        }
+
+        private void BtnAddUsuario_Click(object sender, RoutedEventArgs e)
+        {
+            CrearFilaUsuarioDinamico("", ""); // Crea fila vacía en modo Edición
+        }
+
+        // Helper para buscar elementos Uid en el árbol visual dinámico
+        private static T FindChild<T>(DependencyObject parent, string uid) where T : UIElement
+        {
+            if (parent == null) return null;
+            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
+            {
+                var child = VisualTreeHelper.GetChild(parent, i);
+                if (child is T typedChild && typedChild.Uid == uid) return typedChild;
+                var result = FindChild<T>(child, uid);
+                if (result != null) return result;
+            }
+            return null;
+        }
+
+        // --- RUTINA 3: CLONACIÓN DE UX PARA USUARIOS DINÁMICOS ---
+        // [Nota: El resto del archivo se mantiene igual, solo sustituye el método CrearFilaUsuarioDinamico]
+
+        private void CrearFilaUsuarioDinamico(string nombre, string passwordEncriptada)
+        {
+            bool esNuevo = string.IsNullOrEmpty(passwordEncriptada);
+            string passDec = esNuevo ? "" : Desencriptar(passwordEncriptada);
+
+            Grid filaGrid = new Grid { Margin = new Thickness(0, 0, 0, 10), Tag = "DINAMICO" };
+            filaGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1.1, GridUnitType.Star) });
+            filaGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            filaGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+            TextBlock hiddenEncPass = new TextBlock { Uid = "CurrentEncryptedPass", Text = esNuevo ? "NEW" : passwordEncriptada, Visibility = Visibility.Collapsed };
+            filaGrid.Children.Add(hiddenEncPass);
+
+            // --- COL 0: USUARIO ---
+            StackPanel spUsr = new StackPanel { Margin = new Thickness(0, 0, 5, 0) };
+            Grid.SetColumn(spUsr, 0);
+            StackPanel spHdr = new StackPanel { Orientation = Orientation.Horizontal, Margin = new Thickness(0, 0, 0, 5), Height = 22 };
+            spHdr.Children.Add(new TextBlock { Text = "Usuario", Foreground = Brushes.Gray, VerticalAlignment = VerticalAlignment.Center });
+            //Button btnDel = new Button { Content = "❌", Width = 22, Height = 22, Margin = new Thickness(8, 0, 0, 0), Cursor = Cursors.Hand, Background = Brushes.Transparent, BorderThickness = new Thickness(0), Foreground = Brushes.DarkRed, ToolTip = "Eliminar Fila" };
+            //btnDel.Click += (s, e) => ContenedorListaUsuarios.Children.Remove(filaGrid);
+            //spHdr.Children.Add(btnDel);
+            TextBox txtU = new TextBox { Uid = "User", Height = 32, Text = nombre };
+            spUsr.Children.Add(spHdr); spUsr.Children.Add(txtU);
+
+            // --- COL 1: CONTRASEÑA ---
+            StackPanel spPass = new StackPanel { Margin = new Thickness(5, 0, 5, 0), VerticalAlignment = VerticalAlignment.Top };
+            Grid.SetColumn(spPass, 1);
+            spPass.Children.Add(new TextBlock { Text = "Contraseña", Foreground = Brushes.Gray, Margin = new Thickness(0, 0, 0, 5), Height = 22 });
+
+            Grid gridLectura = new Grid { Uid = "PassLecturaGrid", Visibility = esNuevo ? Visibility.Collapsed : Visibility.Visible };
+            gridLectura.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            gridLectura.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            gridLectura.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+
+            Border borderL = new Border { BorderThickness = new Thickness(1), BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D1D5DB")), Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#F3F4F6")), CornerRadius = new CornerRadius(3), Height = 32 };
+            Grid inBorder = new Grid();
+            TextBlock txtOcultaL = new TextBlock { Text = "••••••••", VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(10, 0, 0, 0), Foreground = Brushes.Gray };
+            TextBlock txtRealL = new TextBlock { Text = passDec, Visibility = Visibility.Collapsed, VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(10, 0, 0, 0), Foreground = Brushes.DarkSlateGray, FontWeight = FontWeights.Bold };
+            inBorder.Children.Add(txtOcultaL); inBorder.Children.Add(txtRealL); borderL.Child = inBorder;
+            Grid.SetColumn(borderL, 0);
+
+            Button btnOjoL = new Button { Content = "👁", Width = 35, Height = 32, Margin = new Thickness(5, 0, 0, 0), Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#E5E7EB")), BorderBrush = borderL.BorderBrush, Cursor = Cursors.Hand };
+            Grid.SetColumn(btnOjoL, 1);
+            btnOjoL.PreviewMouseDown += (s, e) => { txtOcultaL.Visibility = Visibility.Collapsed; txtRealL.Visibility = Visibility.Visible; };
+            btnOjoL.PreviewMouseUp += (s, e) => { txtOcultaL.Visibility = Visibility.Visible; txtRealL.Visibility = Visibility.Collapsed; };
+            btnOjoL.MouseLeave += (s, e) => { txtOcultaL.Visibility = Visibility.Visible; txtRealL.Visibility = Visibility.Collapsed; };
+
+            Button btnCambiar = new Button { Content = "Cambiar", Width = 65, Height = 32, Margin = new Thickness(5, 0, 0, 0), Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#374151")), Foreground = Brushes.White, BorderThickness = new Thickness(0), Cursor = Cursors.Hand };
+            Grid.SetColumn(btnCambiar, 2);
+            gridLectura.Children.Add(borderL); gridLectura.Children.Add(btnOjoL); gridLectura.Children.Add(btnCambiar);
+
+            Grid gridEdicion = new Grid { Uid = "PassEdicionGrid", Visibility = esNuevo ? Visibility.Visible : Visibility.Collapsed };
+            PasswordBox pbxN = new PasswordBox { Uid = "PassNew", Height = 32, Padding = new Thickness(5, 0, 35, 0) };
+            TextBox tbxNV = new TextBox { Height = 32, Padding = new Thickness(5, 0, 35, 0), Visibility = Visibility.Collapsed };
+            Button btnOjoN = new Button { Content = "👁", Width = 30, HorizontalAlignment = HorizontalAlignment.Right, Background = Brushes.Transparent, BorderThickness = new Thickness(0), Cursor = Cursors.Hand };
+            btnOjoN.PreviewMouseDown += (s, e) => { tbxNV.Text = pbxN.Password; pbxN.Visibility = Visibility.Collapsed; tbxNV.Visibility = Visibility.Visible; };
+            btnOjoN.PreviewMouseUp += (s, e) => { tbxNV.Visibility = Visibility.Collapsed; pbxN.Visibility = Visibility.Visible; };
+            btnOjoN.MouseLeave += (s, e) => { tbxNV.Visibility = Visibility.Collapsed; pbxN.Visibility = Visibility.Visible; };
+            gridEdicion.Children.Add(pbxN); gridEdicion.Children.Add(tbxNV); gridEdicion.Children.Add(btnOjoN);
+            spPass.Children.Add(gridLectura); spPass.Children.Add(gridEdicion);
+
+            // --- COL 2: CONFIRMAR (CON BORDE PARA VALIDACIÓN) ---
+            StackPanel spConf = new StackPanel { Margin = new Thickness(5, 0, 0, 0), VerticalAlignment = VerticalAlignment.Top, Uid = "PassConfirmPanel", Visibility = esNuevo ? Visibility.Visible : Visibility.Collapsed };
+            Grid.SetColumn(spConf, 2);
+            spConf.Children.Add(new TextBlock { Text = "Confirmar Contraseña", Foreground = Brushes.Gray, Margin = new Thickness(0, 0, 0, 5), Height = 22 });
+
+            Grid gridConfirmFinal = new Grid();
+            gridConfirmFinal.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            gridConfirmFinal.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+
+            // AQUÍ EL CAMBIO CLAVE: El Border que cambiará de color
+            Border borderConfirmDinamico = new Border { BorderThickness = new Thickness(1), BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#ABADB3")), CornerRadius = new CornerRadius(2) };
+            Grid.SetColumn(borderConfirmDinamico, 0);
+
+            Grid inConf = new Grid();
+            PasswordBox pbxC = new PasswordBox { Uid = "PassConfirm", Height = 32, Padding = new Thickness(5, 0, 35, 0), BorderThickness = new Thickness(0), Background = Brushes.Transparent };
+            TextBox tbxCV = new TextBox { Height = 32, Padding = new Thickness(5, 0, 35, 0), Visibility = Visibility.Collapsed, BorderThickness = new Thickness(0), Background = Brushes.Transparent };
+            Button btnOjoC = new Button { Content = "👁", Width = 30, HorizontalAlignment = HorizontalAlignment.Right, Background = Brushes.Transparent, BorderThickness = new Thickness(0), Cursor = Cursors.Hand };
+            btnOjoC.PreviewMouseDown += (s, e) => { tbxCV.Text = pbxC.Password; pbxC.Visibility = Visibility.Collapsed; tbxCV.Visibility = Visibility.Visible; };
+            btnOjoC.PreviewMouseUp += (s, e) => { tbxCV.Visibility = Visibility.Collapsed; pbxC.Visibility = Visibility.Visible; };
+            btnOjoC.MouseLeave += (s, e) => { tbxCV.Visibility = Visibility.Collapsed; pbxC.Visibility = Visibility.Visible; };
+            inConf.Children.Add(pbxC); inConf.Children.Add(tbxCV); inConf.Children.Add(btnOjoC);
+            borderConfirmDinamico.Child = inConf;
+
+            Button btnCancelE = new Button { Content = "❌", Width = 32, Height = 32, Margin = new Thickness(5, 0, 0, 0), Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FEE2E2")), Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#991B1B")), BorderThickness = new Thickness(0), Cursor = Cursors.Hand, Visibility = esNuevo ? Visibility.Collapsed : Visibility.Visible };
+            Grid.SetColumn(btnCancelE, 1);
+
+            gridConfirmFinal.Children.Add(borderConfirmDinamico); gridConfirmFinal.Children.Add(btnCancelE);
+            spConf.Children.Add(gridConfirmFinal);
+
+            // --- EVENTOS DE VALIDACIÓN (AQUÍ ESTÁ LA MAGIA) ---
+            // Usamos expresiones lambda para pasar el Border correcto de esta fila específica
+            pbxN.PasswordChanged += (s, e) => AplicarColorValidacion(pbxN.Password, pbxC.Password, borderConfirmDinamico);
+            pbxC.PasswordChanged += (s, e) => AplicarColorValidacion(pbxN.Password, pbxC.Password, borderConfirmDinamico);
+
+            // --- LÓGICA DE BOTONES ---
+            btnCambiar.Click += (s, e) => {
+                gridLectura.Visibility = Visibility.Collapsed;
+                gridEdicion.Visibility = Visibility.Visible;
+                spConf.Visibility = Visibility.Visible;
+                pbxN.Password = ""; pbxC.Password = "";
+                // Reiniciamos color del borde al abrir edición
+                borderConfirmDinamico.BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#ABADB3"));
+                borderConfirmDinamico.BorderThickness = new Thickness(1);
+            };
+
+            btnCancelE.Click += (s, e) => {
+                gridLectura.Visibility = Visibility.Visible;
+                gridEdicion.Visibility = Visibility.Collapsed;
+                spConf.Visibility = Visibility.Collapsed;
+            };
+
+            filaGrid.Children.Add(spUsr); filaGrid.Children.Add(spPass); filaGrid.Children.Add(spConf);
+            ContenedorListaUsuarios.Children.Add(filaGrid);
+        }
+
+        // ==========================================
+        // UTILERÍAS GLOBALES
+        // ==========================================
 
         private void GuardarXML()
         {
@@ -569,7 +877,6 @@ namespace ValmerPasswordsDB
                 string ruta = GetXmlPath();
                 if (!string.IsNullOrEmpty(ruta) && _xmlData != null)
                 {
-                    // Guardado atómico: Guardamos en un archivo temporal primero para evitar que OneDrive corrompa el archivo a la mitad
                     string tempFile = ruta + ".tmp";
                     using (FileStream fs = new FileStream(tempFile, FileMode.Create, FileAccess.Write, FileShare.None))
                     {
@@ -590,11 +897,16 @@ namespace ValmerPasswordsDB
                 var g = new XElement("Grupo", new XAttribute("nombre", n));
                 var h = new XElement("Historial");
                 RegistrarEventoHistorial(h, "Creación de Grupo", Environment.UserName, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-                g.Add(h);
-                _xmlData?.Root?.Add(g);
-                GuardarXML();
-                CargarDatosXML();
+                g.Add(h); _xmlData?.Root?.Add(g);
+                GuardarXML(); CargarDatosXML();
             }
+        }
+
+        private void RegistrarEventoHistorial(XElement h, string ac, string au, string f, string uAnt = null, string pAnt = null)
+        {
+            var ev = new XElement("Evento", new XAttribute("fecha", f), new XAttribute("accion", ac), new XAttribute("autor", au));
+            if (uAnt != null) { ev.SetAttributeValue("usuarioAnterior", uAnt); ev.SetAttributeValue("passwordAnterior", pAnt); }
+            h.AddFirst(ev);
         }
 
         private string Encriptar(string t)
@@ -602,8 +914,7 @@ namespace ValmerPasswordsDB
             using Aes aes = Aes.Create();
             byte[] k = new byte[32];
             Array.Copy(Encoding.UTF8.GetBytes(MasterKey), k, Math.Min(MasterKey.Length, 32));
-            aes.Key = k;
-            aes.IV = new byte[16];
+            aes.Key = k; aes.IV = new byte[16];
             using var enc = aes.CreateEncryptor();
             byte[] b = Encoding.UTF8.GetBytes(t);
             return Convert.ToBase64String(enc.TransformFinalBlock(b, 0, b.Length));
@@ -616,8 +927,7 @@ namespace ValmerPasswordsDB
                 using Aes aes = Aes.Create();
                 byte[] k = new byte[32];
                 Array.Copy(Encoding.UTF8.GetBytes(MasterKey), k, Math.Min(MasterKey.Length, 32));
-                aes.Key = k;
-                aes.IV = new byte[16];
+                aes.Key = k; aes.IV = new byte[16];
                 using var dec = aes.CreateDecryptor();
                 byte[] b = Convert.FromBase64String(b64);
                 return Encoding.UTF8.GetString(dec.TransformFinalBlock(b, 0, b.Length));
@@ -625,65 +935,58 @@ namespace ValmerPasswordsDB
             catch { return ""; }
         }
 
-        private void EdicionOjo_Down(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void AgregarFilaUsuarioAdicional(string nombre, string password)
         {
-            // Usamos la variable que ya tienes cargada en el formulario
-            if (!string.IsNullOrEmpty(_passwordDesencriptadaActual))
+            Grid gridFila = new Grid { Margin = new Thickness(0, 0, 0, 5) };
+            gridFila.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            gridFila.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+            // Columna Usuario
+            StackPanel spUsr = new StackPanel { Margin = new Thickness(0, 0, 5, 15) };
+            spUsr.Children.Add(new TextBlock { Text = "Usuario Adicional", Foreground = Brushes.Gray, FontSize = 11 });
+            spUsr.Children.Add(new TextBlock { Text = nombre, FontSize = 15, FontWeight = FontWeights.Medium });
+            Grid.SetColumn(spUsr, 0);
+
+            // Columna Password
+            StackPanel spPass = new StackPanel { Margin = new Thickness(5, 0, 0, 15) };
+            spPass.Children.Add(new TextBlock { Text = "Contraseña", Foreground = Brushes.Gray, FontSize = 11, Margin = new Thickness(0, 0, 0, 2) });
+
+            Border borderPass = new Border
             {
-                TxtEdicionPassOculta.Visibility = Visibility.Collapsed;
-                TxtEdicionPassReal.Text = _passwordDesencriptadaActual;
-                TxtEdicionPassReal.Visibility = Visibility.Visible;
-            }
+                Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#F9FAFB")),
+                BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#E5E7EB")),
+                BorderThickness = new Thickness(1),
+                CornerRadius = new CornerRadius(5),
+                Height = 35
+            };
+
+            Grid innerGrid = new Grid();
+            TextBlock txtOculta = new TextBlock { Text = "••••••••••••", VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(10, 0, 80, 0), FontFamily = new FontFamily("Consolas"), FontSize = 14 };
+            TextBlock txtReal = new TextBlock { Text = password, VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(10, 0, 80, 0), FontFamily = new FontFamily("Consolas"), FontSize = 14, Visibility = Visibility.Collapsed };
+
+            StackPanel spBotones = new StackPanel { Orientation = Orientation.Horizontal, HorizontalAlignment = HorizontalAlignment.Right };
+            Button btnOjo = new Button { Content = "👁", Width = 35, BorderThickness = new Thickness(0), Background = Brushes.Transparent, Cursor = Cursors.Hand };
+            Button btnCopiar = new Button { Content = "📋", Width = 35, BorderThickness = new Thickness(0), Background = Brushes.Transparent, Cursor = Cursors.Hand };
+
+            // Funcionalidad local
+            btnOjo.PreviewMouseDown += (s, e) => { txtOculta.Visibility = Visibility.Collapsed; txtReal.Visibility = Visibility.Visible; };
+            btnOjo.PreviewMouseUp += (s, e) => { txtOculta.Visibility = Visibility.Visible; txtReal.Visibility = Visibility.Collapsed; };
+            btnOjo.MouseLeave += (s, e) => { txtOculta.Visibility = Visibility.Visible; txtReal.Visibility = Visibility.Collapsed; };
+            btnCopiar.Click += (s, e) => { Clipboard.SetText(password); };
+
+            spBotones.Children.Add(btnOjo);
+            spBotones.Children.Add(btnCopiar);
+            innerGrid.Children.Add(txtOculta);
+            innerGrid.Children.Add(txtReal);
+            innerGrid.Children.Add(spBotones);
+            borderPass.Child = innerGrid;
+            spPass.Children.Add(borderPass);
+            Grid.SetColumn(spPass, 1);
+
+            gridFila.Children.Add(spUsr);
+            gridFila.Children.Add(spPass);
+            ContenedorUsuariosAdicionalesLectura.Children.Add(gridFila);
         }
 
-        private void EdicionOjo_Up(object sender, EventArgs e)
-        {
-            TxtEdicionPassOculta.Visibility = Visibility.Visible;
-            TxtEdicionPassReal.Visibility = Visibility.Collapsed;
-        }
-
-        private void BtnAddUsuario_Click(object sender, RoutedEventArgs e)
-        {
-            AgregarFilaUsuario();
-        }
-
-        // 1. Llama a esto cuando inicies tu formulario (en el constructor o donde cargues los datos)
-        // AgregarFilaUsuario(); 
-
-        private void AgregarFilaUsuario()
-        {
-            Grid nuevaFila = new Grid { Margin = new Thickness(0, 5, 0, 10) };
-
-            // Definimos las columnas exactamente como las quieres
-            nuevaFila.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1.2, GridUnitType.Star) });
-            nuevaFila.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-            nuevaFila.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-
-            // --- Usuario ---
-            TextBox txtUser = new TextBox { Height = 32, Margin = new Thickness(0, 0, 5, 0) };
-            Grid.SetColumn(txtUser, 0);
-
-            // --- Contraseña (Con el Ojo igual al original) ---
-            Grid gridPass = new Grid { Margin = new Thickness(5, 0, 5, 0) };
-            PasswordBox pbx = new PasswordBox { Height = 32 };
-            Button btnOjo = new Button { Content = "👁", Width = 30, HorizontalAlignment = HorizontalAlignment.Right, Background = System.Windows.Media.Brushes.Transparent, BorderThickness = new Thickness(0) };
-            gridPass.Children.Add(pbx);
-            gridPass.Children.Add(btnOjo);
-            Grid.SetColumn(gridPass, 1);
-
-            // --- Confirmar ---
-            Grid gridConfirm = new Grid { Margin = new Thickness(5, 0, 0, 0) };
-            PasswordBox pbxConfirm = new PasswordBox { Height = 32 };
-            Button btnOjo2 = new Button { Content = "👁", Width = 30, HorizontalAlignment = HorizontalAlignment.Right, Background = System.Windows.Media.Brushes.Transparent, BorderThickness = new Thickness(0) };
-            gridConfirm.Children.Add(pbxConfirm);
-            gridConfirm.Children.Add(btnOjo2);
-            Grid.SetColumn(gridConfirm, 2);
-
-            nuevaFila.Children.Add(txtUser);
-            nuevaFila.Children.Add(gridPass);
-            nuevaFila.Children.Add(gridConfirm);
-
-            ContenedorListaUsuarios.Children.Add(nuevaFila);
-        }
     }
 }

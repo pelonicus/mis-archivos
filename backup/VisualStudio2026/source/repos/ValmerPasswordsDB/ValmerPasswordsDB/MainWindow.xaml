@@ -80,23 +80,34 @@
                                     <TextBlock x:Name="LblVerDominio" Text="-" FontSize="15" FontWeight="Medium"/>
                                 </StackPanel>
 
-                                <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,5,15">
-                                    <TextBlock Text="Usuario" Foreground="Gray" FontSize="11"/>
-                                    <TextBlock x:Name="LblVerUsuario" Text="-" FontSize="15" FontWeight="Medium"/>
-                                </StackPanel>
+                                <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
 
-                                <StackPanel Grid.Row="2" Grid.Column="1" Margin="5,0,0,15">
-                                    <TextBlock Text="Contraseña" Foreground="Gray" FontSize="11" Margin="0,0,0,2"/>
-                                    <Border Background="#F9FAFB" BorderBrush="#E5E7EB" BorderThickness="1" CornerRadius="5" Height="35">
-                                        <Grid>
-                                            <TextBlock x:Name="TxtVerPasswordOculta" Text="••••••••••••" VerticalAlignment="Center" Margin="10,0,80,0" FontFamily="Consolas" FontSize="14"/>
-                                            <TextBlock x:Name="TxtVerPasswordReal" Text="" VerticalAlignment="Center" Margin="10,0,80,0" FontFamily="Consolas" FontSize="14" Visibility="Collapsed"/>
-                                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                                                <Button Content="👁" Width="35" BorderThickness="0" Background="Transparent" PreviewMouseDown="VerPassLectura_Down" PreviewMouseUp="VerPassLectura_Up" MouseLeave="VerPassLectura_Up" Cursor="Hand"/>
-                                                <Button Content="📋" Width="35" BorderThickness="0" Background="Transparent" Click="CopiarPassLectura_Click" Cursor="Hand"/>
-                                            </StackPanel>
-                                        </Grid>
-                                    </Border>
+                                        <StackPanel Grid.Column="0" Margin="0,0,5,15">
+                                            <TextBlock Text="Usuario Principal" Foreground="Gray" FontSize="11"/>
+                                            <TextBlock x:Name="LblVerUsuario" Text="-" FontSize="15" FontWeight="Medium"/>
+                                        </StackPanel>
+
+                                        <StackPanel Grid.Column="1" Margin="5,0,0,15">
+                                            <TextBlock Text="Contraseña Principal" Foreground="Gray" FontSize="11" Margin="0,0,0,2"/>
+                                            <Border Background="#F9FAFB" BorderBrush="#E5E7EB" BorderThickness="1" CornerRadius="5" Height="35">
+                                                <Grid>
+                                                    <TextBlock x:Name="TxtVerPasswordOculta" Text="••••••••••••" VerticalAlignment="Center" Margin="10,0,80,0" FontFamily="Consolas" FontSize="14"/>
+                                                    <TextBlock x:Name="TxtVerPasswordReal" Text="" VerticalAlignment="Center" Margin="10,0,80,0" FontFamily="Consolas" FontSize="14" Visibility="Collapsed"/>
+                                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                                        <Button Content="👁" Width="35" BorderThickness="0" Background="Transparent" PreviewMouseDown="VerPassLectura_Down" PreviewMouseUp="VerPassLectura_Up" MouseLeave="VerPassLectura_Up" Cursor="Hand"/>
+                                                        <Button Content="📋" Width="35" BorderThickness="0" Background="Transparent" Click="CopiarPassLectura_Click" Cursor="Hand"/>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </Border>
+                                        </StackPanel>
+                                    </Grid>
+
+                                    <StackPanel x:Name="ContenedorUsuariosAdicionalesLectura"/>
                                 </StackPanel>
 
                                 <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,0,15" x:Name="PanelVerLlave">
@@ -147,7 +158,6 @@
                                         <ComboBoxItem Content="HARDWARE"/>
                                     </ComboBox>
                                 </StackPanel>
-
                                 <StackPanel Grid.Row="0" Grid.Column="1" Margin="5,0,0,10">
                                     <TextBlock x:Name="LblNombre" Text="Nombre" Foreground="Gray" Margin="0,0,0,5"/>
                                     <TextBox x:Name="TxtNombre" Height="32"/>
@@ -175,94 +185,80 @@
 
                                     <Grid x:Name="GridUsuarioBase" Margin="0,0,0,10">
                                         <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="1.2*"/>
+                                            <ColumnDefinition Width="1.1*"/>
                                             <ColumnDefinition Width="*"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
-                                        
-                                        <!-- FILA UNIFICADA -->
-     
-                                    <!-- USUARIO -->
+
                                         <StackPanel Grid.Column="0" Margin="0,0,5,0">
                                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5" Height="22">
                                                 <TextBlock Text="Usuario" Foreground="Gray" VerticalAlignment="Center"/>
                                                 <Button x:Name="BtnAddUsuario" Content="+" Width="22" Height="22" 
-                Margin="8,0,0,0" Cursor="Hand" Background="Transparent" 
-                BorderThickness="0" FontWeight="Bold" Foreground="#374151"
-                Click="BtnAddUsuario_Click"/>
+                                                        Margin="8,0,0,0" Cursor="Hand" Background="Transparent" 
+                                                        BorderThickness="0" FontWeight="Bold" Foreground="#374151"
+                                                        Click="BtnAddUsuario_Click"/>
                                             </StackPanel>
                                             <TextBox x:Name="TxtUsuario" Height="32"/>
                                         </StackPanel>
 
-                                        <!-- CONTRASEÑA (EDICIÓN + NUEVO conviven aquí) -->
                                         <StackPanel Grid.Column="1" Margin="5,0,5,0" VerticalAlignment="Top">
-                                            <StackPanel x:Name="PanelPassEdicion" Visibility="Collapsed">
-                                                <TextBlock Text="Contraseña" Foreground="Gray" Margin="0,0,0,5" Height="22"/>
-                                                <Grid>
+                                            <TextBlock Text="Contraseña" Foreground="Gray" Margin="0,0,0,5" Height="22"/>
+
+                                            <Grid x:Name="PanelPassLecturaBase" Visibility="Collapsed">
                                                 <Grid.ColumnDefinitions>
                                                     <ColumnDefinition Width="*"/>
                                                     <ColumnDefinition Width="Auto"/>
                                                     <ColumnDefinition Width="Auto"/>
                                                 </Grid.ColumnDefinitions>
-
                                                 <Border BorderThickness="1" BorderBrush="#D1D5DB" Background="#F3F4F6" CornerRadius="3" Height="32">
                                                     <Grid>
                                                         <TextBlock x:Name="TxtEdicionPassOculta" Text="••••••••" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="Gray"/>
                                                         <TextBlock x:Name="TxtEdicionPassReal" Visibility="Collapsed" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="#374151" FontWeight="Bold"/>
                                                     </Grid>
                                                 </Border>
-
                                                 <Button Grid.Column="1" Content="👁" 
-                                                    PreviewMouseDown="EdicionOjo_Down" 
-                                                    PreviewMouseUp="EdicionOjo_Up" 
-                                                    MouseLeave="EdicionOjo_Up"
-                                                    Width="35" Height="32" Margin="5,0,0,0"
-                                                    Background="#E5E7EB" BorderBrush="#D1D5DB" Cursor="Hand"/>
-
-                                                <Button Grid.Column="2" Content="Cambiar"
-                                                    Click="BtnCambiarPassword_Click"
-                                                    Width="70" Height="32"
-                                                       Margin="5,0,0,0"
-                                                    Background="#374151"
-                                                    Foreground="White"
-                                                    BorderThickness="0"
-                                                    Cursor="Hand"/>
+                                                        PreviewMouseDown="EdicionOjoBase_Down" PreviewMouseUp="EdicionOjoBase_Up" MouseLeave="EdicionOjoBase_Up"
+                                                        Width="35" Height="32" Margin="5,0,0,0" Background="#E5E7EB" BorderBrush="#D1D5DB" Cursor="Hand"/>
+                                                <Button Grid.Column="2" Content="Cambiar" Click="BtnIniciarCambioPassBase_Click"
+                                                        Width="65" Height="32" Margin="5,0,0,0" Background="#374151" Foreground="White" BorderThickness="0" Cursor="Hand"/>
                                             </Grid>
-                                        </StackPanel>
 
-                                        <!-- MODO NUEVO (NO TOCAR LÓGICA) -->
-                                        <StackPanel x:Name="PanelPassNuevo">
-                                                <TextBlock Text="Contraseña" Foreground="Gray" Margin="0,0,0,5" Height="22"/>
-                                            <Grid>
-                                                <PasswordBox x:Name="TxtNuevoPass" Height="32" Padding="5,0,35,0"/>
+                                            <Grid x:Name="PanelPassEdicionBase">
+                                                <PasswordBox x:Name="TxtNuevoPass" Height="32" Padding="5,0,35,0" PasswordChanged="ValidarPasswordBase_Changed"/>
                                                 <TextBox x:Name="TxtNuevoPassVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
-                                                <Button Content="👁" Width="30" HorizontalAlignment="Right"
-                                                    Background="Transparent" BorderThickness="0"
-                                                    PreviewMouseDown="NuevoOjo1_Down"
-                                                    PreviewMouseUp="NuevoOjo1_Up"
-                                                    MouseLeave="NuevoOjo1_Up"
-                                                    Cursor="Hand"/>
+                                                <Button Content="👁" Width="30" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0"
+                                                    PreviewMouseDown="NuevoOjo1Base_Down" PreviewMouseUp="NuevoOjo1Base_Up" MouseLeave="NuevoOjo1Base_Up" Cursor="Hand"/>
                                             </Grid>
                                         </StackPanel>
 
-                                    </StackPanel>
-
-                                    <!-- CONFIRMAR -->
-                                        <StackPanel Grid.Column="2" Margin="5,0,0,0" x:Name="PanelConfirmarNuevo" VerticalAlignment="Top">
+                                        <StackPanel Grid.Column="2" Margin="5,0,0,0" x:Name="PanelConfirmarBase" VerticalAlignment="Top">
                                             <TextBlock Text="Confirmar Contraseña" Foreground="Gray" Margin="0,0,0,5" Height="22"/>
-                                        <Grid>
-                                            <PasswordBox x:Name="TxtNuevoConfirm" Height="32" Padding="5,0,35,0"/>
-                                            <TextBox x:Name="TxtNuevoConfirmVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
-                                            <Button Content="👁" Width="30" HorizontalAlignment="Right"
-                                                Background="Transparent" BorderThickness="0"
-                                                PreviewMouseDown="NuevoOjo2_Down"
-                                                PreviewMouseUp="NuevoOjo2_Up"
-                                                MouseLeave="NuevoOjo2_Up"
-                                                Cursor="Hand"/>
-                                        </Grid>
-                                    </StackPanel>
-                                </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
 
+                                                <Border x:Name="BordeConfirmacionBase" Grid.Column="0" BorderThickness="1" BorderBrush="#ABADB3" CornerRadius="2">
+                                                    <Grid>
+                                                        <PasswordBox x:Name="TxtNuevoConfirm" Height="32" Padding="5,0,35,0" 
+                                                            BorderThickness="0" Background="Transparent" 
+                                                            PasswordChanged="ValidarPasswordBase_Changed"/>
+
+                                                        <TextBox x:Name="TxtNuevoConfirmVisible" Height="32" Padding="5,0,35,0" 
+                                                            BorderThickness="0" Background="Transparent" Visibility="Collapsed"/>
+
+                                                        <Button Content="👁" Width="30" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0"
+                                                            PreviewMouseDown="NuevoOjo2Base_Down" PreviewMouseUp="NuevoOjo2Base_Up" MouseLeave="NuevoOjo2Base_Up" Cursor="Hand"/>
+                                                    </Grid>
+                                                </Border>
+
+                                                <Button x:Name="BtnCancelarCambioBase" Grid.Column="1" Content="❌" Click="BtnCancelarCambioPassBase_Click"
+                                                    Width="32" Height="32" Margin="5,0,0,0" Background="#FEE2E2" Foreground="#991B1B" 
+                                                    BorderThickness="0" Cursor="Hand" Visibility="Collapsed" ToolTip="Cancelar Cambio"/>
+                                            </Grid>
+                                        </StackPanel>
+                                    </Grid>
                                 </StackPanel>
 
                                 <StackPanel Grid.Row="4" Grid.ColumnSpan="2" x:Name="PanelLlave" Margin="0,5,0,10" Visibility="Collapsed">
@@ -275,36 +271,12 @@
                             <TextBox x:Name="TxtComentario" Height="60" AcceptsReturn="True" TextWrapping="Wrap" Padding="5" FontSize="12"/>
 
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
-                                <Button x:Name="BtnGuardarServidor" Content="Guardar" Click="BtnGuardarServidor_Click" Width="150" Height="40" Background="#2563EB" Foreground="White" BorderThickness="0" FontWeight="Bold" Cursor="Hand"/>
+                                <Button x:Name="BtnGuardarServidor" Content="Guardar Servidor" Click="BtnGuardarServidor_Click" Width="150" Height="40" Background="#2563EB" Foreground="White" BorderThickness="0" FontWeight="Bold" Cursor="Hand"/>
                                 <Button Content="Cancelar" Click="BtnCerrarForm_Click" Width="90" Height="40" Background="#9CA3AF" Foreground="White" BorderThickness="0" Margin="10,0,0,0" Cursor="Hand"/>
                             </StackPanel>
                         </StackPanel>
                     </ScrollViewer>
                 </Grid>
-            </Border>
-        </Grid>
-
-        <Grid x:Name="PanelPopupPassword" Visibility="Collapsed" Background="#99000000">
-            <Border Background="White" CornerRadius="10" Padding="25" Width="380" VerticalAlignment="Center">
-                <StackPanel>
-                    <TextBlock Text="Cambiar Contraseña" FontSize="18" FontWeight="Bold" Margin="0,0,0,15" HorizontalAlignment="Center"/>
-                    <TextBlock Text="Nueva Contraseña" Foreground="Gray" Margin="0,0,0,5"/>
-                    <Grid Margin="0,0,0,10">
-                        <PasswordBox x:Name="TxtPopupNueva" Height="32" Padding="5,0,35,0"/>
-                        <TextBox x:Name="TxtPopupNuevaVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
-                        <Button Content="👁" Width="30" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" PreviewMouseDown="PopupOjo1_Down" PreviewMouseUp="PopupOjo1_Up" Cursor="Hand"/>
-                    </Grid>
-                    <TextBlock Text="Confirmar" Foreground="Gray" Margin="0,0,0,5"/>
-                    <Grid Margin="0,0,0,20">
-                        <PasswordBox x:Name="TxtPopupConfirm" Height="32" Padding="5,0,35,0"/>
-                        <TextBox x:Name="TxtPopupConfirmVisible" Height="32" Padding="5,0,35,0" Visibility="Collapsed"/>
-                        <Button Content="👁" Width="30" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" PreviewMouseDown="PopupOjo2_Down" PreviewMouseUp="PopupOjo2_Up" Cursor="Hand"/>
-                    </Grid>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                        <Button Content="Aceptar" Click="BtnPopupAceptar_Click" Width="90" Height="32" Background="#10B981" Foreground="White" BorderThickness="0" FontWeight="Bold" Margin="0,0,10,0" Cursor="Hand"/>
-                        <Button Content="Cerrar" Click="BtnPopupCancelar_Click" Width="90" Height="32" Background="#9CA3AF" Foreground="White" BorderThickness="0" Cursor="Hand"/>
-                    </StackPanel>
-                </StackPanel>
             </Border>
         </Grid>
 
