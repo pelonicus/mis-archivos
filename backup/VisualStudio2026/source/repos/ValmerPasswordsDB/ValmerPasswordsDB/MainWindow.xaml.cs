@@ -27,6 +27,107 @@ namespace ValmerPasswordsDB
         private System.Windows.Threading.DispatcherTimer _lockRenewTimer;
 
         // Rutas
+        public class LlaveTemporal
+        {
+            public string RutaOrigen { get; set; }
+            public string NombreOriginal { get; set; }
+            public string Comentario { get; set; }
+            public string Fecha { get; set; }
+            public string Usuario { get; set; }
+            public string NombreFisico { get; set; } // Nombre en la carpeta /keys/
+        }
+        private LlaveTemporal MostrarPopupNuevaLlave()
+        {
+            LlaveTemporal resultado = null;
+
+            Window win = new Window
+            {
+                Title = "Configurar Llave SSH",
+                Width = 400,
+                Height = 280,
+                WindowStartupLocation = WindowStartupLocation.CenterScreen,
+                ResizeMode = ResizeMode.NoResize,
+                WindowStyle = WindowStyle.ToolWindow,
+                Background = Brushes.White
+            };
+
+            StackPanel sp = new StackPanel { Margin = new Thickness(20) };
+
+            // --- SELECCIÓN DE ARCHIVO ---
+            sp.Children.Add(new TextBlock { Text = "Seleccione el archivo de llave:", FontWeight = FontWeights.Bold, Margin = new Thickness(0, 0, 0, 5) });
+
+            Grid gridArchivo = new Grid { Margin = new Thickness(0, 0, 0, 15) };
+            gridArchivo.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            gridArchivo.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+
+            TextBox txtRuta = new TextBox { IsReadOnly = true, Height = 30, VerticalContentAlignment = VerticalAlignment.Center, Background = (Brush)new BrushConverter().ConvertFrom("#F3F4F6") };
+            Button btnBuscar = new Button { Content = "Buscar...", Width = 75, Margin = new Thickness(5, 0, 0, 0), Cursor = Cursors.Hand };
+
+            btnBuscar.Click += (s, e) => {
+                var ofd = new Microsoft.Win32.OpenFileDialog();
+                if (ofd.ShowDialog() == true)
+                {
+                    txtRuta.Text = ofd.FileName;
+                }
+            };
+
+            Grid.SetColumn(txtRuta, 0);
+            Grid.SetColumn(btnBuscar, 1);
+            gridArchivo.Children.Add(txtRuta);
+            gridArchivo.Children.Add(btnBuscar);
+            sp.Children.Add(gridArchivo);
+
+            // --- COMENTARIO ---
+            sp.Children.Add(new TextBlock { Text = "Comentario / Descripción:", FontWeight = FontWeights.Bold, Margin = new Thickness(0, 0, 0, 5) });
+            TextBox txtComentario = new TextBox { Height = 30, VerticalContentAlignment = VerticalAlignment.Center };
+            sp.Children.Add(txtComentario);
+
+            // --- BOTÓN AGREGAR ---
+            Button btnFinal = new Button
+            {
+                Content = "Agregar Llave",
+                Height = 40,
+                Margin = new Thickness(0, 25, 0, 0),
+                Background = (Brush)new BrushConverter().ConvertFrom("#4F46E5"),
+                Foreground = Brushes.White,
+                FontWeight = FontWeights.Bold,
+                Cursor = Cursors.Hand,
+                IsDefault = true
+            };
+
+            btnFinal.Click += (s, e) => {
+                if (string.IsNullOrWhiteSpace(txtRuta.Text))
+                {
+                    //MessageBox.Show("Por favor, seleccione un archivo de llave.");
+                    MostrarToast("Por favor, seleccione un archivo de llave.");
+                    return;
+                }
+                if (string.IsNullOrWhiteSpace(txtComentario.Text))
+                {
+                    //MessageBox.Show("El comentario es obligatorio.");
+                    MostrarToast("El comentario es obligatorio.");
+                    return;
+                }
+
+                resultado = new LlaveTemporal
+                {
+                    RutaOrigen = txtRuta.Text,
+                    NombreOriginal = System.IO.Path.GetFileName(txtRuta.Text),
+                    Comentario = txtComentario.Text,
+                    Fecha = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
+                    Usuario = Environment.UserName
+                };
+                win.DialogResult = true;
+            };
+
+            sp.Children.Add(btnFinal);
+            win.Content = sp;
+
+            return (win.ShowDialog() == true) ? resultado : null;
+        }
+
+        // Esta lista guardará las llaves mientras editamos
+        private List<LlaveTemporal> _llavesTemporales = new List<LlaveTemporal>();
         private string GetXmlPath()
         {
             string? od = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
@@ -126,7 +227,7 @@ namespace ValmerPasswordsDB
                     ArbolServidores.Items.Add(nodoG);
                 }
             }
-            catch (Exception ex) { MessageBox.Show(ex.Message); }
+            catch (Exception ex) { MostrarToast(ex.Message); }
         }
 
         private void ComboTipo_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -169,8 +270,8 @@ namespace ValmerPasswordsDB
             _passwordDesencriptadaActual = Desencriptar(p?.Value ?? "");
             TxtVerPasswordReal.Text = _passwordDesencriptadaActual;
             TxtVerPasswordOculta.Text = string.IsNullOrEmpty(_passwordDesencriptadaActual) ? "-" : "••••••••";
-            TxtVerLlave.Text = s.Element("LlaveSSH")?.Value ?? "";
-            PanelVerLlave.Visibility = string.IsNullOrEmpty(TxtVerLlave.Text) ? Visibility.Collapsed : Visibility.Visible;
+            // PEGAR ESTO EN SU LUGAR:
+            CargarLlavesEnModoVer(s);
             LblVerComentarios.Text = s.Element("Comentario")?.Value ?? "-";
 
             // --- Lógica para usuarios adicionales ---
@@ -270,7 +371,7 @@ namespace ValmerPasswordsDB
                         }
                         if (diff.TotalMinutes < 5)
                         {
-                            MessageBox.Show($"Registro ocupado por {usuarioLock}.\nInténtalo más tarde.", "Bloqueo Activo", MessageBoxButton.OK, MessageBoxImage.Warning);
+                            MostrarToast($"Registro ocupado por {usuarioLock}.\nInténtalo más tarde.");
                             return false;
                         }
                     }
@@ -343,7 +444,7 @@ namespace ValmerPasswordsDB
             }
 
             // Resetea campos base
-            TxtNombre.Text = TxtIP.Text = TxtURL.Text = TxtComentario.Text = TxtDominio.Text = TxtHardwareTipo.Text = TxtLlave.Text = "";
+            TxtNombre.Text = TxtIP.Text = TxtURL.Text = TxtComentario.Text = TxtDominio.Text = TxtHardwareTipo.Text =  "";
             ComboTipo.SelectedIndex = 0;
 
             TxtUsuario.Text = "";
@@ -402,21 +503,28 @@ namespace ValmerPasswordsDB
             // --- 1. VALIDACIONES INICIALES DE CAMPOS ---
             if (string.IsNullOrWhiteSpace(TxtNombre.Text))
             {
-                MessageBox.Show("El campo 'Nombre' es obligatorio.");
+                MostrarToast("El campo 'Nombre' es obligatorio.");
                 return;
             }
+
             if (_xmlData == null) return;
 
             string tipo = (ComboTipo.SelectedItem as ComboBoxItem)?.Content.ToString();
-            if (tipo == "WEB" && string.IsNullOrWhiteSpace(TxtURL.Text))
+            if (tipo == "WEB")
             {
-                MessageBox.Show($"Para servidores tipo '{tipo}', la URL es obligatoria.");
-                return;
+                if (string.IsNullOrWhiteSpace(TxtURL.Text))
+                {
+                    MostrarToast($"Para servidores tipo '{tipo}', la URL es obligatoria.");
+                    return;
+                }
             }
-            else if (tipo != "WEB" && string.IsNullOrWhiteSpace(TxtIP.Text))
+            else
             {
-                MessageBox.Show($"Para el tipo '{tipo}', la IP es obligatoria.");
-                return;
+                if (string.IsNullOrWhiteSpace(TxtIP.Text))
+                {
+                    MostrarToast($"Para el tipo '{tipo}', la IP es obligatoria.");
+                    return;
+                }
             }
 
             // --- 2. VALIDACIÓN DE LOCK ---
@@ -446,30 +554,24 @@ namespace ValmerPasswordsDB
             var h = _servidorEditando.Element("Historial");
             if (h == null) { h = new XElement("Historial"); _servidorEditando.AddFirst(h); }
 
-            // --- DETECCIÓN DE CAMBIOS (SOLO EN EDICIÓN) ---
+            // --- LÓGICA DE DETECCIÓN DE CAMBIOS EN ATRIBUTOS ---
             if (!esN)
             {
-                List<string> cambios = new List<string>();
+                bool huboCambioDatos = false;
+                if ((_servidorEditando.Attribute("nombre")?.Value ?? "") != TxtNombre.Text) huboCambioDatos = true;
+                if ((_servidorEditando.Attribute("ip")?.Value ?? "") != TxtIP.Text) huboCambioDatos = true;
+                if ((_servidorEditando.Attribute("url")?.Value ?? "") != TxtURL.Text) huboCambioDatos = true;
+                if ((_servidorEditando.Attribute("dominio")?.Value ?? "") != TxtDominio.Text) huboCambioDatos = true;
+                if ((_servidorEditando.Attribute("hw_tipo")?.Value ?? "") != TxtHardwareTipo.Text) huboCambioDatos = true;
 
-                if ((_servidorEditando.Attribute("tipo")?.Value ?? "") != tipo) cambios.Add("Tipo");
-                if ((_servidorEditando.Attribute("nombre")?.Value ?? "") != TxtNombre.Text) cambios.Add("Nombre");
-                if ((_servidorEditando.Attribute("ip")?.Value ?? "") != TxtIP.Text) cambios.Add("IP");
-                if ((_servidorEditando.Attribute("url")?.Value ?? "") != TxtURL.Text) cambios.Add("URL");
-                if ((_servidorEditando.Attribute("dominio")?.Value ?? "") != TxtDominio.Text) cambios.Add("Dominio");
-                if ((_servidorEditando.Attribute("hw_tipo")?.Value ?? "") != TxtHardwareTipo.Text) cambios.Add("HW Tipo");
-                if ((_servidorEditando.Element("Comentario")?.Value ?? "") != TxtComentario.Text) cambios.Add("Comentario");
-                if ((_servidorEditando.Element("LlaveSSH")?.Value ?? "") != TxtLlave.Text) cambios.Add("Llave");
-                if ((_servidorEditando.Element("Usuario")?.Attribute("nombre")?.Value ?? "") != TxtUsuario.Text) cambios.Add("Usuario");
-
-                // Regla: SI hubo cambios en datos físicos, se crea el historial general
-                if (cambios.Count > 0)
+                // Solo si hubo cambio en los campos de texto, registramos "Modificación"
+                if (huboCambioDatos)
                 {
-                    string titulo = "Modificación de servidor: " + string.Join(", ", cambios);
-                    RegistrarEventoHistorial(h, titulo, uAct, fH);
+                    RegistrarEventoHistorial(h, "Modificación de Servidor", uAct, fH);
                 }
             }
 
-            // Limpiar elementos antiguos para actualizar (excepto historial y usuarios)
+            // Limpiar elementos antiguos (excepto historial y usuarios que se recrearán)
             _servidorEditando.Elements().Where(x => x.Name != "Historial" && x.Name != "Usuario").Remove();
 
             // Seteo de atributos
@@ -479,34 +581,76 @@ namespace ValmerPasswordsDB
             _servidorEditando.SetAttributeValue("url", TxtURL.Text);
             _servidorEditando.SetAttributeValue("dominio", TxtDominio.Text);
             _servidorEditando.SetAttributeValue("hw_tipo", TxtHardwareTipo.Text);
-            _servidorEditando.Add(new XElement("Comentario", TxtComentario.Text), new XElement("LlaveSSH", TxtLlave.Text));
+
+            // --- PROCESAR LLAVES ---
+            string rutaBase = System.IO.Path.GetDirectoryName(GetXmlPath());
+            string carpetaKeys = System.IO.Path.Combine(rutaBase, "keys");
+            if (!System.IO.Directory.Exists(carpetaKeys)) System.IO.Directory.CreateDirectory(carpetaKeys);
+
+            foreach (var ll in _llavesTemporales)
+            {
+                // Solo procesamos y registramos historial si es una llave NUEVA (viene de archivo externo)
+                if (!string.IsNullOrEmpty(ll.RutaOrigen))
+                {
+                    int totalFiles = System.IO.Directory.GetFiles(carpetaKeys, "*.key").Length + 1;
+                    string nombreFisico = totalFiles.ToString("D6") + ".key";
+                    string destino = System.IO.Path.Combine(carpetaKeys, nombreFisico);
+
+                    try
+                    {
+                        System.IO.File.Copy(ll.RutaOrigen, destino, true);
+                        ll.NombreFisico = nombreFisico;
+
+                        // REGISTRO DE HISTORIAL ESPECÍFICO PARA LA LLAVE
+                        RegistrarEventoHistorial(h, $"Nueva Llave {ll.NombreOriginal}", uAct, fH);
+                    }
+                    catch (Exception ex)
+                    {
+                        MostrarToast($"Error al copiar llave {ll.NombreOriginal}");
+                    }
+                }
+
+                // Agregar siempre al XML (tanto las nuevas como las que ya estaban cargadas)
+                _servidorEditando.Add(new XElement("LlaveSSH_File",
+                    new XAttribute("fecha", ll.Fecha),
+                    new XAttribute("usuario", ll.Usuario),
+                    new XAttribute("nombre_original", ll.NombreOriginal),
+                    new XAttribute("nombre_fisico", ll.NombreFisico),
+                    new XElement("Comentario", ll.Comentario)
+                ));
+            }
 
             // --- 4. LECTURA Y VALIDACIÓN DE USUARIOS ---
-
-            // Usuario Principal
             string pPrincipal = "";
             if (PanelPassEdicionBase.Visibility == Visibility.Visible)
             {
-                if (TxtNuevoPass.Password != TxtNuevoConfirm.Password) { MessageBox.Show("Las contraseñas del usuario principal no coinciden."); return; }
-                if (string.IsNullOrEmpty(TxtNuevoPass.Password)) { MessageBox.Show("La contraseña del usuario principal no puede estar vacía."); return; }
+                if (TxtNuevoPass.Password != TxtNuevoConfirm.Password)
+                {
+                    MostrarToast("Las contraseñas del usuario principal no coinciden.");
+                    return;
+                }
+                if (string.IsNullOrEmpty(TxtNuevoPass.Password))
+                {
+                    MostrarToast("La contraseña del usuario principal no puede estar vacía.");
+                    return;
+                }
                 pPrincipal = TxtNuevoPass.Password;
 
                 if (!esN && pPrincipal != _passwordDesencriptadaActual)
                 {
-                    // Regla: Si cambió la contraseña, crea su historial independiente
                     RegistrarEventoHistorial(h, "Cambio de Contraseña (Principal)", uAct, fH, TxtUsuario.Text, Encriptar(_passwordDesencriptadaActual));
                 }
             }
-            else { pPrincipal = _passwordDesencriptadaActual; }
+            else
+            {
+                pPrincipal = _passwordDesencriptadaActual;
+            }
 
-            // Reemplazamos usuarios en el XML
-            var viejosUsuarios = _servidorEditando.Elements("Usuario").ToList();
             _servidorEditando.Elements("Usuario").Remove();
             _servidorEditando.Add(new XElement("Usuario",
                 new XAttribute("nombre", TxtUsuario.Text),
                 new XElement("Password", Encriptar(pPrincipal), new XAttribute("activa", "true"))));
 
-            // Usuarios Dinámicos
             for (int i = 0; i < ContenedorListaUsuarios.Children.Count; i++)
             {
                 var gridFila = ContenedorListaUsuarios.Children[i] as Grid;
@@ -523,14 +667,22 @@ namespace ValmerPasswordsDB
                     PasswordBox pbxNew = FindChild<PasswordBox>(gridFila, "PassNew");
                     PasswordBox pbxConfirm = FindChild<PasswordBox>(gridFila, "PassConfirm");
 
-                    if (pbxNew.Password != pbxConfirm.Password) { MessageBox.Show($"Las contraseñas del usuario '{txtUser.Text}' no coinciden."); return; }
-                    if (string.IsNullOrEmpty(pbxNew.Password)) { MessageBox.Show($"Ingrese la contraseña para el usuario '{txtUser.Text}'."); return; }
+                    if (pbxNew.Password != pbxConfirm.Password)
+                    {
+                        MostrarToast($"Las contraseñas del usuario '{txtUser.Text}' no coinciden.");
+                        return;
+                    }
+                    if (string.IsNullOrEmpty(pbxNew.Password))
+                    {
+                        MostrarToast($"Ingrese la contraseña para el usuario '{txtUser.Text}'.");
+                        return;
+                    }
+
                     pDinamica = pbxNew.Password;
 
                     string currentEnc = FindChild<TextBlock>(gridFila, "CurrentEncryptedPass")?.Text;
                     if (!esN && !string.IsNullOrEmpty(currentEnc) && currentEnc != "NEW")
                     {
-                        // Regla: Cambio de contraseña dinámica
                         RegistrarEventoHistorial(h, $"Cambio de Contraseña ({txtUser.Text})", uAct, fH, txtUser.Text, currentEnc);
                     }
                 }
@@ -552,6 +704,8 @@ namespace ValmerPasswordsDB
             CargarDatosXML();
             ScrollModoEdicion.Visibility = Visibility.Collapsed;
             TxtMensajeVacio.Visibility = Visibility.Visible;
+
+            MostrarToast("Servidor guardado con éxito");
         }
 
         private void BtnCerrarForm_Click(object sender, RoutedEventArgs e)
@@ -579,7 +733,7 @@ namespace ValmerPasswordsDB
             TxtComentario.Text = s.Element("Comentario")?.Value;
             TxtDominio.Text = s.Attribute("dominio")?.Value;
             TxtHardwareTipo.Text = s.Attribute("hw_tipo")?.Value;
-            TxtLlave.Text = s.Element("LlaveSSH")?.Value;
+            //TxtLlave.Text = s.Element("LlaveSSH")?.Value;
 
             var usuarios = s.Elements("Usuario").ToList();
             if (usuarios.Count > 0)
@@ -886,7 +1040,7 @@ namespace ValmerPasswordsDB
                     File.Move(tempFile, ruta);
                 }
             }
-            catch (Exception ex) { MessageBox.Show("Error al guardar el XML: " + ex.Message); }
+            catch (Exception ex) { MostrarToast("Error al guardar el XML: " + ex.Message); }
         }
 
         private void BtnAddGrupo_Click(object sender, RoutedEventArgs e)
@@ -986,6 +1140,267 @@ namespace ValmerPasswordsDB
             gridFila.Children.Add(spUsr);
             gridFila.Children.Add(spPass);
             ContenedorUsuariosAdicionalesLectura.Children.Add(gridFila);
+        }
+
+        private void BtnAgregarLlave_Click(object sender, RoutedEventArgs e)
+        {
+            var nuevaLlave = MostrarPopupNuevaLlave();
+
+            if (nuevaLlave != null)
+            {
+                _llavesTemporales.Insert(0, nuevaLlave); // Agrega al inicio de la lista
+                ActualizarListaLlavesUI();
+            }
+        }
+
+        private string PedirComentarioSimple()
+        {
+            // Creamos la ventana con un estilo más de "Popup"
+            Window win = new Window
+            {
+                Title = "Comentario Obligatorio",
+                Width = 350,
+                Height = 200,
+                WindowStartupLocation = WindowStartupLocation.CenterScreen,
+                ResizeMode = ResizeMode.NoResize,
+                WindowStyle = WindowStyle.ToolWindow, // Quita botones de min/max
+                Background = Brushes.White
+            };
+
+            StackPanel sp = new StackPanel { Margin = new Thickness(20) };
+
+            sp.Children.Add(new TextBlock
+            {
+                Text = "Identifique esta llave con un comentario:",
+                Margin = new Thickness(0, 0, 0, 10),
+                FontWeight = FontWeights.Bold,
+                Foreground = (Brush)new BrushConverter().ConvertFrom("#374151")
+            });
+
+            TextBox txt = new TextBox
+            {
+                Height = 35,
+                VerticalContentAlignment = VerticalAlignment.Center,
+                Padding = new Thickness(5, 0, 5, 0)
+            };
+            sp.Children.Add(txt);
+
+            // BOTÓN DE GUARDAR
+            Button btn = new Button
+            {
+                Content = "Guardar y Agregar Llave",
+                Margin = new Thickness(0, 20, 0, 0),
+                Height = 40,
+                Background = (Brush)new BrushConverter().ConvertFrom("#4F46E5"),
+                Foreground = Brushes.White,
+                FontWeight = FontWeights.Bold,
+                Cursor = Cursors.Hand,
+                IsDefault = true // Esto hace que funcione al presionar ENTER
+            };
+
+            // Estilo para el botón (bordes redondeados)
+            Style style = new Style(typeof(Border));
+            style.Setters.Add(new Setter(Border.CornerRadiusProperty, new CornerRadius(5)));
+            btn.Resources.Add(typeof(Border), style);
+
+            btn.Click += (s, ev) =>
+            {
+                if (string.IsNullOrWhiteSpace(txt.Text))
+                {
+                    MessageBox.Show("Debe ingresar un comentario para continuar.", "Aviso");
+                    return;
+                }
+                win.DialogResult = true; // Esto cierra la ventana y devuelve 'true' al ShowDialog
+            };
+
+            sp.Children.Add(btn);
+            win.Content = sp;
+
+            // Forzamos el foco en el texto para escribir de inmediato
+            txt.Focus();
+
+            // Si el usuario cierra la ventana o da Guardar
+            if (win.ShowDialog() == true)
+            {
+                return txt.Text;
+            }
+
+            return null; // Si cancela o cierra la X
+        }
+
+        private void ActualizarListaLlavesUI()
+        {
+            ContenedorLlaves.Children.Clear();
+            foreach (var ll in _llavesTemporales)
+            {
+                var border = new Border { Background = Brushes.White, BorderBrush = Brushes.LightGray, BorderThickness = new Thickness(0, 0, 0, 1), Padding = new Thickness(5) };
+                var txt = new TextBlock
+                {
+                    Text = $"{ll.Fecha} | {ll.Usuario} | {ll.NombreOriginal}\n💬 {ll.Comentario}",
+                    FontSize = 10,
+                    Foreground = Brushes.DarkSlateGray
+                };
+                border.Child = txt;
+                ContenedorLlaves.Children.Add(border);
+            }
+        }
+
+        private void CargarLlavesEnModoVer(XElement servidor)
+        {
+            // 1. Limpiamos visualmente la lista anterior
+            ContenedorLlavesModoVer.Children.Clear();
+
+            // 2. Buscamos si este servidor tiene llaves guardadas en el XML
+            var nodosLlaves = servidor.Elements("LlaveSSH_File").ToList();
+
+            // Si no hay llaves, ocultamos la sección y terminamos
+            if (nodosLlaves.Count == 0)
+            {
+                PanelVerLlave.Visibility = Visibility.Collapsed;
+                return;
+            }
+
+            // Si hay llaves, mostramos la sección
+            PanelVerLlave.Visibility = Visibility.Visible;
+
+            // 3. Convertimos los datos del XML a nuestra lista y los ordenamos por fecha (más nueva arriba)
+            var listaLlaves = nodosLlaves.Select(x => new LlaveTemporal
+            {
+                NombreOriginal = x.Attribute("nombre_original")?.Value,
+                NombreFisico = x.Attribute("nombre_fisico")?.Value,
+                Comentario = x.Element("Comentario")?.Value,
+                Fecha = x.Attribute("fecha")?.Value,
+                Usuario = x.Attribute("usuario")?.Value
+            }).OrderByDescending(x => x.Fecha).ToList();
+
+            // 4. Dibujamos cada llave en pantalla
+            foreach (var ll in listaLlaves)
+            {
+                // Contenedor principal de la fila
+                var border = new Border
+                {
+                    Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#F9FAFB")),
+                    BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#E5E7EB")),
+                    BorderThickness = new Thickness(1),
+                    CornerRadius = new CornerRadius(5),
+                    Margin = new Thickness(0, 0, 0, 5),
+                    Padding = new Thickness(10, 5, 10, 5)
+                };
+
+                var grid = new Grid();
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) }); // Texto
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto }); // Botones
+
+                // Información de la llave (Nombre y Comentario)
+                var txtInfo = new TextBlock
+                {
+                    Text = $"📄 {ll.NombreOriginal}\n💬 {ll.Comentario}\n📅 {ll.Fecha} | 👤 {ll.Usuario}",
+                    FontSize = 11,
+                    Foreground = Brushes.DarkSlateGray
+                };
+                Grid.SetColumn(txtInfo, 0);
+                grid.Children.Add(txtInfo);
+
+                // Panel para los botones
+                var spBotones = new StackPanel { Orientation = Orientation.Horizontal, VerticalAlignment = VerticalAlignment.Center };
+
+                // BOTÓN COPIAR AL PORTAPAPELES
+                Button btnCopy = new Button { Content = "📋", ToolTip = "Copiar contenido al portapapeles", Width = 30, Height = 25, Cursor = Cursors.Hand, Background = Brushes.Transparent, BorderThickness = new Thickness(0) };
+                btnCopy.Click += (s, e) => {
+                    try
+                    {
+                        string rutaFisica = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(GetXmlPath()), "keys", ll.NombreFisico);
+                        if (System.IO.File.Exists(rutaFisica))
+                        {
+                            Clipboard.SetText(System.IO.File.ReadAllText(rutaFisica));
+                            //MessageBox.Show("Contenido de la llave copiado al portapapeles.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("El archivo físico de la llave no se encuentra en la carpeta '/keys/'.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        }
+                    }
+                    catch (Exception ex) { MostrarToast("Error al leer el archivo: " + ex.Message); }
+                };
+
+                // BOTÓN DESCARGAR ARCHIVO
+                Button btnDown = new Button { Content = "💾", ToolTip = "Descargar archivo", Width = 30, Height = 25, Margin = new Thickness(5, 0, 0, 0), Cursor = Cursors.Hand, Background = Brushes.Transparent, BorderThickness = new Thickness(0) };
+                btnDown.Click += (s, e) => {
+                    try
+                    {
+                        string rutaOrigen = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(GetXmlPath()), "keys", ll.NombreFisico);
+                        if (!System.IO.File.Exists(rutaOrigen))
+                        {
+                            MostrarToast("El archivo físico de la llave no se encuentra en el servidor.");
+                            return;
+                        }
+
+                        var saveDialog = new Microsoft.Win32.SaveFileDialog
+                        {
+                            FileName = ll.NombreOriginal, // Sugiere el nombre real del archivo
+                            Title = "Guardar llave SSH"
+                        };
+
+                        if (saveDialog.ShowDialog() == true)
+                        {
+                            System.IO.File.Copy(rutaOrigen, saveDialog.FileName, true);
+                            //MessageBox.Show("Archivo descargado correctamente.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                        }
+                    }
+                    catch (Exception ex) { MostrarToast("Error al descargar: " + ex.Message); }
+                };
+
+                spBotones.Children.Add(btnCopy);
+                spBotones.Children.Add(btnDown);
+
+                Grid.SetColumn(spBotones, 1);
+                grid.Children.Add(spBotones);
+
+                border.Child = grid;
+                ContenedorLlavesModoVer.Children.Add(border);
+            }
+
+        }
+
+        private void MostrarToast(string mensaje)
+        {
+            // Creamos el diseño del Toast por código
+            var border = new Border
+            {
+                Background = (Brush)new BrushConverter().ConvertFrom("#374151"),
+                CornerRadius = new CornerRadius(8),
+                Padding = new Thickness(15, 10, 15, 10),
+                Effect = new System.Windows.Media.Effects.DropShadowEffect { BlurRadius = 10, Opacity = 0.3 }
+            };
+
+            var textBlock = new TextBlock
+            {
+                Text = mensaje,
+                Foreground = Brushes.White,
+                FontSize = 13,
+                FontWeight = FontWeights.SemiBold,
+                TextAlignment = TextAlignment.Center
+            };
+            border.Child = textBlock;
+
+            // Usamos un Popup de WPF (no necesita archivo XAML extra)
+            System.Windows.Controls.Primitives.Popup toast = new System.Windows.Controls.Primitives.Popup
+            {
+                Child = border,
+                Placement = System.Windows.Controls.Primitives.PlacementMode.Center,
+                PlacementTarget = this, // Se centra respecto a la ventana principal
+                AllowsTransparency = true,
+                PopupAnimation = System.Windows.Controls.Primitives.PopupAnimation.Fade,
+                IsOpen = true
+            };
+
+            // Temporizador para cerrarlo
+            var timer = new System.Windows.Threading.DispatcherTimer { Interval = TimeSpan.FromSeconds(3) };
+            timer.Tick += (s, e) => {
+                toast.IsOpen = false;
+                timer.Stop();
+            };
+            timer.Start();
         }
 
     }

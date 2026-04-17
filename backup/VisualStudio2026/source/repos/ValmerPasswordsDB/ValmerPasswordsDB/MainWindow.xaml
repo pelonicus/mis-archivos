@@ -110,9 +110,9 @@
                                     <StackPanel x:Name="ContenedorUsuariosAdicionalesLectura"/>
                                 </StackPanel>
 
-                                <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,0,15" x:Name="PanelVerLlave">
-                                    <TextBlock Text="Llave SSH" Foreground="Gray" FontSize="11"/>
-                                    <TextBox x:Name="TxtVerLlave" IsReadOnly="True" Height="70" AcceptsReturn="True" FontFamily="Consolas" FontSize="12" Background="#F9FAFB" BorderBrush="#E5E7EB"/>
+                                <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,0,15" x:Name="PanelVerLlave" Visibility="Collapsed">
+                                    <TextBlock Text="Llaves SSH Adjuntas" Foreground="Gray" FontSize="11" Margin="0,0,0,5"/>
+                                    <StackPanel x:Name="ContenedorLlavesModoVer" MinHeight="20"/>
                                 </StackPanel>
 
                                 <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Margin="0,0,0,15">
@@ -262,8 +262,19 @@
                                 </StackPanel>
 
                                 <StackPanel Grid.Row="4" Grid.ColumnSpan="2" x:Name="PanelLlave" Margin="0,5,0,10" Visibility="Collapsed">
-                                    <TextBlock Text="Llave SSH" Foreground="Gray" Margin="0,0,0,5"/>
-                                    <TextBox x:Name="TxtLlave" Height="80" AcceptsReturn="True" FontFamily="Consolas" FontSize="11" VerticalScrollBarVisibility="Auto"/>
+                                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                        <TextBlock Text="Llave SSH" Foreground="Gray" VerticalAlignment="Center"/>
+                                        <Button Content="+" Click="BtnAgregarLlave_Click" Width="22" Height="22" Margin="10,0,0,0" 
+                                                Background="Transparent" BorderThickness="0" FontWeight="Bold" Foreground="#374151" Cursor="Hand">
+                                            <Button.Resources>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+                                            </Button.Resources>
+                                        </Button>
+                                    </StackPanel>
+
+                                    <StackPanel x:Name="ContenedorLlaves" MinHeight="20"/>
                                 </StackPanel>
                             </Grid>
 
