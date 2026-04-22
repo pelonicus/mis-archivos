@@ -54,6 +54,7 @@ echo Actualizar fecha
 call actualizar_fecha.pl personal.m3u
 
 echo Backup scripts
+robocopy "D:\Users\VictorSalvador\source" "C:\Users\VictorSalvador\OneDrive - valmersys.com\Documentos\GitHub\mis-archivos\backup\VisualStudio2026\source" /MIR /NFL /NDL /NJH /NJS
 copy *.pl /y "C:\Users\VictorSalvador\OneDrive - valmersys.com\Documentos\GitHub\mis-archivos\backup"
 copy *.bat /y "C:\Users\VictorSalvador\OneDrive - valmersys.com\Documentos\GitHub\mis-archivos\backup"
 
