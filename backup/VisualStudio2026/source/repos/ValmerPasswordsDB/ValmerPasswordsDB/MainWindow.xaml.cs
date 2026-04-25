@@ -274,6 +274,26 @@ namespace ValmerPasswordsDB
             CargarLlavesEnModoVer(s);
             LblVerComentarios.Text = s.Element("Comentario")?.Value ?? "-";
 
+            // --- CARGAR LLAVES EXISTENTES AL MODO EDICIÓN ---
+            _llavesTemporales.Clear();
+            if (_servidorEditando != null)
+            {
+                // Extraemos las llaves que ya existen en el XML para este servidor
+                var llavesExistentes = _servidorEditando.Elements("LlaveSSH_File").Select(x => new LlaveTemporal
+                {
+                    NombreOriginal = x.Attribute("nombre_original")?.Value,
+                    NombreFisico = x.Attribute("nombre_fisico")?.Value,
+                    Comentario = x.Element("Comentario")?.Value,
+                    Fecha = x.Attribute("fecha")?.Value,
+                    Usuario = x.Attribute("usuario")?.Value,
+                    RutaOrigen = null // CRÍTICO: null indica que la llave ya reside en el servidor
+                }).ToList();
+
+                _llavesTemporales.AddRange(llavesExistentes);
+            }
+            // Refrescar la UI para mostrar las llaves cargadas
+            ActualizarListaLlavesUI();
+
             // --- Lógica para usuarios adicionales ---
             ContenedorUsuariosAdicionalesLectura.Children.Clear();
             var listaUsuarios = s.Elements("Usuario").ToList();
@@ -1230,18 +1250,59 @@ namespace ValmerPasswordsDB
 
         private void ActualizarListaLlavesUI()
         {
-            ContenedorLlaves.Children.Clear();
+            ContenedorListaLlaves.Children.Clear();
+
             foreach (var ll in _llavesTemporales)
             {
-                var border = new Border { Background = Brushes.White, BorderBrush = Brushes.LightGray, BorderThickness = new Thickness(0, 0, 0, 1), Padding = new Thickness(5) };
-                var txt = new TextBlock
+                // Identificamos si la llave es nueva buscando una ruta de origen local
+                bool esNueva = !string.IsNullOrEmpty(ll.RutaOrigen);
+
+                // Creamos el contenedor con el estilo visual del panel de 'VER'
+                var border = new Border
                 {
-                    Text = $"{ll.Fecha} | {ll.Usuario} | {ll.NombreOriginal}\n💬 {ll.Comentario}",
-                    FontSize = 10,
-                    Foreground = Brushes.DarkSlateGray
+                    Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#F9FAFB")),
+                    BorderBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#E5E7EB")),
+                    BorderThickness = new Thickness(1),
+                    CornerRadius = new CornerRadius(5),
+                    Margin = new Thickness(0, 0, 0, 5),
+                    Padding = new Thickness(10, 5, 10, 5)
                 };
-                border.Child = txt;
-                ContenedorLlaves.Children.Add(border);
+
+                var grid = new Grid();
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+
+                var txtInfo = new TextBlock
+                {
+                    Text = $"📄 {ll.NombreOriginal}\n💬 {ll.Comentario}\n📅 {ll.Fecha} | 👤 {ll.Usuario}",
+                    FontSize = 11,
+                    Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#374151"))
+                };
+                Grid.SetColumn(txtInfo, 0);
+                grid.Children.Add(txtInfo);
+
+                // Solo añadimos el botón de eliminar si la llave es nueva
+                if (esNueva)
+                {
+                    Button btnEliminar = new Button
+                    {
+                        Content = "❌",
+                        Width = 30,
+                        Height = 25,
+                        Background = Brushes.Transparent,
+                        BorderThickness = new Thickness(0),
+                        Cursor = Cursors.Hand
+                    };
+                    btnEliminar.Click += (s, e) => {
+                        _llavesTemporales.Remove(ll);
+                        ActualizarListaLlavesUI();
+                    };
+                    Grid.SetColumn(btnEliminar, 1);
+                    grid.Children.Add(btnEliminar);
+                }
+
+                border.Child = grid;
+                ContenedorListaLlaves.Children.Add(border);
             }
         }
 
@@ -1401,6 +1462,50 @@ namespace ValmerPasswordsDB
                 timer.Stop();
             };
             timer.Start();
+        }
+
+        private void TxtBusqueda_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string filtro = TxtBusqueda.Text.ToLower().Trim();
+
+            if (string.IsNullOrEmpty(filtro))
+            {
+                // Si no hay texto, volvemos al TreeView original
+                BtnLimpiarBusqueda.Visibility = Visibility.Collapsed;
+                ListaResultadosBusqueda.Visibility = Visibility.Collapsed;
+                ArbolServidores.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                // Activamos modo búsqueda
+                BtnLimpiarBusqueda.Visibility = Visibility.Visible;
+                ArbolServidores.Visibility = Visibility.Collapsed;
+                ListaResultadosBusqueda.Visibility = Visibility.Visible;
+
+                // Buscamos solo servidores que coincidan con el nombre
+                if (_xmlData != null)
+                {
+                    var resultados = _xmlData.Descendants("Servidor")
+                        .Where(s => s.Attribute("nombre")?.Value.ToLower().Contains(filtro) == true)
+                        .ToList();
+
+                    ListaResultadosBusqueda.ItemsSource = resultados;
+                }
+            }
+        }
+
+        private void BtnLimpiarBusqueda_Click(object sender, RoutedEventArgs e)
+        {
+            TxtBusqueda.Clear(); // Esto disparará TextChanged y reseteará la vista
+        }
+
+        private void ListaResultadosBusqueda_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ListaResultadosBusqueda.SelectedItem is XElement servidorSeleccionado)
+            {
+                // Reutilizamos tu lógica de mostrar detalles pasándole el elemento del XML
+                MostrarDatosEnModoVer(servidorSeleccionado);
+            }
         }
 
     }
