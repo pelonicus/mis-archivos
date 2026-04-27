@@ -59,9 +59,11 @@
                  SelectionChanged="ListaResultadosBusqueda_SelectionChanged">
                                 <ListBox.ItemTemplate>
                                     <DataTemplate>
-                                        <StackPanel Orientation="Horizontal" Padding="5">
-                                            <TextBlock Text="🖥️" Margin="0,0,8,0"/>
-                                            <TextBlock Text="{Binding Attribute[nombre].Value}" FontWeight="Medium"/>
+                                        <StackPanel Orientation="Horizontal" Margin="5">
+                                            <StackPanel Orientation="Horizontal" Margin="5">
+                                                <TextBlock Text="🖥️" Margin="0,0,8,0"/>
+                                                <TextBlock Text="{Binding Attribute[nombre].Value}" FontWeight="Medium"/>
+                                            </StackPanel>
                                         </StackPanel>
                                     </DataTemplate>
                                 </ListBox.ItemTemplate>
@@ -247,7 +249,6 @@
                                                     <ColumnDefinition Width="Auto"/>
                                                 </Grid.ColumnDefinitions>
                                                 <Border BorderThickness="1" BorderBrush="#D1D5DB" Background="#F3F4F6" CornerRadius="3" Height="32">
-                                                    <Grid>
                                                         <TextBlock x:Name="TxtEdicionPassOculta" Text="••••••••" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="Gray"/>
                                                         <TextBlock x:Name="TxtEdicionPassReal" Visibility="Collapsed" VerticalAlignment="Center" Margin="10,0,0,0" Foreground="#374151" FontWeight="Bold"/>
                                                     </Grid>
@@ -300,7 +301,7 @@
                                 <StackPanel Grid.Row="4" Grid.ColumnSpan="2" x:Name="PanelLlave" Margin="0,5,0,10" Visibility="Collapsed">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                                         <TextBlock Text="Llave SSH" Foreground="Gray" VerticalAlignment="Center"/>
-                                        
+
                                         <Button Content="+" Click="BtnAgregarLlave_Click" Width="22" Height="22" Margin="10,0,0,0" 
                                                 Background="Transparent" BorderThickness="0" FontWeight="Bold" Foreground="#374151" Cursor="Hand">
                                             <Button.Resources>
@@ -309,7 +310,7 @@
                                                 </Style>
                                             </Button.Resources>
                                         </Button>
-                                        
+
                                     </StackPanel>
                                     <StackPanel x:Name="ContenedorListaLlaves"/>
                                     <StackPanel x:Name="ContenedorLlaves" MinHeight="20"/>
