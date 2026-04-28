@@ -26,6 +26,8 @@ namespace ValmerPasswordsDB
         private string _passwordDesencriptadaActual = "";
         private System.Windows.Threading.DispatcherTimer _lockRenewTimer;
 
+        private FileSystemWatcher? _xmlWatcher;
+        private System.Windows.Threading.DispatcherTimer? _xmlReloadTimer;
         // Rutas
         public class LlaveTemporal
         {
@@ -130,9 +132,56 @@ namespace ValmerPasswordsDB
         private List<LlaveTemporal> _llavesTemporales = new List<LlaveTemporal>();
         private string GetXmlPath()
         {
-            string? od = Environment.GetEnvironmentVariable("OneDriveCommercial") ?? Environment.GetEnvironmentVariable("OneDrive");
-            if (string.IsNullOrEmpty(od)) return "";
-            return Path.Combine(od, "General - Servicios", "Softwares", "ValmerSystem", "ValmerPasswordsDB", "passwordsdb.xml");
+            string? od = Environment.GetEnvironmentVariable("OneDriveCommercial")
+                         ?? Environment.GetEnvironmentVariable("OneDrive");
+
+            if (string.IsNullOrEmpty(od) || !Directory.Exists(od))
+                return "";
+
+            try
+            {
+                // Busca rápido: OneDrive\*\Softwares\ValmerSystem\ValmerPasswordsDB\passwordsdb.xml
+                foreach (var nivel1 in Directory.GetDirectories(od))
+                {
+                    try
+                    {
+                        string ruta = Path.Combine(
+                            nivel1,
+                            "Softwares",
+                            "ValmerSystem",
+                            "ValmerPasswordsDB",
+                            "passwordsdb.xml"
+                        );
+
+                        if (File.Exists(ruta))
+                            return ruta;
+                    }
+                    catch { }
+                }
+
+                // También prueba directo por si existe: OneDrive\Softwares\ValmerSystem\...
+                string rutaDirecta = Path.Combine(
+                    od,
+                    "Softwares",
+                    "ValmerSystem",
+                    "ValmerPasswordsDB",
+                    "passwordsdb.xml"
+                );
+
+                if (File.Exists(rutaDirecta))
+                    return rutaDirecta;
+            }
+            catch { }
+
+            MessageBox.Show(
+                "No se encontró passwordsdb.xml buscando dentro de:\n\n" +
+                od + "\n\nPatrón esperado:\nSoftwares\\ValmerSystem\\ValmerPasswordsDB\\passwordsdb.xml",
+                "XML no encontrado",
+                MessageBoxButton.OK,
+                MessageBoxImage.Warning
+            );
+
+            return "";
         }
 
         private string GetLockPath()
@@ -161,6 +210,7 @@ namespace ValmerPasswordsDB
                 PanelBloqueo.Visibility = Visibility.Collapsed;
                 PanelPrincipal.Visibility = Visibility.Visible;
                 CargarDatosXML();
+                IniciarMonitoreoXML();
             }
             else { Close(); }
         }
@@ -168,6 +218,14 @@ namespace ValmerPasswordsDB
         private void MainWindow_Closed(object sender, EventArgs e)
         {
             _lockRenewTimer.Stop();
+            _xmlReloadTimer?.Stop();
+
+            if (_xmlWatcher != null)
+            {
+                _xmlWatcher.EnableRaisingEvents = false;
+                _xmlWatcher.Dispose();
+            }
+
             LiberarLock();
         }
 
@@ -191,6 +249,7 @@ namespace ValmerPasswordsDB
             try
             {
                 string ruta = GetXmlPath();
+
                 if (string.IsNullOrEmpty(ruta) || !File.Exists(ruta)) return;
 
                 using (FileStream fs = new FileStream(ruta, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
@@ -253,6 +312,12 @@ namespace ValmerPasswordsDB
 
         private void MostrarDatosEnModoVer(XElement s)
         {
+            // Limpiar memoria y vista de llaves antes de cargar el servidor actual
+            _llavesTemporales.Clear();
+            if (ContenedorLlavesModoVer != null)
+            {
+                ContenedorLlavesModoVer.Children.Clear();
+            }
             string ipUrl = string.IsNullOrEmpty(s.Attribute("ip")?.Value) ? s.Attribute("url")?.Value : s.Attribute("ip")?.Value;
             LblVerTitulo.Text = $"{s.Attribute("nombre")?.Value} ({ipUrl})";
             LblVerTipo.Text = s.Attribute("tipo")?.Value;
@@ -479,6 +544,12 @@ namespace ValmerPasswordsDB
             PanelPassEdicionBase.Visibility = Visibility.Visible;
             PanelConfirmarBase.Visibility = Visibility.Visible;
             //BtnCancelarCambioBase.Visibility = Visibility.Collapsed;
+            // Limpiar rastro de llaves de servidores vistos anteriormente
+            _llavesTemporales.Clear();
+            if (ContenedorListaLlaves != null)
+            {
+                ContenedorListaLlaves.Children.Clear();
+            }
         }
 
         // ==========================================
@@ -511,6 +582,22 @@ namespace ValmerPasswordsDB
 
             TxtTituloDerecho.Text = "Editar Registro";
             CargarForm(_servidorEditando);
+
+            // --- PASO 3: CARGAR LLAVES DEL SERVIDOR QUE SE ESTÁ EDITANDO ---
+            var llavesExistentes = _servidorEditando.Elements("LlaveSSH_File").Select(x => new LlaveTemporal
+            {
+                NombreOriginal = x.Attribute("nombre_original")?.Value,
+                NombreFisico = x.Attribute("nombre_fisico")?.Value,
+                Comentario = x.Element("Comentario")?.Value,
+                Fecha = x.Attribute("fecha")?.Value,
+                Usuario = x.Attribute("usuario")?.Value,
+                RutaOrigen = null // Indica que la llave ya existe en el servidor
+            }).ToList();
+
+            _llavesTemporales.AddRange(llavesExistentes);
+
+            // Dibuja las llaves en el panel de edición
+            ActualizarListaLlavesUI();
 
             ScrollModoVer.Visibility = Visibility.Collapsed;
             ScrollModoEdicion.Visibility = Visibility.Visible;
@@ -601,6 +688,7 @@ namespace ValmerPasswordsDB
             _servidorEditando.SetAttributeValue("url", TxtURL.Text);
             _servidorEditando.SetAttributeValue("dominio", TxtDominio.Text);
             _servidorEditando.SetAttributeValue("hw_tipo", TxtHardwareTipo.Text);
+            _servidorEditando.SetElementValue("Comentario", TxtComentario.Text ?? "");
 
             // --- PROCESAR LLAVES ---
             string rutaBase = System.IO.Path.GetDirectoryName(GetXmlPath());
@@ -725,7 +813,7 @@ namespace ValmerPasswordsDB
             ScrollModoEdicion.Visibility = Visibility.Collapsed;
             TxtMensajeVacio.Visibility = Visibility.Visible;
 
-            MostrarToast("Servidor guardado con éxito");
+            //MostrarToast("Servidor guardado con éxito");
         }
 
         private void BtnCerrarForm_Click(object sender, RoutedEventArgs e)
@@ -1065,15 +1153,31 @@ namespace ValmerPasswordsDB
 
         private void BtnAddGrupo_Click(object sender, RoutedEventArgs e)
         {
+            if (!VerificarYTomarLock()) return;
+
             string n = Microsoft.VisualBasic.Interaction.InputBox("Nombre Grupo:", "Nuevo Grupo");
+
             if (!string.IsNullOrWhiteSpace(n))
             {
                 var g = new XElement("Grupo", new XAttribute("nombre", n));
                 var h = new XElement("Historial");
-                RegistrarEventoHistorial(h, "Creación de Grupo", Environment.UserName, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-                g.Add(h); _xmlData?.Root?.Add(g);
-                GuardarXML(); CargarDatosXML();
+
+                RegistrarEventoHistorial(
+                    h,
+                    "Creación de Grupo",
+                    Environment.UserName,
+                    DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
+                );
+
+                g.Add(h);
+                _xmlData?.Root?.Add(g);
+
+                GuardarXML();
+                CargarDatosXML();
             }
+
+            LiberarLock();
+            _lockRenewTimer.Stop();
         }
 
         private void RegistrarEventoHistorial(XElement h, string ac, string au, string f, string uAnt = null, string pAnt = null)
@@ -1507,6 +1611,56 @@ namespace ValmerPasswordsDB
                 MostrarDatosEnModoVer(servidorSeleccionado);
             }
         }
+
+        private void IniciarMonitoreoXML()
+        {
+            string rutaXml = GetXmlPath();
+
+            if (string.IsNullOrEmpty(rutaXml) || !File.Exists(rutaXml))
+                return;
+
+            string carpeta = Path.GetDirectoryName(rutaXml);
+            string archivo = Path.GetFileName(rutaXml);
+
+            _xmlWatcher = new FileSystemWatcher
+            {
+                Path = carpeta,
+                Filter = archivo,
+                NotifyFilter = NotifyFilters.LastWrite | NotifyFilters.Size | NotifyFilters.FileName,
+                EnableRaisingEvents = true
+            };
+
+            _xmlReloadTimer = new System.Windows.Threading.DispatcherTimer
+            {
+                Interval = TimeSpan.FromSeconds(2)
+            };
+
+            _xmlReloadTimer.Tick += (s, e) =>
+            {
+                _xmlReloadTimer.Stop();
+
+                // Si estás editando, no recargamos para no romper el formulario
+                if (ScrollModoEdicion.Visibility == Visibility.Visible)
+                    return;
+
+                CargarDatosXML();
+            };
+
+            _xmlWatcher.Changed += XmlWatcher_CambioDetectado;
+            _xmlWatcher.Created += XmlWatcher_CambioDetectado;
+            _xmlWatcher.Renamed += XmlWatcher_CambioDetectado;
+        }
+
+        private void XmlWatcher_CambioDetectado(object sender, FileSystemEventArgs e)
+        {
+            Dispatcher.Invoke(() =>
+            {
+                _xmlReloadTimer?.Stop();
+                _xmlReloadTimer?.Start();
+            });
+        }
+
+
 
     }
 }
