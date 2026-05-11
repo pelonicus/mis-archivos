@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",11 May.. 2026 09:45
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",11 May.. 2026 18:53
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -443,6 +443,12 @@ http://38.224.48.4:8000/play/a0s3/index.m3u8
 http://8.243.126.131:8000/play/a0fn/index.m3u8
 #EXTINF:-1 group-title="-",Golden Premiere 2 HD(PET30ABR24)
 http://8.243.126.131:8000/play/a0fo/index.m3u8
+#EXTINF:-1,HGTV WEST-US(USCH11MAY)
+http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaX2v7IEt2gbU9FCBHvXdAeo
+#EXTINF:-1,HGTV EAST-US(USCH11MAY)
+http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaWWTt3d5KmMGtzQPgXchSyI
+#EXTINF:-1,HGTV EAST-US(USCH11MAY)
+http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaWgB4VpjzZQNw1u0mUdTGyI
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(USWA8DIC)
 http://tvmate.icu:8080/streatj87@gmail.com/HpU2jesf8w/46717
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(USWA5NOV1)
@@ -455,6 +461,8 @@ http://canal-pro.xyz:8080/996794768tv/a32hd22/23993
 http://cord-cutter.net:8080/7bJBhh/138115/46717
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/512px-HGTV_US_Logo_2015.svg.png" group-title="TV",HGTV EAST-US(USFL07AGO)
 http://canal-pro.xyz:8080/996794768tv/a32hd22/23994
+#EXTINF:-1,Home Network CA(PET30ABR24)
+http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaV3m1AcnDLwZ7rAa-Q8l0R4
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(USWA8DIC)
 http://tvmate.icu:8080/streatj87@gmail.com/HpU2jesf8w/57273
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(USWA5NOV1)
@@ -587,10 +595,8 @@ http://38.224.48.4:8000/play/a0ok/index.m3u8
 http://38.224.48.4:8000/play/a0hs/index.m3u8
 #EXTINF:-1 tvg-id="national_geographic_centro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/300px-Natgeologo.svg.png" group-title="documentary",Nat Geo(PET4AGO)
 http://200.60.97.100:28888/play/a0id/index.m3u8
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(US-FL0725)
-http://canal-pro.xyz:8080/996794768tv/a32hd22/236341
-#EXTINF:-1 tvg-id="Historia.es" tvg-name="ESP - Historia (T)(720)" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Documentary",Historia(US-FL0725)
-http://canal-pro.xyz:8080/996794768tv/a32hd22/236362
+#EXTINF:-1,Historia(RO11MAY)
+http://nxbrush.xyz:80/live/Mustafabozkurt1982/fwaaVFMwbP/896624.ts
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Mega (L)(720)" tvg-logo="http://23.153.216.121:25461/images/4ed0e0ecb998940e016def789ae1bdd0.png" group-title="ESPAÑA",MEGA(PET30ABR24)
 http://8.243.126.131:8000/play/a051/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ESP - Mega (L)(720)" tvg-logo="http://23.153.216.121:25461/images/4ed0e0ecb998940e016def789ae1bdd0.png" group-title="ESPAÑA",MEGA(PETE28ABR)
@@ -727,8 +733,10 @@ http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/178775
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/178776
 #EXTINF:-1 tvg-id="" tvg-name="PPV 4 - (E)(1080)" tvg-logo="https://i.postimg.cc/D43vFj76/PPV1.png" group-title="EVENTOS PPV",PPV 4(USNY16FEB)
 http://tv.zapping.life:8080/darkmaste2/JdB7dkt8Dh/178777
-#EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(USNY16FEB)
-http://zerotwo.access.ly:2096/jharvil/1365974802/815002
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(USCH11MAY)
+http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaR_6mdm9jDCUrVaAb-1O71E
+#EXTINF:-1,ESPN Deportes(RO11MAY)
+http://nxbrush.xyz:80/live/Mustafabozkurt1982/fwaaVFMwbP/896861.ts
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PET30ABR24)
 http://8.243.126.131:8000/play/a05q/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PET30ABR24)
