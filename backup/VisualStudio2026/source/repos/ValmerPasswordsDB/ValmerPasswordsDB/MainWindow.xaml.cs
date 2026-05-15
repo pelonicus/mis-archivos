@@ -706,7 +706,10 @@ namespace ValmerPasswordsDB
 
                     try
                     {
-                        System.IO.File.Copy(ll.RutaOrigen, destino, true);
+                        string contenidoLlave = System.IO.File.ReadAllText(ll.RutaOrigen);
+                        string contenidoEncriptado = Encriptar(contenidoLlave);
+
+                        System.IO.File.WriteAllText(destino, contenidoEncriptado);
                         ll.NombreFisico = nombreFisico;
 
                         // REGISTRO DE HISTORIAL ESPECÍFICO PARA LA LLAVE
@@ -1213,6 +1216,18 @@ namespace ValmerPasswordsDB
             catch { return ""; }
         }
 
+        private string LeerLlaveDesencriptada(string rutaFisica)
+        {
+            string contenido = File.ReadAllText(rutaFisica);
+
+            string desencriptado = Desencriptar(contenido);
+
+            // Compatibilidad: si alguna llave vieja quedó guardada sin cifrar
+            if (string.IsNullOrEmpty(desencriptado) && !string.IsNullOrEmpty(contenido))
+                return contenido;
+
+            return desencriptado;
+        }
         private void AgregarFilaUsuarioAdicional(string nombre, string password)
         {
             Grid gridFila = new Grid { Margin = new Thickness(0, 0, 0, 5) };
@@ -1477,7 +1492,7 @@ namespace ValmerPasswordsDB
                         string rutaFisica = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(GetXmlPath()), "keys", ll.NombreFisico);
                         if (System.IO.File.Exists(rutaFisica))
                         {
-                            Clipboard.SetText(System.IO.File.ReadAllText(rutaFisica));
+                            Clipboard.SetText(LeerLlaveDesencriptada(rutaFisica));
                             //MessageBox.Show("Contenido de la llave copiado al portapapeles.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
                         }
                         else
@@ -1508,7 +1523,8 @@ namespace ValmerPasswordsDB
 
                         if (saveDialog.ShowDialog() == true)
                         {
-                            System.IO.File.Copy(rutaOrigen, saveDialog.FileName, true);
+                            string contenidoDesencriptado = LeerLlaveDesencriptada(rutaOrigen);
+                            System.IO.File.WriteAllText(saveDialog.FileName, contenidoDesencriptado);
                             //MessageBox.Show("Archivo descargado correctamente.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
                         }
                     }
