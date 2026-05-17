@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",17 May.. 2026 10:16
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",17 May.. 2026 10:36
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -521,10 +521,12 @@ http://38.224.48.4:8000/play/a0or/index.m3u8
 http://38.224.48.4:8000/play/a0hz/index.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" group-title="documentary",Investigation Discovery(PET4AGO)
 http://200.60.97.100:28888/play/a0ih/index.m3u8
+#EXTINF:-1 group-title="-",Discovery Science(HK15MAY)
+http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/95083
 #EXTINF:-1 group-title="-",Discovery Science(PET30ABR24)
 http://8.243.126.131:8000/play/a04u/index.m3u8
-#EXTINF:-1 group-title="-",Discovery Science
-http://8.243.126.131:8000/play/a0ff/index.m3u8(PET30ABR24)
+#EXTINF:-1 group-title="-",Discovery Science(PET30ABR24)
+http://8.243.126.131:8000/play/a0ff/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(PET30ABR24)
 http://8.243.126.131:8000/play/a0g9/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(PET30ABR24)
@@ -565,13 +567,13 @@ http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127760
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127758
 #EXTINF:-1,Historia 4K(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127772
-#EXTINF:-1 tvg-ID="blaze.es" tvg-name="|ES| BLAZE" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/BLAZE.png" group-title="ESPANOL CULTURA",|ES| BLAZE
+#EXTINF:-1 tvg-ID="blaze.es" tvg-name="|ES| BLAZE" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/BLAZE.png" group-title="ESPANOL CULTURA",BLAZE(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/181633
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",|ES| CANAL ODISEA
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127753
-#EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",|ES| DMAX
+#EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127756
-#EXTINF:-1 tvg-ID="dkiss.es" tvg-name="|ES| DKISS" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DKISS.png" group-title="ESPANOL CULTURA",|ES| DKISS
+#EXTINF:-1 tvg-ID="dkiss.es" tvg-name="|ES| DKISS" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DKISS.png" group-title="ESPANOL CULTURA",DKISS(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127757
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(PET30ABR24)
 http://8.243.126.131:8000/play/a0gb/index.m3u8
