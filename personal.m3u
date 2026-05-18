@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",17 May.. 2026 10:36
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",18 May.. 2026 09:20
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -563,6 +563,10 @@ http://200.60.97.100:28888/play/a0id/index.m3u8
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127759
 #EXTINF:-1 tvg-ID="natgeowild.es" tvg-name="|ES| NAT GEO WILD" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/NG_WILD_HD.png" group-title="ESPANOL CULTURA",Nat Geo Wild(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127760
+#EXTINF:-1,Historia(ESM17MAY)
+http://d-gta.net:8080/hapdW0RExw2kHfZ/BWDGqFvn3XaoEV5/898987
+#EXTINF:-1,Historia(HK17MAY)
+http://sansat.cc:88/TNAQEJWRXL/UVH7VTJSIC/127758
 #EXTINF:-1,Historia(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127758
 #EXTINF:-1,Historia 4K(HK15MAY)
