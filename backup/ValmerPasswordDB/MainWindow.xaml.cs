@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Xml.Linq;
@@ -140,13 +141,12 @@ namespace ValmerPasswordsDB
 
             try
             {
-                // Busca rápido: OneDrive\*\Softwares\ValmerSystem\ValmerPasswordsDB\passwordsdb.xml
-                foreach (var nivel1 in Directory.GetDirectories(od))
+                string BuscarRuta(string basePath, int nivelActual, int maxNivel)
                 {
                     try
                     {
                         string ruta = Path.Combine(
-                            nivel1,
+                            basePath,
                             "Softwares",
                             "ValmerSystem",
                             "ValmerPasswordsDB",
@@ -155,27 +155,34 @@ namespace ValmerPasswordsDB
 
                         if (File.Exists(ruta))
                             return ruta;
+
+                        if (nivelActual >= maxNivel)
+                            return null;
+
+                        foreach (var dir in Directory.GetDirectories(basePath))
+                        {
+                            string encontrada = BuscarRuta(dir, nivelActual + 1, maxNivel);
+
+                            if (!string.IsNullOrEmpty(encontrada))
+                                return encontrada;
+                        }
                     }
                     catch { }
+
+                    return null;
                 }
 
-                // También prueba directo por si existe: OneDrive\Softwares\ValmerSystem\...
-                string rutaDirecta = Path.Combine(
-                    od,
-                    "Softwares",
-                    "ValmerSystem",
-                    "ValmerPasswordsDB",
-                    "passwordsdb.xml"
-                );
+                string resultado = BuscarRuta(od, 0, 4);
 
-                if (File.Exists(rutaDirecta))
-                    return rutaDirecta;
+                if (!string.IsNullOrEmpty(resultado))
+                    return resultado;
             }
             catch { }
 
             MessageBox.Show(
                 "No se encontró passwordsdb.xml buscando dentro de:\n\n" +
-                od + "\n\nPatrón esperado:\nSoftwares\\ValmerSystem\\ValmerPasswordsDB\\passwordsdb.xml",
+                od +
+                "\n\nPatrón esperado:\nSoftwares\\ValmerSystem\\ValmerPasswordsDB\\passwordsdb.xml",
                 "XML no encontrado",
                 MessageBoxButton.OK,
                 MessageBoxImage.Warning
@@ -319,9 +326,11 @@ namespace ValmerPasswordsDB
                 ContenedorLlavesModoVer.Children.Clear();
             }
             string ipUrl = string.IsNullOrEmpty(s.Attribute("ip")?.Value) ? s.Attribute("url")?.Value : s.Attribute("ip")?.Value;
-            LblVerTitulo.Text = $"{s.Attribute("nombre")?.Value} ({ipUrl})";
+            string textoTitulo = $"{s.Attribute("nombre")?.Value} ({ipUrl})";
+            PintarTextoConBotonCopiar(LblVerTitulo, ipUrl);
             LblVerTipo.Text = s.Attribute("tipo")?.Value;
-            LblVerURL.Text = s.Attribute("url")?.Value ?? "-";
+            string textoUrl = s.Attribute("url")?.Value ?? "-";
+            PintarTextoConBotonCopiar(LblVerURL, textoUrl);
             PanelVerURL.Visibility = string.IsNullOrEmpty(s.Attribute("url")?.Value) ? Visibility.Collapsed : Visibility.Visible;
             var dom = s.Attribute("dominio")?.Value;
             var hw = s.Attribute("hw_tipo")?.Value;
@@ -875,8 +884,14 @@ namespace ValmerPasswordsDB
         // Eventos UX Base
         private void VerPassLectura_Down(object sender, MouseButtonEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) { TxtVerPasswordOculta.Visibility = Visibility.Collapsed; TxtVerPasswordReal.Visibility = Visibility.Visible; } }
         private void VerPassLectura_Up(object sender, EventArgs e) { TxtVerPasswordOculta.Visibility = Visibility.Visible; TxtVerPasswordReal.Visibility = Visibility.Collapsed; }
-        private void CopiarPassLectura_Click(object sender, RoutedEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) Clipboard.SetText(_passwordDesencriptadaActual); }
-
+        private void CopiarPassLectura_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(_passwordDesencriptadaActual))
+            {
+                Clipboard.SetText(_passwordDesencriptadaActual);
+                MostrarToast("Contraseña copiada al portapapeles.");
+            }
+        }
         private void EdicionOjoBase_Down(object sender, MouseButtonEventArgs e) { if (!string.IsNullOrEmpty(_passwordDesencriptadaActual)) { TxtEdicionPassOculta.Visibility = Visibility.Collapsed; TxtEdicionPassReal.Text = _passwordDesencriptadaActual; TxtEdicionPassReal.Visibility = Visibility.Visible; } }
         private void EdicionOjoBase_Up(object sender, EventArgs e) { TxtEdicionPassOculta.Visibility = Visibility.Visible; TxtEdicionPassReal.Visibility = Visibility.Collapsed; }
 
@@ -1265,7 +1280,11 @@ namespace ValmerPasswordsDB
             btnOjo.PreviewMouseDown += (s, e) => { txtOculta.Visibility = Visibility.Collapsed; txtReal.Visibility = Visibility.Visible; };
             btnOjo.PreviewMouseUp += (s, e) => { txtOculta.Visibility = Visibility.Visible; txtReal.Visibility = Visibility.Collapsed; };
             btnOjo.MouseLeave += (s, e) => { txtOculta.Visibility = Visibility.Visible; txtReal.Visibility = Visibility.Collapsed; };
-            btnCopiar.Click += (s, e) => { Clipboard.SetText(password); };
+            btnCopiar.Click += (s, e) =>
+            {
+                Clipboard.SetText(password);
+                MostrarToast("Contraseña copiada al portapapeles.");
+            };
 
             spBotones.Children.Add(btnOjo);
             spBotones.Children.Add(btnCopiar);
@@ -1584,6 +1603,43 @@ namespace ValmerPasswordsDB
             timer.Start();
         }
 
+        private void PintarTextoConBotonCopiar(TextBlock textBlock, string texto)
+        {
+            textBlock.Inlines.Clear();
+
+            textBlock.Inlines.Add(new Run(texto));
+
+            Button btnCopy = new Button
+            {
+                Content = "📋",
+                ToolTip = "Copiar al portapapeles",
+                Width = 24,
+                Height = 24,
+                FontSize = 12,
+                Margin = new Thickness(8, 0, 0, -4),
+                Padding = new Thickness(0),
+                Background = Brushes.Transparent,
+                BorderThickness = new Thickness(0),
+                Cursor = Cursors.Hand,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+
+            btnCopy.Click += (s, e) =>
+            {
+                if (!string.IsNullOrWhiteSpace(texto) && texto != "-")
+                {
+                    Clipboard.SetText(texto);
+                    MostrarToast("Copiado al portapapeles.");
+                }
+            };
+
+            var container = new InlineUIContainer(btnCopy)
+            {
+                BaselineAlignment = BaselineAlignment.Center
+            };
+
+            textBlock.Inlines.Add(container);
+        }
         private void TxtBusqueda_TextChanged(object sender, TextChangedEventArgs e)
         {
             string filtro = TxtBusqueda.Text.ToLower().Trim();

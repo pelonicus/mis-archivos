@@ -141,13 +141,12 @@ namespace ValmerPasswordsDB
 
             try
             {
-                // Busca rápido: OneDrive\*\Softwares\ValmerSystem\ValmerPasswordsDB\passwordsdb.xml
-                foreach (var nivel1 in Directory.GetDirectories(od))
+                string BuscarRuta(string basePath, int nivelActual, int maxNivel)
                 {
                     try
                     {
                         string ruta = Path.Combine(
-                            nivel1,
+                            basePath,
                             "Softwares",
                             "ValmerSystem",
                             "ValmerPasswordsDB",
@@ -156,27 +155,34 @@ namespace ValmerPasswordsDB
 
                         if (File.Exists(ruta))
                             return ruta;
+
+                        if (nivelActual >= maxNivel)
+                            return null;
+
+                        foreach (var dir in Directory.GetDirectories(basePath))
+                        {
+                            string encontrada = BuscarRuta(dir, nivelActual + 1, maxNivel);
+
+                            if (!string.IsNullOrEmpty(encontrada))
+                                return encontrada;
+                        }
                     }
                     catch { }
+
+                    return null;
                 }
 
-                // También prueba directo por si existe: OneDrive\Softwares\ValmerSystem\...
-                string rutaDirecta = Path.Combine(
-                    od,
-                    "Softwares",
-                    "ValmerSystem",
-                    "ValmerPasswordsDB",
-                    "passwordsdb.xml"
-                );
+                string resultado = BuscarRuta(od, 0, 4);
 
-                if (File.Exists(rutaDirecta))
-                    return rutaDirecta;
+                if (!string.IsNullOrEmpty(resultado))
+                    return resultado;
             }
             catch { }
 
             MessageBox.Show(
                 "No se encontró passwordsdb.xml buscando dentro de:\n\n" +
-                od + "\n\nPatrón esperado:\nSoftwares\\ValmerSystem\\ValmerPasswordsDB\\passwordsdb.xml",
+                od +
+                "\n\nPatrón esperado:\nSoftwares\\ValmerSystem\\ValmerPasswordsDB\\passwordsdb.xml",
                 "XML no encontrado",
                 MessageBoxButton.OK,
                 MessageBoxImage.Warning

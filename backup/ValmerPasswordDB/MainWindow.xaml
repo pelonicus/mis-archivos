@@ -153,7 +153,14 @@
 
                                 <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Margin="0,0,0,15">
                                     <TextBlock Text="Comentarios" Foreground="Gray" FontSize="11"/>
-                                    <TextBlock x:Name="LblVerComentarios" Text="-" FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0"/>
+                                    <TextBox x:Name="LblVerComentarios"
+                                        IsReadOnly="True"
+                                        BorderThickness="0"
+                                        Background="Transparent"
+                                        TextWrapping="Wrap"
+                                        AcceptsReturn="True"
+                                        Cursor="IBeam"
+                                        Padding="0" />
                                 </StackPanel>
                             </Grid>
 
@@ -331,7 +338,7 @@
 
         <Grid x:Name="PanelBloqueo" Background="#F3F4F6">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="ValmerPasswordsDB v1.0.6" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+                <TextBlock Text="ValmerPasswordsDB v1.0.8" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
                 <ProgressBar IsIndeterminate="True" Width="180" Height="4"/>
             </StackPanel>
         </Grid>
