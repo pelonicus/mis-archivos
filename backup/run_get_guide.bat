@@ -1,1 +1,0 @@
-npm run grab -- --channels=./mi.tv_<COUNTRY_CODE>.channels.xml

@@ -1,2 +1,0 @@
-#!C:\strawberry\perl\bin\perl.exe
-
