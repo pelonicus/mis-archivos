@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",16 Jun.. 2026 11:35
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",16 Jun.. 2026 16:24
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -691,35 +691,35 @@ http://45.167.1.139:8000/play/a05u
 http://181.78.98.214:8000/play/a003/index.m3u8
 #EXTINF:-1 group-title="-",Tigo Sports(SV27MAR)
 http://186.33.24.148:8001/play/a0m4
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://15.204.146.163:8001/play/a00m/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://190.119.187.91:8050/play/a0o2/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://181.176.20.167:9050/play/a0o2/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://217.26.190.76:8888/play/a0co/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://38.199.6.1:18001/play/a0d0/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://177.53.153.21:8000/play/a0el/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://181.65.154.10:8000/play/a01j/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://191.97.59.33:8000/play/a09t/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://8.243.126.131:8000/play/a05a/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://201.240.104.137:8000/play/a0aa/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://190.117.20.37:8000/play/a08d/index.m3u8
-#EXTINF:-1 group-title="-",DSports(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://181.65.155.51:8000/play/a03w/index.m3u8
-#EXTINF:-1 group-title="-",DSports 2(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.2.HD.dtvsp" group-title="-",DSports 2(9JUN26)
 http://38.199.6.1:18001/play/a0vx/index.m3u8
-#EXTINF:-1 group-title="-",DSports 2(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.2.HD.dtvsp" group-title="-",DSports 2(9JUN26)
 http://217.26.190.76:8888/play/a0jb/index.m3u8
-#EXTINF:-1 group-title="-",DSports 2(9JUN26)
+#EXTINF:-1 tvg-ID="DSPORTS.2.HD.dtvsp" group-title="-",DSports 2(9JUN26)
 http://177.53.152.117:8000/play/a07c/index.m3u8
 #EXTINF:-1 tvg-ID="mdeportes1.es" tvg-name="|SP| M.DEPORTES 1 HD" tvg-logo="http://vodkom.com/MYSPAIN/M+_DEPORTES.png" group-title="ESPANOL DEPORTES",M.DEPORTES 1 HD(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127842
