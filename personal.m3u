@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",22 Jun.. 2026 09:06
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",22 Jun.. 2026 12:08
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -563,6 +563,14 @@ http://200.60.97.100:28888/play/a0id/index.m3u8
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127759
 #EXTINF:-1 tvg-ID="natgeowild.es" tvg-name="|ES| NAT GEO WILD" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/NG_WILD_HD.png" group-title="ESPANOL CULTURA",Nat Geo Wild(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127760
+#EXTINF:-1,Historia(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120123
+#EXTINF:-1,Historia(HK22JUNFR)
+http://nodevera.fr:80/rSeWsHbK/uMSgYw7/210606
+#EXTINF:-1,Historia(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/65934
+#EXTINF:-1,Historia(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/50325
 #EXTINF:-1,Historia(ESM17MAY)
 http://d-gta.net:8080/hapdW0RExw2kHfZ/BWDGqFvn3XaoEV5/898987
 #EXTINF:-1,Historia(HK17MAY)
@@ -573,12 +581,38 @@ http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127758
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127772
 #EXTINF:-1 tvg-ID="blaze.es" tvg-name="|ES| BLAZE" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/BLAZE.png" group-title="ESPANOL CULTURA",BLAZE(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/181633
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265316
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265315
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/965630
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/1138866
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/551251
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/65936
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/50355
 #EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127753
+#EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265377
+#EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265376
 #EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127756
+#EXTINF:-1 tvg-ID="dkiss.es" tvg-name="|ES| DKISS" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DKISS.png" group-title="ESPANOL CULTURA",DKISS(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265378
 #EXTINF:-1 tvg-ID="dkiss.es" tvg-name="|ES| DKISS" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DKISS.png" group-title="ESPANOL CULTURA",DKISS(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127757
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265339
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265338
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265337
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(PET30ABR24)
 http://8.243.126.131:8000/play/a0gb/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="documentary",History Channel(PETE28ABR)
@@ -621,6 +655,22 @@ http://200.60.97.100:28888/play/a021/index.m3u8
 http://181.189.241.114:5050/play/a0dn
 #EXTINF:-1 group-title="-",Food Network(PET30ABR24)
 http://8.243.126.131:8000/play/a05w/index.m3u8
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120095
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265399
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265398
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/965620
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/1138826
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/551255
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/65967
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/97013
 #EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127763
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(PET30ABR24)
