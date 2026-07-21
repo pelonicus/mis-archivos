@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",20 Jul.. 2026 09:34
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",21 Jul.. 2026 08:29
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -429,6 +429,8 @@ http://38.224.48.4:8000/play/a0s3/index.m3u8
 http://8.243.126.131:8000/play/a0fn/index.m3u8
 #EXTINF:-1 group-title="-",Golden Premiere 2 HD(PET30ABR24)
 http://8.243.126.131:8000/play/a0fo/index.m3u8
+#EXTINF:-1,HGTV WEST-US(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/185388
 #EXTINF:-1,HGTV WEST-US(USCH11MAY)
 http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaX2v7IEt2gbU9FCBHvXdAeo
 #EXTINF:-1,HGTV WEST-US(HK15MAY)
@@ -443,6 +445,8 @@ http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaWgB4VpjzZQNw1u0mUdTGyI
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/94137
 #EXTINF:-1,Home Network CA(PET30ABR24)
 http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaV3m1AcnDLwZ7rAa-Q8l0R4
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/1056938
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(USWA8DIC)
 http://tvmate.icu:8080/streatj87@gmail.com/HpU2jesf8w/57273
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(USWA5NOV1)
@@ -543,6 +547,8 @@ http://38.224.48.4:8000/play/a0o4/index.m3u8
 http://38.224.48.4:8000/play/a0oi/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel(PET4AGO)
 http://200.60.97.100:28888/play/a0d9/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" group-title="documentary",Discovery Channel ES(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120183
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(USWA8DIC)
 http://tvmate.icu:8080/streatj87@gmail.com/HpU2jesf8w/57645
 #EXTINF:-1 tvg-id="DiscoveryenEspanol.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Casi_discovery_en_espa%C3%B1ol.JPG" group-title="documentary",Discovery Español(USFL0725)
@@ -561,8 +567,14 @@ http://38.224.48.4:8000/play/a0hs/index.m3u8
 http://200.60.97.100:28888/play/a0id/index.m3u8
 #EXTINF:-1 tvg-ID="nationalgeographic.es" tvg-name="|ES| NAT GEOGRAPHIC" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/NAT_GEO_HD.png" group-title="ESPANOL CULTURA",Nat Geo ES(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127759
+#EXTINF:-1 tvg-ID="nationalgeographic.es" tvg-name="|ES| NAT GEOGRAPHIC" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/NAT_GEO_HD.png" group-title="ESPANOL CULTURA",Nat Geo ES(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120149
 #EXTINF:-1 tvg-ID="natgeowild.es" tvg-name="|ES| NAT GEO WILD" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/NG_WILD_HD.png" group-title="ESPANOL CULTURA",Nat Geo Wild(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127760
+#EXTINF:-1,Historia(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120123
+#EXTINF:-1,Historia(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265367
 #EXTINF:-1,Historia(RO22JUN)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120123
 #EXTINF:-1,Historia(HK22JUNFR)
@@ -581,32 +593,48 @@ http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127758
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127772
 #EXTINF:-1 tvg-ID="blaze.es" tvg-name="|ES| BLAZE" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/BLAZE.png" group-title="ESPANOL CULTURA",BLAZE(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/181633
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(RO22JUN)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120184
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265316
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(RO22JUN)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265315
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265316
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265315
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/965630
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/1138866
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/551251
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/65936
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK22JUN)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/50355
-#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",CANAL ODISEA(HK15MAY)
+#EXTINF:-1 tvg-ID="odisea.es" tvg-name="|ES| CANAL ODISEA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_ODISEA.png" group-title="ESPANOL CULTURA",ODISEA(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127753
+#EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265377
 #EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(RO22JUN)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265377
 #EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(RO22JUN)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265376
 #EXTINF:-1 tvg-ID="dmax.es" tvg-name="|ES| DMAX" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DMAX.png" group-title="ESPANOL CULTURA",DMAX(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127756
+#EXTINF:-1 tvg-ID="dkiss.es" tvg-name="|ES| DKISS" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DKISS.png" group-title="ESPANOL CULTURA",DKISS(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265378
 #EXTINF:-1 tvg-ID="dkiss.es" tvg-name="|ES| DKISS" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DKISS.png" group-title="ESPANOL CULTURA",DKISS(RO22JUN)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265378
 #EXTINF:-1 tvg-ID="dkiss.es" tvg-name="|ES| DKISS" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/DKISS.png" group-title="ESPANOL CULTURA",DKISS(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127757
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265339
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265338
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(SA20JUL)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265337
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(RO22JUN)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265339
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="ES: MEGA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/da/Mega_hd.png" group-title="Spain",MEGA(RO22JUN)
@@ -655,23 +683,29 @@ http://200.60.97.100:28888/play/a021/index.m3u8
 http://181.189.241.114:5050/play/a0dn
 #EXTINF:-1 group-title="-",Food Network(PET30ABR24)
 http://8.243.126.131:8000/play/a05w/index.m3u8
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(RO22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120095
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(RO22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265399
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(RO22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265398
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120095
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265399
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(RO22JUN)
+http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/265398
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/965620
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/1138826
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/551255
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/65967
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK22JUN)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(HK22JUN)
 http://1000bxl.com:80/yfx92ssa1n/nckpf911yt/97013
-#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina ES(HK15MAY)
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127763
 #EXTINF:-1 tvg-id="elgourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="entertainment",El Gourmet(PET30ABR24)
 http://8.243.126.131:8000/play/a0jq/index.m3u8
