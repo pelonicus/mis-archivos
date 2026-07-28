@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",27 Jul.. 2026 08:58
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",27 Jul.. 2026 19:23
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -429,18 +429,28 @@ http://38.224.48.4:8000/play/a0s3/index.m3u8
 http://8.243.126.131:8000/play/a0fn/index.m3u8
 #EXTINF:-1 group-title="-",Golden Premiere 2 HD(PET30ABR24)
 http://8.243.126.131:8000/play/a0fo/index.m3u8
+#EXTINF:-1,HGTV WEST-US(US27JUL)
+http://legendstv.com.mx:80/jav1811240215/ZsMVunUSvr/102127.ts
+#EXTINF:-1,HGTV WEST-US(US27JUL)
+http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/330354.ts
+#EXTINF:-1,HGTV WEST-US(ES27JUL)
+http://lunar.pm:8080/2054472769A/Crystalclear/56099
 #EXTINF:-1,HGTV WEST-US(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/185388
 #EXTINF:-1,HGTV WEST-US(USCH11MAY)
 http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaX2v7IEt2gbU9FCBHvXdAeo
 #EXTINF:-1,HGTV WEST-US(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/157965
+#EXTINF:-1,HGTV EAST-US(ES27JUL)
+http://lunar.pm:8080/2054472769A/Crystalclear/9181
 #EXTINF:-1,HGTV EAST-US(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/157964
 #EXTINF:-1,HGTV EAST-US(USCH11MAY)
 http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaWWTt3d5KmMGtzQPgXchSyI
 #EXTINF:-1,HGTV EAST-US(USCH11MAY)
 http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaWgB4VpjzZQNw1u0mUdTGyI
+#EXTINF:-1,Home Network CA(ES27JUL)
+http://lunar.pm:8080/2054472769A/Crystalclear/67133
 #EXTINF:-1,Home Network CA(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/94137
 #EXTINF:-1,Home Network CA(PET30ABR24)
@@ -571,6 +581,20 @@ http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127759
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120149
 #EXTINF:-1 tvg-ID="natgeowild.es" tvg-name="|ES| NAT GEO WILD" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/NG_WILD_HD.png" group-title="ESPANOL CULTURA",Nat Geo Wild(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127760
+#EXTINF:-1,Historia(US27JUL)
+http://qyffb.top:8080/profb9561769764738/5c32b1072a50/15123
+#EXTINF:-1,Historia(US27JUL)
+http://qyffb.top:8080/profb9561769764738/5c32b1072a50/14642
+#EXTINF:-1,Historia(US27JUL)
+http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/502761.ts
+#EXTINF:-1,Historia(US27JUL)
+http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/346958.ts
+#EXTINF:-1,Historia(US27JUL)
+http://fullspain83.net:80/play/8KyGeKwW7zRvM0morzocsSNld5XQnRYFNX-zRUzBj2vf90X82YsgeotewHsACIVB
+#EXTINF:-1,Historia(NL27JUL)
+http://xy8t.com:8080/fernando-mil3/bC2aUDW/42167
+#EXTINF:-1,Historia(NL27JUL)
+http://xy8t.com:8080/fernando-mil3/bC2aUDW/604
 #EXTINF:-1,Historia(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120123
 #EXTINF:-1,Historia(SA20JUL)
@@ -819,8 +843,24 @@ http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/391726
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/391727
 #EXTINF:-1 tvg-ID="mdeportes3.es" tvg-name="|SP| M.DEPORTES 3 4K" tvg-logo="http://vodkom.com/MYSPAIN/M+DEPORTES3.png" group-title="ESPANOL DEPORTES",M.DEPORTES 3 4K(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/391728
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(USCH11MAY)
-http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaR_6mdm9jDCUrVaAb-1O71E
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Latino- Fox Deportes" tvg-logo="" group-title="Latino",Fox Deportes(NL27JUL)
+http://xy8t.com:8080/fernando-mil3/bC2aUDW/4115
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Latino- Fox Deportes" tvg-logo="" group-title="Latino",Fox Deportes(US27JUL)
+http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/540391.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
+http://zk85.hofcepesp1.top:8080/es1131754934198292/fef6c520c563/76516
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
+http://legendstv.com.mx:80/jav1811240215/ZsMVunUSvr/35258.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
+http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/588779.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
+http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/540393.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(NL27JUL)
+http://xy8t.com:8080/fernando-mil3/bC2aUDW/4102
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
+http://fullspain83.net:80/play/8KyGeKwW7zRvM0morzocsYrA7ZWVkX5SvaBPGakj4LiRAvzHlg1wipksBxnPceyz
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(ES27JUL)
+http://lunar.pm:8080/2054472769A/Crystalclear/47478
 #EXTINF:-1 tvg-ID="laligatv.es" tvg-name="|SP| M.LALIGA HD" tvg-logo="http://vodkom.com/MYSPAIN/M+_LALIGA_TV_HD.png" group-title="ESPANOL DEPORTES",M.LALIGA(USCH11MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127815
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PET30ABR24)
