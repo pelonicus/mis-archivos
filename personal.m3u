@@ -1,5 +1,5 @@
 food#EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",30 Jul.. 2026 08:59
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",31 Jul.. 2026 12:10
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PET30ABR24)
 http://8.243.126.131:8000/play/a01q/index.m3u8
@@ -430,8 +430,6 @@ http://8.243.126.131:8000/play/a0fn/index.m3u8
 #EXTINF:-1 group-title="-",Golden Premiere 2 HD(PET30ABR24)
 http://8.243.126.131:8000/play/a0fo/index.m3u8
 #EXTINF:-1,HGTV WEST-US(US27JUL)
-http://legendstv.com.mx:80/jav1811240215/ZsMVunUSvr/102127.ts
-#EXTINF:-1,HGTV WEST-US(US27JUL)
 http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/330354.ts
 #EXTINF:-1,HGTV WEST-US(ES27JUL)
 http://lunar.pm:8080/2054472769A/Crystalclear/56099
@@ -707,6 +705,14 @@ http://200.60.97.100:28888/play/a021/index.m3u8
 http://181.189.241.114:5050/play/a0dn
 #EXTINF:-1 group-title="-",Food Network(PET30ABR24)
 http://8.243.126.131:8000/play/a05w/index.m3u8
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(US30JUL)
+http://fullspain83.net:80/play/8KyGeKwW7zRvM0morzocsRYPG4fpSbEGN3j9LPWJcXWxOO4hDptZ2pwXlS-sPB96
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(US30JUL)
+http://fullspain83.net:80/play/8KyGeKwW7zRvM0morzocsRYPG4fpSbEGN3j9LPWJcXVuKJ6PY3ufw8VtO1AeGLZy
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(US30JUL)
+http://fullspain83.net:80/play/8KyGeKwW7zRvM0morzocseXnqv7qbnAoR8upTnJPrTtrcpP7JULh3SVTWn8KabQR
+#EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(US30JUL)
+http://legendstv.com.mx:80/jav1811240215/ZsMVunUSvr/335573.ts
 #EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/120095
 #EXTINF:-1 tvg-ID="canalcocina.es" tvg-name="|ES| CANAL COCINA" tvg-logo="http://vodkom.com/Logo/ESPANOL/LOGO/CANAL_COCINA.png" group-title="ESPANOL CULTURA",Canal Cocina(SA20JUL)
