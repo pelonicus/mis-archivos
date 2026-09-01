@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",31 Ago.. 2026 10:39
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",01 Set.. 2026 10:31
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PETE28ABR)
 http://45.186.254.75:8000/play/a0ae/index.m3u8
@@ -313,34 +313,32 @@ http://45.186.254.75:8000/play/a03i/index.m3u8
 http://181.224.255.210:8001/play/a0qu/index.m3u8
 #EXTINF:-1 tvg-id="golden_edge" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Movies",Golden Edge(USCO26NOV)
 http://38.224.48.4:8000/play/a0s3/index.m3u8
-#EXTINF:-1,HGTV WEST-US(US27JUL)
-http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/330354.ts
-#EXTINF:-1,HGTV WEST-US(ES27JUL)
+#EXTINF:-1,HGTV WEST-US(US31AGO)
+http://tutele.lat:8080/live/TavoMartinezSS7/a70ef5b8c46c7ef7/43174.m3u
+#EXTINF:-1,HGTV WEST-US(US31AGO)
+http://lunar.pm:8080/2054472769A/Crystalclear/9181
+#EXTINF:-1,HGTV WEST-US(ES31AGO)
 http://lunar.pm:8080/2054472769A/Crystalclear/56099
-#EXTINF:-1,HGTV WEST-US(SA20JUL)
-http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/185388
-#EXTINF:-1,HGTV WEST-US(USCH11MAY)
-http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaX2v7IEt2gbU9FCBHvXdAeo
+#EXTINF:-1,HGTV WEST-US(UA31AGO)
+http://hardcoremedia.xyz:80/dN3EBjCtp/2805731653/129891
 #EXTINF:-1,HGTV WEST-US(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/157965
+#EXTINF:-1,HGTV WEST-US(HK15MAY)
+http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/94137
 #EXTINF:-1,HGTV EAST-US(ES27JUL)
 http://lunar.pm:8080/2054472769A/Crystalclear/9181
 #EXTINF:-1,HGTV EAST-US(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/157964
-#EXTINF:-1,HGTV EAST-US(USCH11MAY)
-http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaWWTt3d5KmMGtzQPgXchSyI
-#EXTINF:-1,HGTV EAST-US(USCH11MAY)
-http://46.151.196.243:80/play/hIITqAHd1FWPISPy4aCFaWgB4VpjzZQNw1u0mUdTGyI
-#EXTINF:-1,Home Network CA(ES27JUL)
-http://lunar.pm:8080/2054472769A/Crystalclear/67133
-#EXTINF:-1,Home Network CA(HK15MAY)
-http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/94137
+#EXTINF:-1,HGTV EAST-US(US31AGO)
+http://bgdc.live:25461/BillSlaby/gdw9pFCXiG/10411
+#EXTINF:-1,HGTV EAST-US(UA31NOV)
+http://promaxhd.com:8080/VXo5T6WOkf/zf9nfeVQ5B/627395
+#EXTINF:-1,Home Network CA(UA31AGO)
+http://son1kids.online:8080/live/JR20225010/HsENkjYjQ5/213878.ts
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(SA20JUL)
 http://nxtportal.xyz:8080/KHFq840tKvxavZw/bsCTt0UkYGFfTZr/1056938
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(USWA8DIC)
-http://tvmate.icu:8080/streatj87@gmail.com/HpU2jesf8w/57273
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(USWA5NOV1)
-http://fortv.cc:8080/Vzd9QC/767610/57273
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YSl9gV3.png" group-title="TV",Home Network CA(NL31AGO)
+http://2806-2026.gold:8089/live/8080695642698/4908540427453/85688489.ts
 #EXTINF:-1 tvg-id="FoodNetworkLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png" group-title="CULTURA Y ENTRETENCION",HGTV Latino(PETE28ABR)
 http://45.186.254.75:8000/play/a0a8/index.m3u8
 #EXTINF:-1 tvg-id="FoodNetworkLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png" group-title="CULTURA Y ENTRETENCION",HGTV Latino(PE12FEB)
