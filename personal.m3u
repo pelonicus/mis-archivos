@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",19 Oct. 2026 21:06
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",20 Oct. 2026 07:07
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PETE28ABR)
 http://45.186.254.75:8000/play/a0ae/index.m3u8
@@ -61,6 +61,10 @@ http://190.61.114.186:8000/play/a03n/index.m3u8
 http://186.33.24.156:8000/play/a0kn/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(PETE24AGO)
 http://177.53.153.21:8000/play/a10x/index.m3u8
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(PE19OCT)
+http://181.176.20.167:9050/play/a0px/index.m3u8
+#EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(PE19OCT)
+http://190.119.187.91:8050/play/a0px/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUFSS3DIC)
 http://190.61.114.186:8000/play/a03o/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.sv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/Canal_4_TCS.png" group-title="EL SALVADOR",Canal 4(SVUF11NOV25)
