@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",22 Oct. 2026 07:06
+#EXTINF:-1 tvg-id="update_time" tvg-logo="http://www.print3dbot.com/info/pelon.png" group-title="",23 Oct. 2026 14:44
 http://www.print3dbot.com/info/bogus.m3u
 #EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-logo="http://peru.mom-gmr.org/typo3temp/_processed_/d/5/csm_2031-205_import_96416e9d92.png" group-title="PERU",America TV(PE21NOV7MS)
 http://177.53.152.117:8000/play/a01b/index.m3u8
@@ -239,8 +239,6 @@ http://38.224.231.176:8000/play/a0do/index.m3u8
 http://181.224.255.210:8001/play/a0mk/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(USCO26NOV)
 http://38.224.48.4:8000/play/a0wf/index.m3u8
-#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/512px-Cinemax_2016.svg.png" group-title="Movies",Cinemax(PETE26SEP)
-http://181.66.249.246:8000/play/a01k/index.m3u8
 #EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal(PE21NOV7MS)
 http://177.53.152.117:8000/play/a0ez/index.m3u8
 #EXTINF:-1 tvg-id="CinecanalPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal(PE20NOV18MS)
@@ -647,14 +645,8 @@ http://45.167.1.136:8000/play/a06k
 http://177.53.152.117:8000/play/a0fh/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas(PE20NOV18MS)
 http://38.224.231.176:8000/play/a033/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas(PETE28ABR)
-http://45.186.254.75:8000/play/a059/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas(PE12FEB)
 http://181.224.255.210:8001/play/a0se/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas(USCO26NOV)
-http://38.224.48.4:8000/play/a0h6/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" channel-number="102" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="entertainment",Las Estrellas(PETE26SEP)
-http://181.66.249.246:8000/play/a01c/index.m3u8
 #EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E!(USCO26NOV)
 http://38.224.48.4:8000/play/a0r6/index.m3u8
 #EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E!(USCO26NOV)
@@ -663,8 +655,6 @@ http://38.224.48.4:8000/play/a0nb/index.m3u8
 http://38.224.48.4:8000/play/a0px/index.m3u8
 #EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E!(PETE26SEP)
 http://181.66.249.246:8000/play/a013/index.m3u8
-#EXTINF:-1 tvg-id="e_entertainment_television_panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/512px-E%21_Logo_2012.svg.png" group-title="entertainment",E!(CO3JUL)
-http://181.205.220.43:8000/play/a019/index.m3u8
 #EXTINF:-1 group-title="-",Claro Sports 1(PE20NOV18MS)
 http://38.224.231.176:8000/play/a09h/index.m3u8
 #EXTINF:-1 group-title="-",Claro Sports 1(SV27MAR)
@@ -677,10 +667,6 @@ http://38.224.231.176:8000/play/a09i/index.m3u8
 http://45.167.1.136:8000/play/a00e
 #EXTINF:-1 group-title="-",Claro Sports 2(SV27MAR)
 http://45.167.1.136:8000/play/a02j
-#EXTINF:-1 group-title="-",Tigo Sports(SV8JUN)
-http://138.97.142.254:8000/play/a02v/index.m3u8
-#EXTINF:-1 group-title="-",Tigo Sports(SV8JUN)
-http://181.78.61.202:8000/play/a01x
 #EXTINF:-1 group-title="-",Tigo Sports(SV27MAR)
 http://45.167.1.136:8000/play/a05u
 #EXTINF:-1 group-title="-",Tigo Sports(SV27MAR)
@@ -689,34 +675,16 @@ http://45.167.1.137:8000/play/a05u
 http://45.167.1.138:8000/play/a05u
 #EXTINF:-1 group-title="-",Tigo Sports(SV27MAR)
 http://45.167.1.139:8000/play/a05u
-#EXTINF:-1 group-title="-",Tigo Sports(SV27MAR)
-http://181.78.98.214:8000/play/a003/index.m3u8
-#EXTINF:-1 group-title="-",Tigo Sports(SV27MAR)
-http://186.33.24.148:8001/play/a0m4
-#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
-http://15.204.146.163:8001/play/a00m/index.m3u8
 #EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://190.119.187.91:8050/play/a0o2/index.m3u8
 #EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://181.176.20.167:9050/play/a0o2/index.m3u8
 #EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
-http://217.26.190.76:8888/play/a0co/index.m3u8
-#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
-http://38.199.6.1:18001/play/a0d0/index.m3u8
-#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://177.53.153.21:8000/play/a0el/index.m3u8
-#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
-http://181.65.154.10:8000/play/a01j/index.m3u8
 #EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://191.97.59.33:8000/play/a09t/index.m3u8
 #EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
-http://8.243.126.131:8000/play/a05a/index.m3u8
-#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
-http://201.240.104.137:8000/play/a0aa/index.m3u8
-#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
 http://190.117.20.37:8000/play/a08d/index.m3u8
-#EXTINF:-1 tvg-ID="DSPORTS.(ARG).dtvsp" group-title="-",DSports(9JUN26)
-http://181.65.155.51:8000/play/a03w/index.m3u8
 #EXTINF:-1 tvg-ID="DSPORTS.2.HD.dtvsp" group-title="-",DSports 2(9JUN26)
 http://38.199.6.1:18001/play/a0vx/index.m3u8
 #EXTINF:-1 tvg-ID="DSPORTS.2.HD.dtvsp" group-title="-",DSports 2(9JUN26)
@@ -729,32 +697,12 @@ http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127842
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127843
 #EXTINF:-1 tvg-ID="mdeportes3.es" tvg-name="|SP| M.DEPORTES 3 HD" tvg-logo="http://vodkom.com/MYSPAIN/M+DEPORTES3.png" group-title="ESPANOL DEPORTES",M.DEPORTES 3 HD(HK15MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127844
-#EXTINF:-1 tvg-ID="movistardeportes.es" tvg-name="|SP| M.DEPORTES 4K" tvg-logo="http://vodkom.com/MYSPAIN/M+_DEPORTES.png" group-title="ESPANOL DEPORTES",M.DEPORTES 4K(HK15MAY)
-http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/391725
-#EXTINF:-1 tvg-ID="mdeportes1.es" tvg-name="|SP| M.DEPORTES 1 4K" tvg-logo="http://vodkom.com/MYSPAIN/M+DEPORTESHD.png" group-title="ESPANOL DEPORTES",M.DEPORTES 1 4K(HK15MAY)
-http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/391726
-#EXTINF:-1 tvg-ID="mdeportes2.es" tvg-name="|SP| M.DEPORTES 2 4K" tvg-logo="http://vodkom.com/MYSPAIN/M+DEPORTES2HD.png" group-title="ESPANOL DEPORTES",M.DEPORTES 2 4K(HK15MAY)
-http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/391727
-#EXTINF:-1 tvg-ID="mdeportes3.es" tvg-name="|SP| M.DEPORTES 3 4K" tvg-logo="http://vodkom.com/MYSPAIN/M+DEPORTES3.png" group-title="ESPANOL DEPORTES",M.DEPORTES 3 4K(HK15MAY)
-http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/391728
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Latino- Fox Deportes" tvg-logo="" group-title="Latino",Fox Deportes(NL27JUL)
 http://xy8t.com:8080/fernando-mil3/bC2aUDW/4115
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="" tvg-name="Latino- Fox Deportes" tvg-logo="" group-title="Latino",Fox Deportes(US27JUL)
 http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/540391.ts
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
-http://zk85.hofcepesp1.top:8080/es1131754934198292/fef6c520c563/76516
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
 http://legendstv.com.mx:80/jav1811240215/ZsMVunUSvr/35258.ts
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
-http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/588779.ts
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
-http://legendstv.com.mx:80/Luchy1708/dNzdPBEukJ/540393.ts
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(NL27JUL)
-http://xy8t.com:8080/fernando-mil3/bC2aUDW/4102
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(US27JUL)
-http://fullspain83.net:80/play/8KyGeKwW7zRvM0morzocsYrA7ZWVkX5SvaBPGakj4LiRAvzHlg1wipksBxnPceyz
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN Deportes(ES27JUL)
-http://lunar.pm:8080/2054472769A/Crystalclear/47478
 #EXTINF:-1 tvg-ID="laligatv.es" tvg-name="|SP| M.LALIGA HD" tvg-logo="http://vodkom.com/MYSPAIN/M+_LALIGA_TV_HD.png" group-title="ESPANOL DEPORTES",M.LALIGA(USCH11MAY)
 http://sansat.cc:88/Lear/8pHN3MUOzILIQqp/127815
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PE21NOV7MS)
@@ -764,25 +712,13 @@ http://177.53.152.117:8000/play/a0aq/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PE21NOV7MS)
 http://177.53.152.117:8000/play/a0gg/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PE20NOV18MS)
-http://38.224.231.176:8000/play/a0ci/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PE20NOV18MS)
 http://38.224.231.176:8000/play/a0e6/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PETE28ABR)
 http://45.186.254.75:8000/play/a07x/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PE12FEB)
-http://181.224.255.210:8001/play/a0sd/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(USCO26NOV)
-http://38.224.48.4:8000/play/a0ou/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="sports",ESPN(PETE26SEP)
-http://181.66.249.246:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PE21NOV7MS)
 http://177.53.152.117:8000/play/a08p/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PE21NOV7MS)
-http://177.53.152.117:8000/play/a084/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PE21NOV7MS)
 http://177.53.152.117:8000/play/a0gk/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PE20NOV18MS)
-http://38.224.231.176:8000/play/a0cj/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PE20NOV18MS)
 http://38.224.231.176:8000/play/a078/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PE20NOV18MS)
@@ -791,12 +727,6 @@ http://38.224.231.176:8000/play/a02a/index.m3u8
 http://45.186.254.75:8000/play/a0ah/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PE12FEB)
 http://181.224.255.210:8001/play/a0oj/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(USCO26NOV)
-http://38.224.48.4:8000/play/a0rz/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(USCO26NOV)
-http://38.224.48.4:8000/play/a0gf/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="sports",ESPN 2(PETE26SEP)
-http://181.66.249.246:8000/play/a00c/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(PE21NOV7MS)
 http://177.53.152.117:8000/play/a04m/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(PE20NOV18MS)
@@ -807,8 +737,6 @@ http://38.224.231.176:8000/play/a02k/index.m3u8
 http://45.186.254.75:8000/play/a0aj/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(USCO26NOV)
 http://38.224.48.4:8000/play/a0im/index.m3u8
-#EXTINF:-1 tvg-id="ESPN3South.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/512px-ESPN3_Logo.png" group-title="sports",ESPN 3(PETE26SEP)
-http://181.66.249.246:8000/play/a01s/index.m3u8
 #EXTINF:-1 tvg-id="espn_4_argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/512px-ESPN_4_logo.svg.png" group-title="sports",ESPN 4(PE21NOV7MS)
 http://177.53.152.117:8000/play/a0f8/index.m3u8
 #EXTINF:-1 tvg-id="espn_4_argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/512px-ESPN_4_logo.svg.png" group-title="sports",ESPN 4(PE20NOV18MS)
@@ -819,12 +747,8 @@ http://38.224.231.176:8000/play/a03q/index.m3u8
 http://181.224.255.210:8001/play/a0og/index.m3u8
 #EXTINF:-1 tvg-id="espn_4_argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/512px-ESPN_4_logo.svg.png" group-title="sports",ESPN 4(USCO26NOV)
 http://38.224.48.4:8000/play/a0ov/index.m3u8
-#EXTINF:-1 tvg-id="espn_4_argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/512px-ESPN_4_logo.svg.png" group-title="sports",ESPN 4(PETE26SEP)
-http://181.66.249.246:8000/play/a024/index.m3u8
 #EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(PE21NOV7MS)
 http://177.53.152.117:8000/play/a049/index.m3u8
-#EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(PE20NOV18MS)
-http://38.224.231.176:8000/play/a0dw/index.m3u8
 #EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(PE20NOV18MS)
 http://38.224.231.176:8000/play/a02b/index.m3u8
 #EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(PETE28ABR)
@@ -832,11 +756,7 @@ http://45.186.254.75:8000/play/a07z/index.m3u8
 #EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(PE12FEB)
 http://181.224.255.210:8001/play/a0pr/index.m3u8
 #EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(USCO26NOV)
-http://38.224.48.4:8000/play/a0t5/index.m3u8
-#EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(USCO26NOV)
 http://38.224.48.4:8000/play/a0ig/index.m3u8
-#EXTINF:-1 tvg-id="espn_5_sudamerica" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_5_logo.svg" group-title="sports",ESPN 5(PETE26SEP)
-http://181.66.249.246:8000/play/a03q/index.m3u8
 #EXTINF:-1 tvg-id="espn_6_centroamerica_y_republica_dominicana" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_6_logo.svg" group-title="sports",ESPN 6(PE21NOV7MS)
 http://177.53.152.117:8000/play/a043/index.m3u8
 #EXTINF:-1 tvg-id="espn_6_centroamerica_y_republica_dominicana" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_6_logo.svg" group-title="sports",ESPN 6(PE20NOV18MS)
@@ -849,10 +769,6 @@ http://38.224.231.176:8000/play/a024/index.m3u8
 http://45.186.254.75:8000/play/a0ag/index.m3u8
 #EXTINF:-1 tvg-id="espn_6_centroamerica_y_republica_dominicana" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_6_logo.svg" group-title="sports",ESPN 6(PE12FEB)
 http://181.224.255.210:8001/play/a0eq/index.m3u8
-#EXTINF:-1 tvg-id="espn_6_centroamerica_y_republica_dominicana" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_6_logo.svg" group-title="sports",ESPN 6(USCO26NOV)
-http://38.224.48.4:8000/play/a0ia/index.m3u8
-#EXTINF:-1 tvg-id="espn_6_centroamerica_y_republica_dominicana" tvg-logo="https://commons.wikimedia.org/wiki/File:ESPN_6_logo.svg" group-title="sports",ESPN 6(PETE26SEP)
-http://181.66.249.246:8000/play/a03x/index.m3u8
 #EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(PE21NOV7MS)
 http://177.53.152.117:8000/play/a0f1/index.m3u8
 #EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(PE20NOV18MS)
@@ -865,8 +781,6 @@ http://181.224.255.210:8001/play/a0m5/index.m3u8
 http://38.224.48.4:8000/play/a0hv/index.m3u8
 #EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(USCO26NOV)
 http://38.224.48.4:8000/play/a0on/index.m3u8
-#EXTINF:-1 tvg-id="espn_7_chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/ESPN_7_logo.svg" group-title="sports",ESPN 7(PETE26SEP)
-http://181.66.249.246:8000/play/a03w/index.m3u8
 #EXTINF:-1,ESPN Premium(PE21NOV7MS)
 http://177.53.152.117:8000/play/a091/index.m3u8
 #EXTINF:-1,ESPN Premium(PE20NOV18MS)
@@ -877,10 +791,6 @@ http://38.224.231.176:8000/play/a03a/index.m3u8
 http://45.186.254.75:8000/play/a0a7/index.m3u8
 #EXTINF:-1,ESPN Premium(PE12FEB)
 http://181.224.255.210:8001/play/a0pt/index.m3u8
-#EXTINF:-1,ESPN Premium(USCO26NOV)
-http://38.224.48.4:8000/play/a0hj/index.m3u8
-#EXTINF:-1,ESPN Premium(PETE26SEP)
-http://181.66.249.246:8000/play/a05e/index.m3u8
 #EXTINF:-1 group-title="-",TNT Sports Premiun(PE21NOV7MS)
 http://177.53.152.117:8000/play/a08o/index.m3u8
 #EXTINF:-1 group-title="-",TNT Sports Premiun(PE20NOV18MS)
