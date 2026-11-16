@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-<channel id="Canal.Televisión.Pública.(Argentina).sv"> <display-name lang="es">Canal Televisión Pública (Argentina)(SV)(69)</display-name> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/television_publica_argentina-mediano.png" /> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/television_publica_argentina-mediano.png" /> <url>http://www.gatotv.com</url> </channel>
-<channel id="Canal.Tigo.Sports.(Guatemala).sv"> <display-name lang="es">Canal Tigo Sports (Guatemala)(SV)(0)</display-name> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tigo_sports-mediano.png" /> <url>http://www.gatotv.com</url> </channel>
 <channel id="Canal.Tooncast.sv"> <display-name lang="es">Canal Tooncast(SV)(486)</display-name> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tooncast-mediano.png" /> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tooncast-mediano.png" /> <url>http://www.gatotv.com</url> </channel>
 <channel id="Canal.Tr3s.sv"> <display-name lang="es">Canal Tr3s(SV)(119)</display-name> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tres-mediano.png" /> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tres-mediano.png" /> <url>http://www.gatotv.com</url> </channel>
 <channel id="Canal.Tro.sv"> <display-name lang="es">Canal Tro(SV)(121)</display-name> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tro-mediano.png" /> <icon src="https://imagenes.gatotv.com/logos/canales/oscuros/tro-mediano.png" /> <url>http://www.gatotv.com</url> </channel>
@@ -981,75 +979,6 @@
 <channel id="VH1 Queens of Reality.us"><display-name>VH1 Queens of Reality.us(US)(36)</display-name></channel>
 <channel id="Warner Bros. TV Say Yes to the Dress.us"><display-name>Warner Bros. TV Say Yes to the Dress.us(US)(70)</display-name></channel>
 <channel id="Warner Bros. TV Sweet Escapes.us"><display-name>Warner Bros. TV Sweet Escapes.us(US)(42)</display-name></channel>
-<programme start="20261115034500 -0600" stop="20261115040000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Documentales en la Televisión Pública Argentina</title> </programme>
-<programme start="20261115040000 -0600" stop="20261115050000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Pampero TV</title> </programme>
-<programme start="20261115050000 -0600" stop="20261115060000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">El Cálamo y su mensaje</title> </programme>
-<programme start="20261115060000 -0600" stop="20261115065000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">La santa misa</title> </programme>
-<programme start="20261115065000 -0600" stop="20261115070000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Angelus</title> </programme>
-<programme start="20261115070000 -0600" stop="20261115080000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Gigantes del Sur</title> </programme>
-<programme start="20261115080000 -0600" stop="20261115103000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Se siente Argentina</title> </programme>
-<programme start="20261115103000 -0600" stop="20261115110000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Rodar</title> </programme>
-<programme start="20261115110000 -0600" stop="20261115113000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Hoja de ruta</title> </programme>
-<programme start="20261115113000 -0600" stop="20261115120000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Wine Ride</title> </programme>
-<programme start="20261115120000 -0600" stop="20261115150000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Lo mejor de: Se siente Argentina</title> </programme>
-<programme start="20261115150000 -0600" stop="20261115160000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Imperdibles</title> </programme>
-<programme start="20261115160000 -0600" stop="20261115170000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Encuentro en el estudio</title> </programme>
-<programme start="20261115170000 -0600" stop="20261115181500 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Se siente Argentina</title> </programme>
-<programme start="20261115181500 -0600" stop="20261115183000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Sorteo Quini 6</title> </programme>
-<programme start="20261115183000 -0600" stop="20261115203000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Hay música</title> </programme>
-<programme start="20261115203000 -0600" stop="20261115213000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Unísono, la música va a tu casa</title> </programme>
-<programme start="20261115213000 -0600" stop="20261116034500 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Fuera del aire</title> </programme>
-<programme start="20261116034500 -0600" stop="20261116040000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Aires de campo</title> </programme>
-<programme start="20261116040000 -0600" stop="20261116050000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261116050000 -0600" stop="20261116060000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Aire nacional</title> </programme>
-<programme start="20261116060000 -0600" stop="20261116070000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">ADN, buena salud</title> </programme>
-<programme start="20261116070000 -0600" stop="20261116090000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Las mañanas con Andino</title> </programme>
-<programme start="20261116090000 -0600" stop="20261116103000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261116103000 -0600" stop="20261116120000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Mediodía bien arriba</title> </programme>
-<programme start="20261116120000 -0600" stop="20261116140000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Estamos en una</title> </programme>
-<programme start="20261116140000 -0600" stop="20261116160000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Iluminadas</title> </programme>
-<programme start="20261116160000 -0600" stop="20261116173000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261116173000 -0600" stop="20261116190000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">La noche es nuestra</title> </programme>
-<programme start="20261116190000 -0600" stop="20261116200000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Lo mejor de: Se siente Argentina</title> </programme>
-<programme start="20261116200000 -0600" stop="20261116210000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">La casa de Chicho y Tomi</title> </programme>
-<programme start="20261116210000 -0600" stop="20261116213000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261116213000 -0600" stop="20261116220000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Feliz vida</title> </programme>
-<programme start="20261116220000 -0600" stop="20261117034500 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Fuera del aire</title> </programme>
-<programme start="20261117034500 -0600" stop="20261117040000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Aires de campo</title> </programme>
-<programme start="20261117040000 -0600" stop="20261117050000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261117050000 -0600" stop="20261117060000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Aire nacional</title> </programme>
-<programme start="20261117060000 -0600" stop="20261117070000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">ADN, buena salud</title> </programme>
-<programme start="20261117070000 -0600" stop="20261117090000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Las mañanas con Andino</title> </programme>
-<programme start="20261117090000 -0600" stop="20261117103000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261117103000 -0600" stop="20261117120000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Mediodía bien arriba</title> </programme>
-<programme start="20261117120000 -0600" stop="20261117140000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Estamos en una</title> </programme>
-<programme start="20261117140000 -0600" stop="20261117160000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Iluminadas</title> </programme>
-<programme start="20261117160000 -0600" stop="20261117173000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261117173000 -0600" stop="20261117190000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">La noche es nuestra</title> </programme>
-<programme start="20261117190000 -0600" stop="20261117200000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Lo mejor de: Se siente Argentina</title> </programme>
-<programme start="20261117200000 -0600" stop="20261117210000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Hay grip</title> </programme>
-<programme start="20261117210000 -0600" stop="20261117213000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261117213000 -0600" stop="20261117220000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Feliz vida</title> </programme>
-<programme start="20261117220000 -0600" stop="20261118034500 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Fuera del aire</title> </programme>
-<programme start="20261118034500 -0600" stop="20261118040000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Aires de campo</title> </programme>
-<programme start="20261118040000 -0600" stop="20261118050000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261118050000 -0600" stop="20261118060000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Aire nacional</title> </programme>
-<programme start="20261118060000 -0600" stop="20261118070000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">ADN, buena salud</title> </programme>
-<programme start="20261118070000 -0600" stop="20261118090000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Las mañanas con Andino</title> </programme>
-<programme start="20261118090000 -0600" stop="20261118103000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261118103000 -0600" stop="20261118120000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Mediodía bien arriba</title> </programme>
-<programme start="20261118120000 -0600" stop="20261118140000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Estamos en una</title> </programme>
-<programme start="20261118140000 -0600" stop="20261118160000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Iluminadas</title> </programme>
-<programme start="20261118160000 -0600" stop="20261118173000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261118173000 -0600" stop="20261118181500 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">La noche es nuestra</title> </programme>
-<programme start="20261118181500 -0600" stop="20261118183000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Sorteo Quini 6</title> </programme>
-<programme start="20261118183000 -0600" stop="20261118190000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">La noche es nuestra</title> </programme>
-<programme start="20261118190000 -0600" stop="20261118191000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Loto 5</title> </programme>
-<programme start="20261118191000 -0600" stop="20261118200000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Lo mejor de: Se siente Argentina</title> </programme>
-<programme start="20261118200000 -0600" stop="20261118210000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Hay música siempre</title> </programme>
-<programme start="20261118210000 -0600" stop="20261118213000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Canal Siete Noticias</title> </programme>
-<programme start="20261118213000 -0600" stop="20261118220000 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Feliz vida</title> </programme>
-<programme start="20261118220000 -0600" stop="20261119034500 -0600" channel="Canal.Televisión.Pública.(Argentina).sv"> <title lang="es">Fuera del aire</title> </programme>
 <programme start="20261115002000 -0600" stop="20261115004800 -0600" channel="Canal.Tooncast.sv"> <title lang="es">Los Picapiedra</title> <desc lang="es">Únete a la diversión en la ciudad de Piedradura con esta fabulosamente famosa familia moderna de la Edad de Piedra. Cortar el césped con un dinosaurio de dientes de sierra, bañarse con agua rociada del tronco de un mamut lanudo y comer hamburguesas de brontosaurios son eventos cotidianos para los adorables Pedro y Vilma Picapiedra y sus amigos Pablo y Betty Mármol. Vivir en tiempos prehistóricos tiene sus inconvenientes, pero los Picapiedra y sus vecinos sobreviven con estilo.</desc> <credits> <director>William Hanna</director> <director>Joseph Barbera</director> <writer>William Hanna</writer> <writer>Joseph Barbera</writer> <producer>William Hanna</producer> <producer>Joseph Barbera</producer> </credits> <date>1960</date> <category lang="es">Animación</category> <category lang="es">Aventura</category> <category lang="es">Comedia</category> <category lang="es">Familia</category> <category lang="es">Caricatura</category> <icon src="https://imagenes.gatotv.com/categorias/caricaturas/miniatura/los_picapiedra.jpg" /> <rating system="MX"> <value>TV-PG</value> </rating> <star-rating system="MX"> <value>8.0</value> </star-rating> </programme>
 <programme start="20261115004800 -0600" stop="20261115005700 -0600" channel="Canal.Tooncast.sv"> <title lang="es">Los autos locos</title> </programme>
 <programme start="20261115005700 -0600" stop="20261115010700 -0600" channel="Canal.Tooncast.sv"> <title lang="es">Los autos locos</title> </programme>
